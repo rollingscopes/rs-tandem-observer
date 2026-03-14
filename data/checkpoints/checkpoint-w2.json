@@ -1,0 +1,2245 @@
+{
+  "checkDate": "2026-03-07T12:19:57.107Z",
+  "week": "w2",
+  "repos": [
+    {
+      "fullName": "ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "url": "https://github.com/ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "week2Team": {
+        "deployUrl": "https://meowvault.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 14,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "backend/eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alena1409",
+          "normalizedGithub": "alena1409",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "AlexGorSer",
+          "normalizedGithub": "alexgorser",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "kozochkina82",
+          "normalizedGithub": "kozochkina82",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Oksi2510",
+          "normalizedGithub": "oksi2510",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "pavelkuvsh1noff",
+          "normalizedGithub": "pavelkuvsh1noff",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "WhaleisaJoy",
+          "normalizedGithub": "whaleisajoy",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "yermekyerden/typocalypse-tandem",
+      "url": "https://github.com/yermekyerden/typocalypse-tandem",
+      "week2Team": {
+        "deployUrl": null,
+        "deployStatus": 0,
+        "deployOk": false,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "frontend-ci.yml",
+          "frontend-pages.yml"
+        ],
+        "issuesCount": 22,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "backend/eslint.config.mjs",
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "BerserkBat",
+          "normalizedGithub": "berserkbat",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "ivmoskalev",
+          "normalizedGithub": "ivmoskalev",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 3,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "JasonScriptLord",
+          "normalizedGithub": "jasonscriptlord",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "romanplis",
+          "normalizedGithub": "romanplis",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "yermekyerden",
+          "normalizedGithub": "yermekyerden",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "YessetHumanMan",
+          "normalizedGithub": "yessethumanman",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "Artem-WebDeveloper/tandem",
+      "url": "https://github.com/Artem-WebDeveloper/tandem",
+      "week2Team": {
+        "deployUrl": "https://artem-webdeveloper.github.io/tandem/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "main.yml"
+        ],
+        "issuesCount": 16,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AlexeyDmt",
+          "normalizedGithub": "alexeydmt",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Artem-WebDeveloper",
+          "normalizedGithub": "artem-webdeveloper",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "exppx",
+          "normalizedGithub": "exppx",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Igel-k",
+          "normalizedGithub": "igel-k",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mightyprinces",
+          "normalizedGithub": "mightyprinces",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 2,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "raenlin",
+          "normalizedGithub": "raenlin",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "RSSAgents/tandem",
+      "url": "https://github.com/RSSAgents/tandem",
+      "week2Team": {
+        "deployUrl": "https://tandem-three.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "branch-name-validation.yml",
+          "deployment.yml",
+          "frontend-ci.yml",
+          "pr-notification.yml",
+          "pr-title-lint.yml"
+        ],
+        "issuesCount": 84,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "frontend/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "27moon",
+          "normalizedGithub": "27moon",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 8,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "D15ND",
+          "normalizedGithub": "d15nd",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 21,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Fayzullo05",
+          "normalizedGithub": "fayzullo05",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 7,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "oneilcode",
+          "normalizedGithub": "oneilcode",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 11,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Shakhzod235",
+          "normalizedGithub": "shakhzod235",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 19,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "solarsungai",
+          "normalizedGithub": "solarsungai",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "url": "https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "week2Team": {
+        "deployUrl": "http://188.127.251.19:5000/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 10,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "frontend/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "andrski",
+          "normalizedGithub": "andrski",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "bssier",
+          "normalizedGithub": "bssier",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "MegaRostBLR1",
+          "normalizedGithub": "megarostblr1",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Morevna",
+          "normalizedGithub": "morevna",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Rorodeathless1",
+          "normalizedGithub": "rorodeathless1",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "kanoplich/rs-tandem",
+      "url": "https://github.com/kanoplich/rs-tandem",
+      "week2Team": {
+        "deployUrl": "https://rs-tandem.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "assignee.yml",
+          "ci.yml",
+          "pr-to-telegram.yml"
+        ],
+        "issuesCount": 29,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "artkoro94",
+          "normalizedGithub": "artkoro94",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 7,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "kanoplich",
+          "normalizedGithub": "kanoplich",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 7,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "rockabil",
+          "normalizedGithub": "rockabil",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sevasmith",
+          "normalizedGithub": "sevasmith",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sunyuna00",
+          "normalizedGithub": "sunyuna00",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "vadim-troian",
+          "normalizedGithub": "vadim-troian",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "KarpovDmitriy/widget-trainer",
+      "url": "https://github.com/KarpovDmitriy/widget-trainer",
+      "week2Team": {
+        "deployUrl": "https://tandem-virid.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 6,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "av-shell",
+          "normalizedGithub": "av-shell",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "ayaki-coder",
+          "normalizedGithub": "ayaki-coder",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dromari",
+          "normalizedGithub": "dromari",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "karpovdmitriy",
+          "normalizedGithub": "karpovdmitriy",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final",
+      "week2Team": {
+        "deployUrl": "https://tandem-growlab.vercel.app",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "auto-pr-template.yml",
+          "pull-request.yml"
+        ],
+        "issuesCount": 37,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "ansivgit",
+          "normalizedGithub": "ansivgit",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 13,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "rika-milew",
+          "normalizedGithub": "rika-milew",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 19,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "viktorelenich",
+          "normalizedGithub": "viktorelenich",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 6,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "zena86",
+          "normalizedGithub": "zena86",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 11,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final-backend",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final-backend",
+      "week2Team": {
+        "deployUrl": "https://tandem-growlab.vercel.app",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "auto-pr-template.yml",
+          "pull-request.yml"
+        ],
+        "issuesCount": 16,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "viktorElenich",
+          "normalizedGithub": "viktorelenich",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 5,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "FierceSloth/rss-tandem-app",
+      "url": "https://github.com/FierceSloth/rss-tandem-app",
+      "week2Team": {
+        "deployUrl": "https://fiercesloth.github.io/rss-tandem-app",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci-cd.yml"
+        ],
+        "issuesCount": 12,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "coicoin",
+          "normalizedGithub": "coicoin",
+          "diaryEntriesW2": 6,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "dianakhnizova",
+          "normalizedGithub": "dianakhnizova",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dilmun1101",
+          "normalizedGithub": "dilmun1101",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "fiercesloth",
+          "normalizedGithub": "fiercesloth",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "PoMaKoM-RSTeam/Rs-Tandem",
+      "url": "https://github.com/PoMaKoM-RSTeam/Rs-Tandem",
+      "week2Team": {
+        "deployUrl": "https://luminous-biscuit-6fec26.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "main.yml",
+          "tg_pr_close_notify.yml",
+          "tg_pr_open_notify.yml",
+          "tg_pr_update_notify.yml"
+        ],
+        "issuesCount": 8,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aliakseidrob",
+          "normalizedGithub": "aliakseidrob",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "anatolirub",
+          "normalizedGithub": "anatolirub",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "khasekai",
+          "normalizedGithub": "khasekai",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "mark-pribylnov",
+          "normalizedGithub": "mark-pribylnov",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "PoMaKoM",
+          "normalizedGithub": "pomakom",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "shoblinsky",
+          "normalizedGithub": "shoblinsky",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Zhdko",
+          "normalizedGithub": "zhdko",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "jsgods-rs-tandem/rs-tandem",
+      "url": "https://github.com/jsgods-rs-tandem/rs-tandem",
+      "week2Team": {
+        "deployUrl": "https://jsgods-rs-tandem.github.io/rs-tandem/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "cd.yml",
+          "ci.yml"
+        ],
+        "issuesCount": 32,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "alesdrobysh",
+          "normalizedGithub": "alesdrobysh",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 2,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dukhd",
+          "normalizedGithub": "dukhd",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 19,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "elrouss",
+          "normalizedGithub": "elrouss",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 9,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mikhalenkadaniil",
+          "normalizedGithub": "mikhalenkadaniil",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nck1969",
+          "normalizedGithub": "nck1969",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "nasteew/tandem",
+      "url": "https://github.com/nasteew/tandem",
+      "week2Team": {
+        "deployUrl": "https://tandem-ten.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "frontend-cd.yml"
+        ],
+        "issuesCount": 9,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "tandem/back-end/eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aleks6699",
+          "normalizedGithub": "aleks6699",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "anastasiashlyk",
+          "normalizedGithub": "anastasiashlyk",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "imagineapril",
+          "normalizedGithub": "imagineapril",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nasteew",
+          "normalizedGithub": "nasteew",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "obemgcabazn/vuejs-tandem",
+      "url": "https://github.com/obemgcabazn/vuejs-tandem",
+      "week2Team": {
+        "deployUrl": "https://belaz-factory.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 21,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.ts",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "andreizaretski",
+          "normalizedGithub": "andreizaretski",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "asindeton",
+          "normalizedGithub": "asindeton",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "cat5671",
+          "normalizedGithub": "cat5671",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "kirrbrest",
+          "normalizedGithub": "kirrbrest",
+          "diaryEntriesW2": 5,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "maksimdolgonosov",
+          "normalizedGithub": "maksimdolgonosov",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "obemgcabazn",
+          "normalizedGithub": "obemgcabazn",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "tosigaeva/rs-tandem",
+      "url": "https://github.com/tosigaeva/rs-tandem",
+      "week2Team": {
+        "deployUrl": "https://rs-tandem.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 25,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "deviatovae",
+          "normalizedGithub": "deviatovae",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "hamsterk",
+          "normalizedGithub": "hamsterk",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mero93",
+          "normalizedGithub": "mero93",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "tosigaeva",
+          "normalizedGithub": "tosigaeva",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 11,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Bulbashok/interview-prep",
+      "url": "https://github.com/Bulbashok/interview-prep",
+      "week2Team": {
+        "deployUrl": "https://interview-prep01.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "tests.yml"
+        ],
+        "issuesCount": 18,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Bulbashok",
+          "normalizedGithub": "bulbashok",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "JesterAV",
+          "normalizedGithub": "jesterav",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 7,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "NickKool",
+          "normalizedGithub": "nickkool",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "mvavilin/Nova-Codenames",
+      "url": "https://github.com/mvavilin/Nova-Codenames",
+      "week2Team": {
+        "deployUrl": "https://nova-codenames-client.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "CI.yml"
+        ],
+        "issuesCount": 53,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "mvavilin",
+          "normalizedGithub": "mvavilin",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 14,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Peccopa",
+          "normalizedGithub": "peccopa",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 14,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sergey-ado",
+          "normalizedGithub": "sergey-ado",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 15,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Walle908",
+          "normalizedGithub": "walle908",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 10,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Maria2721/dev-craft-frontend",
+      "url": "https://github.com/Maria2721/dev-craft-frontend",
+      "week2Team": {
+        "deployUrl": "https://dev-craft-frontend.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 15,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Andrey-Yurchuk",
+          "normalizedGithub": "andrey-yurchuk",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Khabib1802",
+          "normalizedGithub": "khabib1802",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Maria2721",
+          "normalizedGithub": "maria2721",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "rs-tandem/rs-tandem",
+      "url": "https://github.com/rs-tandem/rs-tandem",
+      "week2Team": {
+        "deployUrl": "https://interview-prep-rs-tandem.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 16,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "oreopk",
+          "normalizedGithub": "oreopk",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "S-Arashu",
+          "normalizedGithub": "s-arashu",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "YekaterinaAlex",
+          "normalizedGithub": "yekaterinaalex",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "NotDmitry/Duoscript-Tandem",
+      "url": "https://github.com/NotDmitry/Duoscript-Tandem",
+      "week2Team": {
+        "deployUrl": "https://duoscript-tandem.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 12,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "anelka777",
+          "normalizedGithub": "anelka777",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nginit",
+          "normalizedGithub": "nginit",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "notdmitry",
+          "normalizedGithub": "notdmitry",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "swetlanaang",
+          "normalizedGithub": "swetlanaang",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "konfuzz/rss-tandem",
+      "url": "https://github.com/konfuzz/rss-tandem",
+      "week2Team": {
+        "deployUrl": "https://intervue.makesimple.website/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 7,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "frontend/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "bariydev",
+          "normalizedGithub": "bariydev",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "konfuzz",
+          "normalizedGithub": "konfuzz",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "roguestone",
+          "normalizedGithub": "roguestone",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "bukt0r/Final-Project-Tandem",
+      "url": "https://github.com/bukt0r/Final-Project-Tandem",
+      "week2Team": {
+        "deployUrl": "https://tech-interview-trainer-u3vr.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 6,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "app/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "bukt0r",
+          "normalizedGithub": "bukt0r",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "tatyanakorlarina",
+          "normalizedGithub": "tatyanakorlarina",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "user0k",
+          "normalizedGithub": "user0k",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "dalekswar/CodeMind",
+      "url": "https://github.com/dalekswar/CodeMind",
+      "week2Team": {
+        "deployUrl": null,
+        "deployStatus": 0,
+        "deployOk": false,
+        "hasWorkflow": false,
+        "workflowFiles": [],
+        "issuesCount": 10,
+        "hasMinIssues": true,
+        "hasLinter": false,
+        "linterConfig": null,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "dalekswar",
+          "normalizedGithub": "dalekswar",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 4,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "howlight",
+          "normalizedGithub": "howlight",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "sobselena",
+          "normalizedGithub": "sobselena",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "Webis-2022/rs-tandem",
+      "url": "https://github.com/Webis-2022/rs-tandem",
+      "week2Team": {
+        "deployUrl": "https://webis-2022-rs-tandem.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 10,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.ts",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "alekspanda",
+          "normalizedGithub": "alekspanda",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "urazof",
+          "normalizedGithub": "urazof",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Webis-2022",
+          "normalizedGithub": "webis-2022",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Pchyolan/rs-tandem-project",
+      "url": "https://github.com/Pchyolan/rs-tandem-project",
+      "week2Team": {
+        "deployUrl": "https://tranquil-froyo-550c45.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "deploy.yml"
+        ],
+        "issuesCount": 16,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "pchyolan",
+          "normalizedGithub": "pchyolan",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "thefoxtale",
+          "normalizedGithub": "thefoxtale",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 14,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "ArtemovEgor/codeVibeCheck",
+      "url": "https://github.com/ArtemovEgor/codeVibeCheck",
+      "week2Team": {
+        "deployUrl": "https://artemovegor.github.io/codeVibeCheck/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 18,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mts",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Al-E-xXx",
+          "normalizedGithub": "al-e-xxx",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "ArtemovEgor",
+          "normalizedGithub": "artemovegor",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 9,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "EkaterynaVolkova",
+          "normalizedGithub": "ekaterynavolkova",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "OlgaMinaievaWebDev/rs-tandem-devquest",
+      "url": "https://github.com/OlgaMinaievaWebDev/rs-tandem-devquest",
+      "week2Team": {
+        "deployUrl": "https://olgaminaievawebdev.github.io/rs-tandem-devquest/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml",
+          "deploy.yml"
+        ],
+        "issuesCount": 26,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "app/.eslintrc.cjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AzizShik",
+          "normalizedGithub": "azizshik",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "isaluk",
+          "normalizedGithub": "isaluk",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "OlgaMinaievaWebDev",
+          "normalizedGithub": "olgaminaievawebdev",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 7,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "afedziukovich/SkillGrove",
+      "url": "https://github.com/afedziukovich/SkillGrove",
+      "week2Team": {
+        "deployUrl": "https://skillgrove.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "lint.yml"
+        ],
+        "issuesCount": 15,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "afedziukovich",
+          "normalizedGithub": "afedziukovich",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Thrapis",
+          "normalizedGithub": "thrapis",
+          "diaryEntriesW2": 7,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "dzzuze/SAA-Cat",
+      "url": "https://github.com/dzzuze/SAA-Cat",
+      "week2Team": {
+        "deployUrl": "https://dzzuze.github.io/SAA-Cat/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "blank.yml",
+          "deploy.yml"
+        ],
+        "issuesCount": 12,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "annaDzig",
+          "normalizedGithub": "annadzig",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "dzzuze",
+          "normalizedGithub": "dzzuze",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sidoryakasergey",
+          "normalizedGithub": "sidoryakasergey",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "NataliItaly/Smart-Quiz",
+      "url": "https://github.com/NataliItaly/Smart-Quiz",
+      "week2Team": {
+        "deployUrl": "https://smart-quiz-rsschool-auto-team-7.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 11,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "dariapusovskaya",
+          "normalizedGithub": "dariapusovskaya",
+          "diaryEntriesW2": 10,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "katerynamoskalenko",
+          "normalizedGithub": "katerynamoskalenko",
+          "diaryEntriesW2": 7,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "NataliItaly",
+          "normalizedGithub": "nataliitaly",
+          "diaryEntriesW2": 4,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Nastya-Student/rss-fe-final-project",
+      "url": "https://github.com/Nastya-Student/rss-fe-final-project",
+      "week2Team": {
+        "deployUrl": "https://rss-fe-final-project.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "deploy-to-vercel.yml"
+        ],
+        "issuesCount": 12,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": ".eslintrc.cjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "amelur",
+          "normalizedGithub": "amelur",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Atikin132",
+          "normalizedGithub": "atikin132",
+          "diaryEntriesW2": 5,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Nastya-Student",
+          "normalizedGithub": "nastya-student",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Ulya10",
+          "normalizedGithub": "ulya10",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Orgris/Auto-Team-9-Widget-Trainer",
+      "url": "https://github.com/Orgris/Auto-Team-9-Widget-Trainer",
+      "week2Team": {
+        "deployUrl": null,
+        "deployStatus": 0,
+        "deployOk": false,
+        "hasWorkflow": false,
+        "workflowFiles": [],
+        "issuesCount": 7,
+        "hasMinIssues": true,
+        "hasLinter": false,
+        "linterConfig": null,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "Ch-alexandra",
+          "normalizedGithub": "ch-alexandra",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "heyArtik-dev",
+          "normalizedGithub": "heyartik-dev",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "Orgris",
+          "normalizedGithub": "orgris",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "chebupell/SkillsZen",
+      "url": "https://github.com/chebupell/SkillsZen",
+      "week2Team": {
+        "deployUrl": "https://skillszen.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": false,
+        "workflowFiles": [],
+        "issuesCount": 16,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "SkillsZen/eslint.config.js",
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "anastan588",
+          "normalizedGithub": "anastan588",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "chebupell",
+          "normalizedGithub": "chebupell",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 2,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "forestdeerr",
+          "normalizedGithub": "forestdeerr",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 1,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "t-gladkaya",
+          "normalizedGithub": "t-gladkaya",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "Alcopatriarch/RS-Tandem",
+      "url": "https://github.com/Alcopatriarch/RS-Tandem",
+      "week2Team": {
+        "deployUrl": "https://rs-tandem-seven.vercel.app",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "main.yml"
+        ],
+        "issuesCount": 40,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "rs-tandem-app/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alcopatriarch",
+          "normalizedGithub": "alcopatriarch",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 21,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "karinavd",
+          "normalizedGithub": "karinavd",
+          "diaryEntriesW2": 3,
+          "assignedIssues": 11,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "SergLestr",
+          "normalizedGithub": "serglestr",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 9,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Campidoc/TetraSkill",
+      "url": "https://github.com/Campidoc/TetraSkill",
+      "week2Team": {
+        "deployUrl": "https://campidoc.github.io/TetraSkill/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci-cd.yml"
+        ],
+        "issuesCount": 7,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "ayzana",
+          "normalizedGithub": "ayzana",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Campidoc",
+          "normalizedGithub": "campidoc",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "dimitra86",
+          "normalizedGithub": "dimitra86",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "yegor000",
+          "normalizedGithub": "yegor000",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 1,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "AnnStarrySky/tandem",
+      "url": "https://github.com/AnnStarrySky/tandem",
+      "week2Team": {
+        "deployUrl": "https://tandem-pi.vercel.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "main.yml"
+        ],
+        "issuesCount": 14,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.mjs",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "angelinavakkasova",
+          "normalizedGithub": "angelinavakkasova",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 2,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "annstarrysky",
+          "normalizedGithub": "annstarrysky",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 9,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "yuriyli",
+          "normalizedGithub": "yuriyli",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Blshop/JS-Practice-Hub",
+      "url": "https://github.com/Blshop/JS-Practice-Hub",
+      "week2Team": {
+        "deployUrl": "https://blshop.github.io/JS-Practice-Hub/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "deploy-develop-spa.yml"
+        ],
+        "issuesCount": 10,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "eslint.config.ts",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Blshop",
+          "normalizedGithub": "blshop",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 6,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "DmitryAstapenko",
+          "normalizedGithub": "dmitryastapenko",
+          "diaryEntriesW2": 5,
+          "assignedIssues": 4,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "GorodeN",
+          "normalizedGithub": "goroden",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "spadarynjaALINA",
+          "normalizedGithub": "spadarynjaalina",
+          "diaryEntriesW2": 0,
+          "assignedIssues": 2,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "rs-dev-journey/JS-Journey-Trainer",
+      "url": "https://github.com/rs-dev-journey/JS-Journey-Trainer",
+      "week2Team": {
+        "deployUrl": "https://js-journey-trainer.netlify.app/",
+        "deployStatus": 200,
+        "deployOk": true,
+        "hasWorkflow": true,
+        "workflowFiles": [
+          "ci.yml"
+        ],
+        "issuesCount": 11,
+        "hasMinIssues": true,
+        "hasLinter": true,
+        "linterConfig": "js-journey-trainer/eslint.config.js",
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "kupzov2000",
+          "normalizedGithub": "kupzov2000",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "lertti",
+          "normalizedGithub": "lertti",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 3,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sabinabatrakova",
+          "normalizedGithub": "sabinabatrakova",
+          "diaryEntriesW2": 2,
+          "assignedIssues": 5,
+          "personalOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    }
+  ]
+}

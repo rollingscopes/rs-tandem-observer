@@ -1,0 +1,45 @@
+{
+  "streamId": "2026-spring",
+  "name": "RS Tandem 2026",
+  "startDate": "2026-02-17",
+  "endDate": "2026-04-06",
+  "durationWeeks": 7,
+  "cloneBranch": "main",
+  "monitoringAccount": "rollingscopes",
+  "checkpoints": [
+    {
+      "id": "w1",
+      "label": "Week 1: Setup & Diary",
+      "startDate": "2026-02-17",
+      "rules": [
+        { "id": "diary", "type": "diary", "scope": "member", "points": 20, "params": { "minEntries": 2 } },
+        { "id": "repoPublic", "type": "custom", "scope": "team", "points": 0 },
+        { "id": "readme", "type": "custom", "scope": "team", "points": 0 },
+        { "id": "teamList", "type": "custom", "scope": "team", "points": 0 }
+      ]
+    },
+    {
+      "id": "w2",
+      "label": "Week 2: Deploy & CI",
+      "startDate": "2026-02-23",
+      "teamRequiresPersonal": true,
+      "rules": [
+        { "id": "diaryW2", "type": "diary", "scope": "member", "points": 5, "params": { "minEntries": 2, "afterDate": "2026-02-23" } },
+        { "id": "assigned", "type": "issue-assignment", "scope": "member", "points": 5, "params": { "minAssigned": 1 } },
+        { "id": "deploy", "type": "deploy", "scope": "team", "points": 5 },
+        { "id": "ci", "type": "ci", "scope": "team", "points": 0 },
+        { "id": "issues", "type": "issues", "scope": "team", "points": 2.5, "params": { "minCount": 6 } },
+        { "id": "linter", "type": "linter", "scope": "team", "points": 2.5 }
+      ]
+    },
+    {
+      "id": "w3",
+      "label": "Week 3: Video Presentation",
+      "startDate": "2026-03-02",
+      "rules": [
+        { "id": "diaryW3", "type": "diary", "scope": "member", "points": 10, "params": { "minEntries": 2, "afterDate": "2026-03-02" } },
+        { "id": "videoInDiary", "type": "video", "scope": "member", "points": 10 }
+      ]
+    }
+  ]
+}

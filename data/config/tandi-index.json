@@ -21,6 +21,12 @@
       "date": "2026-03-10",
       "label": "Issue #3",
       "format": 2
+    },
+    {
+      "issue": 4,
+      "date": "2026-03-18",
+      "label": "Issue #4",
+      "format": 2
     }
   ]
 }

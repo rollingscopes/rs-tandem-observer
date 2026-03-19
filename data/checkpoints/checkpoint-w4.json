@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-03-18T14:40:47.743Z",
+  "checkDate": "2026-03-19T08:00:09.959Z",
   "week": "w4",
   "repos": [
     {
@@ -4966,7 +4966,7 @@
           "github": "maksimdolgonosov",
           "normalizedGithub": "maksimdolgonosov",
           "diaryEntriesW4": 2,
-          "hasDiaryReviewEntry": false,
+          "hasDiaryReviewEntry": true,
           "testCount": 8,
           "testFiles": [
             "[Cab-Electronics-Assembly] __tests__/AIrequest.spec.ts",
@@ -4979,10 +4979,10 @@
           "prsReviewed": 0,
           "diaryOk": true,
           "testingOk": true,
-          "reviewOk": false,
+          "reviewOk": true,
           "testingScore": 10,
-          "reviewScore": 0,
-          "score": 10,
+          "reviewScore": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/MaksimDolgonosov/MaksimDolgonosov-2026-02-22.md",
@@ -10939,19 +10939,20 @@
           "normalizedGithub": "sabinabatrakova",
           "diaryEntriesW4": 2,
           "hasDiaryReviewEntry": false,
-          "testCount": 2,
+          "testCount": 8,
           "testFiles": [
-            "js-journey-trainer/src/shared/utils/example.test.ts"
+            "[feat/RSS-T-06_login] js-journey-trainer/src/pages/auth/__tests__/model.test.ts",
+            "[feat/RSS-T-06_login] js-journey-trainer/src/shared/utils/example.test.ts"
           ],
           "reviewComments": 17,
           "meaningfulReviewComments": 17,
           "prsReviewed": 5,
           "diaryOk": true,
-          "testingOk": false,
+          "testingOk": true,
           "reviewOk": true,
-          "testingScore": 0,
+          "testingScore": 10,
           "reviewScore": 10,
-          "score": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/SabinaBatrakova/SabinaBatrakova-2026-02-19.md",

@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-03-20T10:39:15.873Z",
+  "checkDate": "2026-03-20T19:27:12.821Z",
   "week": "w4",
   "repos": [
     {
@@ -7233,7 +7233,7 @@
     {
       "fullName": "Webis-2022/rs-tandem",
       "url": "https://github.com/Webis-2022/rs-tandem",
-      "hasTestingMd": false,
+      "hasTestingMd": true,
       "testAnalytics": {
         "totalFiles": 5,
         "totalTests": 26,
@@ -7269,8 +7269,8 @@
           "hasDiaryReviewEntry": true,
           "testCount": 10,
           "testFiles": [
-            "[develop] src/pages/library/library.test.ts",
-            "[develop] src/shared/dom.test.ts"
+            "[Feature/landing_page] src/pages/library/library.test.ts",
+            "[Feature/landing_page] src/shared/dom.test.ts"
           ],
           "reviewComments": 36,
           "meaningfulReviewComments": 35,
@@ -7342,17 +7342,19 @@
           "normalizedGithub": "urazof",
           "diaryEntriesW4": 4,
           "hasDiaryReviewEntry": true,
-          "testCount": 0,
-          "testFiles": [],
+          "testCount": 11,
+          "testFiles": [
+            "[Feature/landing_page] src/components/ui/modal/modal.test.ts"
+          ],
           "reviewComments": 20,
           "meaningfulReviewComments": 16,
           "prsReviewed": 5,
           "diaryOk": true,
-          "testingOk": false,
+          "testingOk": true,
           "reviewOk": true,
-          "testingScore": 0,
+          "testingScore": 10,
           "reviewScore": 10,
-          "score": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/Urazof/Urazof-2026-02-21.md",
@@ -7416,8 +7418,8 @@
           "hasDiaryReviewEntry": true,
           "testCount": 5,
           "testFiles": [
-            "[develop] src/components/ui/practice-card/hints-container/hints-container.test.ts",
-            "[develop] src/components/ui/practice-card/side-panel/side-panel.test.ts"
+            "[Feature/landing_page] src/components/ui/practice-card/hints-container/hints-container.test.ts",
+            "[Feature/landing_page] src/components/ui/practice-card/side-panel/side-panel.test.ts"
           ],
           "reviewComments": 49,
           "meaningfulReviewComments": 45,

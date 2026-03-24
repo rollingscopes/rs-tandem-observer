@@ -50,6 +50,16 @@
         { "id": "testing", "type": "testing", "scope": "member", "points": 10, "params": { "minTests": 5 } },
         { "id": "review", "type": "review", "scope": "member", "points": 10, "params": { "minMeaningfulComments": 3 } }
       ]
+    },
+    {
+      "id": "w5",
+      "label": "Week 5: 404, Loading & Error Handling",
+      "startDate": "2026-03-16",
+      "teamRequiresPersonal": true,
+      "rules": [
+        { "id": "diaryW5", "type": "diary", "scope": "member", "points": 10, "params": { "minEntries": 2, "afterDate": "2026-03-16" } },
+        { "id": "readmeVideo", "type": "readme-video", "scope": "team", "points": 10 }
+      ]
     }
   ]
 }

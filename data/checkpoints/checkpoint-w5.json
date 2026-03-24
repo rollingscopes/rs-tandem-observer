@@ -1,0 +1,1758 @@
+{
+  "checkDate": "2026-03-24T08:31:32.291Z",
+  "week": "w5",
+  "repos": [
+    {
+      "fullName": "ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "url": "https://github.com/ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/FcmFwwk1PUg",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alena1409",
+          "normalizedGithub": "alena1409",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "AlexGorSer",
+          "normalizedGithub": "alexgorser",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "kozochkina82",
+          "normalizedGithub": "kozochkina82",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Oksi2510",
+          "normalizedGithub": "oksi2510",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "pavelkuvsh1noff",
+          "normalizedGithub": "pavelkuvsh1noff",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "WhaleisaJoy",
+          "normalizedGithub": "whaleisajoy",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "yermekyerden/typocalypse-tandem",
+      "url": "https://github.com/yermekyerden/typocalypse-tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/uKDvLehNQkE",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "BerserkBat",
+          "normalizedGithub": "berserkbat",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "ivmoskalev",
+          "normalizedGithub": "ivmoskalev",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "JasonScriptLord",
+          "normalizedGithub": "jasonscriptlord",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "romanplis",
+          "normalizedGithub": "romanplis",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "yermekyerden",
+          "normalizedGithub": "yermekyerden",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "YessetHumanMan",
+          "normalizedGithub": "yessethumanman",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Artem-WebDeveloper/tandem",
+      "url": "https://github.com/Artem-WebDeveloper/tandem",
+      "week5Team": {
+        "videoUrl": "https://www.youtube.com/watch?v=s66y0jmoXaM",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AlexeyDmt",
+          "normalizedGithub": "alexeydmt",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Artem-WebDeveloper",
+          "normalizedGithub": "artem-webdeveloper",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "exppx",
+          "normalizedGithub": "exppx",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Igel-k",
+          "normalizedGithub": "igel-k",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mightyprinces",
+          "normalizedGithub": "mightyprinces",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "raenlin",
+          "normalizedGithub": "raenlin",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "RSSAgents/tandem",
+      "url": "https://github.com/RSSAgents/tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/Wa8RyWGipxc",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "27moon",
+          "normalizedGithub": "27moon",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "D15ND",
+          "normalizedGithub": "d15nd",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Fayzullo05",
+          "normalizedGithub": "fayzullo05",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "oneilcode",
+          "normalizedGithub": "oneilcode",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Shakhzod235",
+          "normalizedGithub": "shakhzod235",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "solarsungai",
+          "normalizedGithub": "solarsungai",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "url": "https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/EbpQGCGB3jc",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "andrski",
+          "normalizedGithub": "andrski",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "bssier",
+          "normalizedGithub": "bssier",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "MegaRostBLR1",
+          "normalizedGithub": "megarostblr1",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Morevna",
+          "normalizedGithub": "morevna",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Rorodeathless1",
+          "normalizedGithub": "rorodeathless1",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "kanoplich/rs-tandem",
+      "url": "https://github.com/kanoplich/rs-tandem",
+      "week5Team": {
+        "videoUrl": "https://www.youtube.com/watch?v=M_s63RHPufU",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "artkoro94",
+          "normalizedGithub": "artkoro94",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "kanoplich",
+          "normalizedGithub": "kanoplich",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "rockabil",
+          "normalizedGithub": "rockabil",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sevasmith",
+          "normalizedGithub": "sevasmith",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sunyuna00",
+          "normalizedGithub": "sunyuna00",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "vadim-troian",
+          "normalizedGithub": "vadim-troian",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "KarpovDmitriy/widget-trainer",
+      "url": "https://github.com/KarpovDmitriy/widget-trainer",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/sKFpzNc4HS8",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "av-shell",
+          "normalizedGithub": "av-shell",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "ayaki-coder",
+          "normalizedGithub": "ayaki-coder",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dromari",
+          "normalizedGithub": "dromari",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "karpovdmitriy",
+          "normalizedGithub": "karpovdmitriy",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/GOi_W1meleM",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "ansivgit",
+          "normalizedGithub": "ansivgit",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "rika-milew",
+          "normalizedGithub": "rika-milew",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "viktorelenich",
+          "normalizedGithub": "viktorelenich",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final-backend",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final-backend",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "viktorElenich",
+          "normalizedGithub": "viktorelenich",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "FierceSloth/rss-tandem-app",
+      "url": "https://github.com/FierceSloth/rss-tandem-app",
+      "week5Team": {
+        "videoUrl": "https://www.youtube.com/watch?v=gxiUOW3JuBY",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "coicoin",
+          "normalizedGithub": "coicoin",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "dianakhnizova",
+          "normalizedGithub": "dianakhnizova",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dilmun1101",
+          "normalizedGithub": "dilmun1101",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "FierceSloth",
+          "normalizedGithub": "fiercesloth",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "PoMaKoM-RSTeam/Rs-Tandem",
+      "url": "https://github.com/PoMaKoM-RSTeam/Rs-Tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/nxAmDsMHFuk",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aliakseidrob",
+          "normalizedGithub": "aliakseidrob",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "anatolirub",
+          "normalizedGithub": "anatolirub",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "khasekai",
+          "normalizedGithub": "khasekai",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "mark-pribylnov",
+          "normalizedGithub": "mark-pribylnov",
+          "diaryEntriesW5": 7,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "PoMaKoM",
+          "normalizedGithub": "pomakom",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "shoblinsky",
+          "normalizedGithub": "shoblinsky",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Zhdko",
+          "normalizedGithub": "zhdko",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "jsgods-rs-tandem/rs-tandem",
+      "url": "https://github.com/jsgods-rs-tandem/rs-tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/pV0YgJyy_Nk",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "alesdrobysh",
+          "normalizedGithub": "alesdrobysh",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dukhd",
+          "normalizedGithub": "dukhd",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "elrouss",
+          "normalizedGithub": "elrouss",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mikhalenkadaniil",
+          "normalizedGithub": "mikhalenkadaniil",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nck1969",
+          "normalizedGithub": "nck1969",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "nasteew/tandem",
+      "url": "https://github.com/nasteew/tandem",
+      "week5Team": {
+        "videoUrl": "https://www.youtube.com/watch?v=Ue3VgYxWJwE",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aleks6699",
+          "normalizedGithub": "aleks6699",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "anastasiashlyk",
+          "normalizedGithub": "anastasiashlyk",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "imagineapril",
+          "normalizedGithub": "imagineapril",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nasteew",
+          "normalizedGithub": "nasteew",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "obemgcabazn/vuejs-tandem",
+      "url": "https://github.com/obemgcabazn/vuejs-tandem",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "andreizaretski",
+          "normalizedGithub": "andreizaretski",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "asindeton",
+          "normalizedGithub": "asindeton",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "cat5671",
+          "normalizedGithub": "cat5671",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "kirrbrest",
+          "normalizedGithub": "kirrbrest",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "maksimdolgonosov",
+          "normalizedGithub": "maksimdolgonosov",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "obemgcabazn",
+          "normalizedGithub": "obemgcabazn",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "tosigaeva/rs-tandem",
+      "url": "https://github.com/tosigaeva/rs-tandem",
+      "week5Team": {
+        "videoUrl": "https://www.loom.com/share/2d201fc87a7549d98da65b46e2c0fc0b",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "deviatovae",
+          "normalizedGithub": "deviatovae",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "hamsterk",
+          "normalizedGithub": "hamsterk",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "mero93",
+          "normalizedGithub": "mero93",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "tosigaeva",
+          "normalizedGithub": "tosigaeva",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Bulbashok/interview-prep",
+      "url": "https://github.com/Bulbashok/interview-prep",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/EIHs8nL0cLQ",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Bulbashok",
+          "normalizedGithub": "bulbashok",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "JesterAV",
+          "normalizedGithub": "jesterav",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "NickKool",
+          "normalizedGithub": "nickkool",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "mvavilin/Nova-Codenames",
+      "url": "https://github.com/mvavilin/Nova-Codenames",
+      "week5Team": {
+        "videoUrl": "https://drive.google.com/file/d/1TJOmjeb6R6mmiboVv1dhbeA2l9oF8tVx/view",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "mvavilin",
+          "normalizedGithub": "mvavilin",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Peccopa",
+          "normalizedGithub": "peccopa",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sergey-ado",
+          "normalizedGithub": "sergey-ado",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Walle908",
+          "normalizedGithub": "walle908",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Maria2721/dev-craft-frontend",
+      "url": "https://github.com/Maria2721/dev-craft-frontend",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/oC2j7znBVyA",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Andrey-Yurchuk",
+          "normalizedGithub": "andrey-yurchuk",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Khabib1802",
+          "normalizedGithub": "khabib1802",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Maria2721",
+          "normalizedGithub": "maria2721",
+          "diaryEntriesW5": 4,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "rs-tandem/rs-tandem",
+      "url": "https://github.com/rs-tandem/rs-tandem",
+      "week5Team": {
+        "videoUrl": "https://drive.google.com/file/d/1nGJthx2yY11uIZzwxrPgs23ofnwyweQq/view?usp=sharing",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "oreopk",
+          "normalizedGithub": "oreopk",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "S-Arashu",
+          "normalizedGithub": "s-arashu",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "YekaterinaAlex",
+          "normalizedGithub": "yekaterinaalex",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "NotDmitry/Duoscript-Tandem",
+      "url": "https://github.com/NotDmitry/Duoscript-Tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/Ntsj5kxZHLo",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "anelka777",
+          "normalizedGithub": "anelka777",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "nginit",
+          "normalizedGithub": "nginit",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "notdmitry",
+          "normalizedGithub": "notdmitry",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "swetlanaang",
+          "normalizedGithub": "swetlanaang",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "konfuzz/rss-tandem",
+      "url": "https://github.com/konfuzz/rss-tandem",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "bariydev",
+          "normalizedGithub": "bariydev",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "konfuzz",
+          "normalizedGithub": "konfuzz",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "roguestone",
+          "normalizedGithub": "roguestone",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "bukt0r/Final-Project-Tandem",
+      "url": "https://github.com/bukt0r/Final-Project-Tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/CXYLstaGsKY",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "bukt0r",
+          "normalizedGithub": "bukt0r",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "tatyanakorlarina",
+          "normalizedGithub": "tatyanakorlarina",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "user0k",
+          "normalizedGithub": "user0k",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "dalekswar/CodeMind",
+      "url": "https://github.com/dalekswar/CodeMind",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "dalekswar",
+          "normalizedGithub": "dalekswar",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "howlight",
+          "normalizedGithub": "howlight",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "sobselena",
+          "normalizedGithub": "sobselena",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "Webis-2022/rs-tandem",
+      "url": "https://github.com/Webis-2022/rs-tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/HWwnsfwI7CI",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "alekspanda",
+          "normalizedGithub": "alekspanda",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "urazof",
+          "normalizedGithub": "urazof",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Webis-2022",
+          "normalizedGithub": "webis-2022",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Pchyolan/rs-tandem-project",
+      "url": "https://github.com/Pchyolan/rs-tandem-project",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "Pchyolan",
+          "normalizedGithub": "pchyolan",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "thefoxtale",
+          "normalizedGithub": "thefoxtale",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "ArtemovEgor/codeVibeCheck",
+      "url": "https://github.com/ArtemovEgor/codeVibeCheck",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/mbapDcRV8bA",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Al-E-xXx",
+          "normalizedGithub": "al-e-xxx",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "ArtemovEgor",
+          "normalizedGithub": "artemovegor",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "EkaterynaVolkova",
+          "normalizedGithub": "ekaterynavolkova",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "OlgaMinaievaWebDev/rs-tandem-devquest",
+      "url": "https://github.com/OlgaMinaievaWebDev/rs-tandem-devquest",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "AzizShik",
+          "normalizedGithub": "azizshik",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "isaluk",
+          "normalizedGithub": "isaluk",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        },
+        {
+          "github": "OlgaMinaievaWebDev",
+          "normalizedGithub": "olgaminaievawebdev",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "afedziukovich/SkillGrove",
+      "url": "https://github.com/afedziukovich/SkillGrove",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/Cqdfz3UE-Oo",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "afedziukovich",
+          "normalizedGithub": "afedziukovich",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Thrapis",
+          "normalizedGithub": "thrapis",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "dzzuze/SAA-Cat",
+      "url": "https://github.com/dzzuze/SAA-Cat",
+      "week5Team": {
+        "videoUrl": "https://www.youtube.com/watch?v=7-F7fzZgQK8",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "annaDzig",
+          "normalizedGithub": "annadzig",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "dzzuze",
+          "normalizedGithub": "dzzuze",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sidoryakasergey",
+          "normalizedGithub": "sidoryakasergey",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "NataliItaly/Smart-Quiz",
+      "url": "https://github.com/NataliItaly/Smart-Quiz",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/CX-lkU0616c",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "dariapusovskaya",
+          "normalizedGithub": "dariapusovskaya",
+          "diaryEntriesW5": 8,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "katerynamoskalenko",
+          "normalizedGithub": "katerynamoskalenko",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "NataliItaly",
+          "normalizedGithub": "nataliitaly",
+          "diaryEntriesW5": 4,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Nastya-Student/rss-fe-final-project",
+      "url": "https://github.com/Nastya-Student/rss-fe-final-project",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/M57p4R2uLhU",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "amelur",
+          "normalizedGithub": "amelur",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Atikin132",
+          "normalizedGithub": "atikin132",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Nastya-Student",
+          "normalizedGithub": "nastya-student",
+          "diaryEntriesW5": 4,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "Ulya10",
+          "normalizedGithub": "ulya10",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Auto-Team-9/sea-battle",
+      "url": "https://github.com/Auto-Team-9/sea-battle",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "Ch-alexandra",
+          "normalizedGithub": "ch-alexandra",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "heyArtik-dev",
+          "normalizedGithub": "heyartik-dev",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Orgris",
+          "normalizedGithub": "orgris",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "chebupell/SkillsZen",
+      "url": "https://github.com/chebupell/SkillsZen",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/XZR6ZVGX7hk",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "anastan588",
+          "normalizedGithub": "anastan588",
+          "diaryEntriesW5": 4,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "chebupell",
+          "normalizedGithub": "chebupell",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "forestdeerr",
+          "normalizedGithub": "forestdeerr",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "t-gladkaya",
+          "normalizedGithub": "t-gladkaya",
+          "diaryEntriesW5": 5,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Alcopatriarch/RS-Tandem",
+      "url": "https://github.com/Alcopatriarch/RS-Tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/26gJlmupBW4",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alcopatriarch",
+          "normalizedGithub": "alcopatriarch",
+          "diaryEntriesW5": 4,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "karinavd",
+          "normalizedGithub": "karinavd",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "SergLestr",
+          "normalizedGithub": "serglestr",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Campidoc/TetraSkill",
+      "url": "https://github.com/Campidoc/TetraSkill",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "ayzana",
+          "normalizedGithub": "ayzana",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "Campidoc",
+          "normalizedGithub": "campidoc",
+          "diaryEntriesW5": 1,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "dimitra86",
+          "normalizedGithub": "dimitra86",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "yegor000",
+          "normalizedGithub": "yegor000",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 0,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "fullName": "AnnStarrySky/tandem",
+      "url": "https://github.com/AnnStarrySky/tandem",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/MJlL3sbY8AI",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "angelinavakkasova",
+          "normalizedGithub": "angelinavakkasova",
+          "diaryEntriesW5": 3,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "annstarrysky",
+          "normalizedGithub": "annstarrysky",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "yuriyli",
+          "normalizedGithub": "yuriyli",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Blshop/JS-Practice-Hub",
+      "url": "https://github.com/Blshop/JS-Practice-Hub",
+      "week5Team": {
+        "videoUrl": "https://youtu.be/P-2lO-0YiLI",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Blshop",
+          "normalizedGithub": "blshop",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "DmitryAstapenko",
+          "normalizedGithub": "dmitryastapenko",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "GorodeN",
+          "normalizedGithub": "goroden",
+          "diaryEntriesW5": 5,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "spadarynjaALINA",
+          "normalizedGithub": "spadarynjaalina",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "fullName": "rs-dev-journey/JS-Journey-Trainer",
+      "url": "https://github.com/rs-dev-journey/JS-Journey-Trainer",
+      "week5Team": {
+        "videoUrl": "https://drive.google.com/file/d/1Dw_MGh1qHFBqfUgbGD3t8b6_X8OZb7UX/view",
+        "hasVideo": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "kupzov2000",
+          "normalizedGithub": "kupzov2000",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "lertti",
+          "normalizedGithub": "lertti",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        },
+        {
+          "github": "sabinabatrakova",
+          "normalizedGithub": "sabinabatrakova",
+          "diaryEntriesW5": 2,
+          "diaryOk": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Azatyk/rs-school-tandem-trauma-team",
+      "url": "https://github.com/Azatyk/rs-school-tandem-trauma-team",
+      "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "devenrgy",
+          "normalizedGithub": "devenrgy",
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-03-07T12:19:57.107Z",
+  "checkDate": "2026-03-24T08:59:39.688Z",
   "week": "w2",
   "repos": [
     {
@@ -2238,6 +2238,34 @@
           "personalScore": 10,
           "teamScore": 10,
           "score": 20
+        }
+      ]
+    },
+    {
+      "fullName": "Azatyk/rs-school-tandem-trauma-team",
+      "url": "https://github.com/Azatyk/rs-school-tandem-trauma-team",
+      "week2Team": {
+        "deployUrl": null,
+        "deployStatus": 0,
+        "deployOk": false,
+        "hasWorkflow": false,
+        "workflowFiles": [],
+        "issuesCount": 0,
+        "hasMinIssues": false,
+        "hasLinter": true,
+        "linterConfig": "tandem-trauma-api/eslint.config.mjs",
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "devenrgy",
+          "normalizedGithub": "devenrgy",
+          "diaryEntriesW2": 1,
+          "assignedIssues": 0,
+          "personalOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
         }
       ]
     }

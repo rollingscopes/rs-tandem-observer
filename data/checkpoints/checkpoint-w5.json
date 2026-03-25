@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-03-25T20:53:52.916Z",
+  "checkDate": "2026-03-25T22:11:20.494Z",
   "week": "w5",
   "repos": [
     {
@@ -6298,9 +6298,9 @@
       "fullName": "konfuzz/rss-tandem",
       "url": "https://github.com/konfuzz/rss-tandem",
       "week5Team": {
-        "videoUrl": null,
-        "hasVideo": false,
-        "allMet": false
+        "videoUrl": "https://link.storjshare.io/raw/jvfvlz4gh3e3mec62us7qxmepn5a/screenshots/chrome_2026-03-22_19-51-41.mp4",
+        "hasVideo": true,
+        "allMet": true
       },
       "members": [
         {
@@ -6367,8 +6367,8 @@
           "diaryEntriesW5": 2,
           "diaryOk": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "konfuzz",
@@ -6444,8 +6444,8 @@
           "diaryEntriesW5": 2,
           "diaryOk": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "roguestone",

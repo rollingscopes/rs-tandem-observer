@@ -3830,12 +3830,10 @@
           "github": "Walle908",
           "normalizedGithub": "walle908",
           "diaryEntriesW3": 2,
-          "hasVideo": true,
-          "videoLinks": [
-            "https://www.youtube.com/watch?v=iX8g4LqF8p8"
-          ],
-          "personalOk": true,
-          "score": 20,
+          "hasVideo": false,
+          "videoLinks": [],
+          "personalOk": false,
+          "score": 0,
           "entries": [
             {
               "path": "development-notes/walle908/walle908-2026-02-18.md",

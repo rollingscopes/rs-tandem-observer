@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T14:41:03.231Z",
+  "generatedAt": "2026-03-30T10:02:47.449Z",
   "profiles": [
     {
       "teamName": "ngKittyDebug",
@@ -58,10 +58,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "kozochkina82: страница 404 с анимированным котом, первый опыт Angular",
-            "Alena1409: прототип Word Merge Associations + интеграция Groq AI (голос → текст)",
-            "pavelkuvsh1noff: Header + Transloco (переключение тем/языков), Wiki-инструкция для команды",
-            "WhaleisaJoy: кастомизация Taiga UI Button, CI/CD конфиг Netlify, лого MeowVault"
+            "Oksi2510 + AlexGorSer: 9-часовой Discord до 5 утра — директива для глаз котиков-маскотов",
+            "Alena1409: CDK drag-and-drop, декомпозиция на 3 сервиса, тесты AuthService + guards",
+            "AlexGorSer: GitHub OAuth (passport), key-storages модуль, Prisma-модель для игры",
+            "pavelkuvsh1noff: Decrypto почти готова — интерфейс, логика, стили; 3 code review"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "AlexGorSer: CRUD + кастомный Swagger-декоратор, role guards для API, Core JS 2 пройден",
+            "pavelkuvsh1noff: игра готова — таймер, 5 ачивок, серверное хранилище, тесты",
+            "WhaleisaJoy: универсальный loader (page + inline), Account Settings с модалкой",
+            "kozochkina82: интерфейс игры «виселица», 3-4 часа в день, участие в митапе"
           ],
           "concerns": []
         }
@@ -85,6 +97,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -112,10 +129,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "pavelkuvsh1noff",
@@ -139,10 +161,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Alena1409",
@@ -166,10 +193,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Oksi2510",
@@ -193,10 +225,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "kozochkina82",
@@ -220,10 +257,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "AlexGorSer",
@@ -247,10 +289,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -293,6 +340,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "comeback-1",
           "label": "Камбэк",
           "icon": "↑",
@@ -324,6 +377,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -384,10 +441,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "BerserkBat: 4 записи, форма авторизации на shadcn, переход от vanilla к библиотекам",
-            "YessetHumanMan: zustand + 3 учебных модуля для терминала (CLI, ФС, права доступа)",
-            "romanplis: Figma-макет + первый React layout, 6 записей",
-            "yermekyerden: CI/CD на GitHub Actions, hash-роутинг, фронтенд-скаффолд"
+            "YessetHumanMan: рефакторинг LibraryScreen в контейнер + презентационные компоненты, 3 code review (PR #50, #46, #70)",
+            "yermekyerden: настройка Vitest + React Testing Library + CI с нуля, тесты маршрутизации",
+            "JasonScriptLord: инлайн-редактирование профиля, дашборд прогресса, 6 тестов, взял интерфейс ушедшего участника",
+            "romanplis: кастомные скроллбары, кнопка AI-ассистента, сломал и починил GitHub Actions"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "BerserkBat: определила интерфейсы LoginRequest/RegisterRequest, форма авторизации на shadcn",
+            "JasonScriptLord: страница профиля за 4 часа, настройка linter + prettier + husky",
+            "romanplis: макет в Figma + первый layout-компонент, 2+ часа обучающих видео",
+            "YessetHumanMan: zustand подключён к экрану миссий, спринт-эпики на доске GitHub Projects"
           ],
           "concerns": []
         }
@@ -412,6 +481,11 @@
           {
             "week": "W4",
             "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 16,
             "maxScore": 20
           }
         ],
@@ -438,10 +512,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "romanplis",
@@ -465,10 +544,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 50,
-            "maxTotal": 80
+            "total": 70,
+            "maxTotal": 100
           },
           {
             "github": "YessetHumanMan",
@@ -492,10 +576,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "jasonscriptlord",
@@ -519,10 +608,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "BerserkBat",
@@ -546,10 +640,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 30,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -617,6 +716,10 @@
         {
           "issue": 4,
           "status": "green"
+        },
+        {
+          "issue": 5,
+          "status": "green"
         }
       ]
     },
@@ -677,10 +780,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "Igel-k: бэкенд с нуля — Ubuntu-сервер, PostgreSQL, Django, JWT + история входов, CORS",
-            "exppx: Code Completion Widget, кастомные MUI-палитры, тёмная/светлая тема",
-            "AlexeyDmt: архитектура унификации типов (BaseTask + union discriminator), исследование i18n",
-            "Artem-WebDeveloper: роутинг, структура проекта, Header/Footer, страница Library"
+            "exppx: 13 тестов (QuizProgressBar, QuizNavigation), переход виджетов на API с локализацией",
+            "Igel-k: архитектура квизов на Django REST Framework, 2 квиза доступны через API, заполнение БД через Gemini Pro",
+            "Artem-WebDeveloper: 6 комментариев в 2 PR, нашёл проблему перерисовки Zustand-стора в Header",
+            "mightyprinces: 5 тестов для CodeOrderingWidget, адаптив 320px с dnd kit"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "AlexeyDmt: i18next-локализация всех страниц, двуязычная структура квизов (ru/en)",
+            "exppx: дашборд с @ant-design/plots (документация на китайском), скелетоны, первый ребейз с конфликтами",
+            "Igel-k: django-filter, модели Single Choice и True/False, 4 квиза перенесены на сервер через Gemini-скрипт",
+            "Artem-WebDeveloper: requestAnimationFrame для таймера, Library с API-пагинацией через useSearchParams"
           ],
           "concerns": []
         }
@@ -705,6 +820,11 @@
           {
             "week": "W4",
             "avgScore": 16,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -731,10 +851,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "mightyprinces",
@@ -758,10 +883,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "AlexeyDmt",
@@ -785,10 +915,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "exppx",
@@ -812,10 +947,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Igel-k",
@@ -839,10 +979,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           }
         ]
       },
@@ -851,12 +996,24 @@
           "issue": 4,
           "sectionType": "casestudy",
           "headline": "Голосуй или проиграешь: как RainbowUnicorn решали судьбу Material UI"
+        },
+        {
+          "issue": 5,
+          "sectionType": "fail",
+          "headline": "Четыре нейросети и один квиз, или Почему вариант A — всегда правильный",
+          "github": "AlexeyDmt"
         }
       ],
       "achievements": [
         {
           "id": "full-W1",
           "label": "Полный балл W1",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -885,6 +1042,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -946,10 +1107,22 @@
           "date": "2026-03-18",
           "status": "yellow",
           "highlights": [
-            "oneilcode: 12 часов на ConsoleWidget — головоломки «Что выведет console.log?», замыкания, hoisting, this",
-            "27moon: кастомные токены Mantine + CSSVariablesResolver, рефакторинг стилей всех существующих страниц",
-            "solarsungai: About page + анализ AI-интеграции (Groq vs локальная LLM, структура запросов к агенту)",
-            "D15ND: 10 дневников — лидер по записям, 5 часов на квест с email для Vercel"
+            "oneilcode: 10 часов на Leaderboard + 13 тестов + развёрнутое code review PR D15ND",
+            "solarsungai: AI Battle на Groq API с fallback-моделями, забирает бэкенд",
+            "D15ND: Stack-виджет на Framer Motion (LIFO/FIFO), 3 PR review",
+            "Fayzullo05: QA-компонент с single/multiple choice + тесты (9 часов)"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "solarsungai: Supabase — 3 таблицы, View для скрытия ответов, JSONB, стриминг, i18n, CodeRunner, светлая тема",
+            "oneilcode: Home Page — 8 секций, 20+ часов; W5 чекпоинт — правки чужих тестов + видео",
+            "Fayzullo05: страница регистрации, 5 часов на тесты с двумя полями password",
+            "D15ND: Knowledge Base page замёрджена, следующий — progression system"
           ],
           "concerns": []
         }
@@ -974,6 +1147,11 @@
           {
             "week": "W4",
             "avgScore": 18,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 16,
             "maxScore": 20
           }
         ],
@@ -1000,10 +1178,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "D15ND",
@@ -1027,10 +1210,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "fayzullo05",
@@ -1054,10 +1242,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "27moon",
@@ -1081,10 +1274,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 70,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "solarsungai",
@@ -1108,10 +1306,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -1168,6 +1371,10 @@
         {
           "issue": 4,
           "status": "yellow"
+        },
+        {
+          "issue": 5,
+          "status": "yellow"
         }
       ]
     },
@@ -1214,12 +1421,24 @@
         {
           "issue": 4,
           "date": "2026-03-18",
+          "status": "yellow",
+          "highlights": [
+            "MegaRostBLR1: 15 часов на тесты (api-client, auth-service, user-service)",
+            "Morevna: 14 часов — AIGenerationPage, 5 тестов, 4 код-ревью",
+            "bssier: нашёл и закрыл уязвимость повышения привилегий до админа",
+            "andrski: 0 записей за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
           "status": "green",
           "highlights": [
-            "Morevna: страница профиля за 11 часов, рефакторинг модуля, useEffect-хитрости с таймером",
-            "Rorodeathless1: 7 записей, каталог на Material UI, createPortal, интеграция API услуг",
-            "MegaRostBLR1: попапы в Figma, настройка environment, напоминания для дневника",
-            "bssier: JWT-декодирование, рефакторинг сервисов в объект, авторизация с RegExp + Fetch"
+            "Morevna: 3 записи, Loading state с useCallback, страница заказов, дебаг «цифр вместо описания»",
+            "bssier: 2 записи, страница статистики, единый API-сервис вместо разрозненных fetch",
+            "MegaRostBLR1: favicon, фикс модальных окон, 6 часов на CSS-доработки",
+            "Rorodeathless1: подключил AI к проекту"
           ],
           "concerns": []
         }
@@ -1237,7 +1456,17 @@
             "maxScore": 20
           },
           {
+            "week": "W3",
+            "avgScore": 10,
+            "maxScore": 20
+          },
+          {
             "week": "W4",
+            "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 10,
             "maxScore": 20
           }
@@ -1257,13 +1486,23 @@
                 "maxScore": 20
               },
               {
+                "week": "W3",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
                 "week": "W4",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
                 "score": 0,
                 "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 60
+            "maxTotal": 100
           },
           {
             "github": "Morevna",
@@ -1279,13 +1518,23 @@
                 "maxScore": 20
               },
               {
+                "week": "W3",
+                "score": 20,
+                "maxScore": 20
+              },
+              {
                 "week": "W4",
+                "score": 20,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
                 "score": 20,
                 "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 60
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "bssier",
@@ -1301,13 +1550,23 @@
                 "maxScore": 20
               },
               {
+                "week": "W3",
+                "score": 20,
+                "maxScore": 20
+              },
+              {
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 50,
-            "maxTotal": 60
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "Rorodeathless1",
@@ -1323,17 +1582,38 @@
                 "maxScore": 20
               },
               {
+                "week": "W3",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
                 "week": "W4",
                 "score": 10,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
                 "maxScore": 20
               }
             ],
             "total": 50,
-            "maxTotal": 60
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "casestudy",
+          "headline": "Диагноз: гигантизм, или Как лечить макет онлайн-конференциями"
+        },
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -1368,6 +1648,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -1429,10 +1713,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "sunyuna00: лендинг (5 секшенов), футер, CSS Modules, кастомный хук useIntersectionObserver",
-            "artkoro94: Login page — React Hook Form + Zod, рефакторинг под FSD, 18 часов за 2 недели",
-            "kanoplich: методы для таблиц submissions/tasks/topics, моки, SnakeCase→CamelCase конвертер",
-            "vadim-troian: форма регистрации — React Hook Form + Zod, валидация полей"
+            "kanoplich: OAuth (Google + GitHub), синий экран с потерей коммитов, 12 часов — первый фронтенд на shadcn + Tailwind",
+            "sevasmith: стриминг LLM-ответов, потерянный код найден в переписке с ChatGPT",
+            "sunyuna00: 6 замечаний на 2 PR, починила CI через мок signOut",
+            "artkoro94: первые тесты — ошибки нейминга файлов и выбора DOM-элементов"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "sevasmith: рефакторинг Edge Function 'judge' — оценка по рубрикам вместо эталона, математика на бэкенде",
+            "artkoro94: неделя в роли тимлида, 14 часов — тосты, демо-видео, страница History",
+            "vadim-troian: shared-схемы валидации + юнит-тесты для форм регистрации и сброса пароля",
+            "sunyuna00: ErrorBoundary для всего App + useProfileData, рефакторинг за 50 минут"
           ],
           "concerns": []
         }
@@ -1457,6 +1753,11 @@
           {
             "week": "W4",
             "avgScore": 15,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -1483,10 +1784,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "artkoro94",
@@ -1510,10 +1816,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "sunyuna00",
@@ -1537,10 +1848,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "rockabil",
@@ -1564,10 +1880,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "vadim-troian",
@@ -1591,10 +1912,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "sevasmith",
@@ -1618,10 +1944,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           }
         ]
       },
@@ -1668,6 +1999,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "hero-3",
           "label": "Герой недели",
           "icon": "🏆",
@@ -1699,6 +2036,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -1762,10 +2103,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "karpovdmitriy: CI-пайплайн (5 проверок), branch protection, Supabase, проектирование БД под 4 типа виджетов",
-            "dromari: Profile Page (CSS-модули, хуки, константы), 18/22 уроков React, 58 часов, 5 GitHub issues",
-            "Стек: React + TypeScript + Supabase (PostgreSQL), деплой на Vercel",
-            "Первое code review в команде: karpovdmitriy → dromari"
+            "dromari: 19 комментариев на код-ревью PR #26, coreJSInterview2 на 9 баллов, i18n инфраструктура (i18next + react-i18next)",
+            "karpovdmitriy: 25 юнит-тестов API service layer, 21 комментарий на ревью PR #17",
+            "5 интеграционных тестов ProfileEditForm (Vitest + React Testing Library, jsdom)",
+            "Суммарно 40 комментариев код-ревью на двоих за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "karpovdmitriy: CI-пайплайн (5 проверок), Supabase, проектирование БД под 4 типа виджетов",
+            "dromari: Profile Page (CSS-модули, хуки, константы), 18/22 уроков React, 5 issues до дедлайна",
+            "Деплой на Vercel, branch protection, PR-шаблон",
+            "~76 часов суммарной работы за две недели (dromari 58 ч, karpovdmitriy 18+ ч)"
           ],
           "concerns": []
         }
@@ -1789,6 +2142,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -1816,10 +2174,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "dromari",
@@ -1843,10 +2206,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -1877,6 +2245,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "all-diaries",
           "label": "Все с дневниками",
           "icon": "📖"
@@ -1901,6 +2275,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -1962,9 +2340,22 @@
           "date": "2026-03-18",
           "status": "yellow",
           "highlights": [
-            "rika-milew: 10 записей, ~35 часов, 6 компонентов (Button, Title, Subtitle, Layout, Router, Widget Card)",
-            "zena86: 4 записи, форма логина с валидацией + api-layer, виджет Match Game",
-            "viktorelenich: 0 записей в дневнике за период"
+            "rika-milew: Zustand store, dashboard-компоненты, memory game — 4–5 ч/день",
+            "Код-ревью: 6 комментариев в 3 PR (типы, валидация паролей, стили)",
+            "Архитектура статистики: 4 темы (JS, Node, TS, React), подсчёт по тегам",
+            "viktorElenich: 0 записей за период"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "rika-milew: 3 записи (18–23 марта), 4-5 часов/день — dashboard, store, loader, 500-страница",
+            "TanStack Query для глобального состояния загрузки, кастомный спиннер без библиотек",
+            "zena86 и viktorelenich: 0 записей за период",
+            "Деплой: tandem-growlab.vercel.app"
           ],
           "concerns": []
         }
@@ -1988,6 +2379,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 10,
             "maxScore": 20
           }
@@ -2015,10 +2411,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 20,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "rika-milew",
@@ -2042,10 +2443,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -2089,6 +2495,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "yellow"
         }
       ]
@@ -2148,10 +2558,20 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "coicoin: кастомный роутер с useParams, useNavigate, replaceState, unit-тестами и ROUTER.md",
-            "FierceSloth: CodeEditor (CodeMirror) + CodeEngineService (WebWorker-песочница) + Terminal + ExecutionController",
-            "dilmun1101: подключён Supabase, изучены токены и сессии, UI-компоненты задокументированы в Notion",
-            "Все 3 участника активны, все условия выполнены, статус улучшен с yellow до green"
+            "coicoin: 5 записей, 52 часа — Quiz page с Supabase, TimerEngine на requestAnimationFrame, 2 развёрнутых код-ревью",
+            "dilmun1101: рефакторинг валидации (if/else → массив правил), Supabase auth, первые тесты (удалены из-за ESLint)",
+            "FierceSloth: Roadmap завершён, RoadmapMapper (DTO→Entity), 5 юнит-тестов на vitest, Feature Sliced Design"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "FierceSloth: CodeArena (аналог CodeWars) — вёрстка, адаптив, buildPanel; ревью 2 PR, созвон 3 часа",
+            "dilmun1101: рефакторинг UserService (объект → класс), решение дублирования токена Supabase, 19 часов за 3 дня",
+            "coicoin: Quiz Page — сохранение прогресса, звёздочки UI, fix утечки event-подписок; 17 часов за 3 дня"
           ],
           "concerns": []
         }
@@ -2175,6 +2595,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -2202,10 +2627,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "dilmun1101",
@@ -2229,10 +2659,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "coicoin",
@@ -2256,10 +2691,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -2301,6 +2741,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "comeback-1",
           "label": "Камбэк",
           "icon": "↑",
@@ -2332,6 +2778,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -2391,10 +2841,22 @@
           "date": "2026-03-18",
           "status": "yellow",
           "highlights": [
-            "anatolirub: Firebase → Docker/NestJS → Supabase → self-hosted VPS, 10 дневниковых записей",
-            "Zhdko: 15 часов дизайна в Figma — кнопки (clip-path), дашборд, схема метрик для всех игр",
-            "mark-pribylnov: CI/CD pipeline за 3–4 часа, деплой на Netlify + Vercel",
-            "shoblinsky: архитектура Type Investigator — разложил дженерики на структурные блоки для пазлов"
+            "anatolirub: RAG на NestJS + Supabase pgvector, тестовый корпус — «Вы не знаете JS», ответ модели ~1 мин",
+            "mark-pribylnov: 3 пойманные ошибки ИИ, FLIP-анимация через вложенный requestAnimationFrame",
+            "aliakseidrob: Web Workers вместо eval() для проверки кода, 6 комментариев к 2 PR",
+            "Zhdko: тесты тостера (автоудаление, скролл, очистка), ревью auth-компонента"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "mark-pribylnov: 7 дневников, 4 AI-модели (phi3 → deepseek-r1 → llama3.1), Supabase Edge Functions, два компонента (Async Sorter + AI Exam)",
+            "aliakseidrob: рефакторинг 60% кода Code Golf, юнит-тесты под Signals, исправление холодного Observable",
+            "shoblinsky: Reverse Code Review — модели, lazy-loading роутер, сайдбар, aria-атрибуты",
+            "anatolirub, Zhdko: 0 дневниковых записей за неделю"
           ],
           "concerns": []
         }
@@ -2419,6 +2881,11 @@
           {
             "week": "W4",
             "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 12,
             "maxScore": 20
           }
         ],
@@ -2445,10 +2912,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "zhdko",
@@ -2472,10 +2944,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 60,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "shoblinsky",
@@ -2499,10 +2976,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "AnatoliRub",
@@ -2526,10 +3008,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 80,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "mark-pribylnov",
@@ -2553,10 +3040,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -2637,6 +3129,10 @@
         {
           "issue": 4,
           "status": "yellow"
+        },
+        {
+          "issue": 5,
+          "status": "yellow"
         }
       ]
     },
@@ -2697,10 +3193,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "dukhd: монорепо npm workspaces, Husky, commitlint, UI-kit (кнопка, хедер) — 20+ часов в неделю",
-            "mikhalenkadaniil: AI Chat с Ollama Gemma3, markdown-парсинг потока, store на Angular DI — ~30 часов",
-            "nck1969: CI/CD pipeline (lint → тесты → билд), деплой фронта на gh-pages, бэкенда на Railway",
-            "elrouss: UI Kit (Icon, IconButton, Image), Quiz-модуль — 30+ референсов, макет в Figma"
+            "dukhd: 9 тест-кейсов (accordion + card), vitest/coverage + UI, 11 код-ревью комментариев на 5 PR",
+            "elrouss: breadcrumbs с резолверами, Library page, hash router, fix Ollama CI-бага",
+            "mikhalenkadaniil: первые тесты на Angular, переход на NestJS для бэкенда AI-чата",
+            "nck1969: auth store на Angular Signals (вместо NgRx), модалки ошибок, token expiration"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "dukhd: страница профиля + каруcель аватаров + Facade-паттерн, бэкенд-миграции, ~40 ч",
+            "elrouss: тренажёр на Monaco Editor, Web Workers для защиты от бесконечных циклов, 5 референсов",
+            "mikhalenkadaniil: WebSocket-сервис + OpenRouter-провайдер, рефактор AI-чата, ~20 ч",
+            "nck1969: CoreJS2 interview пройдено, UX-правки в main, план — Playwright E2E + i18n"
           ],
           "concerns": []
         }
@@ -2724,6 +3232,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -2751,10 +3264,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Nck1969",
@@ -2778,10 +3296,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "elrouss",
@@ -2805,10 +3328,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "mikhalenkadaniil",
@@ -2832,10 +3360,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -2862,6 +3395,12 @@
         {
           "id": "full-W4",
           "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -2897,6 +3436,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -2957,10 +3500,20 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "nasteew: auth-сервис (JWT, refresh в куках, Swagger), user service, страница профиля на React + TanStack Query",
-            "imagineapril: стартовая страница + форма авторизации (Zod, Zustand, TanStack Query), первый React в жизни",
-            "anastasiashlyk: AI-агент (OpenRouter streaming, NestJS), первый PR и мерж-конфликты",
-            "Стек: NestJS, Prisma, PostgreSQL, React, OpenRouter, Vercel"
+            "anastasiashlyk: тесты AI-чата на фронтенде и бэкенде, первый опыт с Vitest",
+            "imagineapril: 4 часа на тесты Button/Card/auth-хуков, глубокий разбор pipeStream и стриминга",
+            "nasteew: 6 тестов Profile Page, ревью PR #40 (4 комментария), анализ логики сохранения истории чата"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "anastasiashlyk: Web Speech API — голосовой ввод и озвучка ответов ИИ-агента, кнопка mute, выбор сложности (junior/middle/senior)",
+            "nasteew: drag & drop игра (Event Loop), система статистики (streak, рейтинг), Google-авторизация — 18+ часов",
+            "imagineapril: Dashboard с бэкенд-интеграцией (React Query), 3 бага починены (бесконечный updateStreak, NaN, стили)"
           ],
           "concerns": []
         }
@@ -2985,6 +3538,11 @@
           {
             "week": "W4",
             "avgScore": 16.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -3011,10 +3569,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "anastasiashlyk",
@@ -3038,10 +3601,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "imagineapril",
@@ -3065,10 +3633,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           }
         ]
       },
@@ -3104,6 +3677,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "all-diaries",
           "label": "Все с дневниками",
           "icon": "📖"
@@ -3128,6 +3707,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -3187,12 +3770,22 @@
         {
           "issue": 4,
           "date": "2026-03-18",
+          "status": "yellow",
+          "highlights": [
+            "kirrbrest: 2 записи — Docker, BSOD, слетевшая видеокарта, 7 ГБ на диске C",
+            "maksimdolgonosov: Groq API недоступен 3 дня, разобрал auth-модуль (Pinia + JWT)",
+            "obemgcabazn, cat5671: 0 записей за период"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
           "status": "green",
           "highlights": [
-            "kirrbrest: 20 issues, главная страница перенесена в Vue с полной типизацией, роутингом и i18n",
-            "obemgcabazn: деплой Netlify, Pinia, защищённый роут с авторизацией, канбан",
-            "maksimdolgonosov: изучает Vue.js (Optional API vs Composition API), оплатил Cursor AI Pro",
-            "Команда работает в поясах UTC+3 — UTC+10 (Брест — Владивосток)"
+            "kirrbrest: 20 issues, обнаружил баг с назначением ответственных — GitHub не давал назначить никого кроме себя",
+            "maksimdolgonosov: изучает Optional vs Composition API, предлагал альтернативный концепт «гараж с карточками авто»",
+            "obemgcabazn: создал репозиторий, канбан, README, ведёт самари всех встреч в дискорд"
           ],
           "concerns": []
         }
@@ -3216,6 +3809,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 7.5,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 5,
             "maxScore": 20
           }
@@ -3243,10 +3841,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 60,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "cat5671",
@@ -3270,10 +3873,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 0,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "kirrbrest",
@@ -3297,10 +3905,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 50,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "maksimdolgonosov",
@@ -3322,12 +3935,17 @@
               },
               {
                 "week": "W4",
+                "score": 20,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
                 "score": 10,
                 "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           }
         ]
       },
@@ -3352,6 +3970,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -3411,9 +4033,21 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "tosigaeva: Widget Engine с динамической загрузкой, Library на shadcn/ui, CI с 4 параллельными jobs",
-            "hamsterk: Learning-виджет с кастомной CSS flip-анимацией (React 19), план 6 виджетов",
-            "mero93: login-страница с Supabase Auth + Zod, PR submitted с видео-демо"
+            "hamsterk: 20 тестов (BigOWidget.test.tsx + canvas.helpers.test.ts), jest, 3 code review",
+            "tosigaeva: QuestionRunnerEngine на render props, тесты на 10 компонентов, 5 code review",
+            "mero93: 25 часов за неделю, Supabase tables + zod + caching, 5 часов потеряно на RLS-баг"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "tosigaeva: Async Sorter (Event Loop Game) — drag-and-drop между 3 зонами, ~16 часов за 2 дня",
+            "mero93: i18n с LocaleString + Zustand, миграция Supabase на jsonb, план админки на 20 пунктов",
+            "hamsterk: лендинг с shadcn Tabs, баг flip-card после интеграции в question-runner",
+            "deviatovae: нет записей в дневнике на этой неделе"
           ],
           "concerns": []
         }
@@ -3437,6 +4071,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -3464,10 +4103,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "mero93",
@@ -3491,10 +4135,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "hamsterk",
@@ -3518,10 +4167,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -3548,6 +4202,12 @@
         {
           "id": "full-W4",
           "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -3583,6 +4243,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -3641,10 +4305,21 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "Bulbashok: первый бэкенд — Firebase Auth, регистрация и логин с нуля",
-            "JesterAV: i18n с переводами и кнопкой смены языка, страница 404, Button-компонент",
-            "NickKool: лендинг завершён, Header/Footer в компонентах, настроен CI",
-            "Деплой на Vercel, стек Vite + React + TS, борда в GitHub"
+            "Bulbashok: рефакторинг авторизации (двойной вызов хука), Firebase error codes для i18n",
+            "JesterAV: дашборд за 3 дня (прогресс, опыт, стрик), начат async-sorter с drag and drop",
+            "NickKool: Toast system на React-Hot-Toast, 9 комментариев в 3 PR при болезни",
+            "Команда: активное кросс-ревью — 16+ комментариев за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "NickKool: глобальный Skeleton (RootLayout), Library с поиском и фильтрами по сложности, видео-демо в README",
+            "Bulbashok: handleFirestoreError для всех методов Firestore, исправлен баг бесконечной загрузки профиля, strategy pattern вместо switch/case",
+            "JesterAV: dnd-kit для drag-and-drop виджетов, борьба с двусторонним перетаскиванием"
           ],
           "concerns": []
         }
@@ -3669,6 +4344,11 @@
           {
             "week": "W4",
             "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -3695,10 +4375,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 50,
-            "maxTotal": 80
+            "total": 70,
+            "maxTotal": 100
           },
           {
             "github": "NickKool",
@@ -3722,10 +4407,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "JesterAV",
@@ -3749,10 +4439,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 50,
-            "maxTotal": 80
+            "total": 70,
+            "maxTotal": 100
           }
         ]
       },
@@ -3767,6 +4462,12 @@
         {
           "id": "full-W2",
           "label": "Полный балл W2",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -3795,6 +4496,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -3856,12 +4561,26 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "Peccopa: ComponentsAPI (10+ компонентов) + StateAPI на ваниле, перешёл с Redux-подхода на реактивный с afterware",
-            "Walle908: страница регистрации с валидацией, Tailwind, Star Wars-дизайн, ~16 часов за неделю",
-            "mvavilin: концепция игры, роутинг на TS, Figma-дизайн, деплой на Render + Vercel",
-            "sergey-ado: auth-эндпоинты (login/register), zod-валидация, CORS, UptimeRobot-мониторинг"
+            "Walle908: 10 тестов (BaseForm + InputForm), 6 часов на изучение моков",
+            "sergey-ado: тесты для Room, заблокировал мультиустройство, открыл vitest coverage",
+            "Peccopa: тесты менеджеров компонентов, Welcome Page + модальное окно с правилами",
+            "mvavilin: Lobby завершён, socket.io-утилита (BaseSocketClient → SocketClient), утечка памяти найдена"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "mvavilin: страница Game (3 модалки, борд, чат-лог), банк вопросов, чекпоинт 5 закрыт",
+            "Walle908: страница Room на сокетах, dicebear для аватаров, интервью CoreJS 2 пройдено",
+            "Peccopa: интервью пройдено, About Us закрыт, Sound Manager начат",
+            "sergey-ado: 0 дневниковых записей за неделю"
+          ],
+          "concerns": [
+            "sergey-ado: нет дневниковых записей — прогресс не зафиксирован"
+          ]
         }
       ],
       "scoreArc": {
@@ -3878,12 +4597,17 @@
           },
           {
             "week": "W3",
-            "avgScore": 15,
+            "avgScore": 10,
             "maxScore": 20
           },
           {
             "week": "W4",
             "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 15,
             "maxScore": 20
           }
         ],
@@ -3910,10 +4634,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Walle908",
@@ -3930,17 +4659,22 @@
               },
               {
                 "week": "W3",
-                "score": 20,
+                "score": 0,
                 "maxScore": 20
               },
               {
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
             "total": 80,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "sergey-ado",
@@ -3964,10 +4698,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 60,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "peccopa",
@@ -3991,10 +4730,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -4058,6 +4802,10 @@
         {
           "issue": 4,
           "status": "green"
+        },
+        {
+          "issue": 5,
+          "status": "green"
         }
       ]
     },
@@ -4117,10 +4865,22 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "Andrey-Yurchuk: миграция Express → NestJS за 1 день, Clean Architecture, Docker + CI/CD на сервере",
-            "Khabib1802: Redux Toolkit + persist, типизированные хуки, ProtectedRoute на глобальном состоянии",
-            "Maria2721: deploy на Netlify, Kanban-доска, подбор макетов, GitHub Actions workflow",
-            "Команда: 3 участника, все с записями, статус green 3 выпуска подряд"
+            "Andrey-Yurchuk: 14 unit-тестов (Jest), покрытие auth + AI chat use cases, Docker-интеграция",
+            "Maria2721: форма регистрации — react-hook-form, axios, react-toastify, токены в localStorage",
+            "Andrey-Yurchuk: code review фронтенд PR #27 (дизайн-система, CSS custom properties, SCSS-токены)",
+            "Khabib1802: 0 записей за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "Andrey-Yurchuk: 5 эндпоинтов knowledge API + Dify Chatflow + MCP за 3 дня (~20 ч)",
+            "Maria2721: 50 единиц контента (5 тем × 10 заданий), AI Assistant с Redux и модалкой",
+            "Khabib1802: 0 записей за неделю",
+            "Интеграция: Dify для AI без vendor lock-in, MCP endpoint с Bearer-защитой"
           ],
           "concerns": []
         }
@@ -4145,6 +4905,11 @@
           {
             "week": "W4",
             "avgScore": 6.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 13.3,
             "maxScore": 20
           }
         ],
@@ -4171,10 +4936,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "andrey-yurchuk",
@@ -4198,10 +4968,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Khabib1802",
@@ -4225,10 +5000,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -4271,6 +5051,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -4331,10 +5115,20 @@
           "date": "2026-03-18",
           "status": "green",
           "highlights": [
-            "oreopk: Express-бэкенд на VDS + Nginx + pm2, 4 JSON с вопросами по JS, Vanilla Router",
-            "YekaterinaAlex: первый PR (хедер) замерджен после сотен комментариев, устранила циклические зависимости",
-            "S-Arashu: первая самостоятельная настройка CI, авторизация через Firebase",
-            "деплой: interview-prep-rs-tandem.netlify.app"
+            "oreopk: 3 дневника, 7 ревью-комментариев на 3 PR, решил проблему запуска пользовательского кода",
+            "S-Arashu: установила vitest, 11+ комментариев на PR, нашла тройное дублирование данных",
+            "YekaterinaAlex: режим тестов на бэкенде oreopk, рефакторинг routes.ts в бэклоге"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "oreopk: 2 дня на универсальную функцию проверки кода, eval() запрещён — переключился на отдельные валидаторы по типам задач",
+            "YekaterinaAlex: страница 404 по макету, PR закрыт за сутки, merge-конфликты с develop",
+            "S-Arashu: координация задач по чекпойнту, режим ИИ в разработке, чистка техдолга"
           ],
           "concerns": []
         }
@@ -4359,6 +5153,11 @@
           {
             "week": "W4",
             "avgScore": 13.3,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -4385,10 +5184,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "YekaterinaAlex",
@@ -4412,10 +5216,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "oreopk",
@@ -4439,14 +5248,25 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -4457,6 +5277,12 @@
         {
           "id": "full-W2",
           "label": "Полный балл W2",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -4485,6 +5311,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -4552,6 +5382,18 @@
             "notdmitry: защита develop + 2 approve для main, дневники с эпиграфами Лавкрафта и Стейтема"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "anelka777: MeaningMatcher с dnd-kit, ~16 часов, кастомный хук + API + навигация по уровням",
+            "swetlanaAng: AsyncSorter, 15 часов, TSX 250+ строк, DnD между очередями",
+            "nginit: 404 с анимированным SpongeBob (@emotion/react keyframes), About-страница",
+            "notdmitry: Firebase + модели БД, cherry-pick для разрешения конфликта зависимостей"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -4574,6 +5416,11 @@
           {
             "week": "W4",
             "avgScore": 12.5,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -4600,10 +5447,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "ngInit",
@@ -4627,10 +5479,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "SwetlanaAng",
@@ -4654,10 +5511,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "anelka777",
@@ -4681,10 +5543,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -4705,6 +5572,12 @@
         {
           "id": "full-W2",
           "label": "Полный балл W2",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -4733,6 +5606,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -4798,6 +5675,18 @@
             "Стек: Vue 3 + TypeScript + Bun, Express + SQLite в планах"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "konfuzz: бэкенд с нуля — SQLite + Drizzle ORM, Express, JWT-авторизация, Zod-валидация",
+            "bariydev: монорепозиторий — раздельный CI, единый Husky, backend lint/typecheck стабилизирован",
+            "bariydev: Method Builder Widget — drag-n-drop, submit на /quiz/submit, VITE_API_URL",
+            "roguestone: записей за неделю нет"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -4820,6 +5709,11 @@
           {
             "week": "W4",
             "avgScore": 3.3,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 13.3,
             "maxScore": 20
           }
         ],
@@ -4846,10 +5740,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "roguestone",
@@ -4873,10 +5772,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 60,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "BariyDev",
@@ -4900,14 +5804,26 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "hero",
+          "headline": "Человек-оркестр, или Как собрать проект, команду и нервы в одном коммите",
+          "github": "konfuzz"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -4926,6 +5842,13 @@
           "label": "Полный балл W3",
           "icon": "★",
           "detail": "20/20"
+        },
+        {
+          "id": "hero-5",
+          "label": "Герой недели",
+          "icon": "🏆",
+          "issue": 5,
+          "detail": "Человек-оркестр, или Как собрать проект, команду и нервы в одном коммите"
         },
         {
           "id": "all-diaries",
@@ -4952,6 +5875,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -5019,6 +5946,18 @@
             "Проблема: структура с /app вызывает конфликты TypeScript и инструментов"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "bukt0r: 3 записи, NotFoundPage, ErrorMessage, RouteErrorFallback, прелоадер — полная обработка ошибок",
+            "bukt0r: отказ от сервера в пользу mock-данных, рефакторинг моделей (features → entities)",
+            "bukt0r: i18n, квиз-таймер (useCountdown), тёмная тема, рандомизация, избранное — 5 фич за день",
+            "tatyanakorlarina: 0 новых записей на этой неделе"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -5040,6 +5979,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 10,
             "maxScore": 20
           }
@@ -5067,10 +6011,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "tatyanakorlarina",
@@ -5094,10 +6043,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -5140,6 +6094,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "yellow"
         }
       ]
@@ -5207,6 +6165,18 @@
             "AI-инструменты в работе: Gemini для макетов, Deepseek для стилизации"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "sobselena: 6 записей, Zod-валидация + React Hook Form + Redux для полного цикла авторизации",
+            "CodeMind: React 19 + TypeScript + Vite, деплой на Netlify",
+            "PublicOnlyRoute + PrivateRoute + toast-уведомления — UX-детали уровня продакшена",
+            "Howlight: 0 записей в дневнике, активность не зафиксирована"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -5228,6 +6198,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 0,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 0,
             "maxScore": 20
           }
@@ -5255,10 +6230,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 0,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "howlight",
@@ -5282,10 +6262,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 0,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "sobselena",
@@ -5309,10 +6294,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 50,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -5345,6 +6335,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "yellow"
         }
       ]
@@ -5412,6 +6406,18 @@
             "Продукт: HTML Trainer с генерацией вопросов через LLM (Supabase Edge Functions)"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "Webis-2022: 33 часа — переписана игровая логика, кастомные модалки, сохранение результатов в Supabase",
+            "alekspanda: централизованная обработка ошибок (withApiErrorHandling, Error.cause), рефакторинг архитектуры запуска игры",
+            "urazof: реализован лендинг, ревью PR — 14 часов",
+            "Серверный баг: edge-функция не запрашивала LLM при смене уровня сложности без записи в БД"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -5433,7 +6439,12 @@
           },
           {
             "week": "W4",
-            "avgScore": 13.3,
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -5458,12 +6469,17 @@
               },
               {
                 "week": "W4",
-                "score": 10,
+                "score": 20,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
                 "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "alekspanda",
@@ -5487,10 +6503,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Urazof",
@@ -5512,16 +6533,28 @@
               },
               {
                 "week": "W4",
-                "score": 10,
+                "score": 20,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
                 "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "fail",
+          "headline": "Призрак ветки, или Почему macOS и Git видят мир по-разному",
+          "github": "alekspanda"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -5538,6 +6571,18 @@
         {
           "id": "full-W3",
           "label": "Полный балл W3",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W4",
+          "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -5566,6 +6611,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -5620,6 +6669,17 @@
             "Стек: TypeScript, Vite, SCSS, Vitest, Supabase, Kanban в GitHub Projects"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "thefoxtale: код из аэропорта, Supabase API-сервис с авторизацией, изучение State Machine для Memory Game",
+            "Pchyolan: подход «маленькими шагами», Widget Engine (Strategy Pattern, generics, discriminated unions)",
+            "Стек: TypeScript + Vite + SCSS + Vitest + Supabase, Kanban в GitHub Projects"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -5641,6 +6701,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 10,
             "maxScore": 20
           }
@@ -5668,10 +6733,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "pchyolan",
@@ -5695,10 +6765,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           }
         ]
       },
@@ -5743,6 +6818,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -5797,6 +6876,18 @@
             "CI/CD настроен, автоматический деплой ветки develop на gh-pages"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "ArtemovEgor: AI-интервьюер с кастомным парсером и лимитом итераций, VPS-деплой (DigitalOcean + Docker + GitHub Actions)",
+            "Al-E-xXx: перенос моков виджетов на реальный бэкенд (Node.js + SQLite), эндпоинты смены пароля и имени",
+            "EkaterynaVolkova: система прогресса с XP, библиотека тем с карточками и прогресс-барами, ~14 часов за неделю",
+            "ArtemovEgor уезжает в отпуск до дедлайна — оставил API-сервис и документацию для команды"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -5818,6 +6909,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -5845,10 +6941,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Al-E-xXx",
@@ -5872,10 +6973,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "ekaterynavolkova",
@@ -5899,14 +7005,25 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -5923,6 +7040,12 @@
         {
           "id": "full-W4",
           "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -5947,6 +7070,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -6002,6 +7129,17 @@
             "MVP зафиксирован: Start → Day 1 → вопрос → ответ → Done → Restart"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "isaluk: 9 часов, Global Loading Spinner, валидация с debounce, баг «ловушка F5»",
+            "OlgaMinaievaWebDev: Sign Out, ревью UX-состояний (404, loading, error), демо-видео на YouTube",
+            "AzizShik: 0 записей за неделю"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6023,6 +7161,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 6.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 6.7,
             "maxScore": 20
           }
@@ -6050,10 +7193,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 70,
+            "maxTotal": 100
           },
           {
             "github": "isaluk",
@@ -6077,10 +7225,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 50,
+            "maxTotal": 100
           },
           {
             "github": "AzizShik",
@@ -6104,10 +7257,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -6147,6 +7305,10 @@
         {
           "issue": 4,
           "status": "green"
+        },
+        {
+          "issue": 5,
+          "status": "yellow"
         }
       ]
     },
@@ -6201,6 +7363,17 @@
             "Команда из 2 человек — все условия выполнены, репозиторий публичный"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "thrapis: CodeMirror6 с автовыбором режима + система XP-прогрессии с уровнями, ~13 часов",
+            "afedziukovich: унификация стилей 7 страниц (login, register, profile, about, dashboard, categories, header), ~5 часов",
+            "Новое: приоритетный поиск задач, toast-уведомления, 404-редирект, видео чекпоинта"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6223,6 +7396,11 @@
           {
             "week": "W4",
             "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 10,
             "maxScore": 20
           }
         ],
@@ -6249,10 +7427,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 60,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "devenrgy",
@@ -6282,14 +7465,25 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -6325,6 +7519,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -6392,6 +7590,18 @@
             "Стек: React + Vite + TypeScript + Tailwind + Firebase, Widget Trainer для практики JS/TS"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "annaDzig: архитектурная дискуссия по структуре данных Firebase, переход с JSON-escaped на чистый Markdown, ~6-7 часов",
+            "sidoryakasergey: Firestore-профиль через uid + динамический роутинг топиков + MarkdownRenderer (react-markdown + syntax highlighter), ~8-12 часов",
+            "dzzuze: новые тесты для header, исправление scroll-бага, восстановление отображения Login/Register, ~5 часов",
+            "Все 3 участника активны, 7 записей за неделю"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6413,6 +7623,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -6440,10 +7655,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "SidoryakaSergey",
@@ -6467,10 +7687,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "AnnaDzig",
@@ -6494,10 +7719,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -6534,6 +7764,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "comeback-1",
           "label": "Камбэк",
           "icon": "↑",
@@ -6565,6 +7801,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -6618,6 +7858,17 @@
             "Деплой: smart-quiz-rsschool-auto-team-7.netlify.app"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "NataliItaly: 404-страница, History API навигация, CSS-лоадер, функция-медиатор для данных",
+            "katerynamoskalenko: идея антишпаргалки — блокировка ухода со страницы квиза",
+            "dariapusovskaya: фикс поиска пользователя (name → email-name), кастомные попапы вместо alert"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6640,6 +7891,11 @@
           {
             "week": "W4",
             "avgScore": 16.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -6666,10 +7922,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "NataliItaly",
@@ -6693,10 +7954,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "dariapusovskaya",
@@ -6720,10 +7986,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           }
         ]
       },
@@ -6759,6 +8030,12 @@
           "detail": "20/20"
         },
         {
+          "id": "full-W5",
+          "label": "Полный балл W5",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
           "id": "all-diaries",
           "label": "Все с дневниками",
           "icon": "📖"
@@ -6779,6 +8056,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -6846,6 +8127,18 @@
             "Nastya-Student: защита веток, Jira, Vercel CI/CD, Profile page в разработке"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "amelur: code ordering widget (sortablejs + strategy), интеграция Supabase с RLS-политиками и триггерами",
+            "Atikin132: Error Page с котиком-SVG, Loading State, начал Memory Game Widget — 9,5 ч за выходные",
+            "Nastya-Student: CI/CD workflows (production + preview), тесты достижений, ревью всех открытых PR",
+            "Ulya10: первый мерж в develop, генерация задач для виджетов, начала вёрстку нового виджета"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6867,6 +8160,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -6894,10 +8192,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "atikin132",
@@ -6921,10 +8224,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "Ulya10",
@@ -6948,10 +8256,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "amelur",
@@ -6975,14 +8288,25 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -6999,6 +8323,12 @@
         {
           "id": "full-W4",
           "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -7034,6 +8364,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -7089,6 +8423,30 @@
             "Orgris записал видео для Checkpoint 3"
           ],
           "concerns": []
+        },
+        {
+          "issue": 4,
+          "date": "2026-03-18",
+          "status": "green",
+          "highlights": [
+            "heyArtik-dev: localStorage вместо Firebase Storage (платный), пиксель-арт обработка аватарок",
+            "Orgris: 3 PR ревью, 7 комментариев — API-слой, именование компонентов, описания PR",
+            "Выбор Cloud Firestore вместо Realtime Database — приоритет выборки над real-time",
+            "Ch-alexandra: назначена на компонент вопросов, дневниковых записей пока нет"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "Orgris: Firebase Auth (Email, Google, GitHub), protected routes, Firestore-хук, 5 ч",
+            "heyArtik-dev: drag-and-drop кораблей — от ручной попытки через GPT к библиотеке dnd",
+            "Ch-alexandra: динамический base path (GitHub Pages / Vercel), квиз-модалка, идея AI-банка вопросов",
+            "Деплой на Vercel запущен, уровни в стиле Duolingo в проектировании"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -7101,6 +8459,11 @@
           {
             "week": "W4",
             "avgScore": 6.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 10,
             "maxScore": 20
           }
         ],
@@ -7117,10 +8480,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 30,
-            "maxTotal": 40
+            "total": 40,
+            "maxTotal": 60
           },
           {
             "github": "heyArtik-dev",
@@ -7134,10 +8502,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 10,
-            "maxTotal": 40
+            "total": 20,
+            "maxTotal": 60
           },
           {
             "github": "Ch-alexandra",
@@ -7151,15 +8524,26 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 0,
-            "maxTotal": 40
+            "total": 10,
+            "maxTotal": 60
           }
         ]
       },
       "sectionAppearances": [],
-      "achievements": [],
+      "achievements": [
+        {
+          "id": "all-diaries",
+          "label": "Все с дневниками",
+          "icon": "📖"
+        }
+      ],
       "statusTimeline": [
         {
           "issue": 0,
@@ -7175,6 +8559,14 @@
         },
         {
           "issue": 3,
+          "status": "green"
+        },
+        {
+          "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -7218,6 +8610,18 @@
             "Deploy: skillszen.netlify.app, стек React + Tailwind + Firebase"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "t-gladkaya: 5 записей, миграция с Docker на Firebase, объединение 3 страниц заданий в одну",
+            "anastan588: 4 записи, тестовое покрытие 60%, редактор JS-задач с прогоном тестов",
+            "chebupell: 2 записи, code review, тест для menu-страницы",
+            "forestdeerr: 0 записей за неделю"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -7240,6 +8644,11 @@
           {
             "week": "W4",
             "avgScore": 10,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 15,
             "maxScore": 20
           }
         ],
@@ -7266,10 +8675,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "Chebupell",
@@ -7293,10 +8707,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 20,
-            "maxTotal": 80
+            "total": 40,
+            "maxTotal": 100
           },
           {
             "github": "anastan588",
@@ -7320,10 +8739,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "ForestDeerr",
@@ -7347,10 +8771,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 0,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -7367,6 +8796,10 @@
         },
         {
           "issue": 4,
+          "status": "yellow"
+        },
+        {
+          "issue": 5,
           "status": "yellow"
         }
       ]
@@ -7435,6 +8868,17 @@
             "SergLestr: PR с архитектурой проекта и naming conventions, TailwindCSS, Welcome-страница"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "SergLestr: Firebase Authorization + react-toastify за 12 часов (2 дня)",
+            "Alcopatriarch: 4 дневника, 8 часов, 4 закрытых таска, включая Loading State с помощью AI",
+            "karinavd: страница 404 + карточка топика для дашборда, 5 часов"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -7457,6 +8901,11 @@
           {
             "week": "W4",
             "avgScore": 16.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -7483,10 +8932,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "serglestr",
@@ -7510,10 +8964,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 90,
+            "maxTotal": 100
           },
           {
             "github": "karinavd",
@@ -7537,10 +8996,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -7561,6 +9025,12 @@
         {
           "id": "full-W3",
           "label": "Полный балл W3",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -7596,6 +9066,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -7661,6 +9135,18 @@
             "4/4 участников перешли от планирования к написанию кода"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "yellow",
+          "highlights": [
+            "yegor000: 3 записи, 6 часов — «продолжил делать игру» ×3",
+            "Campidoc: 4 теста написаны и проверены, 2 часа",
+            "ayzana, dimitra86: 0 дневниковых записей за период",
+            "Деплой: campidoc.github.io/TetraSkill"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -7682,6 +9168,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 2.5,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 2.5,
             "maxScore": 20
           }
@@ -7709,10 +9200,15 @@
                 "week": "W4",
                 "score": 10,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 50,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "dimitra86",
@@ -7736,10 +9232,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 80
+            "maxTotal": 100
           },
           {
             "github": "Yegor000",
@@ -7763,10 +9264,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 10,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 50,
+            "maxTotal": 100
           },
           {
             "github": "ayzana",
@@ -7790,10 +9296,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
               }
             ],
             "total": 40,
-            "maxTotal": 80
+            "maxTotal": 100
           }
         ]
       },
@@ -7837,6 +9348,10 @@
         {
           "issue": 4,
           "status": "green"
+        },
+        {
+          "issue": 5,
+          "status": "yellow"
         }
       ]
     },
@@ -7903,6 +9418,17 @@
             "Деплой фронта на Vercel, стек: Next.js + React + Tailwind + .NET бэкенд"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "angelinavakkasova: детальное code review кодовой базы + ревью PR, рефакторинг ThemeProvider, страница настроек",
+            "annstarrysky: успешное интервью, расширение глоссария через ChatGPT, белые коты для тёмной темы",
+            "yuriyli: спиннер + 404 + custom error компонент в Next.js, ревью модуля авторизации с предложениями по безопасности"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -7925,6 +9451,11 @@
           {
             "week": "W4",
             "avgScore": 6.7,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -7951,10 +9482,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "Yuriyli",
@@ -7978,10 +9514,15 @@
                 "week": "W4",
                 "score": 0,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 40,
-            "maxTotal": 80
+            "total": 60,
+            "maxTotal": 100
           },
           {
             "github": "AngelinaVakkasova",
@@ -8005,10 +9546,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           }
         ]
       },
@@ -8023,6 +9569,12 @@
         {
           "id": "full-W2",
           "label": "Полный балл W2",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -8058,6 +9610,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -8125,6 +9681,18 @@
             "Все 3 участника активны, 16 записей в дневниках суммарно"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "GorodeN: 10 комментариев на PR #87 (Quiz), рефакторинг тестов Vitest → Jest, 5 PR смержены за день",
+            "Blshop: модуль Quiz — динамическая загрузка вопросов, прогресс-бар, блок объяснений",
+            "DmitryAstapenko: архитектура LearningPath — JSON-структура модулей, рефакторинг на ModuleItem + LessonItem",
+            "GorodeN начал backend на MongoDB, провёл аудит проекта по TEAMWORK.md"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -8146,6 +9714,11 @@
           },
           {
             "week": "W4",
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 20,
             "maxScore": 20
           }
@@ -8173,10 +9746,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 60,
-            "maxTotal": 80
+            "total": 80,
+            "maxTotal": 100
           },
           {
             "github": "DmitryAstapenko",
@@ -8200,10 +9778,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "GorodeN",
@@ -8227,10 +9810,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
@@ -8251,6 +9839,12 @@
         {
           "id": "full-W4",
           "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -8286,6 +9880,10 @@
         },
         {
           "issue": 4,
+          "status": "green"
+        },
+        {
+          "issue": 5,
           "status": "green"
         }
       ]
@@ -8351,6 +9949,18 @@
             "lertti: 3 кольцевых диаграммы на D3.js, паттерн Adapter, лоадер с верблюдом"
           ],
           "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "green",
+          "highlights": [
+            "lertti: Async Sorter — полная модель Event Loop с Drag & Drop, 4 зоны (Call Stack, Web API, Microtask/Macrotask Queue)",
+            "sabinabatrakova: кастомный роутер на history.pushState() + auth-система (protected routes, session restore), интервью 10/10",
+            "kupzov2000: 5 дней на подготовку к интервью, за 2 дня — UI результатов тестирования + сохранение",
+            "Husky + Vitest pre-commit hooks настроены, CI починен для Linux"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -8372,7 +9982,12 @@
           },
           {
             "week": "W4",
-            "avgScore": 16.7,
+            "avgScore": 20,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
+            "avgScore": 20,
             "maxScore": 20
           }
         ],
@@ -8397,12 +10012,17 @@
               },
               {
                 "week": "W4",
-                "score": 10,
+                "score": 20,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
                 "maxScore": 20
               }
             ],
-            "total": 70,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "lertti",
@@ -8426,10 +10046,15 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           },
           {
             "github": "kupzov2000",
@@ -8453,14 +10078,31 @@
                 "week": "W4",
                 "score": 20,
                 "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 20,
+                "maxScore": 20
               }
             ],
-            "total": 80,
-            "maxTotal": 80
+            "total": 100,
+            "maxTotal": 100
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 5,
+          "sectionType": "fail",
+          "headline": "Свод правил, которые никто не понял, или Как объяснить то, чего не понимаешь сам",
+          "github": "kupzov2000"
+        },
+        {
+          "issue": 5,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -8477,6 +10119,18 @@
         {
           "id": "full-W3",
           "label": "Полный балл W3",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W4",
+          "label": "Полный балл W4",
+          "icon": "★",
+          "detail": "20/20"
+        },
+        {
+          "id": "full-W5",
+          "label": "Полный балл W5",
           "icon": "★",
           "detail": "20/20"
         },
@@ -8513,17 +10167,61 @@
         {
           "issue": 4,
           "status": "green"
+        },
+        {
+          "issue": 5,
+          "status": "green"
         }
       ]
     },
     {
       "teamName": "Tandem Trauma Team",
       "repoFullName": "Azatyk/rs-school-tandem-trauma-team",
-      "diary": [],
+      "diary": [
+        {
+          "issue": 4,
+          "date": "2026-03-18",
+          "status": "red",
+          "highlights": [
+            "devenrgy: 1 запись за весь проект, стек Vite + React + Tailwind + HeroUI + TanStack Router + Biome + FSD",
+            "Batyrkhan-Sk: 0 записей в дневниках, 0 видимой активности",
+            "README отсутствует, team conditions не выполнены",
+            "Инициализация проекта заняла 3 часа — развития с тех пор нет"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 5,
+          "date": "2026-03-24",
+          "status": "red",
+          "highlights": [
+            "devenrgy: 1 запись за весь проект (W1), 0 новых записей",
+            "Batyrkhan-Sk: 0 записей, 0 видимой активности",
+            "README отсутствует, team conditions не выполнены",
+            "Стек поднят (Vite + React + Tailwind + FSD), но развития нет"
+          ],
+          "concerns": []
+        }
+      ],
       "scoreArc": {
         "team": [
           {
+            "week": "W1",
+            "avgScore": 0,
+            "maxScore": 20
+          },
+          {
+            "week": "W2",
+            "avgScore": 0,
+            "maxScore": 20
+          },
+          {
             "week": "W4",
+            "avgScore": 0,
+            "maxScore": 20
+          },
+          {
+            "week": "W5",
             "avgScore": 0,
             "maxScore": 20
           }
@@ -8531,27 +10229,57 @@
         "members": [
           {
             "github": "Batyrkhan-Sk",
-            "weeks": [],
-            "total": 0,
-            "maxTotal": 0
-          },
-          {
-            "github": "devenrgy",
             "weeks": [
               {
-                "week": "W4",
+                "week": "W5",
                 "score": 0,
                 "maxScore": 20
               }
             ],
             "total": 0,
             "maxTotal": 20
+          },
+          {
+            "github": "devenrgy",
+            "weeks": [
+              {
+                "week": "W1",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
+                "week": "W2",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
+                "week": "W4",
+                "score": 0,
+                "maxScore": 20
+              },
+              {
+                "week": "W5",
+                "score": 0,
+                "maxScore": 20
+              }
+            ],
+            "total": 0,
+            "maxTotal": 80
           }
         ]
       },
       "sectionAppearances": [],
       "achievements": [],
-      "statusTimeline": []
+      "statusTimeline": [
+        {
+          "issue": 4,
+          "status": "red"
+        },
+        {
+          "issue": 5,
+          "status": "red"
+        }
+      ]
     }
   ]
 }

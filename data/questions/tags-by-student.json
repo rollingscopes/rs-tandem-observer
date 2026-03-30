@@ -1,0 +1,1465 @@
+[
+  {
+    "github": "Alena1409",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "Firebase",
+      "Groq",
+      "NestJS",
+      "Netlify",
+      "OAuth",
+      "Taiga UI",
+      "TypeScript",
+      "i18n"
+    ]
+  },
+  {
+    "github": "AlexGorSer",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "ESLint",
+      "Firebase",
+      "JWT",
+      "NestJS",
+      "Netlify",
+      "OAuth",
+      "PostgreSQL",
+      "Prisma",
+      "Render",
+      "Supabase",
+      "TypeORM"
+    ]
+  },
+  {
+    "github": "kozochkina82",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "Taiga UI",
+      "TypeScript",
+      "i18n"
+    ]
+  },
+  {
+    "github": "Oksi2510",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "Netlify",
+      "Taiga UI",
+      "TypeScript",
+      "i18n"
+    ]
+  },
+  {
+    "github": "pavelkuvsh1noff",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "Netlify",
+      "Taiga UI",
+      "WebSocket",
+      "i18n"
+    ]
+  },
+  {
+    "github": "WhaleisaJoy",
+    "teamName": "ngKittyDebug",
+    "tags": [
+      "Angular",
+      "CI/CD",
+      "ESLint",
+      "Firebase",
+      "Husky",
+      "Netlify",
+      "RxJS",
+      "SCSS",
+      "Taiga UI",
+      "Tailwind",
+      "i18n"
+    ]
+  },
+  {
+    "github": "BerserkBat",
+    "teamName": "Typocalypse",
+    "tags": [
+      "React",
+      "Tailwind",
+      "Vite"
+    ]
+  },
+  {
+    "github": "JasonScriptLord",
+    "teamName": "Typocalypse",
+    "tags": [
+      "Husky",
+      "NestJS",
+      "React",
+      "Tailwind",
+      "Vite",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "romanplis",
+    "teamName": "Typocalypse",
+    "tags": [
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "yermekyerden",
+    "teamName": "Typocalypse",
+    "tags": [
+      "CI/CD",
+      "GitHub Actions",
+      "JWT",
+      "Jest",
+      "NestJS",
+      "Prisma",
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "YessetHumanMan",
+    "teamName": "Typocalypse",
+    "tags": [
+      "MobX",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "AlexeyDmt",
+    "teamName": "RainbowUnicorn",
+    "tags": [
+      "JWT",
+      "React",
+      "SCSS",
+      "TypeScript",
+      "Vitest",
+      "Zustand",
+      "i18n"
+    ]
+  },
+  {
+    "github": "Artem-WebDeveloper",
+    "teamName": "RainbowUnicorn",
+    "tags": [
+      "Material UI",
+      "React",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "exppx",
+    "teamName": "RainbowUnicorn",
+    "tags": [
+      "GitHub Actions",
+      "Groq",
+      "Material UI",
+      "Node.js",
+      "React",
+      "Redux",
+      "Render",
+      "TypeScript",
+      "Vite",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "Igel-k",
+    "teamName": "RainbowUnicorn",
+    "tags": [
+      "JWT",
+      "Material UI",
+      "PostgreSQL",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "mightyprinces",
+    "teamName": "RainbowUnicorn",
+    "tags": [
+      "React",
+      "Render",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "27moon",
+    "teamName": "RSSAgents",
+    "tags": [
+      "TypeScript",
+      "i18n"
+    ]
+  },
+  {
+    "github": "D15ND",
+    "teamName": "RSSAgents",
+    "tags": [
+      "Cypress",
+      "ESLint",
+      "Husky",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Vercel",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Fayzullo05",
+    "teamName": "RSSAgents",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "React"
+    ]
+  },
+  {
+    "github": "oneilcode",
+    "teamName": "RSSAgents",
+    "tags": []
+  },
+  {
+    "github": "solarsungai",
+    "teamName": "RSSAgents",
+    "tags": [
+      "CI/CD",
+      "Canvas",
+      "Groq",
+      "Husky",
+      "PostgreSQL",
+      "React",
+      "Supabase",
+      "Vercel",
+      "i18n"
+    ]
+  },
+  {
+    "github": "bssier",
+    "teamName": "Legendary frontend developers",
+    "tags": [
+      "JWT",
+      "React"
+    ]
+  },
+  {
+    "github": "MegaRostBLR1",
+    "teamName": "Legendary frontend developers",
+    "tags": []
+  },
+  {
+    "github": "Morevna",
+    "teamName": "Legendary frontend developers",
+    "tags": [
+      "JWT",
+      "Material UI",
+      "Node.js",
+      "React",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Rorodeathless1",
+    "teamName": "Legendary frontend developers",
+    "tags": [
+      "Material UI"
+    ]
+  },
+  {
+    "github": "artkoro94",
+    "teamName": "Team42",
+    "tags": [
+      "ESLint",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "kanoplich",
+    "teamName": "Team42",
+    "tags": [
+      "Docker",
+      "ESLint",
+      "Husky",
+      "Material UI",
+      "OAuth",
+      "PostgreSQL",
+      "React",
+      "Supabase",
+      "Tailwind",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "rockabil",
+    "teamName": "Team42",
+    "tags": [
+      "Supabase",
+      "Tailwind",
+      "i18n"
+    ]
+  },
+  {
+    "github": "sevasmith",
+    "teamName": "Team42",
+    "tags": [
+      "Docker",
+      "Groq",
+      "JWT",
+      "Supabase",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "sunyuna00",
+    "teamName": "Team42",
+    "tags": [
+      "CSS Modules",
+      "GitHub Actions",
+      "OAuth",
+      "React",
+      "Tailwind"
+    ]
+  },
+  {
+    "github": "vadim-troian",
+    "teamName": "Team42",
+    "tags": [
+      "React",
+      "Supabase",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "dromari",
+    "teamName": "Джунгли зовут!",
+    "tags": [
+      "Jest",
+      "React",
+      "Supabase",
+      "Vitest",
+      "i18n"
+    ]
+  },
+  {
+    "github": "karpovdmitriy",
+    "teamName": "Джунгли зовут!",
+    "tags": [
+      "ESLint",
+      "Firebase",
+      "PostgreSQL",
+      "React",
+      "Supabase",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "rika-milew",
+    "teamName": "GrowLab",
+    "tags": [
+      "Husky",
+      "React",
+      "TypeScript",
+      "Vercel",
+      "Vite",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "viktorElenich",
+    "teamName": "GrowLab",
+    "tags": [
+      "ESLint",
+      "Express",
+      "Groq",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "coicoin",
+    "teamName": "Strict Mode",
+    "tags": [
+      "React",
+      "Redux",
+      "Render",
+      "SCSS",
+      "Supabase",
+      "Vite"
+    ]
+  },
+  {
+    "github": "dilmun1101",
+    "teamName": "Strict Mode",
+    "tags": [
+      "ESLint",
+      "Firebase",
+      "Supabase",
+      "Vite"
+    ]
+  },
+  {
+    "github": "FierceSloth",
+    "teamName": "Strict Mode",
+    "tags": [
+      "Firebase",
+      "Husky",
+      "Render",
+      "SCSS",
+      "Supabase",
+      "TypeScript",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "aliakseidrob",
+    "teamName": "Дрим Тим",
+    "tags": [
+      "Angular",
+      "RxJS",
+      "Supabase"
+    ]
+  },
+  {
+    "github": "anatolirub",
+    "teamName": "Дрим Тим",
+    "tags": [
+      "Angular",
+      "Docker",
+      "Firebase",
+      "MongoDB",
+      "PostgreSQL",
+      "Supabase",
+      "Vercel"
+    ]
+  },
+  {
+    "github": "mark-pribylnov",
+    "teamName": "Дрим Тим",
+    "tags": [
+      "Angular",
+      "CI/CD",
+      "Docker",
+      "Firebase",
+      "GitHub Actions",
+      "Netlify",
+      "Node.js",
+      "Render",
+      "RxJS",
+      "Supabase",
+      "TypeScript",
+      "Vercel"
+    ]
+  },
+  {
+    "github": "shoblinsky",
+    "teamName": "Дрим Тим",
+    "tags": [
+      "i18n"
+    ]
+  },
+  {
+    "github": "Zhdko",
+    "teamName": "Дрим Тим",
+    "tags": [
+      "Angular",
+      "ESLint",
+      "RxJS",
+      "SCSS",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "dukhd",
+    "teamName": "JSGods",
+    "tags": [
+      "Angular",
+      "ESLint",
+      "Husky",
+      "NestJS",
+      "SCSS",
+      "TypeScript",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "elrouss",
+    "teamName": "JSGods",
+    "tags": [
+      "Angular",
+      "Ant Design",
+      "Express",
+      "React",
+      "SCSS",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "mikhalenkadaniil",
+    "teamName": "JSGods",
+    "tags": [
+      "Angular",
+      "ESLint",
+      "NestJS",
+      "WebSocket"
+    ]
+  },
+  {
+    "github": "nck1969",
+    "teamName": "JSGods",
+    "tags": [
+      "Angular",
+      "CI/CD",
+      "Playwright"
+    ]
+  },
+  {
+    "github": "anastasiashlyk",
+    "teamName": "Алекс и его друзья",
+    "tags": [
+      "ESLint",
+      "NestJS",
+      "PostgreSQL",
+      "Prisma",
+      "React",
+      "Vitest",
+      "WebSocket"
+    ]
+  },
+  {
+    "github": "imagineapril",
+    "teamName": "Алекс и его друзья",
+    "tags": [
+      "CSS Modules",
+      "Canvas",
+      "JWT",
+      "PostgreSQL",
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "nasteew",
+    "teamName": "Алекс и его друзья",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "GitHub Actions",
+      "JWT",
+      "NestJS",
+      "Prisma",
+      "React",
+      "Supabase",
+      "Vercel",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "cat5671",
+    "teamName": "VueJS Tandem",
+    "tags": []
+  },
+  {
+    "github": "kirrbrest",
+    "teamName": "VueJS Tandem",
+    "tags": [
+      "Docker",
+      "ESLint",
+      "Husky",
+      "Netlify",
+      "PostgreSQL",
+      "React",
+      "Vitest",
+      "Vue"
+    ]
+  },
+  {
+    "github": "maksimdolgonosov",
+    "teamName": "VueJS Tandem",
+    "tags": [
+      "Groq",
+      "Pinia",
+      "React",
+      "Vue"
+    ]
+  },
+  {
+    "github": "obemgcabazn",
+    "teamName": "VueJS Tandem",
+    "tags": [
+      "Docker",
+      "JWT",
+      "Netlify",
+      "Pinia",
+      "Supabase",
+      "Vue"
+    ]
+  },
+  {
+    "github": "hamsterk",
+    "teamName": "Tuple Trouble",
+    "tags": [
+      "Canvas",
+      "Jest",
+      "Next.js",
+      "React",
+      "Redux",
+      "Render",
+      "Tailwind",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "mero93",
+    "teamName": "Tuple Trouble",
+    "tags": [
+      "Angular",
+      "Next.js",
+      "Supabase",
+      "Zustand",
+      "i18n"
+    ]
+  },
+  {
+    "github": "tosigaeva",
+    "teamName": "Tuple Trouble",
+    "tags": [
+      "ESLint",
+      "GitHub Actions",
+      "Husky",
+      "Next.js",
+      "React",
+      "Render",
+      "Tailwind",
+      "TypeScript",
+      "Vercel"
+    ]
+  },
+  {
+    "github": "Bulbashok",
+    "teamName": "asyncmind",
+    "tags": [
+      "Firebase",
+      "React",
+      "SCSS",
+      "Vercel",
+      "Vite",
+      "i18n"
+    ]
+  },
+  {
+    "github": "JesterAV",
+    "teamName": "asyncmind",
+    "tags": [
+      "Firebase",
+      "React",
+      "Vercel",
+      "Vite",
+      "i18n"
+    ]
+  },
+  {
+    "github": "NickKool",
+    "teamName": "asyncmind",
+    "tags": [
+      "ESLint",
+      "Firebase",
+      "Husky",
+      "Material UI",
+      "React",
+      "Vercel",
+      "Vite",
+      "i18n"
+    ]
+  },
+  {
+    "github": "mvavilin",
+    "teamName": "Nova",
+    "tags": [
+      "ESLint",
+      "Render",
+      "Tailwind",
+      "TypeScript",
+      "Vercel",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Peccopa",
+    "teamName": "Nova",
+    "tags": [
+      "Husky",
+      "Redux",
+      "Render",
+      "Tailwind",
+      "Vitest",
+      "i18n"
+    ]
+  },
+  {
+    "github": "sergey-ado",
+    "teamName": "Nova",
+    "tags": [
+      "Docker",
+      "Express",
+      "JWT",
+      "Jest",
+      "NestJS",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "Render",
+      "TypeScript",
+      "Vitest",
+      "WebSocket"
+    ]
+  },
+  {
+    "github": "Walle908",
+    "teamName": "Nova",
+    "tags": [
+      "ESLint",
+      "JWT",
+      "Tailwind"
+    ]
+  },
+  {
+    "github": "Andrey-Yurchuk",
+    "teamName": "DevCraft",
+    "tags": [
+      "Docker",
+      "ESLint",
+      "Express",
+      "GitHub Actions",
+      "Groq",
+      "Husky",
+      "JWT",
+      "Jest",
+      "NestJS",
+      "Node.js",
+      "OpenAI API",
+      "PostgreSQL",
+      "Prisma",
+      "Redux",
+      "SCSS",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "Khabib1802",
+    "teamName": "DevCraft",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "React",
+      "Redux"
+    ]
+  },
+  {
+    "github": "Maria2721",
+    "teamName": "DevCraft",
+    "tags": [
+      "GitHub Actions",
+      "Netlify",
+      "React"
+    ]
+  },
+  {
+    "github": "oreopk",
+    "teamName": "Outstanding Alex And Smeshariki",
+    "tags": [
+      "Express",
+      "Node.js"
+    ]
+  },
+  {
+    "github": "S-Arashu",
+    "teamName": "Outstanding Alex And Smeshariki",
+    "tags": [
+      "Firebase",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "YekaterinaAlex",
+    "teamName": "Outstanding Alex And Smeshariki",
+    "tags": [
+      "Render"
+    ]
+  },
+  {
+    "github": "anelka777",
+    "teamName": "Gang of Four",
+    "tags": [
+      "Firebase",
+      "Material UI",
+      "React"
+    ]
+  },
+  {
+    "github": "nginit",
+    "teamName": "Gang of Four",
+    "tags": [
+      "Angular",
+      "CI/CD",
+      "ESLint",
+      "Firebase",
+      "Material UI",
+      "React",
+      "SCSS",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "notdmitry",
+    "teamName": "Gang of Four",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "Firebase",
+      "GitHub Actions",
+      "Material UI",
+      "Netlify",
+      "React",
+      "TypeScript",
+      "Vercel",
+      "Vite"
+    ]
+  },
+  {
+    "github": "swetlanaang",
+    "teamName": "Gang of Four",
+    "tags": [
+      "Material UI",
+      "React",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "bariydev",
+    "teamName": "Devtones",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "Tailwind",
+      "TypeScript",
+      "Vue"
+    ]
+  },
+  {
+    "github": "konfuzz",
+    "teamName": "Devtones",
+    "tags": [
+      "Canvas",
+      "Express",
+      "Husky",
+      "JWT",
+      "OpenAI API",
+      "Pinia",
+      "Vue"
+    ]
+  },
+  {
+    "github": "roguestone",
+    "teamName": "Devtones",
+    "tags": [
+      "Canvas",
+      "React",
+      "Tailwind",
+      "Vue"
+    ]
+  },
+  {
+    "github": "bukt0r",
+    "teamName": "404 Skill Not Found",
+    "tags": [
+      "CSS Modules",
+      "ESLint",
+      "Husky",
+      "Prisma",
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Vite",
+      "WebSocket",
+      "i18n"
+    ]
+  },
+  {
+    "github": "tatyanakorlarina",
+    "teamName": "404 Skill Not Found",
+    "tags": [
+      "ESLint",
+      "React",
+      "Tailwind",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "sobselena",
+    "teamName": "OrangeCats",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "Husky",
+      "Netlify",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "alekspanda",
+    "teamName": "DevBand",
+    "tags": [
+      "GitHub Actions",
+      "SCSS",
+      "Supabase",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "urazof",
+    "teamName": "DevBand",
+    "tags": [
+      "Supabase"
+    ]
+  },
+  {
+    "github": "Webis-2022",
+    "teamName": "DevBand",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "Supabase",
+      "TypeScript",
+      "Vite",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "Pchyolan",
+    "teamName": "JustBuildIt",
+    "tags": [
+      "Netlify"
+    ]
+  },
+  {
+    "github": "thefoxtale",
+    "teamName": "JustBuildIt",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "JWT",
+      "Netlify",
+      "SCSS",
+      "Supabase",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "Al-E-xXx",
+    "teamName": "Auto-Team 3",
+    "tags": [
+      "ESLint",
+      "Node.js",
+      "PostgreSQL",
+      "SCSS",
+      "Vite"
+    ]
+  },
+  {
+    "github": "ArtemovEgor",
+    "teamName": "Auto-Team 3",
+    "tags": [
+      "CI/CD",
+      "Docker",
+      "GitHub Actions",
+      "Groq",
+      "Node.js",
+      "Vite"
+    ]
+  },
+  {
+    "github": "EkaterynaVolkova",
+    "teamName": "Auto-Team 3",
+    "tags": [
+      "Express"
+    ]
+  },
+  {
+    "github": "AzizShik",
+    "teamName": "Auto-Team 4",
+    "tags": [
+      "React",
+      "SCSS",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "isaluk",
+    "teamName": "Auto-Team 4",
+    "tags": [
+      "Render",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "OlgaMinaievaWebDev",
+    "teamName": "Auto-Team 4",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "GitHub Actions",
+      "SCSS",
+      "Supabase",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "afedziukovich",
+    "teamName": "Auto-Team 5",
+    "tags": [
+      "Angular",
+      "ESLint",
+      "Husky",
+      "Nuxt",
+      "Pinia",
+      "React",
+      "Supabase",
+      "Tailwind",
+      "TypeScript",
+      "Vercel",
+      "Vite",
+      "Vitest",
+      "Vue"
+    ]
+  },
+  {
+    "github": "Thrapis",
+    "teamName": "Auto-Team 5",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "GitHub Actions",
+      "Groq",
+      "Nuxt",
+      "Pinia",
+      "Supabase",
+      "Tailwind",
+      "Vercel",
+      "Vite",
+      "Vue"
+    ]
+  },
+  {
+    "github": "annaDzig",
+    "teamName": "SAA Cat",
+    "tags": [
+      "Firebase",
+      "React",
+      "Render",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "dzzuze",
+    "teamName": "SAA Cat",
+    "tags": [
+      "GitHub Actions",
+      "React",
+      "Tailwind"
+    ]
+  },
+  {
+    "github": "sidoryakasergey",
+    "teamName": "SAA Cat",
+    "tags": [
+      "ESLint",
+      "Firebase",
+      "Husky",
+      "React",
+      "Supabase",
+      "Vite",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "dariapusovskaya",
+    "teamName": "Auto-Team 7",
+    "tags": [
+      "Vitest"
+    ]
+  },
+  {
+    "github": "katerynamoskalenko",
+    "teamName": "Auto-Team 7",
+    "tags": [
+      "ESLint",
+      "Groq",
+      "Netlify",
+      "Render",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "NataliItaly",
+    "teamName": "Auto-Team 7",
+    "tags": [
+      "ESLint",
+      "GitHub Actions",
+      "Groq",
+      "Husky",
+      "Netlify",
+      "Render",
+      "SCSS",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "amelur",
+    "teamName": "Т-8",
+    "tags": [
+      "ESLint",
+      "Firebase",
+      "Supabase",
+      "TypeScript"
+    ]
+  },
+  {
+    "github": "Atikin132",
+    "teamName": "Т-8",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "Render",
+      "TypeScript",
+      "Vite",
+      "Webpack"
+    ]
+  },
+  {
+    "github": "Nastya-Student",
+    "teamName": "Т-8",
+    "tags": [
+      "CI/CD",
+      "Node.js",
+      "Supabase",
+      "TypeScript",
+      "Vercel",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Ulya10",
+    "teamName": "Т-8",
+    "tags": [
+      "ESLint",
+      "Supabase",
+      "Vite",
+      "Webpack"
+    ]
+  },
+  {
+    "github": "Ch-alexandra",
+    "teamName": "Auto-Team 9",
+    "tags": [
+      "Firebase",
+      "Husky",
+      "React",
+      "Vercel",
+      "Vite"
+    ]
+  },
+  {
+    "github": "heyArtik-dev",
+    "teamName": "Auto-Team 9",
+    "tags": [
+      "CSS Modules",
+      "Firebase",
+      "React",
+      "Tailwind"
+    ]
+  },
+  {
+    "github": "Orgris",
+    "teamName": "Auto-Team 9",
+    "tags": [
+      "CI/CD",
+      "Firebase",
+      "OAuth",
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "anastan588",
+    "teamName": "SkillsZen team",
+    "tags": [
+      "Firebase",
+      "React"
+    ]
+  },
+  {
+    "github": "chebupell",
+    "teamName": "SkillsZen team",
+    "tags": [
+      "React"
+    ]
+  },
+  {
+    "github": "forestdeerr",
+    "teamName": "SkillsZen team",
+    "tags": []
+  },
+  {
+    "github": "t-gladkaya",
+    "teamName": "SkillsZen team",
+    "tags": [
+      "Firebase",
+      "Husky",
+      "Netlify",
+      "React",
+      "Render",
+      "Tailwind",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Alcopatriarch",
+    "teamName": "Unexpected Case",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "Husky",
+      "Netlify",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Vite"
+    ]
+  },
+  {
+    "github": "karinavd",
+    "teamName": "Unexpected Case",
+    "tags": [
+      "React",
+      "Render",
+      "Vitest",
+      "Zustand"
+    ]
+  },
+  {
+    "github": "SergLestr",
+    "teamName": "Unexpected Case",
+    "tags": [
+      "CI/CD",
+      "Firebase",
+      "React",
+      "SCSS",
+      "Tailwind",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "ayzana",
+    "teamName": "TetraTeam",
+    "tags": []
+  },
+  {
+    "github": "Campidoc",
+    "teamName": "TetraTeam",
+    "tags": [
+      "ESLint",
+      "Webpack"
+    ]
+  },
+  {
+    "github": "dimitra86",
+    "teamName": "TetraTeam",
+    "tags": []
+  },
+  {
+    "github": "yegor000",
+    "teamName": "TetraTeam",
+    "tags": []
+  },
+  {
+    "github": "angelinavakkasova",
+    "teamName": "111 Blind Kittens",
+    "tags": [
+      "JWT",
+      "Next.js",
+      "OAuth",
+      "React",
+      "Vite",
+      "Vitest",
+      "i18n"
+    ]
+  },
+  {
+    "github": "annstarrysky",
+    "teamName": "111 Blind Kittens",
+    "tags": [
+      "Ant Design",
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vite",
+      "Vue"
+    ]
+  },
+  {
+    "github": "yuriyli",
+    "teamName": "111 Blind Kittens",
+    "tags": [
+      "Docker",
+      "ESLint",
+      "Husky",
+      "Next.js",
+      "Node.js",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Vite",
+      "Vue"
+    ]
+  },
+  {
+    "github": "Blshop",
+    "teamName": "CodePain",
+    "tags": [
+      "ESLint",
+      "Groq",
+      "Husky",
+      "React",
+      "TypeScript",
+      "Vite"
+    ]
+  },
+  {
+    "github": "DmitryAstapenko",
+    "teamName": "CodePain",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "React",
+      "SCSS",
+      "Vite"
+    ]
+  },
+  {
+    "github": "GorodeN",
+    "teamName": "CodePain",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "JWT",
+      "Jest",
+      "MobX",
+      "MongoDB",
+      "React",
+      "SCSS",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "kupzov2000",
+    "teamName": "Dev Journey",
+    "tags": [
+      "ESLint",
+      "Husky",
+      "React",
+      "Supabase",
+      "Vite",
+      "Vitest",
+      "Vue"
+    ]
+  },
+  {
+    "github": "lertti",
+    "teamName": "Dev Journey",
+    "tags": [
+      "CI/CD",
+      "ESLint",
+      "Express",
+      "GitHub Actions",
+      "Husky",
+      "Jest",
+      "MongoDB",
+      "NestJS",
+      "Netlify",
+      "Node.js",
+      "Redux",
+      "Vitest",
+      "Zustand",
+      "i18n"
+    ]
+  },
+  {
+    "github": "sabinabatrakova",
+    "teamName": "Dev Journey",
+    "tags": [
+      "CI/CD",
+      "Husky",
+      "Netlify",
+      "Supabase",
+      "TypeScript",
+      "Vite",
+      "Vitest"
+    ]
+  },
+  {
+    "github": "Batyrkhan-Sk",
+    "teamName": "Tandem Trauma Team",
+    "tags": []
+  },
+  {
+    "github": "devenrgy",
+    "teamName": "Tandem Trauma Team",
+    "tags": [
+      "Tailwind",
+      "Vite"
+    ]
+  }
+]

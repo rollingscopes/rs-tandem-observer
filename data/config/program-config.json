@@ -60,6 +60,72 @@
         { "id": "diaryW5", "type": "diary", "scope": "member", "points": 10, "params": { "minEntries": 2, "afterDate": "2026-03-16" } },
         { "id": "readmeVideo", "type": "readme-video", "scope": "team", "points": 10 }
       ]
+    },
+    {
+      "id": "w6",
+      "label": "Week 6: Final Diary Grade",
+      "startDate": "2026-03-23",
+      "rules": [
+        {
+          "id": "diaryGate",
+          "type": "diary",
+          "scope": "member",
+          "points": 0,
+          "params": { "minEntries": 2, "afterDate": "2026-03-23" },
+          "description": "Gate: ≥2 entries after Mar 23. No points, but required for grading."
+        }
+      ],
+      "grading": {
+        "maxPoints": 100,
+        "components": [
+          {
+            "id": "regularity",
+            "label": "Регулярность",
+            "maxPoints": 20,
+            "source": "deterministic",
+            "description": "Consistency of writing across all 6 weeks. Penalizes cramming.",
+            "params": {
+              "weeksExpected": 6,
+              "minWeeksForMax": 5
+            }
+          },
+          {
+            "id": "volume",
+            "label": "Объём",
+            "maxPoints": 10,
+            "source": "deterministic",
+            "description": "Total meaningful content. Not rewarding length for its own sake — penalizing empty/one-liner entries.",
+            "params": {
+              "minAvgCharsForMax": 500,
+              "minTotalEntries": 6
+            }
+          },
+          {
+            "id": "noticeability",
+            "label": "Заметность Tandi",
+            "maxPoints": 20,
+            "source": "scan-data",
+            "description": "How often Tandi noticed this student across issues. Based on scan tag scores ≥ 0.7.",
+            "params": {
+              "scoreThreshold": 0.7,
+              "issueRange": [2, 6]
+            }
+          },
+          {
+            "id": "reflection",
+            "label": "Глубина рефлексии",
+            "maxPoints": 50,
+            "source": "llm",
+            "description": "Quality of self-analysis: comparing approaches, describing decisions and trade-offs, honest about failures, visible growth. Graded by LLM on smart context (first+last entry + scan summary).",
+            "rubric": {
+              "0-10": "Формальный: 'сделал X, потом Y'. Нет анализа.",
+              "11-25": "Описательный: есть детали, но нет 'почему'. Пересказ действий.",
+              "26-40": "Аналитический: описывает проблемы и решения, видны решения и альтернативы.",
+              "41-50": "Рефлексивный: сравнивает подходы, честен про ошибки, видно как менялось мышление."
+            }
+          }
+        ]
+      }
     }
   ]
 }

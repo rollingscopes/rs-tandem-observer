@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как становятся инженерами · RS Tandem 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #f7f1e8;
+  --bg-warm: #efe8dc;
+  --bg-dark: #1a1410;
+  --text: #1a1410;
+  --text-light: #5c4f43;
+  --text-faint: #8a7d70;
+  --accent: #7a1830;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+body { overflow-x: hidden; }
+
+/* Progress */
+.progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); width: 0%; z-index: 100; transition: width .15s ease-out; }
+
+/* Reveal */
+.r { opacity: 0; transform: translateY(20px); transition: opacity .9s ease-out, transform .9s ease-out; }
+.r.v { opacity: 1; transform: translateY(0); }
+.r.d1 { transition-delay: .15s; }
+.r.d2 { transition-delay: .3s; }
+.r.d3 { transition-delay: .45s; }
+.r-slow { opacity: 0; transition: opacity 2.5s ease-out; }
+.r-slow.v { opacity: 1; }
+
+/* Layout */
+.page { max-width: 640px; margin: 0 auto; padding: 0 28px; }
+
+/* === HERO === */
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; text-align: center;
+  padding: 80px 28px; position: relative;
+  background: var(--bg-dark); overflow: hidden;
+}
+.hero::before, .hero::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.hero::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.hero::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+
+.huang-quote {
+  font-family: var(--sans); font-size: 17px; line-height: 1.9;
+  color: rgba(255,255,255,.75); max-width: 440px; margin-bottom: 48px;
+}
+.huang-cite {
+  font-size: 12px; color: rgba(255,255,255,.35); margin-top: 12px;
+}
+.huang-cite a { color: rgba(255,255,255,.35); }
+
+.hero-numbers {
+  font-family: var(--serif); font-size: 22px;
+  color: rgba(255,255,255,.6); font-style: italic; line-height: 1.7;
+  margin-bottom: 12px;
+}
+.hero-intro {
+  font-size: 16px; color: rgba(255,255,255,.45); line-height: 1.8;
+  max-width: 420px;
+}
+.hero-last {
+  margin-top: 24px; font-family: var(--serif);
+  font-size: 24px; font-style: italic; color: rgba(255,255,255,.85);
+}
+
+.scroll-hint {
+  margin-top: 64px; font-size: 11px; color: rgba(255,255,255,.25);
+  letter-spacing: .2em; text-transform: uppercase;
+  animation: pulse 2.5s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity:.3 } 50% { opacity:.8 } }
+
+/* === Section divider (full-width dark curtain) === */
+.section-divider {
+  background: var(--bg-dark);
+  margin: 64px calc(-50vw + 50%) 48px;
+  width: 100vw;
+  padding: 64px 32px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.section-divider::before, .section-divider::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.section-divider::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.section-divider::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+.section-epigraph {
+  font-family: var(--sans); font-size: 15px; font-style: italic;
+  color: rgba(255,255,255,.5); letter-spacing: .03em;
+  max-width: 420px; margin: 0 auto; line-height: 1.8;
+}
+
+/* === Voice === */
+.voice { margin-bottom: 48px; }
+.voice-text {
+  font-family: var(--serif); font-size: 20px; font-style: italic;
+  color: var(--text); line-height: 1.65;
+  padding-left: 20px; border-left: 2px solid rgba(122,24,48,.15);
+}
+.voice-cite {
+  font-family: var(--sans); font-size: 13px; color: var(--text-faint);
+  margin-top: 10px; padding-left: 20px;
+}
+.voice-context {
+  font-size: 13px; color: var(--text-faint); font-style: italic;
+  margin-top: 8px; padding-left: 20px; line-height: 1.7;
+}
+
+/* Dot separator */
+.dot {
+  text-align: center; color: var(--text-faint);
+  font-size: 14px; margin: 32px 0; opacity: .4;
+}
+
+/* === Arc (before/after pair) === */
+.arc-label {
+  font-family: var(--sans); font-size: 11px; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .1em;
+  padding-left: 20px; margin-bottom: 8px;
+}
+
+/* === Climax === */
+.climax {
+  min-height: 80vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 80px 28px;
+}
+.climax-text {
+  font-family: var(--serif); font-size: clamp(24px, 4.5vw, 36px);
+  font-style: italic; color: var(--accent); line-height: 1.45;
+  max-width: 480px; position: relative;
+}
+.climax-text::before {
+  content: '\00AB'; position: absolute; top: -16px; left: -24px;
+  font-size: 72px; color: rgba(122,24,48,.08); font-style: normal;
+}
+.climax-cite {
+  font-family: var(--sans); font-size: 13px; color: var(--text-faint);
+  margin-top: 20px;
+}
+
+/* === Mosaic === */
+.mosaic-section { padding: 64px 0; text-align: center; }
+.mosaic {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 8px; max-width: 560px; margin: 0 auto 20px;
+}
+.mosaic img {
+  width: 40px; height: 40px; border-radius: 50%; object-fit: cover;
+  opacity: .85; transition: opacity .3s, transform .3s;
+  background: var(--bg-warm);
+}
+.mosaic img:hover { opacity: 1; transform: scale(1.2); }
+.mosaic-caption {
+  font-size: 13px; color: var(--text-faint); margin-top: 16px;
+}
+
+/* === Closing === */
+.closing {
+  min-height: 80vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 80px 28px;
+  background: var(--bg-dark); position: relative; overflow: hidden;
+}
+.closing::before, .closing::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.closing::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.closing::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+.closing-huang {
+  font-family: var(--sans); font-size: 15px; line-height: 2;
+  color: rgba(255,255,255,.55); max-width: 380px;
+}
+.closing-punchline {
+  font-family: var(--serif); font-size: clamp(24px, 5vw, 36px);
+  font-weight: 600; color: rgba(255,255,255,.85); margin-top: 48px;
+}
+
+/* === Footer === */
+.footer {
+  text-align: center; padding: 40px 28px 80px;
+  font-size: 13px; color: rgba(255,255,255,.25);
+  background: var(--bg-dark);
+}
+.footer a { color: rgba(255,255,255,.25); text-decoration: none; margin: 0 8px; }
+.footer a:hover { color: rgba(255,255,255,.5); }
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  .voice-text { font-size: 18px; padding-left: 16px; }
+  .hero::before, .hero::after { width: 40px; }
+  .climax-text::before { font-size: 48px; left: -12px; }
+  .mosaic img { width: 36px; height: 36px; }
+}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- ===== HERO ===== -->
+<!-- ===== COVER ===== -->
+<section class="hero" style="min-height: 100vh;">
+  <div class="r" style="font-family: var(--serif); font-size: clamp(40px, 9vw, 72px); font-weight: 300; color: rgba(255,255,255,.8); line-height: 1.15; letter-spacing: -1px; text-align: center;">
+    Как становятся<br>инженерами
+  </div>
+  <div class="r d1" style="font-family: var(--serif); font-size: 18px; font-style: italic; color: rgba(255,255,255,.35); margin-top: 24px;">
+    RS Tandem · 2026
+  </div>
+  <div class="scroll-hint r d2">↓ scroll</div>
+</section>
+
+<!-- ===== HUANG ===== -->
+<section class="hero" style="min-height: auto; padding: 100px 28px;">
+  <div class="huang-prequel r" style="font-size: 15px; color: rgba(255,255,255,.5); max-width: 460px; margin-bottom: 36px; line-height: 1.85;">
+    Если вы когда-нибудь играли в компьютерные игры — скорее всего, на видеокарте NVIDIA. В 1999 году они изобрели GPU. Потом сделали CUDA — и&nbsp;их чипы стали считать не только графику, но и&nbsp;нейросети. Сегодня на&nbsp;GPU&nbsp;NVIDIA обучается ChatGPT и&nbsp;почти весь современный ИИ. Сейчас это самая дорогая компания в&nbsp;мире &mdash; больше 4&nbsp;триллионов долларов.<br><br>
+    В марте 2026 сооснователь и CEO компании Jensen Huang дал <a href="https://www.youtube.com/watch?v=vif8NQcjVf0&t" target="_blank" rel="noopener noreferrer" style="color: rgba(255,255,255,.6); text-decoration: underline; text-underline-offset: 3px;">интервью Lex Fridman</a>. Его спросили: станет ли инженеров меньше, если ИИ&nbsp;пишет код? Вот что он ответил.
+  </div>
+
+  <div class="huang-quote r d1">
+    "The purpose of a software engineer<br>
+    and the task of coding<br>
+    are related, not the same.<br><br>
+    I wanted my software engineers to solve problems.<br>
+    I didn't care how many lines of code they wrote.<br><br>
+    Solving problems, working as a team,<br>
+    diagnosing problems, evaluating the result,<br>
+    looking for new problems to solve,<br>
+    connecting dots.<br><br>
+    None of that stuff is gonna go away."
+    <div class="huang-cite">— Jensen Huang, March 2026 · <a href="https://lexfridman.com/jensen-huang-transcript#chapter18_future_of_programming" target="_blank" rel="noopener">Lex Fridman Podcast #462</a></div>
+  </div>
+  <div class="scroll-hint r d2">↓ scroll</div>
+</section>
+
+<!-- ===== CONTEXT: RS TANDEM ===== -->
+<section class="hero" style="min-height: 100vh;">
+  <div class="r" style="font-family: var(--serif); font-size: 14px; font-weight: 400; color: rgba(255,255,255,.45); letter-spacing: .15em; text-transform: uppercase; margin-bottom: 28px;">RS Tandem · финальный проект RS School</div>
+  <div class="hero-numbers r d1" style="color: rgba(255,255,255,.7);">147 людей · 37 команд · 6 недель</div>
+  <div class="hero-intro r d2" style="margin-top: 20px; color: rgba(255,255,255,.55);">6 недель они строили реальные продукты в командах.<br>И каждую неделю писали о том, что происходит:<br>в дневниках, своими словами.</div>
+  <div class="hero-intro r d3" style="margin-top: 20px; color: rgba(255,255,255,.55);">Они решали задачи, работали в команде,<br>разбирались в проблемах, оценивали результат,<br>соединяли точки.</div>
+  <div class="hero-last r d3" style="color: rgba(255,255,255,.9);">Это их слова.</div>
+  <div class="scroll-hint r d3">↓</div>
+</section>
+
+<div class="page">
+
+<!-- ===== I. SOLVING PROBLEMS ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">...I wanted my software engineers to solve problems...</div>
+
+</div>
+
+<div class="voice r">
+  <div class="voice-text">«Внутри создается код воркера, в котором выполняется Monkey Patching для console.log. Теперь он вместо вывода в консоль отправляет логи наверх к сервису. Также предусмотрен таймер для защиты от бесконечных циклов.»</div>
+  <div class="voice-cite">— FierceSloth · Strict Mode</div>
+  <div class="voice-context">Песочница для безопасного исполнения кода. WebWorker, изоляция, собственный test runner.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Обратил внимание, что плохо хранить токен в localStorage, поэтому обновил AuthStore и authService — хранение access token в памяти, при каждой перезагрузке запрашивание нового через refresh.»</div>
+  <div class="voice-cite">— GorodeN · CodePain</div>
+  <div class="voice-context">Никто не просил. Увидел уязвимость — исправил. Написал PR с детальным описанием для команды.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Чтобы запустить и протестировать код пользователя, приходится передавать не просто входное и выходное значение, а проверять внутреннее состояние структуры.»</div>
+  <div class="voice-cite">— oreopk · Outstanding Alex And Smeshariki</div>
+  <div class="voice-context">Поднял Express на личном VDS с nginx и pm2. Построил test runner, который проверяет не output, а state.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Если непонятно, что считает функция — нужно писать тест, а не код.»</div>
+  <div class="voice-cite">— tosigaeva · Tuple Trouble</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Вообще я не думала, что придётся покупать и регистрировать домен. Достаточно того, что я уже потратилась на сервер. Но домен был необходим для SSL-сертификата, который необходим для HTTPS.»</div>
+  <div class="voice-cite">— Igel-k · RainbowUnicorn</div>
+  <div class="voice-context">Арендовала сервер, настроила Gunicorn через systemd, купила домен.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Написана edge функция которая проверяет наличие батча вопросов в БД по теме. Если их нет, то запускает генерацию вопросов используя LLM.»</div>
+  <div class="voice-cite">— Webis-2022 · DevBand</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Мой компьютер просто не справляется. Пока мой коллега спокойно поднимал базу локально, я спокойно наблюдал как мой компьютер умирает.»</div>
+  <div class="voice-cite">— kanoplich · Team42</div>
+  <div class="voice-context">На этом компьютере — auth-flow, RLS-политики, RPC-функции, триггеры. Полноценный бэкенд на Supabase.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Сервис имеет главный метод execute(code, tests). Сам сервис создает новый Blob, который принимает код воркера и создает в оперативной памяти изолированный файл.»</div>
+  <div class="voice-cite">— FierceSloth · Strict Mode</div>
+</div>
+
+<!-- ===== II. WORKING AS A TEAM ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">...solving problems, working as a team...</div>
+
+</div>
+
+<div class="voice r">
+  <div class="voice-text">«Поставила защиту для веток main и develop от прямого push с правилами аппрува — не менее 2 участников в develop, не менее 3 в main.»</div>
+  <div class="voice-cite">— nastya-student · Т-8</div>
+  <div class="voice-context">Взяла роль тимлида без назначения. Jira, ветки, CI/CD, созвоны — и при этом сама проектировала фичи.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Поломал мозг 2 дня и выдал 20 issues, которые должны быть достаточно абстрактными, но с вполне четко поставленными задачами.»</div>
+  <div class="voice-cite">— kirrbrest · VueJS Tandem</div>
+  <div class="voice-context">Пришёл на первую встречу с готовым прототипом на Netlify. Декомпозировал всё на 20 задач для команды, где не был лидом.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text" style="color: var(--text-faint);">«Накопились и страшная усталость от курса. Одолевают чувство безнадёжности и бессмысленности попыток.»</div>
+  <div class="voice-cite">— thefoxtale · JustBuildIt</div>
+</div>
+
+<div class="arc-label r">Через три недели:</div>
+
+<div class="voice r">
+  <div class="voice-text">«Создала единую фабрику виджетов (WidgetFactory), которая по типу виджета создаёт нужный экземпляр. Вчера на созвоне она пожаловалась, что ей тяжело с классами — я искренне надеюсь, что этот рефакторинг ей поможет.»</div>
+  <div class="voice-cite">— thefoxtale · JustBuildIt</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«A small but strict baseline makes team execution smoother than ad-hoc agreements.»</div>
+  <div class="voice-cite">— yermekyerden · Typocalypse</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«On mutual decision in Discord chat the setup was chosen simple to ensure the project can be completed within limited time and team size.»</div>
+  <div class="voice-cite">— NataliItaly · Auto-Team 7</div>
+  <div class="voice-context">Team lead. Hero-кандидат 5 из 5 выпусков. Ни разу не попала в рубрику. Вот её голос.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Остается очень мало времени на написание кода приложения, в связи с большим объемом задач связанных с координацией работы команды. Затраченное время: 20 часов.»</div>
+  <div class="voice-cite">— Webis-2022 · DevBand</div>
+  <div class="voice-context">Supabase-схема, edge-функции с LLM, аудиофидбэк, полный тулчейн. 20 часов в неделю.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Теперь знаю, как работают настоящие программисты: минимум времени на написание кода, максимум — на общение с командой и решение сопутствующих задач и конфликтов!»</div>
+  <div class="voice-cite">— lertti · Dev Journey</div>
+</div>
+
+<!-- ===== III. DIAGNOSING PROBLEMS ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">...diagnosing problems, evaluating the result...</div>
+
+</div>
+
+<div class="voice r">
+  <div class="voice-text">«Workflow падал по разным причинам: сначала error in libcrypto при загрузке SSH-ключа. Потом на сервере закончилось место при сборке образа — no space left on device. Понимание «что именно сломалось» пришло по логам.»</div>
+  <div class="voice-cite">— Andrey-Yurchuk · DevCraft</div>
+  <div class="voice-context">Чистая архитектура, NestJS, Prisma, автодеплой на VPS, Discord-бот. Всё ломалось — всё починил.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Сбросила ошибку ИИ-шке, он мне ответил — так у тебя ведь в тексте ошибки всё написано. Блин, точно... Было стыдно 😅»</div>
+  <div class="voice-cite">— s-arashu · Outstanding Alex And Smeshariki</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«При использовании операции upsert запросы на вставку выполнялись успешно, однако обновление записей не работало и возвращало ошибку.»</div>
+  <div class="voice-cite">— Webis-2022 · DevBand</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«EventBus: полностью решил проблему пропсов. Теперь компоненты независимы и общаются через события.»</div>
+  <div class="voice-cite">— isaluk · Auto-Team 4</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text" style="color: var(--text-faint);">«Второй день заканчивается, а я занимаюсь не программированием, а непонятно чем, зачем, почему, для чего.»</div>
+  <div class="voice-cite">— AnatoliRub · Дрим Тим</div>
+</div>
+
+<div class="arc-label r">Позже:</div>
+
+<div class="voice r">
+  <div class="voice-text">«Купил тестовый хостинг, сидел, довольный потирал лапки. Выяснилось, что старый сервак не запускает docker. В приподнятом настроении пошёл покупать второй.»</div>
+  <div class="voice-cite">— AnatoliRub · Дрим Тим</div>
+  <div class="voice-context">Замечен в 5 из 5 выпусков. Деплой есть, бэк на хостинге есть.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Если не думать про весь движок сразу, а просто сделать вопрос и варианты — всё не так страшно.»</div>
+  <div class="voice-cite">— pchyolan · JustBuildIt</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Провайдер LLM выбирается при старте по переменной окружения: предусмотрено переключение API на локальную модель без правок в коде. Реализовано через стратегию.»</div>
+  <div class="voice-cite">— Andrey-Yurchuk · DevCraft</div>
+</div>
+
+<!-- ===== IV. CONNECTING DOTS ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">...looking for new problems to solve, connecting dots...</div>
+
+</div>
+
+<div class="voice r">
+  <div class="voice-text">«Благодаря тому, что ещё во время выполнения RSS Puzzle я написал для себя инструкцию по настройке проекта — то сейчас особых проблем с настройкой не возникло.»</div>
+  <div class="voice-cite">— atikin132 · Т-8</div>
+  <div class="voice-context">Когда commitlint не справился — написал собственное правило с regex.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«At first I thought Firebase was just 'some login service'. But the more I read, the more I understood it basically replaces backend authentication completely.»</div>
+  <div class="voice-cite">— annadzig · SAA Cat</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Насколько я сейчас понимаю, это работает по аналогии с паттерном Observer: мы условно подписываем компонент на обновление.»</div>
+  <div class="voice-cite">— Zhdko · Дрим Тим</div>
+  <div class="voice-context">82 часа за 2 недели. UI Kit с нуля без знания Angular.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«В React любая функция, объявленная прямо в теле компонента, создаётся заново при каждом рендере. А у меня в профиле функция, отрисовывающая сообщения для пользователя, имела таймер, который запускался заново при любом действии на странице.»</div>
+  <div class="voice-cite">— Morevna · Legendary frontend developers</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Сначала не понимал зачем он нужен, если Supabase и так хранит токен сессии. Но потом разобрался — getUser() это асинхронный вызов, его нельзя вызывать синхронно в каждом компоненте. Zustand решает это — загружает данные один раз.»</div>
+  <div class="voice-cite">— karpovdmitriy · Джунгли зовут!</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«В TypeScript интерфейсы после компиляции в JS исчезают — в рантайме нет никакого значения, по которому Nest мог бы найти провайдер. Класс же остаётся функцией-конструктором.»</div>
+  <div class="voice-cite">— Andrey-Yurchuk · DevCraft</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Теперь проект защищен от мусорного кода и хаотичных коммитов. Локальная разработка настроена, можно приступать к функциональной части.»</div>
+  <div class="voice-cite">— BariyDev · Devtones</div>
+  <div class="voice-context">ESLint Flat Config, Prettier, Husky, vue-tsc — quality gates до первой фичи. В финале — аудит контента: 245 → 389 вопросов.</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Это помогло мне в реале ощутить что такое diffing и reconciliation!»</div>
+  <div class="voice-cite">— swetlanaang · Gang of Four</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Раньше думала, что бэкенд — это неинтересно, а оказалось, что это очень крутая штука.»</div>
+  <div class="voice-cite">— nasteew · Алекс и его друзья</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Важно помнить, что ИИ — это всего лишь неидеальный инструмент, и окончательное решение всегда остается за человеком.»</div>
+  <div class="voice-cite">— ArtemovEgor · Auto-Team 3</div>
+</div>
+
+<div class="dot r">·</div>
+
+<div class="voice r">
+  <div class="voice-text">«Доделал функцию onAuthStateChange, теперь работает корректно. Создал моковую функцию, которая в Set-коллекцию сохраняет подписки.»</div>
+  <div class="voice-cite">— kanoplich · Team42</div>
+</div>
+
+<!-- ===== V. EVALUATING THE RESULT ===== -->
+<div class="section-divider r" style="padding: 32px;">
+</div>
+
+</div><!-- /.page -->
+
+<!-- Ulya10 -->
+<section class="climax">
+  <div class="climax-text r-slow">
+    Зато в первый раз сделала коммит, к которому не прикопался линтер! Вспоминаю, как решала первое core-js, смотрела на ошибки линтера и надеялась, что это просто задание такое странное, и больше этого ужаса никогда не будет. Хаха.
+    <div class="climax-cite">— Ulya10 · Т-8</div>
+  </div>
+</section>
+
+<!-- rika-milew arc -->
+<div class="page">
+  <div class="voice r">
+    <div class="voice-text" style="color: var(--text-faint);">«Видимо из активных участников проекта кроме моего ментора осталась я одна. Дорабатывать проект и готовиться к защите буду одна, но я уже не собираюсь сдаваться.»</div>
+    <div class="voice-cite">— rika-milew · GrowLab</div>
+  </div>
+  <div class="arc-label r">В следующем дневнике:</div>
+  <div class="voice r">
+    <div class="voice-text">«Раз получилось изучить TypeScript и ещё многие вещи с нуля на курсе, то верю, что с реактом тоже должно получиться.»</div>
+    <div class="voice-cite">— rika-milew · GrowLab</div>
+  </div>
+</div>
+
+<!-- s-arashu climax -->
+<section class="climax">
+  <div class="climax-text r-slow">
+    Он подтвердил, что я права.<br><br>
+    Ну вот когда я научусь доверять себе, а?
+    <div class="climax-cite">— s-arashu</div>
+  </div>
+</section>
+
+<!-- ===== MOSAIC (moved to after closing, before afterword) ===== -->
+<div class="mosaic-section" style="display:none;">
+  <div class="mosaic r">
+    <img src="https://avatars.githubusercontent.com/yermekyerden?size=80" alt title="yermekyerden" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/sevasmith?size=80" alt title="sevasmith" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Zhdko?size=80" alt title="Zhdko" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/konfuzz?size=80" alt title="konfuzz" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/elrouss?size=80" alt title="elrouss" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AlexGorSer?size=80" alt title="AlexGorSer" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/dukhd?size=80" alt title="dukhd" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Peccopa?size=80" alt title="Peccopa" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Oksi2510?size=80" alt title="Oksi2510" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/isaluk?size=80" alt title="isaluk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/FierceSloth?size=80" alt title="FierceSloth" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/GorodeN?size=80" alt title="GorodeN" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/nastya-student?size=80" alt title="nastya-student" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kirrbrest?size=80" alt title="kirrbrest" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/thefoxtale?size=80" alt title="thefoxtale" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Webis-2022?size=80" alt title="Webis-2022" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kanoplich?size=80" alt title="kanoplich" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/oreopk?size=80" alt title="oreopk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/BariyDev?size=80" alt title="BariyDev" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/atikin132?size=80" alt title="atikin132" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/NataliItaly?size=80" alt title="NataliItaly" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Igel-k?size=80" alt title="Igel-k" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/27moon?size=80" alt title="27moon" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AnatoliRub?size=80" alt title="AnatoliRub" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/andrey-yurchuk?size=80" alt title="andrey-yurchuk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/pchyolan?size=80" alt title="pchyolan" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/rika-milew?size=80" alt title="rika-milew" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/s-arashu?size=80" alt title="s-arashu" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Alena1409?size=80" alt title="Alena1409" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/pavelkuvsh1noff?size=80" alt title="pavelkuvsh1noff" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kozochkina82?size=80" alt title="kozochkina82" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/WhaleisaJoy?size=80" alt title="WhaleisaJoy" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AlexeyDmt?size=80" alt title="AlexeyDmt" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/alekspanda?size=80" alt title="alekspanda" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kupzov2000?size=80" alt title="kupzov2000" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/sunyuna00?size=80" alt title="sunyuna00" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/katerynamoskalenko?size=80" alt title="katerynamoskalenko" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/dilmun1101?size=80" alt title="dilmun1101" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/annadzig?size=80" alt title="annadzig" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/swetlanaang?size=80" alt title="swetlanaang" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/nasteew?size=80" alt title="nasteew" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/yessethumanman?size=80" alt title="yessethumanman" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Artem-WebDeveloper?size=80" alt title="Artem-WebDeveloper" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/exppx?size=80" alt title="exppx" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mightyprinces?size=80" alt title="mightyprinces" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/solarsungai?size=80" alt title="solarsungai" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mark-pribylnov?size=80" alt title="mark-pribylnov" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/MegaRostBLR1?size=80" alt title="MegaRostBLR1" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Morevna?size=80" alt title="Morevna" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Rorodeathless1?size=80" alt title="Rorodeathless1" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/bssier?size=80" alt title="bssier" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/YekaterinaAlex?size=80" alt title="YekaterinaAlex" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/ArtemovEgor?size=80" alt title="ArtemovEgor" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Thrapis?size=80" alt title="Thrapis" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Ulya10?size=80" alt title="Ulya10" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/lertti?size=80" alt title="lertti" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/tosigaeva?size=80" alt title="tosigaeva" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/karpovdmitriy?size=80" alt title="karpovdmitriy" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mikhalenkadaniil?size=80" alt title="mikhalenkadaniil" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Ch-alexandra?size=80" alt title="Ch-alexandra" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/t-gladkaya?size=80" alt title="t-gladkaya" loading="lazy">
+  </div>
+  <div class="mosaic-caption r">61 человек · 37 команд · все — в этом рассказе</div>
+</div>
+
+<!-- ===== CLOSING ===== -->
+<section class="closing">
+  <div class="closing-huang r">
+    "Solving problems,<br>
+    working as a team,<br>
+    diagnosing problems,<br>
+    evaluating the result,<br>
+    looking for new problems to solve,<br>
+    connecting dots.<br><br>
+    None of that stuff is gonna go away."
+    <div class="huang-cite" style="margin-top: 16px;">— Jensen Huang, March 2026 · <a href="https://lexfridman.com/jensen-huang-transcript#chapter18_future_of_programming" target="_blank" rel="noopener noreferrer">Lex Fridman Podcast #462</a></div>
+  </div>
+  <div class="closing-punchline r-slow">Вы это уже делаете.</div>
+</section>
+
+<!-- ===== MOSAIC + TANDI THANKS ===== -->
+<div style="padding: 80px 28px; text-align: center;">
+  <div class="r" style="font-family: var(--serif); font-size: 20px; font-style: italic; color: var(--text-light); max-width: 440px; margin: 0 auto 40px; line-height: 1.7;">
+    Tandi благодарит каждого, чьи слова и мысли стали частью этого рассказа.
+  </div>
+  <div class="mosaic r">
+    <img src="https://avatars.githubusercontent.com/yermekyerden?size=80" alt title="yermekyerden" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/sevasmith?size=80" alt title="sevasmith" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Zhdko?size=80" alt title="Zhdko" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/konfuzz?size=80" alt title="konfuzz" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/elrouss?size=80" alt title="elrouss" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AlexGorSer?size=80" alt title="AlexGorSer" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/dukhd?size=80" alt title="dukhd" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Peccopa?size=80" alt title="Peccopa" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Oksi2510?size=80" alt title="Oksi2510" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/isaluk?size=80" alt title="isaluk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/FierceSloth?size=80" alt title="FierceSloth" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/GorodeN?size=80" alt title="GorodeN" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/nastya-student?size=80" alt title="nastya-student" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kirrbrest?size=80" alt title="kirrbrest" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/thefoxtale?size=80" alt title="thefoxtale" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Webis-2022?size=80" alt title="Webis-2022" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kanoplich?size=80" alt title="kanoplich" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/oreopk?size=80" alt title="oreopk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/BariyDev?size=80" alt title="BariyDev" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/atikin132?size=80" alt title="atikin132" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/NataliItaly?size=80" alt title="NataliItaly" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Igel-k?size=80" alt title="Igel-k" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/27moon?size=80" alt title="27moon" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AnatoliRub?size=80" alt title="AnatoliRub" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/andrey-yurchuk?size=80" alt title="andrey-yurchuk" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/pchyolan?size=80" alt title="pchyolan" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/rika-milew?size=80" alt title="rika-milew" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/s-arashu?size=80" alt title="s-arashu" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Alena1409?size=80" alt title="Alena1409" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/pavelkuvsh1noff?size=80" alt title="pavelkuvsh1noff" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kozochkina82?size=80" alt title="kozochkina82" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/WhaleisaJoy?size=80" alt title="WhaleisaJoy" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/AlexeyDmt?size=80" alt title="AlexeyDmt" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/alekspanda?size=80" alt title="alekspanda" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/kupzov2000?size=80" alt title="kupzov2000" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/sunyuna00?size=80" alt title="sunyuna00" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/katerynamoskalenko?size=80" alt title="katerynamoskalenko" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/dilmun1101?size=80" alt title="dilmun1101" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/annadzig?size=80" alt title="annadzig" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/swetlanaang?size=80" alt title="swetlanaang" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/nasteew?size=80" alt title="nasteew" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/yessethumanman?size=80" alt title="yessethumanman" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Artem-WebDeveloper?size=80" alt title="Artem-WebDeveloper" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/exppx?size=80" alt title="exppx" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mightyprinces?size=80" alt title="mightyprinces" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/solarsungai?size=80" alt title="solarsungai" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mark-pribylnov?size=80" alt title="mark-pribylnov" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/MegaRostBLR1?size=80" alt title="MegaRostBLR1" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Morevna?size=80" alt title="Morevna" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Rorodeathless1?size=80" alt title="Rorodeathless1" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/bssier?size=80" alt title="bssier" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/YekaterinaAlex?size=80" alt title="YekaterinaAlex" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/ArtemovEgor?size=80" alt title="ArtemovEgor" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Thrapis?size=80" alt title="Thrapis" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Ulya10?size=80" alt title="Ulya10" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/lertti?size=80" alt title="lertti" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/tosigaeva?size=80" alt title="tosigaeva" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/karpovdmitriy?size=80" alt title="karpovdmitriy" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/mikhalenkadaniil?size=80" alt title="mikhalenkadaniil" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/Ch-alexandra?size=80" alt title="Ch-alexandra" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/t-gladkaya?size=80" alt title="t-gladkaya" loading="lazy">
+  </div>
+</div>
+
+<!-- ===== AFTERWORD ===== -->
+<div class="page" style="padding-top: 80px; padding-bottom: 80px;">
+  <div class="r" style="max-width: 520px; margin: 0 auto;">
+    <h2 style="font-family: var(--serif); font-size: 28px; font-weight: 400; color: var(--text); margin-bottom: 24px; text-align: center;">Послесловие</h2>
+    <div style="font-size: 15px; line-height: 1.9; color: var(--text-light);">
+      <p style="margin-bottom: 16px;">Эта страница &mdash; не рейтинг. Здесь нет первого и последнего места. Сертификат RS&nbsp;School у&nbsp;всех одинаковый. Не&nbsp;потому, что мы всех уравняли, а&nbsp;потому, что главная ценность &mdash; в&nbsp;самом пройденном пути.</p>
+      <p style="margin-bottom: 16px;">RS&nbsp;Tandem &mdash; это финальный проект курса. 37&nbsp;команд, 6&nbsp;недель, реальный продукт. Да, на&nbsp;защите жюри выбирает лучших в&nbsp;разных номинациях. Но&nbsp;номинации &mdash; это результат одной защиты. А&nbsp;ваш новый инженерный уровень &mdash; результат шести недель работы.</p>
+      <p style="margin-bottom: 16px;">Если вы только что завершили этот проект &mdash; выдыхайте. Вы справились. Все те моменты, когда &laquo;хотелось плакать&raquo;, а&nbsp;от нагрузки &laquo;умирал компьютер&raquo; &mdash; они позади. И&nbsp;они были не&nbsp;зря.</p>
+      <p style="margin-bottom: 16px;">Если вы только начинаете &mdash; не&nbsp;пугайтесь. Посмотрите на&nbsp;людей выше. Они тоже начинали с&nbsp;сомнений и&nbsp;ошибок. И&nbsp;они дошли.</p>
+      <p style="margin-bottom: 16px;">В RS&nbsp;School мы руководствуемся следующими принципами: уважение к&nbsp;каждому участнику, честность, взаимопомощь и&nbsp;открытость. Мы верим, что процесс всегда важнее оценки, а&nbsp;ваш личный прогресс &mdash; важнее места в&nbsp;рейтинге.</p>
+      <p style="margin-bottom: 32px;">И мы будем рады видеть вас снова. Студентами на&nbsp;следующих потоках или менторами. Многие выпускники возвращаются сюда &mdash; просто чтобы провести через этот путь других и&nbsp;сделать их сильнее.</p>
+      <div style="padding-top: 24px; border-top: 1px solid rgba(0,0,0,.08); font-size: 14px; color: var(--text-faint); line-height: 1.7;">
+        <span style="color: var(--text);">Дима Воробей</span> <span style="opacity: .6;">(человек)</span> &amp; <span style="color: var(--text);">Tandi</span> <span style="opacity: .6;">(AI)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="footer">
+  <div style="font-family: var(--serif); font-size: 15px; font-style: italic;">RS School. Connecting people, growing together, having fun.</div>
+  <div style="margin-top: 8px;">
+    <a href="https://rollingscopes.github.io/rs-tandem-observer/">Observer</a>
+    <a href="https://rollingscopes.github.io/rs-tandem-observer/#/teams">Teams</a>
+  </div>
+</div>
+
+<script>
+const progress = document.getElementById('progress');
+window.addEventListener('scroll', () => {
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  progress.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+}, { passive: true });
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('v'); });
+}, { rootMargin: '0px 0px -60px 0px', threshold: 0.1 });
+document.querySelectorAll('.r, .r-slow').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

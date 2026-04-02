@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T10:02:47.449Z",
+  "generatedAt": "2026-04-01T09:07:11.800Z",
   "profiles": [
     {
       "teamName": "ngKittyDebug",
@@ -74,6 +74,18 @@
             "pavelkuvsh1noff: игра готова — таймер, 5 ачивок, серверное хранилище, тесты",
             "WhaleisaJoy: универсальный loader (page + inline), Account Settings с модалкой",
             "kozochkina82: интерфейс игры «виселица», 3-4 часа в день, участие в митапе"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "kozochkina82: подключила игру к серверу, вращающиеся глаза котика, выбор уровней сложности",
+            "AlexGorSer: страница About на сигналах Angular, таблицы статистики Prisma (One-to-Many), SQL-миграция enum",
+            "WhaleisaJoy: аватары через Cloudinary, статистика в TuiDialog, рефакторинг логики игры в 3 сервиса",
+            "pavelkuvsh1noff: подключил Qwen3-32B через HuggingFace, баг-фиксы игры, тесты компонентов"
           ],
           "concerns": []
         }
@@ -381,6 +393,10 @@
         },
         {
           "issue": 5,
+          "status": "green"
+        },
+        {
+          "issue": 6,
           "status": "green"
         }
       ]
@@ -798,6 +814,18 @@
             "Artem-WebDeveloper: requestAnimationFrame для таймера, Library с API-пагинацией через useSearchParams"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "Artem-WebDeveloper: CI/CD на Vercel (lint → тесты → деплой), фикс axios refresh token",
+            "Igel-k: бэкенд 99.9% — избранное, дашборд-эндпоинт, порог прохождения 70%",
+            "exppx: фикс сброса zustand-состояния при выходе из квиза, дашборд переведён на API",
+            "mightyprinces: CodeOrdering в API-режиме, PR #72 влит"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -1047,6 +1075,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -1123,6 +1155,18 @@
             "oneilcode: Home Page — 8 секций, 20+ часов; W5 чекпоинт — правки чужих тестов + видео",
             "Fayzullo05: страница регистрации, 5 часов на тесты с двумя полями password",
             "D15ND: Knowledge Base page замёрджена, следующий — progression system"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "oneilcode: 8 часов на систему подсчёта баллов — 5 виджетов, 5 разных формул",
+            "solarsungai: 2 дня на унификацию Mantine-стилей + авторизация Supabase с SECURITY DEFINER",
+            "27moon: WidgetThis с интерактивными ответами, баг cleanup-эффекта в Redux",
+            "Fayzullo05: logout + интеграция виджета, CI-фикс из-за разных версий Node"
           ],
           "concerns": []
         }
@@ -1374,6 +1418,10 @@
         },
         {
           "issue": 5,
+          "status": "yellow"
+        },
+        {
+          "issue": 6,
           "status": "yellow"
         }
       ]
@@ -1731,6 +1779,18 @@
             "sunyuna00: ErrorBoundary для всего App + useProfileData, рефакторинг за 50 минут"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "sevasmith: Edge Function → function calling, 3 системных промпта, 27 часов за неделю",
+            "vadim-troian: Theme Switcher (Light/Dark) + рефакторинг FSD-архитектуры, роль тимлида",
+            "artkoro94: случайный мерж всех веток через git — страница History за 12 часов",
+            "rockabil: 14 часов кода с температурой — StageOverView, TopicsGrid, code review"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -2041,6 +2101,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -2119,6 +2183,18 @@
             "dromari: Profile Page (CSS-модули, хуки, константы), 18/22 уроков React, 5 issues до дедлайна",
             "Деплой на Vercel, branch protection, PR-шаблон",
             "~76 часов суммарной работы за две недели (dromari 58 ч, karpovdmitriy 18+ ч)"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "karpovdmitriy: Widget Engine на паттерне Strategy, WidgetModelMap вместо any, 26 review-комментариев обработаны за полдня",
+            "dromari: два виджета (true/false, code-completion) + бургер-меню + адаптив за день",
+            "karpovdmitriy: SQL-миграция с 50 виджетами двух новых типов, API Service Layer с snake_case→camelCase адаптерами",
+            "dromari: loader fix, Toast-компонент, ревью коллеги — команда из 2 человек на объёме 6"
           ],
           "concerns": []
         }
@@ -2218,7 +2294,13 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -2279,6 +2361,10 @@
         },
         {
           "issue": 5,
+          "status": "green"
+        },
+        {
+          "issue": 6,
           "status": "green"
         }
       ]
@@ -2356,6 +2442,18 @@
             "TanStack Query для глобального состояния загрузки, кастомный спиннер без библиотек",
             "zena86 и viktorelenich: 0 записей за период",
             "Деплой: tandem-growlab.vercel.app"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "rika-milew: 3 записи, 4-6 часов/день, scoring + achievements + protected routes + mobile до 320px",
+            "Отказ от TanStack Query — переход на локальное состояние как осознанный триаж перед защитой",
+            "viktorelenich и zena86: третий выпуск без записей, команда де-факто из одного человека",
+            "Рефакторинг API-функций по ревью ментора: отделение вычислений от работы с бэкендом"
           ],
           "concerns": []
         }
@@ -2500,6 +2598,10 @@
         {
           "issue": 5,
           "status": "yellow"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -2572,6 +2674,18 @@
             "FierceSloth: CodeArena (аналог CodeWars) — вёрстка, адаптив, buildPanel; ревью 2 PR, созвон 3 часа",
             "dilmun1101: рефакторинг UserService (объект → класс), решение дублирования токена Supabase, 19 часов за 3 дня",
             "coicoin: Quiz Page — сохранение прогресса, звёздочки UI, fix утечки event-подписок; 17 часов за 3 дня"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "FierceSloth: 28 часов — ProgressService (DRY), TheoryHub (дизайн + вёрстка + DTO-маппер), CodeArena merged",
+            "dilmun1101: 18 часов — Output Predictor (view → рефакторинг → компоненты), БД для intro и predictor",
+            "coicoin: 8 часов — код-ревью PR #49, TrueFalsePage (header + вопросы)",
+            "Архитектурный сдвиг: от отдельных страниц к платформе с общим ProgressService и Supabase"
           ],
           "concerns": []
         }
@@ -2783,6 +2897,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -2857,6 +2975,17 @@
             "aliakseidrob: рефакторинг 60% кода Code Golf, юнит-тесты под Signals, исправление холодного Observable",
             "shoblinsky: Reverse Code Review — модели, lazy-loading роутер, сайдбар, aria-атрибуты",
             "anatolirub, Zhdko: 0 дневниковых записей за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "mark-pribylnov: Gemini 2.5 Flash Lite, structured JSON output, 25-topic randomization, переход на бесплатный тариф",
+            "anatolirub: Three.js + Blender/Maya/VRoid для 3D-модели, socket.io стриминг ответов Ollama",
+            "aliakseidrob: Sandbox (The Lab) с Monaco Editor, сохранение в Supabase, финальная рефлексия о процессе"
           ],
           "concerns": []
         }
@@ -3133,6 +3262,10 @@
         {
           "issue": 5,
           "status": "yellow"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -3209,6 +3342,18 @@
             "elrouss: тренажёр на Monaco Editor, Web Workers для защиты от бесконечных циклов, 5 референсов",
             "mikhalenkadaniil: WebSocket-сервис + OpenRouter-провайдер, рефактор AI-чата, ~20 ч",
             "nck1969: CoreJS2 interview пройдено, UX-правки в main, план — Playwright E2E + i18n"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "elrouss: QuickJS (WASM) sandbox вместо new Function — VM-изоляция пользовательского кода в Web Worker",
+            "dukhd: ViewTransitions + AbortError debugging, оптимизация запросов через store cache, ~20 ч/неделю",
+            "mikhalenkadaniil: первый backend-модуль на NestJS — SQL-таблица, репозиторий, AsyncIterable для потоков, ~19 ч",
+            "nck1969: Transloco i18n с типизацией ключей + Playwright E2E в Docker + CI-проверки, ~16 ч"
           ],
           "concerns": []
         }
@@ -3372,7 +3517,24 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "hero",
+          "headline": "Песочница для храбрых, или Как elrouss построил тюрьму для чужого кода",
+          "github": "elrouss"
+        },
+        {
+          "issue": 6,
+          "sectionType": "casestudy",
+          "headline": "Анимация, которая знает, когда промолчать"
+        },
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -3412,6 +3574,13 @@
           "detail": "red → green"
         },
         {
+          "id": "hero-6",
+          "label": "Герой недели",
+          "icon": "🏆",
+          "issue": 6,
+          "detail": "Песочница для храбрых, или Как elrouss построил тюрьму для чужого кода"
+        },
+        {
           "id": "all-diaries",
           "label": "Все с дневниками",
           "icon": "📖"
@@ -3440,6 +3609,10 @@
         },
         {
           "issue": 5,
+          "status": "green"
+        },
+        {
+          "issue": 6,
           "status": "green"
         }
       ]
@@ -3514,6 +3687,18 @@
             "anastasiashlyk: Web Speech API — голосовой ввод и озвучка ответов ИИ-агента, кнопка mute, выбор сложности (junior/middle/senior)",
             "nasteew: drag & drop игра (Event Loop), система статистики (streak, рейтинг), Google-авторизация — 18+ часов",
             "imagineapril: Dashboard с бэкенд-интеграцией (React Query), 3 бага починены (бесконечный updateStreak, NaN, стили)"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "anastasiashlyk: i18n (react-i18next, EN/RU) + виджет Code Completion за 2 дня",
+            "imagineapril: 6 фич — статистика, Quiz, True/False, светлая тема, адаптив 320px, баг-фиксы",
+            "nasteew: Throttler (5 req/min), fix Google auth (postMessage), Tailwind → CSS-переменные, 14 часов",
+            "Светлая тема реализована параллельно тремя участниками с разных сторон (ThemeProvider, переменные, Tailwind)"
           ],
           "concerns": []
         }
@@ -3712,6 +3897,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -3786,6 +3975,18 @@
             "kirrbrest: 20 issues, обнаружил баг с назначением ответственных — GitHub не давал назначить никого кроме себя",
             "maksimdolgonosov: изучает Optional vs Composition API, предлагал альтернативный концепт «гараж с карточками авто»",
             "obemgcabazn: создал репозиторий, канбан, README, ведёт самари всех встреч в дискорд"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "maksimdolgonosov: онлайн мини-игра на socket.io-client — комнаты, 10 вопросов, AI-оценка, таблица лидеров",
+            "obemgcabazn: профиль пользователя (username, аватар по URL), фикс бэкенда на Windows, интеграция Groq",
+            "Архитектурное решение: отказ от лишнего компонента — бэкенд редактирует одно поле, обёртка избыточна",
+            "API-открытие: удаление аватара требует null, не пустую строку — документация расходилась с реальностью"
           ],
           "concerns": []
         }
@@ -3975,6 +4176,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -4048,6 +4253,17 @@
             "mero93: i18n с LocaleString + Zustand, миграция Supabase на jsonb, план админки на 20 пунктов",
             "hamsterk: лендинг с shadcn Tabs, баг flip-card после интеграции в question-runner",
             "deviatovae: нет записей в дневнике на этой неделе"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "tosigaeva: 3 виджета (Code Completion, Code Ordering, Results Page), рефакторинг пагинации в dual-mode контроллер, Strategy-паттерн для валидации",
+            "mero93: LocaleProvider и AuthStateProvider с нуля, i18n через message tags, RLS для всех таблиц, role guard",
+            "hamsterk: финальное интервью пройдено, кастомный Hint на Popover для мобильных, полировка 5+ компонентов"
           ],
           "concerns": []
         }
@@ -4179,7 +4395,13 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -4247,6 +4469,10 @@
         },
         {
           "issue": 5,
+          "status": "green"
+        },
+        {
+          "issue": 6,
           "status": "green"
         }
       ]
@@ -4320,6 +4546,18 @@
             "NickKool: глобальный Skeleton (RootLayout), Library с поиском и фильтрами по сложности, видео-демо в README",
             "Bulbashok: handleFirestoreError для всех методов Firestore, исправлен баг бесконечной загрузки профиля, strategy pattern вместо switch/case",
             "JesterAV: dnd-kit для drag-and-drop виджетов, борьба с двусторонним перетаскиванием"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "Bulbashok: 15 quiz-вопросов по JS (замыкания, прототипы, порядок выполнения) в JSON-формате для Firebase",
+            "NickKool: контроллер TopicLearningView + хук useTopicsLibrary — клиент-серверная верификация ответов через Firestore",
+            "JesterAV: рефакторинг Widget Render на strategy pattern + Cloud Functions для серверной валидации",
+            "NickKool: скрипт миграции тем на Firebase (setDoc), фильтры Library на двух языках"
           ],
           "concerns": []
         }
@@ -4501,6 +4739,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -4581,6 +4823,18 @@
           "concerns": [
             "sergey-ado: нет дневниковых записей — прогресс не зафиксирован"
           ]
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "sergey-ado: 90%+ тестовое покрытие класса Game, события clue/guess/answer/check",
+            "Peccopa: тесты для 12 компонентов ComponentsAPI, рефакторинг ElementManager",
+            "Walle908: архитектурный рефакторинг — централизация подписок на события сокета на главной странице",
+            "mvavilin: миграция localStorage → sessionStorage, вынос экшенов Game в отдельный модуль"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -4806,6 +5060,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -4881,6 +5139,18 @@
             "Maria2721: 50 единиц контента (5 тем × 10 заданий), AI Assistant с Redux и модалкой",
             "Khabib1802: 0 записей за неделю",
             "Интеграция: Dify для AI без vendor lock-in, MCP endpoint с Bearer-защитой"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "Andrey-Yurchuk: домен + Caddy reverse proxy с TLS в Docker, Discord-бот с голосовым вводом через Dify + ffmpeg (~16 часов)",
+            "Khabib1802: Layout с Outlet, Knowledge Map на React Flow, TopicProtectedRoute для демо-доступа без авторизации",
+            "Maria2721: AI Assistant завершён, страницы топиков по slug с табами, блок теоретических вопросов с toast-уведомлениями",
+            "Все 3 участника активны, 9 дневниковых записей за неделю"
           ],
           "concerns": []
         }
@@ -5056,6 +5326,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -5129,6 +5403,18 @@
             "oreopk: 2 дня на универсальную функцию проверки кода, eval() запрещён — переключился на отдельные валидаторы по типам задач",
             "YekaterinaAlex: страница 404 по макету, PR закрыт за сутки, merge-конфликты с develop",
             "S-Arashu: координация задач по чекпойнту, режим ИИ в разработке, чистка техдолга"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "oreopk: задачник по структурам данных и асинхронности — тестирование через вызов методов классов и проверку внутреннего состояния",
+            "S-Arashu: режим ИИ на Firebase запущен — от документации до работающего чат-помощника",
+            "YekaterinaAlex: страница тестов + результатов + localStorage для сохранения настроек",
+            "oreopk: JSON вместо БД — прагматичное решение для часто меняемых данных задачника"
           ],
           "concerns": []
         }
@@ -5316,6 +5602,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -5392,6 +5682,18 @@
             "swetlanaAng: AsyncSorter, 15 часов, TSX 250+ строк, DnD между очередями",
             "nginit: 404 с анимированным SpongeBob (@emotion/react keyframes), About-страница",
             "notdmitry: Firebase + модели БД, cherry-pick для разрешения конфликта зависимостей"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "nginit: Bug Hunter (10–12 ч) с XDX-маркерами + Landing Page (2–3 ч) по Figma",
+            "swetlanaAng: AsyncSorter — рефакторинг с 500+ до 170 строк, useCallback для ref immutability, 25 часов",
+            "notdmitry: рефакторинг всего приложения, алиасы импортов, API-заглушки для Firebase-миграции",
+            "anelka777: спроектировала backend API для MeaningMatcher — WidgetType, config, endpoint"
           ],
           "concerns": []
         }
@@ -5611,6 +5913,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -5685,6 +5991,18 @@
             "bariydev: монорепозиторий — раздельный CI, единый Husky, backend lint/typecheck стабилизирован",
             "bariydev: Method Builder Widget — drag-n-drop, submit на /quiz/submit, VITE_API_URL",
             "roguestone: записей за неделю нет"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "bariydev расширил банк вопросов с 245 до 389, выровнял покрытие по категориям и типам",
+            "konfuzz реализовал алгоритм взвешенного выбора вопросов с учётом истории пользователя (~3 ч)",
+            "Деплой на VPS: nginx + pm2; смена AI-модели с Qwen 3.5-Flash на Gemini 2.5-Flash",
+            "bariydev: лидерборд (3 метрики), QuizSummaryCard, исправление сетевых ошибок в виджетах"
           ],
           "concerns": []
         }
@@ -5880,6 +6198,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -5956,6 +6278,18 @@
             "bukt0r: отказ от сервера в пользу mock-данных, рефакторинг моделей (features → entities)",
             "bukt0r: i18n, квиз-таймер (useCountdown), тёмная тема, рандомизация, избранное — 5 фич за день",
             "tatyanakorlarina: 0 новых записей на этой неделе"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "bukt0r: звуковые эффекты через Web Audio API без аудиофайлов, дедупликация в Strict Mode",
+            "64 билингвальных вопроса (RU + EN), локаль из i18n",
+            "UX квиза: стартовый экран, кнопка рестарта, глобальный mute с localStorage",
+            "tatyanakorlarina: 0 записей за неделю"
           ],
           "concerns": []
         }
@@ -6098,6 +6432,10 @@
         },
         {
           "issue": 5,
+          "status": "yellow"
+        },
+        {
+          "issue": 6,
           "status": "yellow"
         }
       ]
@@ -6418,6 +6756,18 @@
             "Серверный баг: edge-функция не запрашивала LLM при смене уровня сложности без записи в БД"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "Webis-2022: 28 часов — Dashboard, сохранение результатов в Supabase, исправление RLS-политик для upsert",
+            "alekspanda: 10 часов — единая логика завершения игры (finishCurrentGame.ts), fix рассинхронизации localStorage и сервера",
+            "urazof: 15 часов — layout, бренд DOMinator, исправление сдвига Explanation-панели, 4 PR-ревью",
+            "Суммарно 53 часа на троих за неделю"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -6616,6 +6966,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -6678,6 +7032,18 @@
             "thefoxtale: код из аэропорта, Supabase API-сервис с авторизацией, изучение State Machine для Memory Game",
             "Pchyolan: подход «маленькими шагами», Widget Engine (Strategy Pattern, generics, discriminated unions)",
             "Стек: TypeScript + Vite + SCSS + Vitest + Supabase, Kanban в GitHub Projects"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "thefoxtale: WidgetFactory + функциональный модуль QuizWidget — рефакторинг архитектуры ради удобства напарницы, инструкция create-widget.md",
+            "Pchyolan: 3 PR-ревью за неделю с конкретными замечаниями (валидация логина, CSS-переменные, размер файла иконок)",
+            "6 нейросетей + Photoshop для анимации маскота-мозга, 2 дня на форму логина (PRs #66, #69, #71)",
+            "Первая полностью завершённая фича проекта — страница 404 (Issue #65, PR #66)"
           ],
           "concerns": []
         }
@@ -6823,6 +7189,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -6886,6 +7256,18 @@
             "Al-E-xXx: перенос моков виджетов на реальный бэкенд (Node.js + SQLite), эндпоинты смены пароля и имени",
             "EkaterynaVolkova: система прогресса с XP, библиотека тем с карточками и прогресс-барами, ~14 часов за неделю",
             "ArtemovEgor уезжает в отпуск до дедлайна — оставил API-сервис и документацию для команды"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "Al-E-xXx: эксперимент с локальными AI (Qwen-Coder 14B/32B, Continue, Cline) — автодополнение ОК, код-ревью нет",
+            "EkaterynaVolkova: Library page + кастомный Language Switcher без библиотек (t() + getLocalizedField())",
+            "Al-E-xXx: рефакторинг монорепо, таблицы для топиков и виджетов (SQLite)",
+            "ArtemovEgor: последняя неделя в отпуске, планирует дополировать проект по возвращении"
           ],
           "concerns": []
         }
@@ -7075,6 +7457,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -7138,6 +7524,18 @@
             "isaluk: 9 часов, Global Loading Spinner, валидация с debounce, баг «ловушка F5»",
             "OlgaMinaievaWebDev: Sign Out, ревью UX-состояний (404, loading, error), демо-видео на YouTube",
             "AzizShik: 0 записей за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "AzizShik: 3 записи, ~12.5 ч — gameplay chat, scrollUtils.ts (двойной rAF), toast-система",
+            "isaluk: 3 записи, ~16 ч — EventBus на дженериках, Core Game Loop, 4 закрытых Issue",
+            "OlgaMinaievaWebDev: 0 записей, вне радаров",
+            "Баг недели: Supabase обновлял сессию при смене вкладки → полный сброс квиза"
           ],
           "concerns": []
         }
@@ -7269,7 +7667,19 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "fail",
+          "headline": "Амнезия по расписанию: как Supabase тайно управлял игрой",
+          "github": "isaluk"
+        },
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "full-W1",
@@ -7308,6 +7718,10 @@
         },
         {
           "issue": 5,
+          "status": "yellow"
+        },
+        {
+          "issue": 6,
           "status": "yellow"
         }
       ]
@@ -7372,6 +7786,17 @@
             "thrapis: CodeMirror6 с автовыбором режима + система XP-прогрессии с уровнями, ~13 часов",
             "afedziukovich: унификация стилей 7 страниц (login, register, profile, about, dashboard, categories, header), ~5 часов",
             "Новое: приоритетный поиск задач, toast-уведомления, 404-редирект, видео чекпоинта"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "thrapis: миграция с моков на Supabase — SQL-схема, INSERT-миграции, Nuxt-кеширование, ~4 ч",
+            "thrapis: i18n-зачистка регуляркой [а-яА-ЯёЁ]+, console → toasts, fix Sign Out, ~2 ч",
+            "afedziukovich: 0 дневниковых записей за период"
           ],
           "concerns": []
         }
@@ -7524,6 +7949,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -7600,6 +8029,18 @@
             "sidoryakasergey: Firestore-профиль через uid + динамический роутинг топиков + MarkdownRenderer (react-markdown + syntax highlighter), ~8-12 часов",
             "dzzuze: новые тесты для header, исправление scroll-бага, восстановление отображения Login/Register, ~5 часов",
             "Все 3 участника активны, 7 записей за неделю"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "annaDzig: 3 записи, ~15 часов — полный learning flow с навигацией уроков, прогрессом в Firebase, компонент CompletedLessonsCard",
+            "dzzuze: About-страница, анимированное меню «компас + карта», user page «дощечка с держателем», эмодзи добавлены и откачены за 2 дня",
+            "sidoryakasergey: фикс 404 на GH Pages (index.html → 404.html), фильтры по сложности на дашборде",
+            "Команда не смогла созвониться втроём за 2 недели — спад синхронизации"
           ],
           "concerns": []
         }
@@ -7806,6 +8247,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -7867,6 +8312,18 @@
             "NataliItaly: 404-страница, History API навигация, CSS-лоадер, функция-медиатор для данных",
             "katerynamoskalenko: идея антишпаргалки — блокировка ухода со страницы квиза",
             "dariapusovskaya: фикс поиска пользователя (name → email-name), кастомные попапы вместо alert"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "NataliItaly — 4 дневника, инструкция How to avoid merge conflicts в репозитории",
+            "Два режима квиза (train + exam) — решение конфликта между навигацией и антишпаргалкой",
+            "dariapusovskaya — интерфейс статистики, функция renderStatistics",
+            "CI vs Husky: линтер проверял только изменённые файлы, CI — всё после мержа"
           ],
           "concerns": []
         }
@@ -8061,6 +8518,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -8137,6 +8598,18 @@
             "Atikin132: Error Page с котиком-SVG, Loading State, начал Memory Game Widget — 9,5 ч за выходные",
             "Nastya-Student: CI/CD workflows (production + preview), тесты достижений, ревью всех открытых PR",
             "Ulya10: первый мерж в develop, генерация задач для виджетов, начала вёрстку нового виджета"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "amelur: Observer pattern (user/progress/sessions), откат с Supabase на localStorage + моки",
+            "Atikin132: 12 часов — GraphRenderer (SVG + createElementNS), Quiz Widget, PR #53 и #57",
+            "Nastya-Student: система достижений (4 уровня), localStorage CRUD, мерж веток в develop, страница результатов",
+            "Ulya10: логика виджета с объяснением при валидации, header, взяла code completion"
           ],
           "concerns": []
         }
@@ -8369,6 +8842,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -8447,6 +8924,20 @@
             "Деплой на Vercel запущен, уровни в стиле Duolingo в проектировании"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "Ch-alexandra: нативный drag'n'drop без библиотек, Vitest-тесты, страница кланов с real-time onSnapshot",
+            "Orgris: Dashboard с картой уровней, анимированный моряк (pulse + opacity), тема-свитчер через SVG",
+            "heyArtik-dev выбыл из проекта перед защитой — команда сократилась до двух человек",
+            "Orgris: баг displayName (null из БД), разочарование в Tailwind из-за приоритетов стилей"
+          ],
+          "concerns": [
+            "heyArtik-dev прекратил работу над проектом и не планирует выходить на защиту — команда из трёх стала командой из двух"
+          ]
         }
       ],
       "scoreArc": {
@@ -8536,7 +9027,13 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [
         {
           "id": "all-diaries",
@@ -8568,6 +9065,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -8622,6 +9123,20 @@
             "forestdeerr: 0 записей за неделю"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "t-gladkaya: 6 записей — 3D-карточки, геймификация «собери сад», Firestore-прогресс, requestAnimationFrame-анимация, PNG→WebP оптимизация",
+            "anastan588: 3 записи — AI-чат на GROQ LLM, история в Firebase, real-time typing effect",
+            "chebupell и forestdeerr: 0 записей за неделю",
+            "Code review: PR #50 — 66 изменённых файлов"
+          ],
+          "concerns": [
+            "chebupell и forestdeerr без активности — команда работает на двоих"
+          ]
         }
       ],
       "scoreArc": {
@@ -8783,7 +9298,13 @@
           }
         ]
       },
-      "sectionAppearances": [],
+      "sectionAppearances": [
+        {
+          "issue": 6,
+          "sectionType": "aha",
+          "headline": "Aha! Moments"
+        }
+      ],
       "achievements": [],
       "statusTimeline": [
         {
@@ -8800,6 +9321,10 @@
         },
         {
           "issue": 5,
+          "status": "yellow"
+        },
+        {
+          "issue": 6,
           "status": "yellow"
         }
       ]
@@ -8879,6 +9404,20 @@
             "karinavd: страница 404 + карточка топика для дашборда, 5 часов"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "karinavd: 16 часов за неделю — Sidebar + Dashboard layout",
+            "AppContent-обёртка вместо дублирования Sidebar на каждой странице (DRY)",
+            "Переход с Flexbox на CSS Grid для стабильной сетки карточек",
+            "SergLestr и Alcopatriarch — ни одного дневника за неделю"
+          ],
+          "concerns": [
+            "SergLestr и Alcopatriarch не предоставили дневники — 2 из 3 участников молчат"
+          ]
         }
       ],
       "scoreArc": {
@@ -9071,6 +9610,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -9145,6 +9688,18 @@
             "Campidoc: 4 теста написаны и проверены, 2 часа",
             "ayzana, dimitra86: 0 дневниковых записей за период",
             "Деплой: campidoc.github.io/TetraSkill"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "yellow",
+          "highlights": [
+            "yegor000: 1 запись, 2 часа — продолжает разработку мини-игры",
+            "Campidoc: впервые за 5 выпусков без единой записи",
+            "ayzana и dimitra86: снова без дневников",
+            "1 из 4 участников вёл дневник на этой неделе"
           ],
           "concerns": []
         }
@@ -9352,6 +9907,10 @@
         {
           "issue": 5,
           "status": "yellow"
+        },
+        {
+          "issue": 6,
+          "status": "yellow"
         }
       ]
     },
@@ -9427,6 +9986,18 @@
             "angelinavakkasova: детальное code review кодовой базы + ревью PR, рефакторинг ThemeProvider, страница настроек",
             "annstarrysky: успешное интервью, расширение глоссария через ChatGPT, белые коты для тёмной темы",
             "yuriyli: спиннер + 404 + custom error компонент в Next.js, ревью модуля авторизации с предложениями по безопасности"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "angelinavakkasova: Practice page с тремя типами тренажёров — квиз, пропущенный код, Monaco Editor",
+            "yuriyli: JWT-авторизация, миграции БД, POST/GET статистики на .NET, баг с путями на разных ОС",
+            "annstarrysky: первый опыт с Kiro AI, бургер-меню и таблица уровней для мобильной версии",
+            "Звуковая система: баг с воспроизведением при отключённых настройках — исправлен через модуляризацию"
           ],
           "concerns": []
         }
@@ -9615,6 +10186,10 @@
         {
           "issue": 5,
           "status": "green"
+        },
+        {
+          "issue": 6,
+          "status": "green"
         }
       ]
     },
@@ -9691,6 +10266,18 @@
             "Blshop: модуль Quiz — динамическая загрузка вопросов, прогресс-бар, блок объяснений",
             "DmitryAstapenko: архитектура LearningPath — JSON-структура модулей, рефакторинг на ModuleItem + LessonItem",
             "GorodeN начал backend на MongoDB, провёл аудит проекта по TEAMWORK.md"
+          ],
+          "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "green",
+          "highlights": [
+            "GorodeN: JWT-авторизация на Express + MongoDB за 6 дней, Swagger-документация, миграция токена из localStorage в memory",
+            "DmitryAstapenko: ревью PR #87, рефакторинг header/footer с условным рендером по авторизации",
+            "GorodeN: 5+ комментариев в code review (#89, #92) параллельно с разработкой сервера",
+            "Blshop: нет записей в дневнике за неделю"
           ],
           "concerns": []
         }
@@ -9884,6 +10471,10 @@
         },
         {
           "issue": 5,
+          "status": "green"
+        },
+        {
+          "issue": 6,
           "status": "green"
         }
       ]
@@ -10201,6 +10792,18 @@
             "Стек поднят (Vite + React + Tailwind + FSD), но развития нет"
           ],
           "concerns": []
+        },
+        {
+          "issue": 6,
+          "date": "2026-04-01",
+          "status": "red",
+          "highlights": [
+            "devenrgy: 1 запись за весь проект, 0 новых за последние выпуски",
+            "Batyrkhan-Sk: 0 записей, 0 видимой активности за всё время",
+            "Стек: Vite + React + Tailwind + HeroUI + TanStack Router + Biome + FSD — без единой реализованной фичи",
+            "README отсутствует, team conditions не выполнены"
+          ],
+          "concerns": []
         }
       ],
       "scoreArc": {
@@ -10277,6 +10880,10 @@
         },
         {
           "issue": 5,
+          "status": "red"
+        },
+        {
+          "issue": 6,
           "status": "red"
         }
       ]

@@ -77,52 +77,44 @@
       ],
       "grading": {
         "maxPoints": 100,
-        "components": [
+        "algorithm": "v2-ladder",
+        "description": "4 discrete levels from WEEK6_CHECKPOINT spec. Code determines 0/20/60, LLM binary questions upgrade to 80/100.",
+        "levels": [
           {
-            "id": "regularity",
-            "label": "Регулярность",
-            "maxPoints": 20,
+            "score": 0,
+            "label": "Нет дневника",
             "source": "deterministic",
-            "description": "Consistency of writing across all 6 weeks. Penalizes cramming.",
+            "description": "No diary or gate failed (< 2 entries after Mar 23)"
+          },
+          {
+            "score": 20,
+            "label": "Формальный",
+            "source": "deterministic",
+            "description": "Entries exist but irregular (< 5 of 6 weeks with entries)"
+          },
+          {
+            "score": 60,
+            "label": "Регулярный",
+            "source": "deterministic",
+            "description": "≥ 2 entries/week in ≥ 5 weeks, 2 components described",
             "params": {
               "weeksExpected": 6,
-              "minWeeksForMax": 5
+              "minWeeksForRegular": 5
             }
           },
           {
-            "id": "volume",
-            "label": "Объём",
-            "maxPoints": 10,
-            "source": "deterministic",
-            "description": "Total meaningful content. Not rewarding length for its own sake — penalizing empty/one-liner entries.",
-            "params": {
-              "minAvgCharsForMax": 500,
-              "minTotalEntries": 6
-            }
+            "score": 80,
+            "label": "Детальный",
+            "source": "llm-binary",
+            "description": "Diary contains specific technical problems and their solutions",
+            "question": "Содержит ли дневник описание конкретных технических проблем и способов их решения?"
           },
           {
-            "id": "noticeability",
-            "label": "Заметность Tandi",
-            "maxPoints": 20,
-            "source": "scan-data",
-            "description": "How often Tandi noticed this student across issues. Based on scan tag scores ≥ 0.7.",
-            "params": {
-              "scoreThreshold": 0.7,
-              "issueRange": [2, 6]
-            }
-          },
-          {
-            "id": "reflection",
-            "label": "Глубина рефлексии",
-            "maxPoints": 50,
-            "source": "llm",
-            "description": "Quality of self-analysis: comparing approaches, describing decisions and trade-offs, honest about failures, visible growth. Graded by LLM on smart context (first+last entry + scan summary).",
-            "rubric": {
-              "0-10": "Формальный: 'сделал X, потом Y'. Нет анализа.",
-              "11-25": "Описательный: есть детали, но нет 'почему'. Пересказ действий.",
-              "26-40": "Аналитический: описывает проблемы и решения, видны решения и альтернативы.",
-              "41-50": "Рефлексивный: сравнивает подходы, честен про ошибки, видно как менялось мышление."
-            }
+            "score": 100,
+            "label": "Рефлексивный",
+            "source": "llm-binary",
+            "description": "Diary contains comparison of implementation approaches with trade-offs",
+            "question": "Содержит ли дневник сравнение нескольких вариантов реализации с описанием trade-offs?"
           }
         ]
       }

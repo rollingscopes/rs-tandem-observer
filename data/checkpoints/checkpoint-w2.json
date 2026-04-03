@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-03-24T08:59:39.688Z",
+  "checkDate": "2026-04-03T21:41:27.150Z",
   "week": "w2",
   "repos": [
     {
@@ -700,10 +700,7 @@
         "deployOk": true,
         "hasWorkflow": true,
         "workflowFiles": [
-          "main.yml",
-          "tg_pr_close_notify.yml",
-          "tg_pr_open_notify.yml",
-          "tg_pr_update_notify.yml"
+          "main.yml"
         ],
         "issuesCount": 8,
         "hasMinIssues": true,
@@ -715,7 +712,7 @@
         {
           "github": "aliakseidrob",
           "normalizedGithub": "aliakseidrob",
-          "diaryEntriesW2": 3,
+          "diaryEntriesW2": 12,
           "assignedIssues": 1,
           "personalOk": true,
           "personalScore": 10,
@@ -725,7 +722,7 @@
         {
           "github": "anatolirub",
           "normalizedGithub": "anatolirub",
-          "diaryEntriesW2": 4,
+          "diaryEntriesW2": 16,
           "assignedIssues": 1,
           "personalOk": true,
           "personalScore": 10,
@@ -745,7 +742,7 @@
         {
           "github": "mark-pribylnov",
           "normalizedGithub": "mark-pribylnov",
-          "diaryEntriesW2": 3,
+          "diaryEntriesW2": 25,
           "assignedIssues": 2,
           "personalOk": true,
           "personalScore": 10,
@@ -765,7 +762,7 @@
         {
           "github": "shoblinsky",
           "normalizedGithub": "shoblinsky",
-          "diaryEntriesW2": 2,
+          "diaryEntriesW2": 10,
           "assignedIssues": 1,
           "personalOk": true,
           "personalScore": 10,
@@ -775,7 +772,7 @@
         {
           "github": "Zhdko",
           "normalizedGithub": "zhdko",
-          "diaryEntriesW2": 4,
+          "diaryEntriesW2": 9,
           "assignedIssues": 1,
           "personalOk": true,
           "personalScore": 10,

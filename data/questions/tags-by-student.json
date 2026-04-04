@@ -85,7 +85,6 @@
     "github": "BerserkBat",
     "teamName": "Typocalypse",
     "tags": [
-      "React",
       "Tailwind",
       "Vite"
     ]
@@ -96,7 +95,6 @@
     "tags": [
       "Husky",
       "NestJS",
-      "React",
       "Tailwind",
       "Vite",
       "Zustand"
@@ -106,7 +104,6 @@
     "github": "romanplis",
     "teamName": "Typocalypse",
     "tags": [
-      "React",
       "Tailwind",
       "TypeScript",
       "Vite"
@@ -122,7 +119,6 @@
       "Jest",
       "NestJS",
       "Prisma",
-      "React",
       "Tailwind",
       "TypeScript",
       "Vite",
@@ -134,8 +130,6 @@
     "teamName": "Typocalypse",
     "tags": [
       "MobX",
-      "React",
-      "Redux",
       "TypeScript",
       "Zustand"
     ]
@@ -172,7 +166,6 @@
       "Material UI",
       "Node.js",
       "React",
-      "Redux",
       "Render",
       "TypeScript",
       "Vite",
@@ -363,7 +356,6 @@
     "teamName": "Джунгли зовут!",
     "tags": [
       "ESLint",
-      "Firebase",
       "PostgreSQL",
       "React",
       "Supabase",
@@ -375,7 +367,6 @@
     "teamName": "GrowLab",
     "tags": [
       "Husky",
-      "React",
       "TypeScript",
       "Vercel",
       "Vite",
@@ -439,7 +430,6 @@
     "tags": [
       "Angular",
       "Docker",
-      "Firebase",
       "MongoDB",
       "PostgreSQL",
       "Supabase",
@@ -453,7 +443,6 @@
       "Angular",
       "CI/CD",
       "Docker",
-      "Firebase",
       "GitHub Actions",
       "Netlify",
       "Node.js",
@@ -486,7 +475,6 @@
     "github": "dukhd",
     "teamName": "JSGods",
     "tags": [
-      "Angular",
       "ESLint",
       "Husky",
       "NestJS",
@@ -499,10 +487,8 @@
     "github": "elrouss",
     "teamName": "JSGods",
     "tags": [
-      "Angular",
       "Ant Design",
       "Express",
-      "React",
       "SCSS",
       "TypeScript"
     ]
@@ -511,7 +497,6 @@
     "github": "mikhalenkadaniil",
     "teamName": "JSGods",
     "tags": [
-      "Angular",
       "ESLint",
       "NestJS",
       "WebSocket"
@@ -521,7 +506,6 @@
     "github": "nck1969",
     "teamName": "JSGods",
     "tags": [
-      "Angular",
       "CI/CD",
       "Playwright"
     ]
@@ -584,7 +568,6 @@
       "Husky",
       "Netlify",
       "PostgreSQL",
-      "React",
       "Vitest",
       "Vue"
     ]
@@ -595,7 +578,6 @@
     "tags": [
       "Groq",
       "Pinia",
-      "React",
       "Vue"
     ]
   },
@@ -619,7 +601,6 @@
       "Jest",
       "Next.js",
       "React",
-      "Redux",
       "Render",
       "Tailwind",
       "TypeScript"
@@ -629,7 +610,6 @@
     "github": "mero93",
     "teamName": "Tuple Trouble",
     "tags": [
-      "Angular",
       "Next.js",
       "Supabase",
       "Zustand",
@@ -655,7 +635,6 @@
     "github": "Bulbashok",
     "teamName": "asyncmind",
     "tags": [
-      "Firebase",
       "React",
       "SCSS",
       "Vercel",
@@ -667,7 +646,6 @@
     "github": "JesterAV",
     "teamName": "asyncmind",
     "tags": [
-      "Firebase",
       "React",
       "Vercel",
       "Vite",
@@ -679,7 +657,6 @@
     "teamName": "asyncmind",
     "tags": [
       "ESLint",
-      "Firebase",
       "Husky",
       "Material UI",
       "React",
@@ -706,7 +683,6 @@
     "teamName": "Nova",
     "tags": [
       "Husky",
-      "Redux",
       "Render",
       "Tailwind",
       "Vitest",
@@ -808,7 +784,6 @@
     "github": "anelka777",
     "teamName": "Gang of Four",
     "tags": [
-      "Firebase",
       "Material UI",
       "React"
     ]
@@ -817,10 +792,8 @@
     "github": "nginit",
     "teamName": "Gang of Four",
     "tags": [
-      "Angular",
       "CI/CD",
       "ESLint",
-      "Firebase",
       "Material UI",
       "React",
       "SCSS",
@@ -835,7 +808,6 @@
     "tags": [
       "CI/CD",
       "ESLint",
-      "Firebase",
       "GitHub Actions",
       "Material UI",
       "Netlify",
@@ -862,8 +834,7 @@
       "ESLint",
       "Husky",
       "Tailwind",
-      "TypeScript",
-      "Vue"
+      "TypeScript"
     ]
   },
   {
@@ -875,8 +846,7 @@
       "Husky",
       "JWT",
       "OpenAI API",
-      "Pinia",
-      "Vue"
+      "Pinia"
     ]
   },
   {
@@ -884,9 +854,7 @@
     "teamName": "Devtones",
     "tags": [
       "Canvas",
-      "React",
-      "Tailwind",
-      "Vue"
+      "Tailwind"
     ]
   },
   {
@@ -1015,7 +983,6 @@
     "github": "AzizShik",
     "teamName": "Auto-Team 4",
     "tags": [
-      "React",
       "SCSS",
       "TypeScript"
     ]
@@ -1046,12 +1013,10 @@
     "github": "afedziukovich",
     "teamName": "Auto-Team 5",
     "tags": [
-      "Angular",
       "ESLint",
       "Husky",
       "Nuxt",
       "Pinia",
-      "React",
       "Supabase",
       "Tailwind",
       "TypeScript",
@@ -1151,7 +1116,6 @@
     "teamName": "Т-8",
     "tags": [
       "ESLint",
-      "Firebase",
       "Supabase",
       "TypeScript"
     ]
@@ -1339,8 +1303,7 @@
       "Next.js",
       "React",
       "Tailwind",
-      "Vite",
-      "Vue"
+      "Vite"
     ]
   },
   {
@@ -1355,8 +1318,7 @@
       "React",
       "Tailwind",
       "Vercel",
-      "Vite",
-      "Vue"
+      "Vite"
     ]
   },
   {

@@ -3416,8 +3416,6 @@
       "github": "coicoin",
       "teamName": "Strict Mode",
       "tags": [
-        "React",
-        "Redux",
         "Render",
         "SCSS",
         "Supabase",
@@ -3516,7 +3514,6 @@
       "teamName": "Strict Mode",
       "tags": [
         "ESLint",
-        "Firebase",
         "Supabase",
         "Vite"
       ],
@@ -3612,7 +3609,6 @@
       "github": "FierceSloth",
       "teamName": "Strict Mode",
       "tags": [
-        "Firebase",
         "Husky",
         "Render",
         "SCSS",
@@ -3635,7 +3631,7 @@
         },
         {
           "category": "architecture",
-          "question": "Ваш стек включает и Firebase, и Supabase — расскажи, как вы разделили ответственность между ними, и как вообще пришли к такой комбинации?"
+          "question": "Расскажи, как вы выбирали backend-платформу для проекта. Какие варианты рассматривали и почему остановились на Supabase?"
         },
         {
           "category": "architecture",

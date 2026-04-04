@@ -397,8 +397,6 @@
     "github": "coicoin",
     "teamName": "Strict Mode",
     "tags": [
-      "React",
-      "Redux",
       "Render",
       "SCSS",
       "Supabase",
@@ -410,7 +408,6 @@
     "teamName": "Strict Mode",
     "tags": [
       "ESLint",
-      "Firebase",
       "Supabase",
       "Vite"
     ]
@@ -419,7 +416,6 @@
     "github": "FierceSloth",
     "teamName": "Strict Mode",
     "tags": [
-      "Firebase",
       "Husky",
       "Render",
       "SCSS",

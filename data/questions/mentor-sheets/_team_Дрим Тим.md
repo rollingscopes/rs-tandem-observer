@@ -1,5 +1,5 @@
 # Дрим Тим — Defence Questions
-*5 students, generated 2026-03-30*
+*5 students, generated 2026-04-04*
 
 ---
 
@@ -52,7 +52,7 @@
 
 # anatolirub — Дрим Тим
 
-**Tech:** Angular, Docker, Firebase, MongoDB, PostgreSQL, Supabase, Vercel
+**Tech:** Angular, Docker, MongoDB, PostgreSQL, Supabase, Vercel
 
 ## Context (read before the call)
 - Провёл самостоятельный технический спайк: руками попробовал три бэкенд-стека (NestJS+Docker+MongoDB, Firebase, Supabase) за 1–2 сессии, чтобы аргументированно предложить команде решение
@@ -99,7 +99,7 @@
 
 # mark-pribylnov — Дрим Тим
 
-**Tech:** Angular, CI/CD, Docker, Firebase, GitHub Actions, Netlify, Node.js, Render, RxJS, Supabase, TypeScript, Vercel
+**Tech:** Angular, CI/CD, Docker, GitHub Actions, Netlify, Node.js, Render, RxJS, Supabase, TypeScript, Vercel
 
 ## Context (read before the call)
 - Настроил полный CI/CD пайплайн (GitHub Actions: lint → prettier → build → deploy) с нуля без какого-либо предыдущего опыта — уложился примерно в 3-4 часа в первый день проекта.

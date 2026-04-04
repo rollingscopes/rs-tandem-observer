@@ -1,6 +1,6 @@
 # nginit — Gang of Four
 
-**Tech:** Angular, CI/CD, ESLint, Firebase, Material UI, React, SCSS, TypeScript, Vite, Vitest
+**Tech:** CI/CD, ESLint, Material UI, React, SCSS, TypeScript, Vite, Vitest
 
 ## Context (read before the call)
 - Взял на себя значительную организационную нагрузку: дизайн в Figma до 2 ночи, ручной перенос задач из Trello в GitHub Issues, запись обучающего видео по MUI для команды — около 20 часов за одну неделю.

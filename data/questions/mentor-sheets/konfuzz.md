@@ -1,6 +1,6 @@
 # konfuzz — Devtones
 
-**Tech:** Canvas, Express, Husky, JWT, OpenAI API, Pinia, Vue
+**Tech:** Canvas, Express, Husky, JWT, OpenAI API, Pinia
 
 ## Context (read before the call)
 - Инициатор и лидер команды: предложил концепцию приложения (платформа для подготовки к собеседованиям с виджетами), создал репозиторий, настроил branch protection, канбан-доску, сделал Figma-макеты.

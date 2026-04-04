@@ -1,11 +1,11 @@
 # VueJS Tandem — Defence Questions
-*4 students, generated 2026-03-30*
+*4 students, generated 2026-04-04*
 
 ---
 
 # kirrbrest — VueJS Tandem
 
-**Tech:** Docker, ESLint, Husky, Netlify, PostgreSQL, React, Vitest, Vue
+**Tech:** Docker, ESLint, Husky, Netlify, PostgreSQL, Vitest, Vue
 
 ## Context (read before the call)
 - Пришёл с 4-летним опытом JS/TS/React — Vue осваивал впервые в ходе этого проекта.
@@ -51,7 +51,7 @@
 
 # maksimdolgonosov — VueJS Tandem
 
-**Tech:** Groq, Pinia, React, Vue
+**Tech:** Groq, Pinia, Vue
 
 ## Context (read before the call)
 - Разрабатывает отдельный блок («цех») в командном JavaScript-тренажёре — включает задания с текстовым ответом, написанием кода и мини-игры

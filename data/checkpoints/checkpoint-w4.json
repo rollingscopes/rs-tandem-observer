@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-04T18:52:22.197Z",
+  "checkDate": "2026-04-04T19:45:41.179Z",
   "week": "w4",
   "repos": [
     {
@@ -775,12 +775,12 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 23,
-        "meaningfulComments": 22,
+        "totalComments": 28,
+        "meaningfulComments": 27,
         "commentsByUser": {
+          "romanplis": 9,
           "jasonscriptlord": 5,
           "yessethumanman": 4,
-          "romanplis": 4,
           "ivmoskalev": 3,
           "yermekyerden": 7
         }
@@ -967,9 +967,9 @@
           "hasDiaryReviewEntry": false,
           "testCount": 0,
           "testFiles": [],
-          "reviewComments": 4,
-          "meaningfulReviewComments": 3,
-          "prsReviewed": 2,
+          "reviewComments": 9,
+          "meaningfulReviewComments": 8,
+          "prsReviewed": 3,
           "diaryOk": true,
           "testingOk": false,
           "reviewOk": true,
@@ -5041,10 +5041,10 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 228,
-        "meaningfulComments": 215,
+        "totalComments": 229,
+        "meaningfulComments": 216,
         "commentsByUser": {
-          "khasekai": 104,
+          "khasekai": 105,
           "shoblinsky": 19,
           "aliakseidrob": 35,
           "mark-pribylnov": 9,
@@ -5330,9 +5330,9 @@
           "hasDiaryReviewEntry": false,
           "testCount": 0,
           "testFiles": [],
-          "reviewComments": 104,
-          "meaningfulReviewComments": 100,
-          "prsReviewed": 19,
+          "reviewComments": 105,
+          "meaningfulReviewComments": 101,
+          "prsReviewed": 20,
           "diaryOk": false,
           "testingOk": false,
           "reviewOk": false,
@@ -5885,12 +5885,12 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 333,
-        "meaningfulComments": 328,
+        "totalComments": 335,
+        "meaningfulComments": 330,
         "commentsByUser": {
+          "mikhalenkadaniil": 77,
           "nck1969": 23,
           "alesdrobysh": 45,
-          "mikhalenkadaniil": 75,
           "dukhd": 82,
           "elrouss": 108
         }
@@ -6186,9 +6186,9 @@
             "packages/frontend/src/shared/switcher/switcher.component.spec.ts",
             "packages/frontend/src/shared/ui/line-break/line-break.component.spec.ts"
           ],
-          "reviewComments": 75,
-          "meaningfulReviewComments": 74,
-          "prsReviewed": 16,
+          "reviewComments": 77,
+          "meaningfulReviewComments": 76,
+          "prsReviewed": 17,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -8020,9 +8020,14 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 0,
-        "meaningfulComments": 0,
-        "commentsByUser": {}
+        "totalComments": 122,
+        "meaningfulComments": 118,
+        "commentsByUser": {
+          "walle908": 36,
+          "peccopa": 24,
+          "mvavilin": 45,
+          "sergey-ado": 17
+        }
       },
       "members": [
         {
@@ -8035,9 +8040,9 @@
             "[feat/166-add-base-of-game-class] apps/client/src/components/ui/Modal/Modal.test.ts",
             "[feat/166-add-base-of-game-class] apps/client/src/components/ui/Overlay/Overlay.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 45,
+          "meaningfulReviewComments": 44,
+          "prsReviewed": 15,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -8193,9 +8198,9 @@
             "apps/client/src/tests/components/TestComponent/TestPage.test.ts",
             "apps/client/src/tests/components/TestComponent/TestText/TestText.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 24,
+          "meaningfulReviewComments": 24,
+          "prsReviewed": 8,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -8294,9 +8299,9 @@
             "apps/server/src/tests/roomManager.test.ts",
             "apps/server/src/utils/getUserWithoutPassword.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 17,
+          "meaningfulReviewComments": 17,
+          "prsReviewed": 5,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -8379,9 +8384,9 @@
             "apps/client/src/components/BaseForm/BaseForm.test.ts",
             "apps/client/src/components/InputForm/InputForm.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 36,
+          "meaningfulReviewComments": 33,
+          "prsReviewed": 13,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -9158,9 +9163,14 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 0,
-        "meaningfulComments": 0,
-        "commentsByUser": {}
+        "totalComments": 61,
+        "meaningfulComments": 55,
+        "commentsByUser": {
+          "nginit": 29,
+          "notdmitry": 12,
+          "anelka777": 8,
+          "swetlanaang": 12
+        }
       },
       "members": [
         {
@@ -9173,9 +9183,9 @@
             "[feature/async-sorter] src/api/dashboard.api.test.ts",
             "[feature/async-sorter] src/shared/hooks/useActivityHistory.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 8,
+          "meaningfulReviewComments": 5,
+          "prsReviewed": 5,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -9275,9 +9285,9 @@
           "testFiles": [
             "[feature/async-sorter] src/shared/hooks/useWidgetQuiz.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 29,
+          "meaningfulReviewComments": 29,
+          "prsReviewed": 14,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -9411,15 +9421,15 @@
             "[develop] src/features/Dashboard/useActivityHistory.test.ts",
             "[develop] src/features/WidgetQuiz/useWidgetQuiz.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 12,
+          "meaningfulReviewComments": 10,
+          "prsReviewed": 6,
           "diaryOk": true,
           "testingOk": true,
-          "reviewOk": false,
+          "reviewOk": true,
           "testingScore": 10,
-          "reviewScore": 0,
-          "score": 10,
+          "reviewScore": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/notdmitry/notdmitry-2026-02-20.md",
@@ -9498,7 +9508,7 @@
         {
           "github": "swetlanaang",
           "normalizedGithub": "swetlanaang",
-          "diaryEntriesW4": 7,
+          "diaryEntriesW4": 8,
           "hasDiaryReviewEntry": false,
           "testCount": 14,
           "testFiles": [
@@ -9507,16 +9517,22 @@
             "[feature/async-sorter] src/components/Nav/Nav.test.tsx",
             "[feature/async-sorter] src/layouts/Header/Header.test.tsx"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 12,
+          "meaningfulReviewComments": 11,
+          "prsReviewed": 7,
           "diaryOk": true,
           "testingOk": true,
-          "reviewOk": false,
+          "reviewOk": true,
           "testingScore": 10,
-          "reviewScore": 0,
-          "score": 10,
+          "reviewScore": 10,
+          "score": 20,
           "entries": [
+            {
+              "path": "development-notes/swetlanaAng/self-assessment.md",
+              "date": "2026-04-04",
+              "content": "[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/93)\n\n# Personal Features\n\n| Категория            | Фича                                                                    | Баллы   |\n| -------------------- | ----------------------------------------------------------------------- | ------- |\n| **My Components**    | Login page                                                              | +25     |\n|                      | Async Sorter Widget                                                     | +25     |\n|                      | register page                                                           | +25     |\n|                      | Profile page                                                            | +20     |\n| **UI & Interaction** | **Drag & Drop:**                                                        | +10     |\n|                      | **Accessibility (a11y):**                                               | +10     |\n|                      | **Responsive:** Адаптация верстки под мобильные устройства (от 320px)   | +5      |\n| **Architecture**     | **API Layer:** Выделение слоя работы с API (изоляция от UI компонентов) | +10     |\n| **Frameworks**       | **React:** Использование библиотеки React                               | +5      |\n| **Итого**            |                                                                         | **135** |\n\n## Основные задачи и мой личный вклад\n\n### Командная работа\n\nПроект разрабатывался в рамках финального задания RS School TANDEM. Для управления проектами и задачами я создала Trello доску, которая позволяла визуализировать рабочий процесс, распределять задачи, соблюдать дедлайны и организовывать командную работу в виде карточек, перемещаемых между списками.\n\n### Layout компоненты\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/32)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/29)\n\nВ качестве UI библиотеки была выбрана Material UI и моей зоной ответственности было создать компоненты, повторяемые на каждой странице это:\n\n- Nav\n- Header\n  -Footer\n  Разрабатывая эти компоненты я освоила базу синтаксиса Material UI. Nav Header имеют соответственно 2 представления: гость или авторизованный пользователь, на уровне контекста\n\n### Страницы Login, Register, Profile\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/43)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/52)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/66)\n\n- все 3 страницы реализованы на базе одного основного ключевого компонента формы\n- для валидации я использовала React Hook Form и схемы zod\n- старалась унифицировать все что можно, для соблюдения dry принципа, но в конце решили разделить все 3 страницы и все типы\n- реализовала функционал создания новых пользователей, аутентификации, изменения данных\n- прибегала к эмуляции обращения к серверу\n- была создана возможность оповещения пользователя об успехе или ошибке, эту возможно",
+              "charCount": 3634
+            },
             {
               "path": "development-notes/swetlanaAng/swetlanaAng-2026-02-22.md",
               "date": "2026-02-22",
@@ -10847,9 +10863,13 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 0,
-        "meaningfulComments": 0,
-        "commentsByUser": {}
+        "totalComments": 131,
+        "meaningfulComments": 98,
+        "commentsByUser": {
+          "artemovegor": 67,
+          "ekaterynavolkova": 50,
+          "al-e-xxx": 14
+        }
       },
       "members": [
         {
@@ -10861,9 +10881,9 @@
           "testFiles": [
             "[backend-widgets] backend/src/auth.service.spec.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 14,
+          "meaningfulReviewComments": 14,
+          "prsReviewed": 5,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -10951,9 +10971,9 @@
             "[backend-widgets] src/utils/markdown.spec.ts",
             "[backend-widgets] src/utils/tokenize-string.spec.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 67,
+          "meaningfulReviewComments": 55,
+          "prsReviewed": 20,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -11073,9 +11093,9 @@
             "[backend-widgets] src/components/widgets/true-false/true-false-strategy.spec.ts",
             "[backend-widgets] src/services/widget-engine.spec.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 50,
+          "meaningfulReviewComments": 29,
+          "prsReviewed": 14,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -12605,9 +12625,14 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 0,
-        "meaningfulComments": 0,
-        "commentsByUser": {}
+        "totalComments": 187,
+        "meaningfulComments": 176,
+        "commentsByUser": {
+          "nastya-student": 51,
+          "atikin132": 77,
+          "amelur": 32,
+          "ulya10": 27
+        }
       },
       "members": [
         {
@@ -12619,9 +12644,9 @@
           "testFiles": [
             "[feat/RST-11_implementAuthorizationPage] test/login.page.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 32,
+          "meaningfulReviewComments": 28,
+          "prsReviewed": 3,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -12719,9 +12744,9 @@
             "[develop] test/user.service.spec.ts",
             "[develop] test/widget.service.spec.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 77,
+          "meaningfulReviewComments": 76,
+          "prsReviewed": 10,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -12872,9 +12897,9 @@
           "testFiles": [
             "[develop] test/profile.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 51,
+          "meaningfulReviewComments": 45,
+          "prsReviewed": 7,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -13004,9 +13029,9 @@
           "testFiles": [
             "[develop] test/landing-page.test.ts"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 27,
+          "meaningfulReviewComments": 27,
+          "prsReviewed": 10,
           "diaryOk": true,
           "testingOk": true,
           "reviewOk": true,
@@ -13108,9 +13133,13 @@
         }
       },
       "reviewAnalytics": {
-        "totalComments": 0,
-        "meaningfulComments": 0,
-        "commentsByUser": {}
+        "totalComments": 39,
+        "meaningfulComments": 34,
+        "commentsByUser": {
+          "orgris": 24,
+          "ch-alexandra": 6,
+          "heyartik-dev": 9
+        }
       },
       "members": [
         {
@@ -13122,9 +13151,9 @@
           "testFiles": [
             "[develop] sea-of-code/src/pages/game/components/question-modal/questionModal.test.tsx"
           ],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 6,
+          "meaningfulReviewComments": 6,
+          "prsReviewed": 1,
           "diaryOk": true,
           "testingOk": false,
           "reviewOk": true,
@@ -13243,15 +13272,15 @@
           "hasDiaryReviewEntry": false,
           "testCount": 0,
           "testFiles": [],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 9,
+          "meaningfulReviewComments": 7,
+          "prsReviewed": 3,
           "diaryOk": true,
           "testingOk": false,
-          "reviewOk": false,
+          "reviewOk": true,
           "testingScore": 0,
-          "reviewScore": 0,
-          "score": 0,
+          "reviewScore": 10,
+          "score": 10,
           "entries": [
             {
               "path": "development-notes/heyArtik-dev/heyArtik-dev-2026-02-19.md",
@@ -13346,9 +13375,9 @@
           "hasDiaryReviewEntry": true,
           "testCount": 0,
           "testFiles": [],
-          "reviewComments": 0,
-          "meaningfulReviewComments": 0,
-          "prsReviewed": 0,
+          "reviewComments": 24,
+          "meaningfulReviewComments": 21,
+          "prsReviewed": 7,
           "diaryOk": true,
           "testingOk": false,
           "reviewOk": true,
@@ -13521,17 +13550,35 @@
           "normalizedGithub": "anastan588",
           "diaryEntriesW4": 9,
           "hasDiaryReviewEntry": true,
-          "testCount": 0,
-          "testFiles": [],
+          "testCount": 69,
+          "testFiles": [
+            "[33-modal-window-with-results] SkillsZen/src/tests/AuthContext.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/AuthFormLayout.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/CodingTask.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/DeleteAccountModal.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/EditorHeader.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/EditorPage.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/ErrorFallback.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/PageLoader.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/ProfilePage.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/ProgressBar.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/authPage.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/footer.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/header.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/loginPage.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/notFound.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/protectedRoute.test.tsx",
+            "[33-modal-window-with-results] SkillsZen/src/tests/router.test.tsx"
+          ],
           "reviewComments": 2,
           "meaningfulReviewComments": 2,
           "prsReviewed": 2,
           "diaryOk": true,
-          "testingOk": false,
+          "testingOk": true,
           "reviewOk": true,
-          "testingScore": 0,
+          "testingScore": 10,
           "reviewScore": 10,
-          "score": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/anastan588/2026-02-22.md",
@@ -13751,17 +13798,25 @@
           "normalizedGithub": "t-gladkaya",
           "diaryEntriesW4": 17,
           "hasDiaryReviewEntry": true,
-          "testCount": 0,
-          "testFiles": [],
+          "testCount": 11,
+          "testFiles": [
+            "[development] SkillsZen/src/components/shared/backButton.test.tsx",
+            "[development] SkillsZen/src/pages/exercises/courseSubPage/courseSubPage.test.tsx",
+            "[development] SkillsZen/src/pages/exercises/tags/inProgressTag.test.tsx",
+            "[development] SkillsZen/src/pages/exercises/tags/retryTag.test.tsx",
+            "[development] SkillsZen/src/pages/exercises/tags/startTag.test.tsx",
+            "[development] SkillsZen/src/pages/exercises/tags/successTag.test.tsx",
+            "[development] SkillsZen/src/pages/menuPage/components/exerciseCard.test.tsx"
+          ],
           "reviewComments": 27,
           "meaningfulReviewComments": 27,
           "prsReviewed": 7,
           "diaryOk": true,
-          "testingOk": false,
+          "testingOk": true,
           "reviewOk": true,
-          "testingScore": 0,
+          "testingScore": 10,
           "reviewScore": 10,
-          "score": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/t-gladkaya/2026-02-19.md",

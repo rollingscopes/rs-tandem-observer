@@ -1,6 +1,6 @@
 # annstarrysky — 111 Blind Kittens
 
-**Tech:** Ant Design, Next.js, React, Tailwind, Vite, Vue
+**Tech:** Ant Design, Next.js, React, Tailwind, Vite
 
 ## Context (read before the call)
 - Автоматически назначена тимлидом — охотно приняла роль, самостоятельно настроила Kanban с labels, организовывала созвоны и объясняла процессы команде.

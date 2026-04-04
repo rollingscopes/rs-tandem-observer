@@ -1,6 +1,6 @@
 # yermekyerden — Typocalypse
 
-**Tech:** CI/CD, GitHub Actions, JWT, Jest, NestJS, Prisma, React, Tailwind, TypeScript, Vite, Vitest
+**Tech:** CI/CD, GitHub Actions, JWT, Jest, NestJS, Prisma, Tailwind, TypeScript, Vite, Vitest
 
 ## Context (read before the call)
 - Тимлид с первого дня: взял на себя репозиторий, ветки (main/develop/diary), README, branch protection и CI/CD ещё до того, как команда начала писать код.

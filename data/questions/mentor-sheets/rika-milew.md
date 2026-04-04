@@ -1,6 +1,6 @@
 # rika-milew — GrowLab
 
-**Tech:** Husky, React, TypeScript, Vercel, Vite, Vitest, Zustand
+**Tech:** Husky, TypeScript, Vercel, Vite, Vitest, Zustand
 
 ## Context (read before the call)
 - Пришла в проект, изучая React практически с нуля, но стала первой в команде, кто поднял роутер и выстроил архитектуру компонентов.

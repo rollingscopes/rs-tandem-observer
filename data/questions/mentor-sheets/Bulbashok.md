@@ -1,6 +1,6 @@
 # Bulbashok — asyncmind
 
-**Tech:** Firebase, React, SCSS, Vercel, Vite, i18n
+**Tech:** React, SCSS, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - Взял на себя всю Firebase-часть (Authentication + Firestore) без какого-либо бэкенд-опыта — в итоге сдал рабочую систему регистрации/логина с env-переменными и .env.example-шаблоном для команды.

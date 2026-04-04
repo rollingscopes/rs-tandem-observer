@@ -1,6 +1,6 @@
 # YessetHumanMan — Typocalypse
 
-**Tech:** MobX, React, Redux, TypeScript, Zustand
+**Tech:** MobX, TypeScript, Zustand
 
 ## Context (read before the call)
 - Главный технический вклад — реализация обучающего терминального модуля: xterm.js с историей, Ctrl+C, autofit и cwd-aware промптом, плюс виртуальная файловая система с поддержкой echo/redirect

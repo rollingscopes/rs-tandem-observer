@@ -1,11 +1,11 @@
 # Auto-Team 4 — Defence Questions
-*3 students, generated 2026-03-30*
+*3 students, generated 2026-04-04*
 
 ---
 
 # AzizShik — Auto-Team 4
 
-**Tech:** React, SCSS, TypeScript
+**Tech:** SCSS, TypeScript
 
 ## Context (read before the call)
 - Проект — DevQuest, браузерная геймификация «дня в жизни джуна»: 7 дней, тимлид, стресс-бар и XP-бар, интеграция Grok/xAI API для генерации событий

@@ -1,6 +1,6 @@
 # romanplis — Typocalypse
 
-**Tech:** React, Tailwind, TypeScript, Vite
+**Tech:** Tailwind, TypeScript, Vite
 
 ## Context (read before the call)
 - Настраивал React с нуля в самом начале проекта — до этого никогда не делал, понадобилось около 3 часов.

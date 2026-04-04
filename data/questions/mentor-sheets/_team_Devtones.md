@@ -1,11 +1,11 @@
 # Devtones — Defence Questions
-*3 students, generated 2026-03-30*
+*3 students, generated 2026-04-04*
 
 ---
 
 # bariydev — Devtones
 
-**Tech:** ESLint, Husky, Tailwind, TypeScript, Vue
+**Tech:** ESLint, Husky, Tailwind, TypeScript
 
 ## Context (read before the call)
 - Взял на себя всю инфраструктуру проекта: настроил ESLint Flat Config с плагином Perfectionist (автосортировка импортов), Prettier, Husky с lint-staged + vue-tsc и Conventional Commits — всё в один день, сознательно до написания фич.
@@ -50,7 +50,7 @@
 
 # konfuzz — Devtones
 
-**Tech:** Canvas, Express, Husky, JWT, OpenAI API, Pinia, Vue
+**Tech:** Canvas, Express, Husky, JWT, OpenAI API, Pinia
 
 ## Context (read before the call)
 - Инициатор и лидер команды: предложил концепцию приложения (платформа для подготовки к собеседованиям с виджетами), создал репозиторий, настроил branch protection, канбан-доску, сделал Figma-макеты.
@@ -95,7 +95,7 @@
 
 # roguestone — Devtones
 
-**Tech:** Canvas, React, Tailwind, Vue
+**Tech:** Canvas, Tailwind
 
 ## Context (read before the call)
 - Команда строит веб-приложение для подготовки к JS-собеседованиям: лендинг, дашборд и набор интерактивных виджетов (квиз, CSS Battle, AI-интервьюер, конструктор JS-методов и др.)

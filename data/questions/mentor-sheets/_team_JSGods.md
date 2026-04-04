@@ -1,11 +1,11 @@
 # JSGods — Defence Questions
-*4 students, generated 2026-03-30*
+*4 students, generated 2026-04-04*
 
 ---
 
 # dukhd — JSGods
 
-**Tech:** Angular, ESLint, Husky, NestJS, SCSS, TypeScript, Vitest
+**Tech:** ESLint, Husky, NestJS, SCSS, TypeScript, Vitest
 
 ## Context (read before the call)
 - Единолично подняла весь монорепо с нуля: npm workspaces (Angular + NestJS + shared), ESLint+Prettier+unicorn, полный Husky-пайплайн (pre-commit с lint-staged и typecheck, pre-push с защитой веток и тестами, commit-msg с commitlint).
@@ -50,7 +50,7 @@
 
 # elrouss — JSGods
 
-**Tech:** Angular, Ant Design, Express, React, SCSS, TypeScript
+**Tech:** Ant Design, Express, SCSS, TypeScript
 
 ## Context (read before the call)
 - React-разработчик с 3 годами опыта, который взял Angular с нуля — без предварительного знакомства с фреймворком.
@@ -95,7 +95,7 @@
 
 # mikhalenkadaniil — JSGods
 
-**Tech:** Angular, ESLint, NestJS, WebSocket
+**Tech:** ESLint, NestJS, WebSocket
 
 ## Context (read before the call)
 - Взял AI Chat как личный компонент-вызов — намеренно выбрал незнакомые технологии (Angular, локальный LLM), стартовал с нуля без опыта во фреймворке.
@@ -140,7 +140,7 @@
 
 # nck1969 — JSGods
 
-**Tech:** Angular, CI/CD, Playwright
+**Tech:** CI/CD, Playwright
 
 ## Context (read before the call)
 - Взял на себя всю DevOps-инфраструктуру команды с нуля — никто другой CI/CD не трогал.

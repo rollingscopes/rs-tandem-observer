@@ -1,6 +1,6 @@
 # karpovdmitriy — Джунгли зовут!
 
-**Tech:** ESLint, Firebase, PostgreSQL, React, Supabase, TypeScript
+**Tech:** ESLint, PostgreSQL, React, Supabase, TypeScript
 
 ## Context (read before the call)
 - Тимлид команды: единолично настроил всю инфраструктуру проекта — репо, Trello с GitHub-интеграцией (решил нетривиальный баг подключения), ESLint/Prettier/Stylelint, branch protection, PR-шаблон, CI — всё с первой попытки.

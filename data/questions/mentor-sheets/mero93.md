@@ -1,6 +1,6 @@
 # mero93 — Tuple Trouble
 
-**Tech:** Angular, Next.js, Supabase, Zustand, i18n
+**Tech:** Next.js, Supabase, Zustand, i18n
 
 ## Context (read before the call)
 - Пришёл в проект с Angular-бэкграундом — намеренно использовал знакомую архитектуру как мост для изучения Next.js, в том числе через AI-сравнения двух фреймворков.

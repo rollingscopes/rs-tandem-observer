@@ -1,6 +1,6 @@
 # elrouss — JSGods
 
-**Tech:** Angular, Ant Design, Express, React, SCSS, TypeScript
+**Tech:** Ant Design, Express, SCSS, TypeScript
 
 ## Context (read before the call)
 - React-разработчик с 3 годами опыта, который взял Angular с нуля — без предварительного знакомства с фреймворком.

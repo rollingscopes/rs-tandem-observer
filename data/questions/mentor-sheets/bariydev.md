@@ -1,6 +1,6 @@
 # bariydev — Devtones
 
-**Tech:** ESLint, Husky, Tailwind, TypeScript, Vue
+**Tech:** ESLint, Husky, Tailwind, TypeScript
 
 ## Context (read before the call)
 - Взял на себя всю инфраструктуру проекта: настроил ESLint Flat Config с плагином Perfectionist (автосортировка импортов), Prettier, Husky с lint-staged + vue-tsc и Conventional Commits — всё в один день, сознательно до написания фич.

@@ -1,6 +1,6 @@
 # mikhalenkadaniil — JSGods
 
-**Tech:** Angular, ESLint, NestJS, WebSocket
+**Tech:** ESLint, NestJS, WebSocket
 
 ## Context (read before the call)
 - Взял AI Chat как личный компонент-вызов — намеренно выбрал незнакомые технологии (Angular, локальный LLM), стартовал с нуля без опыта во фреймворке.

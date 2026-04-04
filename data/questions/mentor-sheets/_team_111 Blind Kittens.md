@@ -1,5 +1,5 @@
 # 111 Blind Kittens — Defence Questions
-*3 students, generated 2026-03-30*
+*3 students, generated 2026-04-04*
 
 ---
 
@@ -51,7 +51,7 @@
 
 # annstarrysky — 111 Blind Kittens
 
-**Tech:** Ant Design, Next.js, React, Tailwind, Vite, Vue
+**Tech:** Ant Design, Next.js, React, Tailwind, Vite
 
 ## Context (read before the call)
 - Автоматически назначена тимлидом — охотно приняла роль, самостоятельно настроила Kanban с labels, организовывала созвоны и объясняла процессы команде.
@@ -95,7 +95,7 @@
 
 # yuriyli — 111 Blind Kittens
 
-**Tech:** Docker, ESLint, Husky, Next.js, Node.js, React, Tailwind, Vercel, Vite, Vue
+**Tech:** Docker, ESLint, Husky, Next.js, Node.js, React, Tailwind, Vercel, Vite
 
 ## Context (read before the call)
 - Единственный backend-разработчик в команде — взял на себя .NET API + Swagger, Docker, CI/CD и всю инфраструктуру проекта в одиночку.

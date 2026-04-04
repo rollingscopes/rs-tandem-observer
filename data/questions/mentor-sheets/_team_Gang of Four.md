@@ -1,11 +1,11 @@
 # Gang of Four — Defence Questions
-*4 students, generated 2026-03-30*
+*4 students, generated 2026-04-04*
 
 ---
 
 # anelka777 — Gang of Four
 
-**Tech:** Firebase, Material UI, React
+**Tech:** Material UI, React
 
 ## Context (read before the call)
 - Разрабатывает игровой виджет-тренажёр (matching/quiz) с уровнями, прогрессом и навигацией — стек React + Material UI + Firebase.
@@ -52,7 +52,7 @@
 
 # nginit — Gang of Four
 
-**Tech:** Angular, CI/CD, ESLint, Firebase, Material UI, React, SCSS, TypeScript, Vite, Vitest
+**Tech:** CI/CD, ESLint, Material UI, React, SCSS, TypeScript, Vite, Vitest
 
 ## Context (read before the call)
 - Взял на себя значительную организационную нагрузку: дизайн в Figma до 2 ночи, ручной перенос задач из Trello в GitHub Issues, запись обучающего видео по MUI для команды — около 20 часов за одну неделю.
@@ -98,7 +98,7 @@
 
 # notdmitry — Gang of Four
 
-**Tech:** CI/CD, ESLint, Firebase, GitHub Actions, Material UI, Netlify, React, TypeScript, Vercel, Vite
+**Tech:** CI/CD, ESLint, GitHub Actions, Material UI, Netlify, React, TypeScript, Vercel, Vite
 
 ## Context (read before the call)
 - Тимлид команды — лично настроил весь инфраструктурный фундамент: репозиторий, защиту веток, CI/CD на GitHub Actions + Netlify, AppRouter и первый релиз с semantic versioning.

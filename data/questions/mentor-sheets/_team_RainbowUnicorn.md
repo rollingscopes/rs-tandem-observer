@@ -1,5 +1,5 @@
 # RainbowUnicorn — Defence Questions
-*5 students, generated 2026-03-30*
+*5 students, generated 2026-04-04*
 
 ---
 
@@ -96,7 +96,7 @@
 
 # exppx — RainbowUnicorn
 
-**Tech:** GitHub Actions, Groq, Material UI, Node.js, React, Redux, Render, TypeScript, Vite, Vitest, Zustand
+**Tech:** GitHub Actions, Groq, Material UI, Node.js, React, Render, TypeScript, Vite, Vitest, Zustand
 
 ## Context (read before the call)
 - Разрабатывал Code Completion Quiz — виджет с вводом пропусков в коде, JSON-схемой вопросов и навигацией между вопросами.

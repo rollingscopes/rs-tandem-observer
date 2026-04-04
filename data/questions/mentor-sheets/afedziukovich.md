@@ -1,6 +1,6 @@
 # afedziukovich — Auto-Team 5
 
-**Tech:** Angular, ESLint, Husky, Nuxt, Pinia, React, Supabase, Tailwind, TypeScript, Vercel, Vite, Vitest, Vue
+**Tech:** ESLint, Husky, Nuxt, Pinia, Supabase, Tailwind, TypeScript, Vercel, Vite, Vitest, Vue
 
 ## Context (read before the call)
 - Реализовал серверную авторизацию на Nitro-эндпоинтах (login/logout/me) с httpOnly cookie и middleware — без сторонних auth-библиотек вроде NextAuth или Lucia

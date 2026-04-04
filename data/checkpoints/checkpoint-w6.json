@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-04T18:50:46.817Z",
+  "checkDate": "2026-04-04T19:50:03.005Z",
   "week": "w6",
   "repos": [
     {
@@ -561,7 +561,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "yermekyerden/typocalypse-tandem",
@@ -935,7 +937,11 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Artem-WebDeveloper/tandem",
@@ -1531,7 +1537,20 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand",
+        "i18n"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "RSSAgents/tandem",
@@ -2079,7 +2098,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
@@ -2451,7 +2472,9 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "kanoplich/rs-tandem",
@@ -3120,7 +3143,18 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "KarpovDmitriy/widget-trainer",
@@ -3357,7 +3391,18 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ansivgit/fe-course-2025Q3-final",
@@ -3578,7 +3623,15 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ansivgit/fe-course-2025Q3-final-backend",
@@ -3637,7 +3690,14 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Express",
+        "Husky",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "FierceSloth/rss-tandem-app",
@@ -4109,7 +4169,17 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "PoMaKoM-RSTeam/Rs-Tandem",
@@ -4778,7 +4848,17 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "RxJS",
+        "Supabase",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "jsgods-rs-tandem/rs-tandem",
@@ -5144,7 +5224,20 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "Jest",
+        "NestJS",
+        "Playwright",
+        "PostgreSQL",
+        "RxJS",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "nasteew/tandem",
@@ -5461,7 +5554,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "obemgcabazn/vuejs-tandem",
@@ -5781,7 +5876,18 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "OpenAI API",
+        "Pinia",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "tosigaeva/rs-tandem",
@@ -6118,7 +6224,19 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "Next.js",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Bulbashok/interview-prep",
@@ -6418,7 +6536,15 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "mvavilin/Nova-Codenames",
@@ -6788,7 +6914,13 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Maria2721/dev-craft-frontend",
@@ -7076,7 +7208,16 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Redux",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "rs-tandem/rs-tandem",
@@ -7325,7 +7466,17 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "Redux",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "NotDmitry/Duoscript-Tandem",
@@ -7536,7 +7687,7 @@
             },
             {
               "path": "development-notes/ngInit/self-assessment.md",
-              "date": "2026-04-03",
+              "date": "2026-04-04",
               "content": "<br>\n<div style=\"display:flex;background-color:#f6f8fa;border:1px solid #f0f0f0;border-bottom:none;border-radius:10px 10px 0 0;padding:28px\">\n<img width=\"100px\" style=\"display:inline-block;background:none\" src=\"https://avatars.githubusercontent.com/u/122630180?v=4\" alt=\"CV image\">\n<h2 style=\"display:inline-block;margin-top:22px;border:none;margin-left:24px\">Aleksei Nikolaev (ngInit)</h2>\n</div>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-top:none;border-radius:0 0 10px 10px;padding: 0 28px 28px;\">\n<span style=\"color:steelblue\">Project name:</span> <span>Duoscript-Tandem</span><br>\n<span style=\"color:steelblue\">Sources:</span> <a target=\"_blank\" href=\"https://github.com/NotDmitry/Duoscript-Tandem/tree/main\">Open GitHub Link</a><br>\n<span style=\"color:steelblue\">Role:</span> <span>Front-End Developer/ Designer</span><br>\n<span style=\"color:steelblue\">Discord:</span> Aleksei (@ngInit)<span></span><br>\n<span style=\"color:steelblue\"></span><span></span><br>\n<span style=\"color:steelblue\">Link to PR for questions:</span> <a target=\"_blank\" href=\"https://github.com/NotDmitry/Duoscript-Tandem/pull/91\">Open PR Link</a><br>\n</div>\n\n<br>\n<br>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px\">\n<span style=\"display:inline-block;margin:0 0 8px 4px;font-size:18px;font-weight:700;color:steelblue\">FEATURES TABLE</span><br>\n\n| #   | Feature           | Баллы | Ссылки                                                                                                                           |\n| --- | ----------------- | ----- | -------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | Landing Page      | 55    | [Link to component - Landing Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/Home.tsx)                |\n| 2   | About Page        | 35    | [Link to component - About Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/About.tsx)                 |\n| 3   | Error Page        | 45    | [Link to component - Error Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/NotFound.tsx)              |\n| 4   | Widget Quiz       | 80    | [Link to component - Widget Quiz](https://github.com/NotDmitry/Duoscript-Tandem/tree/develop/src/features/WidgetQuiz)            |\n| 5   | Widget Bug Hunter | 60    | [Link to component - Widget Bug Hunter](https://github.com/NotDmitry/Duoscript-Tandem/tree/develop/src/features/WidgetBugHunter) |\n|     | Итого:            | 275   |                                                                                                                                  |\n\n</div>\n\n<br>\n<br>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px\">\n<span style=\"display:inline-block;margin:0 0 8px 4px;font-size:18px;font-weight:700;color:steelblue\">PROJECT DESCRIPTION</span><br>\n<span style=\"font-s",
               "charCount": 9088
             }
@@ -7632,8 +7783,14 @@
           "github": "swetlanaang",
           "normalizedGithub": "swetlanaang",
           "diaryDir": "swetlanaAng",
-          "entriesCount": 15,
+          "entriesCount": 16,
           "entries": [
+            {
+              "path": "development-notes/swetlanaAng/self-assessment.md",
+              "date": "2026-04-04",
+              "content": "[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/93)\n\n# Personal Features\n\n| Категория            | Фича                                                                    | Баллы   |\n| -------------------- | ----------------------------------------------------------------------- | ------- |\n| **My Components**    | Login page                                                              | +25     |\n|                      | Async Sorter Widget                                                     | +25     |\n|                      | register page                                                           | +25     |\n|                      | Profile page                                                            | +20     |\n| **UI & Interaction** | **Drag & Drop:**                                                        | +10     |\n|                      | **Accessibility (a11y):**                                               | +10     |\n|                      | **Responsive:** Адаптация верстки под мобильные устройства (от 320px)   | +5      |\n| **Architecture**     | **API Layer:** Выделение слоя работы с API (изоляция от UI компонентов) | +10     |\n| **Frameworks**       | **React:** Использование библиотеки React                               | +5      |\n| **Итого**            |                                                                         | **135** |\n\n## Основные задачи и мой личный вклад\n\n### Командная работа\n\nПроект разрабатывался в рамках финального задания RS School TANDEM. Для управления проектами и задачами я создала Trello доску, которая позволяла визуализировать рабочий процесс, распределять задачи, соблюдать дедлайны и организовывать командную работу в виде карточек, перемещаемых между списками.\n\n### Layout компоненты\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/32)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/29)\n\nВ качестве UI библиотеки была выбрана Material UI и моей зоной ответственности было создать компоненты, повторяемые на каждой странице это:\n\n- Nav\n- Header\n  -Footer\n  Разрабатывая эти компоненты я освоила базу синтаксиса Material UI. Nav Header имеют соответственно 2 представления: гость или авторизованный пользователь, на уровне контекста\n\n### Страницы Login, Register, Profile\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/43)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/52)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/66)\n\n- все 3 страницы реализованы на базе одного основного ключевого компонента формы\n- для валидации я использовала React Hook Form и схемы zod\n- старалась унифицировать все что можно, для соблюдения dry принципа, но в конце решили разделить все 3 страницы и все типы\n- реализовала функционал создания новых пользователей, аутентификации, изменения данных\n- прибегала к эмуляции обращения к серверу\n- была создана возможность оповещения пользователя об успехе или ошибке, эту возможно",
+              "charCount": 3634
+            },
             {
               "path": "development-notes/swetlanaAng/swetlanaAng-2026-02-22.md",
               "date": "2026-02-22",
@@ -7728,11 +7885,21 @@
               "charCount": 1739
             }
           ],
-          "diaryEntriesW6": 2,
+          "diaryEntriesW6": 3,
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "konfuzz/rss-tandem",
@@ -8002,7 +8169,11 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "bukt0r/Final-Project-Tandem",
@@ -8142,7 +8313,9 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "dalekswar/CodeMind",
@@ -8242,7 +8415,9 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Webis-2022/rs-tandem",
@@ -8517,7 +8692,17 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Pchyolan/rs-tandem-project",
@@ -8719,7 +8904,17 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ArtemovEgor/codeVibeCheck",
@@ -9005,7 +9200,15 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "OlgaMinaievaWebDev/rs-tandem-devquest",
@@ -9230,7 +9433,11 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "afedziukovich/SkillGrove",
@@ -9447,7 +9654,17 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Nuxt",
+        "Pinia",
+        "Supabase",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "dzzuze/SAA-Cat",
@@ -9780,7 +9997,19 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "NataliItaly/Smart-Quiz",
@@ -10200,7 +10429,14 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Nastya-Student/rss-fe-final-project",
@@ -10643,7 +10879,14 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Auto-Team-9/sea-battle",
@@ -10973,7 +11216,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "chebupell/SkillsZen",
@@ -11347,7 +11592,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Alcopatriarch/RS-Tandem",
@@ -11666,7 +11913,9 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Campidoc/TetraSkill",
@@ -11872,7 +12121,13 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "TypeScript",
+        "Webpack"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "AnnStarrySky/tandem",
@@ -12130,7 +12385,18 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [
+        "Ant Design",
+        "ESLint",
+        "Husky",
+        "Next.js",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Blshop/JS-Practice-Hub",
@@ -12539,7 +12805,17 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "rs-dev-journey/JS-Journey-Trainer",
@@ -12804,7 +13080,9 @@
           "diaryOk": true,
           "score": 10
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Azatyk/rs-school-tandem-trauma-team",
@@ -12850,7 +13128,9 @@
           "diaryOk": false,
           "score": 0
         }
-      ]
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
     }
   ]
 }

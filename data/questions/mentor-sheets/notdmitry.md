@@ -1,6 +1,6 @@
 # notdmitry — Gang of Four
 
-**Tech:** CI/CD, ESLint, Firebase, GitHub Actions, Material UI, Netlify, React, TypeScript, Vercel, Vite
+**Tech:** CI/CD, ESLint, GitHub Actions, Material UI, Netlify, React, TypeScript, Vercel, Vite
 
 ## Context (read before the call)
 - Тимлид команды — лично настроил весь инфраструктурный фундамент: репозиторий, защиту веток, CI/CD на GitHub Actions + Netlify, AppRouter и первый релиз с semantic versioning.

@@ -1,6 +1,6 @@
 # anelka777 — Gang of Four
 
-**Tech:** Firebase, Material UI, React
+**Tech:** Material UI, React
 
 ## Context (read before the call)
 - Разрабатывает игровой виджет-тренажёр (matching/quiz) с уровнями, прогрессом и навигацией — стек React + Material UI + Firebase.

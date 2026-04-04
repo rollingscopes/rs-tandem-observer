@@ -1,6 +1,6 @@
 # NickKool — asyncmind
 
-**Tech:** ESLint, Firebase, Husky, Material UI, React, Vercel, Vite, i18n
+**Tech:** ESLint, Husky, Material UI, React, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - Взял на себя всю инфраструктуру с первого дня: CI, husky, eslint, prettier, tsconfig — до того, как команда вообще распределила задачи.

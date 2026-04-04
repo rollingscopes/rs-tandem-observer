@@ -1,5 +1,5 @@
 # Nova — Defence Questions
-*4 students, generated 2026-03-30*
+*4 students, generated 2026-04-04*
 
 ---
 
@@ -51,7 +51,7 @@
 
 # Peccopa — Nova
 
-**Tech:** Husky, Redux, Render, Tailwind, Vitest, i18n
+**Tech:** Husky, Render, Tailwind, Vitest, i18n
 
 ## Context (read before the call)
 - Построил с нуля ComponentsAPI на vanilla TypeScript — базовая система компонентов с иерархией, менеджерами и полной документацией, две недели работы.

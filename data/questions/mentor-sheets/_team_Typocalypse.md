@@ -1,11 +1,11 @@
 # Typocalypse — Defence Questions
-*5 students, generated 2026-03-30*
+*5 students, generated 2026-04-04*
 
 ---
 
 # BerserkBat — Typocalypse
 
-**Tech:** React, Tailwind, Vite
+**Tech:** Tailwind, Vite
 
 ## Context (read before the call)
 - Реализовывал форму логина/регистрации с использованием shadcn/ui и React — основная задача на протяжении нескольких недель.
@@ -49,7 +49,7 @@
 
 # JasonScriptLord — Typocalypse
 
-**Tech:** Husky, NestJS, React, Tailwind, Vite, Zustand
+**Tech:** Husky, NestJS, Tailwind, Vite, Zustand
 
 ## Context (read before the call)
 - Фронтенд-разработчик в команде с NestJS-бэкендом; начинал проект с почти нулевым опытом на React — учился в процессе.
@@ -95,7 +95,7 @@
 
 # romanplis — Typocalypse
 
-**Tech:** React, Tailwind, TypeScript, Vite
+**Tech:** Tailwind, TypeScript, Vite
 
 ## Context (read before the call)
 - Настраивал React с нуля в самом начале проекта — до этого никогда не делал, понадобилось около 3 часов.
@@ -140,7 +140,7 @@
 
 # yermekyerden — Typocalypse
 
-**Tech:** CI/CD, GitHub Actions, JWT, Jest, NestJS, Prisma, React, Tailwind, TypeScript, Vite, Vitest
+**Tech:** CI/CD, GitHub Actions, JWT, Jest, NestJS, Prisma, Tailwind, TypeScript, Vite, Vitest
 
 ## Context (read before the call)
 - Тимлид с первого дня: взял на себя репозиторий, ветки (main/develop/diary), README, branch protection и CI/CD ещё до того, как команда начала писать код.
@@ -185,7 +185,7 @@
 
 # YessetHumanMan — Typocalypse
 
-**Tech:** MobX, React, Redux, TypeScript, Zustand
+**Tech:** MobX, TypeScript, Zustand
 
 ## Context (read before the call)
 - Главный технический вклад — реализация обучающего терминального модуля: xterm.js с историей, Ctrl+C, autofit и cwd-aware промптом, плюс виртуальная файловая система с поддержкой echo/redirect

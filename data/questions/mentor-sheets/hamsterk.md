@@ -1,6 +1,6 @@
 # hamsterk — Tuple Trouble
 
-**Tech:** Canvas, Jest, Next.js, React, Redux, Render, Tailwind, TypeScript
+**Tech:** Canvas, Jest, Next.js, React, Render, Tailwind, TypeScript
 
 ## Context (read before the call)
 - Пришёл в проект с нулевым опытом React и Next.js — самостоятельно прошёл базовый курс (~7 часов) в первую неделю и сразу начал контрибьютить.

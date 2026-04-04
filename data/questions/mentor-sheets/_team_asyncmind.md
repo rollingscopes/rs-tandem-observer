@@ -1,11 +1,11 @@
 # asyncmind — Defence Questions
-*3 students, generated 2026-03-30*
+*3 students, generated 2026-04-04*
 
 ---
 
 # Bulbashok — asyncmind
 
-**Tech:** Firebase, React, SCSS, Vercel, Vite, i18n
+**Tech:** React, SCSS, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - Взял на себя всю Firebase-часть (Authentication + Firestore) без какого-либо бэкенд-опыта — в итоге сдал рабочую систему регистрации/логина с env-переменными и .env.example-шаблоном для команды.
@@ -52,7 +52,7 @@
 
 # JesterAV — asyncmind
 
-**Tech:** Firebase, React, Vercel, Vite, i18n
+**Tech:** React, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - С первого дня выбрал TS + React + Vite + Vercel — стандартный современный стек, без экспериментов с инфраструктурой
@@ -98,7 +98,7 @@
 
 # NickKool — asyncmind
 
-**Tech:** ESLint, Firebase, Husky, Material UI, React, Vercel, Vite, i18n
+**Tech:** ESLint, Husky, Material UI, React, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - Взял на себя всю инфраструктуру с первого дня: CI, husky, eslint, prettier, tsconfig — до того, как команда вообще распределила задачи.

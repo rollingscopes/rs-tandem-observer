@@ -1,11 +1,11 @@
 # GrowLab — Defence Questions
-*2 students, generated 2026-03-30*
+*2 students, generated 2026-04-04*
 
 ---
 
 # rika-milew — GrowLab
 
-**Tech:** Husky, React, TypeScript, Vercel, Vite, Vitest, Zustand
+**Tech:** Husky, TypeScript, Vercel, Vite, Vitest, Zustand
 
 ## Context (read before the call)
 - Пришла в проект, изучая React практически с нуля, но стала первой в команде, кто поднял роутер и выстроил архитектуру компонентов.

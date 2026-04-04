@@ -1,6 +1,6 @@
 # JasonScriptLord — Typocalypse
 
-**Tech:** Husky, NestJS, React, Tailwind, Vite, Zustand
+**Tech:** Husky, NestJS, Tailwind, Vite, Zustand
 
 ## Context (read before the call)
 - Фронтенд-разработчик в команде с NestJS-бэкендом; начинал проект с почти нулевым опытом на React — учился в процессе.

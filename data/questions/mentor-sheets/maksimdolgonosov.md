@@ -1,6 +1,6 @@
 # maksimdolgonosov — VueJS Tandem
 
-**Tech:** Groq, Pinia, React, Vue
+**Tech:** Groq, Pinia, Vue
 
 ## Context (read before the call)
 - Разрабатывает отдельный блок («цех») в командном JavaScript-тренажёре — включает задания с текстовым ответом, написанием кода и мини-игры

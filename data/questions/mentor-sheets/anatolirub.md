@@ -1,6 +1,6 @@
 # anatolirub — Дрим Тим
 
-**Tech:** Angular, Docker, Firebase, MongoDB, PostgreSQL, Supabase, Vercel
+**Tech:** Angular, Docker, MongoDB, PostgreSQL, Supabase, Vercel
 
 ## Context (read before the call)
 - Провёл самостоятельный технический спайк: руками попробовал три бэкенд-стека (NestJS+Docker+MongoDB, Firebase, Supabase) за 1–2 сессии, чтобы аргументированно предложить команде решение

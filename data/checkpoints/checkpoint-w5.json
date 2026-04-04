@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-04T10:34:45.333Z",
+  "checkDate": "2026-04-04T19:47:37.142Z",
   "week": "w5",
   "repos": [
     {
@@ -588,7 +588,9 @@
       "readme": {
         "exists": true,
         "content": "# MeowVault\n\n**MeowVault** — это уютный учебный каталог с несколькими играми, которые помогают прокачать знания JavaScript, TypeScript и подготовиться к техническому интервью 🐾😸 Пользователь учится через практику и небольшие игровые задания, без стресса и перегруза 🎮🐱 Обучение здесь такое же мягкое и приятное, как котик, который поддерживает тебя лапкой перед собеседованием 🐈💛\n\n## 👥 Состав команды\n\n- Мария: [WhaleisaJoy](https://github.com/WhaleisaJoy)\n- Алена: [Alena1409](https://github.com/Alena1409)\n- Алексей: [AlexGorSer](https://github.com/AlexGorSer)\n- Надежда: [kozochkina82](https://github.com/kozochkina82)\n- Оксана: [Oksi2510](https://github.com/Oksi2510)\n- Павел: [pavelkuvsh1noff](https://github.com/pavelkuvsh1noff)\n\n## 🚀 Deployment \nСсылка на deploy: [link](https://meowvault.netlify.app/)\n\n## 📹 404, loading, error state \nВ видео демонстрируются следующие реализованные фичи:\n\n* **Страница 404**:\n  При переходе на несуществующий URL отображается кастомная страница. Доступна кнопка для возврата назад.\n\n* **Loading state**:\n  При загрузке данных (API-запросы, переходы между страницами) отображается индикатор загрузки:\n  крутящийся котик.\n\n* **Обработка ошибок API**:\n При ошибке сети или сервера пользователь видит понятное сообщение.\n\nСсылка на видео: [link](https://youtu.be/FcmFwwk1PUg)\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "yermekyerden/typocalypse-tandem",
@@ -989,7 +991,11 @@
       "readme": {
         "exists": true,
         "content": "# Typocalypse — Terminal Dojo 🧠💻\n\nTerminal Dojo is a game-like CLI training app for RS School Tandem.\n\nUsers practice real Linux terminal thinking in a **safe simulated sandbox** (no OS execution), solve missions, get feedback, and track progress.\n\n---\n\n## Team 👥\n\n> Course-required format: **Name + GitHub link**.\n\n- **TL: Yermek Yerdenov** — https://github.com/yermekyerden\n- **Denis Nasonov** — https://github.com/JasonScriptLord\n- **Yesset Bimanov** — https://github.com/YessetHumanMan\n- **Alessya Tkachenko** — https://github.com/BerserkBat\n- **Roman Plis** — https://github.com/romanplis\n- **Mentor: Igor Moskalev** — https://github.com/ivmoskalev\n\n---\n\n## What we’re building 🎯\n\nA mission-based “terminal dojo” where users type commands in a controlled environment.\n\nThe app validates results (**state/output**), explains mistakes, and helps build real CLI habits.\n\n---\n\n## MVP scope ✅\n\n- 🖥️ Terminal-like UI + input experience\n- 🧩 Safe command subset (simulated, no OS execution)\n- 🗂️ Virtual File System (VFS) for deterministic missions\n- 🧪 Mission runner + validators (state/output checks)\n- 💡 Clear failure feedback (“what failed and why”)\n- 📈 Progress tracking (local-first)\n\n---\n\n## Current project status 🚧\n\nThe repository already contains:\n\n- **Frontend** web client\n- **Backend** NestJS API\n- **Project docs** with SSOT structure\n- **Development diary** artifacts required by the course\n- **Frontend CI** and **GitHub Pages deploy**\n\nCurrent frontend routing includes screens for:\n\n- library\n- mission run\n- replay\n- profile\n- not found\n\n---\n\n## Tech stack 🛠️\n\n### Frontend 🎨\n\n- ⚛️ React + TypeScript (**strict**)\n- ⚡ Vite\n- 🌬️ Tailwind CSS v4\n- 🧱 shadcn/ui\n- 🗺️ React Router\n- 🧠 Zustand\n\n### Backend 🧰\n\n- 🪺 NestJS\n- 📘 Swagger / OpenAPI\n- ✅ ValidationPipe\n- 🩺 Health checks\n\n### Tooling 🔧\n\n- 🐶 Husky\n- 🧹 ESLint\n- 🎯 Prettier\n- 🧪 Vitest (frontend)\n- 🤖 GitHub Actions\n\n---\n\n## Limitations (by design) 🧱\n\n- 🐚 Not a full Bash implementation (only documented su"
-      }
+      },
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Artem-WebDeveloper/tandem",
@@ -1612,7 +1618,20 @@
       "readme": {
         "exists": true,
         "content": "# Tandem\n\n**Tandem** — это тренажер для подготовки к собеседованиям и изучения программирования. Приложение помогает пользователям готовиться к техническим собеседованиям с помощью интерактивных виджетов, таких как квизы, задачи на алгоритмы, и многое другое.\n\nДемонстрация состояний загрузки и обработки ошибок (Week #5 Checkpoint) - https://www.youtube.com/watch?v=s66y0jmoXaM\n\nDeploy - https://artem-webdeveloper.github.io/tandem/\n\n## Команда\n\n- **[Artem-WebDeveloper](https://github.com/Artem-WebDeveloper)** — Артем\n- **[AlexeyDmt](https://github.com/AlexeyDmt)** — Алексей\n- **[exppx](https://github.com/exppx)** — Глеб\n- **[Igel-k](https://github.com/Igel-k)** — Карина\n- **[mightyprinces](https://github.com/mightyprinces)** — Кристина\n- **[raenlin](https://github.com/raenlin)** — Дарья, ментор\n\n## Структура проекта\n\n```bash\nsrc\n│\n├── app\n│   ├── **App.scss** — Стили для главного компонента приложения\n│   ├── **App.tsx** — Главный компонент приложения, в котором определяется структура и Роутинг\n│\n├── core\n│   ├── assets — Статические ресурсы, такие как изображения или SVG файлы\n│   │\n│   ├── components - Папка для всех компонентов прриложения\n│   │   ├── **Footer** — Компонент Footer, используется на каждой странице, кроме /login\n│   │   └── **Header** — Компонент Header, используется на каждой странице, кроме /login\n│   │   └── **Layout** — Компонент Layout, Обертка для структуры страницы\n│   │\n│   ├── configs — Конфигурации и константы\n│   │\n│   ├── store — Zustand хранилище для управления состоянием\n│   │\n│   └── utils — Утилиты и хелперы\n│\n├── **index.scss** — Основные стили для всего приложения\n├── **main.tsx** — Главный файл, точка входа\n│\n└── pages\n    ├── **Dashboard** — Страница с информацией о пользователе и его статистике\n    ├── **Library** — Страница с выбором квизов и тренажёров для подготовки\n    ├── **Login** — Страница для логина/регистрации пользователя\n    ├── **NotFound** — Страница, показываемая при ошибке 404\n    ├── **Practice** — Страница для п"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand",
+        "i18n"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "RSSAgents/tandem",
@@ -2187,7 +2206,9 @@
       "readme": {
         "exists": true,
         "content": "# RS JS/FE Final Project: Tandem - SPA Application\n\n**Tandem** is an interactive platform designed to help developers prepare for technical interviews and practice hard skills (JavaScript, TypeScript, Algorithms) through quizzes and coding challenges.\n\n## 👥 Team - RSSAgents\n\nThis project was developed by the RSSAgents team as part of the RS School JS/FE course:\n\n| Role                   | Name      | GitHub                           |\n| ---------------------- | --------- | -------------------------------- |\n| **Team Lead - Mentor** | Shakhzod  | (https://github.com/Shakhzod235) |\n| **Mentor**             | Diana     | (https://github.com/bt-diana)    |\n| **Mentor**             | Khayitbek | (https://github.com/Khayitbek03) |\n| **Mentor**             | Daria     | (https://github.com/dashque)     |\n| **Developer**          | Fayzullo  | (https://github.com/Fayzullo05)  |\n| **Developer**          | Ilia      | (https://github.com/D15ND)       |\n| **Developer**          | Margarita | (https://github.com/solarsungai) |\n| **Developer**          | Marta     | (https://github.com/27moon)      |\n| **Developer**          | Vika      | (https://github.com/oneilcode)   |\n\n## 🏗️ Tech Stack\n\n- **Frontend** | React, TypeScript\n- **Design System** | Mantine\n- **Routing** | React Router DOM\n- **Forms** | React Hook Form\n- **State Management** | Redux Toolkit\n- **Backend** | Node.js, Fastify\n- **Database & Auth** | Firebase / Supabase\n- **Build Tool** | Vite\n- **Code Quality** | ESLint, Prettier, Husky\n- **Testing** | Unit tests (React Testing Library), End-to-end tests (Cypress), Vitest\n- **CI/CD** | GitHub Actions (Dev → Staging, Main → Production)\n- **API Client** | Axios\n\n## 🚀 Getting Started\n\nFollow these instructions to set up the project locally for development and testing.\n\n1.  Install Node.js\n\n2.  Clone the project repository to your local machine\n\n        https://github.com/RSSAgents/tandem.git\n\n3.  Go to folder final-project\n\n        cd tandem\n\n4.  Install all dependen"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
@@ -2583,7 +2604,9 @@
       "readme": {
         "exists": true,
         "content": "**Date:** 2026-02-21\n# Project: eCommerceLegendaryFrontendDevelopers\n\n## Video Demonstration (Week 5 Checkpoint)\n\nIn this video, we demonstrate the handling of 404 pages, loading states, and API error handling:\n- [Watch Video Demo](https://youtu.be/EbpQGCGB3jc)\n\n## Live Demo\n\n[Deployed Application](http://188.127.251.19:5000/)\n\n---\n\n## Project Overview\n\nAn application that allows users to order services, as well as view statistics and order history. \n\n### Key Features\n- Service ordering system\n- Order history and analytics dashboard\n- User profile management (CRUD operations)\n- Registration and authentication flow\n- Secure logout functionality\n\n---\n\n## Our Team\n\n| Name | GitHub |\n|------|--------|\n| Andrey | [@andrski](https://github.com/andrski) |\n| Maria | [@Morevna](https://github.com/Morevna) |\n| Mikhail | [@bssier](https://github.com/bssier) |\n| Roman | [@Rorodeathless1](https://github.com/Rorodeathless1) |\n| Rostislav | [@MegaRostBLR1](https://github.com/MegaRostBLR1) |\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "kanoplich/rs-tandem",
@@ -3279,7 +3302,18 @@
       "readme": {
         "exists": true,
         "content": "# RS Tandem\n\n**RS Tandem** — это интерактивная платформа для тренировки технических собеседований с AI-интервьюером.\n\n**Цель** — создать MVP проекта с AI агентом.\n\n## Технологический стек\n\n- Frontend: React 19, TS 5 (Strict), Vite 5, pnpm,\n- Styling: CSS Modules + shadcn/ui\n- Backend: Supabase (Auth, RLS, Edge Functions)\n- AI API: Groq API (LLM)\n- Архитектура: FSD (Feature-Sliced Design)\n- React-router V.6\n\n## Наша команда\n\n- Андрей (https://github.com/kanoplich)\n- Валерий (https://github.com/rockabil)\n- Сева (https://github.com/sevasmith)\n- Фатима (https://github.com/sunyuna00)\n- Артур (https://github.com/artkoro94)\n- Вадим (https://github.com/vadim-troian)\n\n## Менторы\n\n- Михаил (https://github.com/Michael-JS-Bel)\n- Ольга (https://github.com/HelgaZhizhka)\n- Ирина (https://github.com/IrinaOsp)\n\n## Deploy\n\nhttps://rs-tandem.netlify.app/\n\n## Локальная разработка с Supabase\n\n### ✅ Предварительные требования\n\n- **Node.js 18+**\n- **Docker & Docker Compose**\n- **pnpm**\n\n### 🚀 Установка и запуск\n\n```bash\n# 1. Установить зависимости проекта\npnpm install\n\n# 2. Запустить локальный Supabase\nnpx supabase start\n\n# 3. ✅ Применить ВСЕ миграции (БД создастся автоматически)\nnpx supabase db reset\n\n```\n\n- **Studio: http://localhost:54323**\n\n### ⚙️ Переменные окружения\n\nПосле supabase start создастся .env.local:\n\n- VITE_SUPABASE_URL=http://localhost:54321\n- VITE_SUPABASE_ANON_KEY=[Ваш Publishable Authentication Keys]\n\n### 📋 Основные команды\n\n- 🎛️ **Управление Supabase**\n\n| Команда         | Что делает                  |\n| --------------- | --------------------------- |\n| supabase start  | 🟢 Запустить локальный стек |\n| supabase stop   | 🔴 Остановить               |\n| supabase status | 📋 Показать URL + ключи     |\n\n- 🗄️ **Миграции и БД**\n\n| Команда                          | Что делает                  |\n| -------------------------------- | --------------------------- |\n| supabase migration new fix-table | 📝 Создать миграцию         |\n| supabase migration up            | ⬆️ Прим"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "KarpovDmitriy/widget-trainer",
@@ -3537,7 +3571,18 @@
       "readme": {
         "exists": true,
         "content": "# Widget Trainer\n\n## Description\n\nWidget Trainer is an interactive training tool with visual tasks. The project's goal is to create a convenient tool for interactive learning through problem solving. Users will select a topic to test themselves in and answer questions to complete specific tests. There will be different types of widgets:\n\n1. Multiple-choice questions.\n2. Single-choice questions.\n3. Questions where students must select whether a statement is true or false.\n4. Questions where students must complete a section of code.\n5. Questions where students must arrange a sequence of blocks (elements) in the correct order.\n\n## Application Features\n\nThe application will have login and registration pages, as well as a test history showing the number of correct and incorrect answers for each test.\n\n## Team Members\n\n### Students\n\n|                                                   |                                          |\n| ------------------------------------------------- | ---------------------------------------- |\n| Dmitriy Karpov - https://github.com/karpovdmitriy | Maryna Drob - https://github.com/dromari |\n\n### Mentors\n\n|                                                 |                                                   |\n| ----------------------------------------------- | ------------------------------------------------- |\n| Vitaliy Shelepkov - https://github.com/av-shell | Alena Yakimovich - https://github.com/ayaki-coder |\n\nLink to the deployed site: [WidgetTrainer](https://tandem-virid.vercel.app/)\n\nLink to video to Week 5 Checkpoint [Link to YouTube](https://youtu.be/sKFpzNc4HS8)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ansivgit/fe-course-2025Q3-final",
@@ -3776,7 +3821,15 @@
       "readme": {
         "exists": true,
         "content": "# RS JS/FE-2025Q3 Final Project: Tandem\n\nУчебный командный проект, выполняемый в рамках обучения в RS School. Проект представляет собой веб-приложение для подготовки к техническим собеседованиям с интерактивными тестами и поддержкой AI ментора.\n\n## 🌐 Деплой / Live Demo\n\nПроект доступен онлайн:\n\n- **Vercel:** [https://tandem-growlab.vercel.app](https://tandem-growlab.vercel.app)\n\n## 🎯 Цели проекта\n\n- Закрепить и углубить знания по **React** и **TypeScript**;\n- Отработать навыки **командной разработки** с использованием Git и GitHub;\n- Спроектировать базовую архитектуру фронтенд-приложения;\n- Реализовать интерактивную практику по техническим темам;\n- Получить опыт работы с **AI-сервисами**;\n- Научиться документировать проект и процесс разработки.\n\n---\n\n## 📋 Описание задания\n\nНеобходимо разработать веб-приложение для подготовки к техническим собеседованиям, которое включает:\n- практические задания по темам;\n- различные форматы тестов;\n- AI-ментора для проведения интервью;\n- систему прогресса пользователя.\n\nТребования и функциональность будут уточняться по ходу разработки проекта.\n\n---\n\n## 🏫 Школа и задание\n\n- **Школа:** [RS School](https://rs.school/)  \n- **Курс:** [JS / Front-end Course](https://rs.school/courses/javascript) \n- **Задание:** [Tandem](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/rs-tandem) \n\n---\n\n## 👥 Команда\n\n- **Ментор:** Anna Zhuravleva — [ansivgit](https://github.com/ansivgit)\n- Yauheniya Mastavaya — [zena86](https://github.com/zena86)\n- Eryka Mileuskaya — [rika-milew](https://github.com/rika-milew)\n- Viktor Elenich — [viktorelenich](https://github.com/viktorelenich)\n\n---\n\n## 🛠 Стек технологий\n\n### Базовый стек\n\n- **React**\n- **TypeScript**\n- **State Management** (уточняется)\n- **AI API**\n- **CSS Modules**\n\n---\n\n### Инструменты разработки\n\n- **Vite**\n- **ESLint**\n- **Biome**\n- **Git / GitHub**\n\n---\n\n## 🔗 Репозиторий бэкенда\n\n- [fe-course-2025Q3-final-backend](https://github.com/rss-mentoring-ansiv/fe-course-2025Q3-f"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ansivgit/fe-course-2025Q3-final-backend",
@@ -3847,7 +3900,14 @@
       "readme": {
         "exists": true,
         "content": "# Tandem Backend API\n\nFrontend repository [repo](https://github.com/rss-mentoring-ansiv/fe-course-2025Q3-final)\nBackend service for the **Tandem** application (RS School Final Project).\nThis server implements the **API Service Layer** architecture, handles AI Agent integration via Groq, and enforces strict code quality standards.\n\n## 🌐 Live Demo\n\nThe project is available online:\n\n- **Vercel:** [https://tandem-growlab.vercel.app](https://tandem-growlab.vercel.app)\n\n\n## 🛠 Tech Stack\n\n* **Runtime:** Node.js\n* **Framework:** Express.js\n* **Language:** TypeScript (Strict Mode)\n* **AI Provider:** Groq SDK\n* **Documentation:** Swagger / OpenAPI\n* **Code Quality:** Biome (Formatting), ESLint (Linting), Husky (Git Hooks)\n\n## 🚀 Getting Started\n\n### 1. Prerequisites\nEnsure you have **Node.js** (v18.x or higher) installed.\n\n### 2. Installation\nClone the repository and install dependencies:\n\n```bash\ngit clone <https://github.com/rss-mentoring-ansiv/fe-course-2025Q3-final-backend.git>\ncd fe-course-2025q3-final-backend\nnpm install\n```\n\n## 🏃‍♂️ Running the Server\n\n**Development Mode**\nStarts the server with hot-reloading using tsx.\n\n```bash\nnpm run dev\n```\n\nOnce started, the server will be available at:\n* **API Root:** `http://localhost:3000`\n* **Swagger Docs:** `http://localhost:3000/api-docs`\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Express",
+        "Husky",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "FierceSloth/rss-tandem-app",
@@ -4340,7 +4400,17 @@
       "readme": {
         "exists": true,
         "content": "# 🚀 RS Tandem App\n\n[![Trello Board](https://img.shields.io/badge/Trello-Board-blue?style=for-the-badge&logo=trello)](https://trello.com/b/uoKHXftD/tandem-3103-6-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C)\n[![Figma Design](https://img.shields.io/badge/Figma-Design-red?style=for-the-badge&logo=figma)](https://www.figma.com/design/g6Zb6zh7WaxWGElPEHlSy8/Tandem?node-id=0-1&p=f&t=MfehSkjzqKJb7FWs-0)\n\n[![CI/CD Status](https://github.com/fiercesloth/rss-tandem-app/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/fiercesloth/rss-tandem-app/actions/workflows/ci-cd.yml)\\\n[RSS Tandem App Deploy](https://fiercesloth.github.io/rss-tandem-app)\n\n[RSS Tandem App Checkpoint 5 Preview](https://www.youtube.com/watch?v=gxiUOW3JuBY)\n\n## 📖 О проекте\n\n**RS Tandem App** — это интерактивная платформа для подготовки к техническим собеседованиям. Проект разрабатывается в рамках финального задания курса RS School.\n\nКлючевая особенность приложения — обучающие виджеты в формате мини-игр, которые разбиты по ключевым темам разработки. Вместо скучной зубрежки теории, пользователи могут прокачивать свои знания, решать задачи и проверять свой код в интерактивном формате. Платформа помогает не просто повторить материал, а закрепить его, систематизировать знания и почувствовать уверенность перед реальными техническими интервью.\n\n## 🛠 Технологический стек\n\n- **Core:** TypeScript, HTML5, SCSS (CSS Modules)\n- **Build Tool:** Vite\n- **Code Editor:** CodeMirror\n- **Architecture:** Custom Component Wrapper, Emitter (Observer pattern), MVC\n- **Code Quality:** ESLint, Prettier, Husky, Commitlint, Validate Branch Name\n\n## 👥 Команда разработчиков\n\n- **Diana** (Mentor) — [@dianakhnizova](https://github.com/dianakhnizova)\n- **Dastan** (Team Lead / Developer) — [@FierceSloth](https://github.com/FierceSloth)\n- **Oleg** (Developer) — [@coicoin](https://github.com/coicoin)\n- **Anna** (Developer) — [@dilmun1101](https://github.com/dilmun1101)\n\n## 📚 Документация проекта (Developer Guides)\n\nВнутренняя документац"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "PoMaKoM-RSTeam/Rs-Tandem",
@@ -5039,7 +5109,17 @@
       "readme": {
         "exists": true,
         "content": "# RS-Tandem\n\nThis project is an interactive application designed to help users prepare for technical interviews and strengthen their hard skills in JavaScript and Typescript.<br>\nIt combines learning and practice in a gamified format to make technical preparation more engaging and effective.\n\nThe application features a set of interactive games designed to focus on specific technical concepts:\n\n- Async Sorter\n- Type Investigator\n- Code Golf\n- Code Sandbox\n- ...\n\n## Table of Contents\n\n- [Team](#team)\n- [Deploy](#deploy)\n- [Team Processes](#team-processes)\n- [Demo](#demo)\n- [Technologies](#technologies)\n- [Development](#development)\n\n## Team\n\n- [Aleksei Drob](https://github.com/aliakseidrob) — Front-End Engineer and Database Wizard\n- [Mark Pribylnov](https://github.com/mark-pribylnov) — Front-End Engineer and CI/CD Warrior\n- [Alexandr Zhdanko](https://github.com/Zhdko) — Front-End Engineer and UX/UI Magician\n- [Vsevolod Timoshenko](https://github.com/shoblinsky) — Front-End Engineer and Our Secret Weapon\n- [Anatoliy Rubankov](https://github.com/anatolirub) — Front-End Engineer and AI Pioneer\n- [Hanna Surmach](https://github.com/khasekai) — Mentor and Flag Bearer (Teamlead)\n- [Raman Kamarou](https://github.com/PoMaKoM) — Mentor and Engineering Grandmaster\n\n## Deploy\n\n[Deploy link](https://luminous-biscuit-6fec26.netlify.app/)\n\n## Team Processes\n\n### Kanban Board\n\n[Trello board](https://trello.com/b/30vnlooD/rs-tandem)\n\n![Board screenshot](./docs/img/trello-board.png)\n\n### Meeting Notes\n\n- [Weekly Sync #4](https://docs.google.com/document/d/1deMkN9TBNqXL6cWgjV_phSVQiweeYUNDUblqL7qXTsE/edit?tab=t.0)\n- [Weekly Sync #5](https://docs.google.com/document/d/1deMkN9TBNqXL6cWgjV_phSVQiweeYUNDUblqL7qXTsE/edit?tab=t.l8qfflwwjp4f)\n- [Weekly Sync #6](https://docs.google.com/document/d/1deMkN9TBNqXL6cWgjV_phSVQiweeYUNDUblqL7qXTsE/edit?tab=t.gq0dpqwhvhnl)\n- ...\n\n### Code Review\n\n- [feat: animate moving blocks to final call stack](https://github.com/PoMaKoM-RSTeam/Rs-Tandem/pull/37)\n- "
-      }
+      },
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "RxJS",
+        "Supabase",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "jsgods-rs-tandem/rs-tandem",
@@ -5429,7 +5509,20 @@
       "readme": {
         "exists": true,
         "content": "# RS-Tandem\n\n## 🚀 About the Project\n\n**RS-Tandem** is an interactive educational platform designed to gamify technical interview preparation. The project offers structured learning across topics like JavaScript, TypeScript, and algorithms through a flexible system of interactive exercises.\n\n## 🔗 Deployment\n\n🌐 **Live Application:**\nhttps://jsgods-rs-tandem.github.io/rs-tandem/\n\n🚀 **Backend API (Railway):**\nhttps://rs-tandem-production.up.railway.app\n\n---\n\n## 👥 Team & Development Diaries\n\n| Name              | Github                                                  | Development Diary                  |\n| :---------------- | :------------------------------------------------------ | :--------------------------------- |\n| Diana Dukhovskaya | [dukhd](https://github.com/dukhd)                       | [🔗 DEVELOPMENT_DIARY - TBC](link) |\n| Boris Zashliapin  | [elrouss](https://github.com/elrouss)                   | [🔗 DEVELOPMENT_DIARY - TBC](link) |\n| Daniil Mikhalenka | [mikhalenkadaniil](https://github.com/mikhalenkadaniil) | [🔗 DEVELOPMENT_DIARY - TBC](link) |\n| Mikita Kern       | [nck1969](https://github.com/nck1969)                   | [🔗 DEVELOPMENT_DIARY - TBC](link) |\n| Ales Drobysh      | [alesdrobysh](https://github.com/alesdrobysh)           | N/A - mentor                       |\n\n### 📝 Meeting Notes\n\n- [🔗 Meeting Notes - Meeting #3 (Feb 15, Sunday)](https://github.com/dukhd/rs-tandem/issues/2#issue-3937972932)\n- [🔗 Meeting Notes - Meeting #4 (Feb 18, Wednesday)](https://github.com/dukhd/rs-tandem/issues/4#issue-3944841485)\n- [🔗 Meeting Notes - TBC]\n\n---\n\n## ⚙️ Development Processes\n\n### Project Management\n\n**Board Link:** [Link](https://github.com/users/dukhd/projects/2) \\\nWe used **GitHub Projects** with a **Kanban board** to manage tasks and track our progress throughout the development cycle.\n\n[Kanban Board Screenshot - TBC]\n\n### Code Review (Top Pull Requests)\n\n1. [🔗 PR #XX: Feature Name - TBC] — Brief description.\n2. [🔗 PR #XX: Feature Nam"
-      }
+      },
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "Jest",
+        "NestJS",
+        "Playwright",
+        "PostgreSQL",
+        "RxJS",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "nasteew/tandem",
@@ -5767,7 +5860,9 @@
       "readme": {
         "exists": true,
         "content": "# AI Interviewer\n\n**AI Interviewer** — это приложение для подготовки к собеседованиям с использованием искусственного интеллекта. Оно позволяет пользователям тренироваться, отвечая на типовые вопросы, получать обратную связь и улучшать навыки прохождения интервью.\n\nПриложение помогает подготовиться к техническим и поведенческим вопросам, моделируя реальные собеседования и предоставляя персонализированные рекомендации.\n\n## Deploy\n\nhttps://tandem-ai-iota.vercel.app/\n\n# Видео-доказательство, что приложение ведёт себя корректно\n\nhttps://www.youtube.com/watch?v=Ue3VgYxWJwE\n\n## Команда проекта\n\n- [nasteew](https://github.com/nasteew)\n- [aleks6699](https://github.com/aleks6699)\n- [anastasiashlyk](https://github.com/anastasiashlyk)\n- [imagineapril](https://github.com/imagineapril)\n\n## Стек технологий\n\n- **Backend:** NestJS, JWT, PostgreSQL\n- **Frontend:** React, TypeScript, Tailwind CSS\n- **AI/ML:** OpenAI GPT API\n- **DevOps:** Vercel, GitHub Actions\n\n## Функционал\n\n- Генерация вопросов для интервью с помощью AI\n- Анализ ответов и обратная связь\n- Сохранение истории интервью и прогресса пользователя\n- Регистрация и авторизация пользователей\n- Виджеты с заданиями"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "obemgcabazn/vuejs-tandem",
@@ -6114,7 +6209,18 @@
       "readme": {
         "exists": true,
         "content": "# VueJS Tandem\n\nhttps://belaz-factory.netlify.app/\n\n### Team members:\n\n| Name | Github Account                                           |\n|---|----------------------------------------------------------|\n| Aleksandr Khokhryakov | [@obemgcabazn](https://github.com/obemgcabazn)           |\n| Dzmitry Lehankou | [@asindeton](https://github.com/asindeton)               |\n| Olga Ivanova | [@cat5671](https://github.com/cat5671)                   |\n| Kiryl Lukashchuk | [@kirrbrest](https://github.com/kirrbrest)               |\n| Maksim Dauhanosav | [@maksimdolgonosov](https://github.com/maksimdolgonosov) |\n| Andrei Zaretski | [@andreizaretski](https://github.com/andreizaretski)     |\n\n\n### Project desription\n\n##### **JavaScript & Algorithms Practice Trainer**\n\nA web application for learning JavaScript and algorithms through interactive exercises. Built with Vue.js on the frontend, the app includes a backend with authentication support.\nKey features:\n\nInteractive tasks for learning JavaScript and algorithms\nDashboard with personal progress tracking\nUser authentication\n\nTech stack: Vue.js, Node.js (backend)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "OpenAI API",
+        "Pinia",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "tosigaeva/rs-tandem",
@@ -6472,7 +6578,19 @@
       "readme": {
         "exists": true,
         "content": "# Tandem: Widget Trainer\n\n**Tandem: Widget Trainer** is an interactive JavaScript training platform with modular widgets.\nIt provides hands-on exercises, tracks performance in real-time, and helps learners improve efficiently.\n\n\n## About the Project\n\nTandem: Widget Trainer is designed to make JavaScript learning interactive and practical.\n\nThe platform uses modular widgets to deliver hands-on exercises, manage training sessions, and provide real-time performance analytics.\n\nIts flexible architecture allows for easy addition of new exercises and scalable session management, helping learners improve efficiently.\n\n## Deploy link\n[View deployed app](https://rs-tandem.vercel.app/)\n\n## Demo Video\nA short video (~1 min) has been recorded, showing: 404 page, loading indicator, and error handling. \n[Watch the video](https://www.loom.com/share/2d201fc87a7549d98da65b46e2c0fc0b)\n\n## Team\n\n- **Alena Deviatova**  \n  [![GitHub](https://img.shields.io/badge/GitHub-deviatovae-181717?style=flat&logo=github)](https://github.com/deviatovae)\n\n- **Anastasiia Barkovskaia**  \n  [![GitHub](https://img.shields.io/badge/GitHub-tosigaeva-181717?style=flat&logo=github)](https://github.com/tosigaeva)\n\n- **Merab Kopaleishvili**  \n  [![GitHub](https://img.shields.io/badge/GitHub-mero93-181717?style=flat&logo=github)](https://github.com/mero93)\n\n- **Anastasiya Krauchuk**  \n  [![GitHub](https://img.shields.io/badge/GitHub-hamsterk-181717?style=flat&logo=github)](https://github.com/hamsterk)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "Next.js",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Bulbashok/interview-prep",
@@ -6790,7 +6908,15 @@
       "readme": {
         "exists": true,
         "content": "# Interview Prep\n\nПроект для подготовки к собеседованиям на frontend-разработчика.\n\n## Команда\n\n- [Коля](https://github.com/NickKool)\n- [Лёша](https://github.com/JesterAV)\n- [Миша](https://github.com/Bulbashok)\n\n## deploy\n\nhttps://interview-prep01.vercel.app/\n\n## video step by step: 404,spinner,try catch\n\nhttps://youtu.be/EIHs8nL0cLQ\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "mvavilin/Nova-Codenames",
@@ -7181,7 +7307,13 @@
       "readme": {
         "exists": true,
         "content": "# Nova Codenames Game\n\nThis is an interactive multiplayer Codenames game, aimed at preparing for technical interviews frontend-developers and training hard skills (JS, TS, Algorithms). There are two modes - playing in a team as a Spymaster or a field agent and playing as a field agent with AI as a Spymaster.\nBeing a field agent answer the various JS/TS/Front-end questions right and earn points, being a Spymaster\nhelp your team win. You can track your progress in your Profile.\n\nPrototype: [Classic game Codenames](<https://en.wikipedia.org/wiki/Codenames_(board_game)>)\n\n## Development Team\n\n- [mvavilin](https://github.com/mvavilin) Mikhail Vavilin (Lead)\n- [sergey-ado](https://github.com/sergey-ado) Sergey Elsukov (Backend-Dev)\n- [Peccopa](https://github.com/Peccopa) Andrey Zharkikh (Frontend-Dev)\n- [Walle908](https://github.com/Walle908) Elena Valiullina (Frontend-Dev)\n\n## Tech Stack\n\n- TypeScript (strict mode)\n- Node.js + Express + Socket.IO\n- NPM Workspaces / Shared types\n- Vitest\n- Husky, Commintlint, lint-staged\n- Eslint\n- Prettier\n- Tailwind\n\n## Link to the deployment\n\nhttps://nova-codenames-client.vercel.app/\n\n## 404 page, loading state, and error handling tests\n\nhttps://drive.google.com/file/d/1TJOmjeb6R6mmiboVv1dhbeA2l9oF8tVx/view\n\n## Setup\n\n- Clone this repository: `git clone https://github.com/mvavilin/nova`.\n- Run `npm install` to install all the dependencies.\n\n## Usage\n\n- Once the dependencies are installed, you can run `npm run dev` to start the application.\n- You will then be able to access it at localhost:5173.\n\n## Game Rules\n\n### Preparation\n\n1. Nova Codenames is a game played by 4 players.\n2. Players are randomly split into two teams, red and blue.\n3. One player from each team is the Spymaster, the other plays as the field agent. The roles are randomly assigned.\n4. During setup, 25 cards are randomly laid out in a 5x5 grid. Each card has a word (JS/TS concepts), and cards are face-up, so all players can see all words. But what is hidden is what each "
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Maria2721/dev-craft-frontend",
@@ -7487,7 +7619,16 @@
       "readme": {
         "exists": true,
         "content": "# DevCraft\r\n\r\nThe project is an application for preparing for frontend development interviews.\r\n\r\n## Team\r\n\r\n<table>\r\n  <tr>\r\n    <td align=\"center\">\r\n      <a href=\"https://github.com/Maria2721\">\r\n        <img src=\"https://github.com/Maria2721.png\" width=\"60\" height=\"60\" alt=\"Maria\" /><br/>\r\n        Maria\r\n      </a>\r\n    </td>\r\n    <td align=\"center\">\r\n      <a href=\"https://github.com/Andrey-Yurchuk\">\r\n        <img src=\"https://github.com/Andrey-Yurchuk.png\" width=\"60\" height=\"60\" alt=\"Andrey\" /><br/>\r\n        Andrey\r\n      </a>\r\n    </td>\r\n    <td align=\"center\">\r\n      <a href=\"https://github.com/Khabib1802\">\r\n        <img src=\"https://github.com/Khabib1802.png\" width=\"60\" height=\"60\" alt=\"Khabib\" /><br/>\r\n        Khabib\r\n      </a>\r\n    </td>\r\n  </tr>\r\n</table>\r\n\r\n## Meeting notes\r\n\r\n- [2026-02-20 — Project kickoff](meeting-notes/2026-02-20-sync-project-kickoff.md)\r\n- [2026-02-23 — Roadmap and UI](meeting-notes/2026-02-23-sync-roadmap-and-ui.md)\r\n- [2026-03-17 — AI and knowledge base](meeting-notes/2026-03-17-sync-ai-and-knowledge.md)\r\n\r\n## Deploy\r\n\r\n- https://dev-craft-frontend.netlify.app/\r\n\r\n## Week 5 proof video\r\n\r\n- [Week 5 checkpoint demo](https://youtu.be/oC2j7znBVyA)\r\n\r\n## Technology Stack\r\n\r\n<img src=\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg\" title=\"React\" alt=\"React\" width=\"40\" height=\"40\"/>&nbsp;\r\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Redux",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "rs-tandem/rs-tandem",
@@ -7754,7 +7895,17 @@
       "readme": {
         "exists": true,
         "content": "# Interview Prep\n\nInterview Prep - это помощник в подготовке к техническому интервью. Мы решили сделать приложение максимально простым и максимально полезным для тестирования знаний.\n\n## Участники\n\n- [YekaterinaAlex](https://github.com/YekaterinaAlex)\n- [S-Arashu](https://github.com/S-Arashu)\n- [Pavel](https://github.com/oreopk)\n\n## Деплой\n\n[interview-prep-rs-tandem.netlify.app](https://interview-prep-rs-tandem.netlify.app/)\n\n## Meeting notes\n\n[First](https://github.com/rs-tandem/rs-tandem/blob/main/meeting-notes/Meeting-Notes-02-14.md)\n[Second](https://github.com/rs-tandem/rs-tandem/blob/main/meeting-notes/Meeting-Notes-03-02.md)\n\n## Видео для Week 5 Checkpoint\n\n[Week-5-Checkpoint](https://drive.google.com/file/d/1nGJthx2yY11uIZzwxrPgs23ofnwyweQq/view?usp=sharing)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "Redux",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "NotDmitry/Duoscript-Tandem",
@@ -7974,7 +8125,7 @@
             },
             {
               "path": "development-notes/ngInit/self-assessment.md",
-              "date": "2026-04-03",
+              "date": "2026-04-04",
               "content": "<br>\n<div style=\"display:flex;background-color:#f6f8fa;border:1px solid #f0f0f0;border-bottom:none;border-radius:10px 10px 0 0;padding:28px\">\n<img width=\"100px\" style=\"display:inline-block;background:none\" src=\"https://avatars.githubusercontent.com/u/122630180?v=4\" alt=\"CV image\">\n<h2 style=\"display:inline-block;margin-top:22px;border:none;margin-left:24px\">Aleksei Nikolaev (ngInit)</h2>\n</div>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-top:none;border-radius:0 0 10px 10px;padding: 0 28px 28px;\">\n<span style=\"color:steelblue\">Project name:</span> <span>Duoscript-Tandem</span><br>\n<span style=\"color:steelblue\">Sources:</span> <a target=\"_blank\" href=\"https://github.com/NotDmitry/Duoscript-Tandem/tree/main\">Open GitHub Link</a><br>\n<span style=\"color:steelblue\">Role:</span> <span>Front-End Developer/ Designer</span><br>\n<span style=\"color:steelblue\">Discord:</span> Aleksei (@ngInit)<span></span><br>\n<span style=\"color:steelblue\"></span><span></span><br>\n<span style=\"color:steelblue\">Link to PR for questions:</span> <a target=\"_blank\" href=\"https://github.com/NotDmitry/Duoscript-Tandem/pull/91\">Open PR Link</a><br>\n</div>\n\n<br>\n<br>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px\">\n<span style=\"display:inline-block;margin:0 0 8px 4px;font-size:18px;font-weight:700;color:steelblue\">FEATURES TABLE</span><br>\n\n| #   | Feature           | Баллы | Ссылки                                                                                                                           |\n| --- | ----------------- | ----- | -------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | Landing Page      | 55    | [Link to component - Landing Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/Home.tsx)                |\n| 2   | About Page        | 35    | [Link to component - About Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/About.tsx)                 |\n| 3   | Error Page        | 45    | [Link to component - Error Page](https://github.com/NotDmitry/Duoscript-Tandem/blob/develop/src/pages/NotFound.tsx)              |\n| 4   | Widget Quiz       | 80    | [Link to component - Widget Quiz](https://github.com/NotDmitry/Duoscript-Tandem/tree/develop/src/features/WidgetQuiz)            |\n| 5   | Widget Bug Hunter | 60    | [Link to component - Widget Bug Hunter](https://github.com/NotDmitry/Duoscript-Tandem/tree/develop/src/features/WidgetBugHunter) |\n|     | Итого:            | 275   |                                                                                                                                  |\n\n</div>\n\n<br>\n<br>\n<div style=\"background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px\">\n<span style=\"display:inline-block;margin:0 0 8px 4px;font-size:18px;font-weight:700;color:steelblue\">PROJECT DESCRIPTION</span><br>\n<span style=\"font-s",
               "charCount": 9088
             }
@@ -8076,8 +8227,14 @@
           "normalizedGithub": "swetlanaang",
           "inReadme": true,
           "diaryDir": "swetlanaAng",
-          "entriesCount": 15,
+          "entriesCount": 16,
           "entries": [
+            {
+              "path": "development-notes/swetlanaAng/self-assessment.md",
+              "date": "2026-04-04",
+              "content": "[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/93)\n\n# Personal Features\n\n| Категория            | Фича                                                                    | Баллы   |\n| -------------------- | ----------------------------------------------------------------------- | ------- |\n| **My Components**    | Login page                                                              | +25     |\n|                      | Async Sorter Widget                                                     | +25     |\n|                      | register page                                                           | +25     |\n|                      | Profile page                                                            | +20     |\n| **UI & Interaction** | **Drag & Drop:**                                                        | +10     |\n|                      | **Accessibility (a11y):**                                               | +10     |\n|                      | **Responsive:** Адаптация верстки под мобильные устройства (от 320px)   | +5      |\n| **Architecture**     | **API Layer:** Выделение слоя работы с API (изоляция от UI компонентов) | +10     |\n| **Frameworks**       | **React:** Использование библиотеки React                               | +5      |\n| **Итого**            |                                                                         | **135** |\n\n## Основные задачи и мой личный вклад\n\n### Командная работа\n\nПроект разрабатывался в рамках финального задания RS School TANDEM. Для управления проектами и задачами я создала Trello доску, которая позволяла визуализировать рабочий процесс, распределять задачи, соблюдать дедлайны и организовывать командную работу в виде карточек, перемещаемых между списками.\n\n### Layout компоненты\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/32)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/29)\n\nВ качестве UI библиотеки была выбрана Material UI и моей зоной ответственности было создать компоненты, повторяемые на каждой странице это:\n\n- Nav\n- Header\n  -Footer\n  Разрабатывая эти компоненты я освоила базу синтаксиса Material UI. Nav Header имеют соответственно 2 представления: гость или авторизованный пользователь, на уровне контекста\n\n### Страницы Login, Register, Profile\n\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/43)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/52)\n[Pull Request](https://github.com/NotDmitry/Duoscript-Tandem/pull/66)\n\n- все 3 страницы реализованы на базе одного основного ключевого компонента формы\n- для валидации я использовала React Hook Form и схемы zod\n- старалась унифицировать все что можно, для соблюдения dry принципа, но в конце решили разделить все 3 страницы и все типы\n- реализовала функционал создания новых пользователей, аутентификации, изменения данных\n- прибегала к эмуляции обращения к серверу\n- была создана возможность оповещения пользователя об успехе или ошибке, эту возможно",
+              "charCount": 3634
+            },
             {
               "path": "development-notes/swetlanaAng/swetlanaAng-2026-02-22.md",
               "date": "2026-02-22",
@@ -8172,7 +8329,7 @@
               "charCount": 1739
             }
           ],
-          "diaryEntriesW5": 4,
+          "diaryEntriesW5": 5,
           "diaryOk": true,
           "personalScore": 10,
           "teamScore": 10,
@@ -8182,7 +8339,17 @@
       "readme": {
         "exists": true,
         "content": "## Duoscript-Tandem\n\n### About this project\n\n**Duoscript-Tandem** is your best friend during the tough times of preparing for technical interviews.\nIts primary aim is to provide you with a variety of exercises that will aid in the development\nand enhancement of your hard-skills. The app contains multiple widgets and a dashboard for tracking your activity.\n\n### Developers\n\n- Dzmitry Buldyha ([GitHub: NotDmitry](https://github.com/notdmitry));\n- Aleksei Nikolaev ([GitHub: ngInit](https://github.com/nginit));\n- Alena Danilchenko ([GitHub: Alena Danilchenko](https://github.com/anelka777));\n- Svetlana Angeliuk ([GitHub: SwetlanaAng](https://github.com/swetlanaang)).\n\n### Deploy\n\nAvailable at:\n\n- [Netlify](https://duoscript-tandem.netlify.app/)\n\n### Week 5 Checkpoint\n\n[video](https://youtu.be/Ntsj5kxZHLo)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "konfuzz/rss-tandem",
@@ -8470,7 +8637,11 @@
       "readme": {
         "exists": true,
         "content": "<div align=\"center\">\n\n# 🧩 InterVue\n\n**Интерактивная платформа для подготовки к техническим собеседованиям в формате квиза.**\n\n[![Deploy Link](https://img.shields.io/badge/Live_Demo-🚀-blueviolet?style=for-the-badge)](https://intervue.makesimple.website/)\n\n---\n\n</div>\n\n## 🌟 О проекте\n\n**InterVue** — это не просто квиз, а комплексный тренажер для разработчиков. Мы объединили классическое тестирование с современными AI-технологиями и интерактивными механиками, чтобы сделать процесс подготовки эффективным и эффектным.\n\n### ✨ Ключевые возможности\n\nКвиз с интерактивными виджетами:\n\n* **🤖 AI-интервьюер** — отвечайте на открытые вопросы и получайте мгновенный фидбэк и оценку от нейросети.\n* **🏗️ Конструктор методов** — оттачивайте знание синтаксиса с помощью интуитивного **drag-and-drop** интерфейса.\n* **🔍 Анализ кода** — практические задачи по поиску ошибок.\n* **✅ Выбор ответов** — классические вопросы с одиночным или множественным выбором.\n\nА также:\n* **📊 Дашборд с аналитикой** для отслеживания прогресса.\n* **🏆 Лидерборд** для оценки своих результатов в сравнении с другими участниками.\n\n\n![](frontend/public/dashboard.webp)\n\n---\n\n## 🛠 Технологический стек\n\n<p align=\"left\">\n  <img src=\"https://img.shields.io/badge/Vue%203-%2342b883.svg?style=flat&logo=vuedotjs&logoColor=white\" alt=\"Vue 3\">\n  <img src=\"https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white\" alt=\"Vite\">\n  <img src=\"https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white\" alt=\"TypeScript\">\n  <img src=\"https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white\" alt=\"Tailwind\">\n  <img src=\"https://img.shields.io/badge/Pinia-%23ffe066.svg?style=flat&logo=pinia&logoColor=black\" alt=\"Pinia\">\n  <img src=\"https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white\" alt=\"Node.js\">\n  <img src=\"https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white\""
-      }
+      },
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "bukt0r/Final-Project-Tandem",
@@ -8628,16 +8799,129 @@
       "readme": {
         "exists": true,
         "content": "# Tech Interview Trainer\n\nПриложение для подготовки к техническим интервью в формате карточек и викторины.\n\n---\n\n## Идея проекта\n\nПриложение позволяет:\n\n- Просматривать вопросы по категориям\n- Фильтровать и искать вопросы\n- Отмечать прогресс изучения\n- Проходить режим викторины (quiz)\n- Отслеживать статистику\n- Добавлять собственные вопросы\n- Работать в разных режимах (обучение / игра)\n\n---\n\n## Стек\n\n- React\n- React Router\n- CSS / CSS modules / Tailwind\n\n---\n\n## Планируемый функционал\n\n### Работа с вопросами\n- Просмотр списка вопросов по категориям\n- Фильтрация по категориям\n- Поиск по тексту вопроса\n- Карточка с переворотом (вопрос скрыт до клика)\n- Индикатор сложности (лёгкий / средний / сложный)\n- Случайный вопрос\n\n### Прогресс и статистика\n- Отметка «Знаю / не знаю»\n- Избранные вопросы\n- Общая статистика\n- Статистика по категориям\n- График прогресса за неделю / месяц\n- Календарь / трекер целей\n\n### Режимы работы\n- Режим викторины (несколько вариантов ответа)\n- Подсчёт правильных ответов\n- Таймер обратного отсчёта\n- Сопоставление терминов (drag & drop)\n- Таблица лидеров (локальная)\n- Возможный мультиплеер (WebSocket)\n\n### Дополнительные возможности\n- Добавление своих вопросов (с валидацией)\n- Сохранение данных в localStorage\n- Темизация (светлая / тёмная тема)\n- Локализация (поддержка нескольких языков)\n- Голосовой ассистент (озвучивание вопросов)\n\n---\n\n## Deployment\n\n- Production: https://tech-interview-trainer-u3vr.vercel.app/\n- Platform: Vercel\n\n## Week 5 Checkpoint Video\n\nВидео демонстрирует:\n- Страницу 404\n- Loading state\n- Обработку ошибок API\n\n Ссылка на видео: https://youtu.be/CXYLstaGsKY\n\n## Команда\n\n- Ментор (Backend): Pavel Altov - https://github.com/user0k\n- Студент (Frontend): Tatyana korlarina - https://github.com/tatyanakorlarina\n- Студент (Frontend):  Viktor Ufimcev - https://github.com/bukt0r\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "dalekswar/CodeMind",
       "url": "https://github.com/dalekswar/CodeMind",
-      "error": "Could not fetch repo info",
       "week5Team": {
+        "videoUrl": null,
+        "hasVideo": false,
         "allMet": false
       },
-      "members": []
+      "members": [
+        {
+          "github": "dalekswar",
+          "normalizedGithub": "dalekswar",
+          "inReadme": true,
+          "diaryDir": null,
+          "entriesCount": 0,
+          "entries": [],
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "howlight",
+          "normalizedGithub": "howlight",
+          "inReadme": true,
+          "diaryDir": null,
+          "entriesCount": 0,
+          "entries": [],
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
+        {
+          "github": "sobselena",
+          "normalizedGithub": "sobselena",
+          "inReadme": true,
+          "diaryDir": "sobselena",
+          "entriesCount": 10,
+          "entries": [
+            {
+              "path": "development-notes/sobselena/sobselena-2026-02-19.md",
+              "date": "2026-02-19",
+              "content": "Была проведена первоначальная настройка проект RSS Tandem.\nБыли добавлены следующие скрипты: \n\n- `npm run dev` — start Vite dev server with HMR\n- `npm run build` — build TypeScript + production bundle to `dist`\n- `npm run preview` — preview production build\n- `npm run lint` — run ESLint\n- `npm run format:fix` — format code with Prettier\n- `npm run prepare` — setup Husky (runs after install)\n- `npm run style` — watch & compile Sass\n- `npm run test` — run tests with Vitest\n- `npm run test:ui` — run tests with Vitest UI\n- `npm run test:coverage` — run tests with coverage report\n- `npm run validate-branch` — validate Git branch name\n",
+              "charCount": 637
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-02-20.md",
+              "date": "2026-02-20",
+              "content": "Сегодня наш ментор SergeiKustov провел лекцию по React. В конце занятия мы обсуждали идеи для будущего приложения.\n\nЯ предложил вариант классического обучающего лендинга по программированию - по типу сайтов NeetCode и LearnJS (фотографии макета прилагаю). Идея заключалась в создании понятной и структурированной платформы для последовательного изучения тем.\n\n<img width=\"1731\" height=\"989\" alt=\"Screenshot 2026-02-21 235152\" src=\"https://github.com/user-attachments/assets/ee581959-ff75-4667-aef9-419818ed3e00\" />\n<img width=\"1872\" height=\"988\" alt=\"Screenshot 2026-02-21 235215\" src=\"https://github.com/user-attachments/assets/86305fcb-fb34-47b1-a12b-7bf1e04b9553\" />\n<img width=\"1889\" height=\"1002\" alt=\"Screenshot 2026-02-21 235203\" src=\"https://github.com/user-attachments/assets/0efb3b0d-0f4f-43a1-b2be-ef8ce4688326\" />\n<img width=\"1873\" height=\"1001\" alt=\"Screenshot 2026-02-21 235226\" src=\"https://github.com/user-attachments/assets/bb7cb711-954a-4345-a1aa-cf31144629f1\" />\n<img width=\"1876\" height=\"1004\" alt=\"Screenshot 2026-02-21 235244\" src=\"https://github.com/user-attachments/assets/16890c98-a3d1-4bb8-9f57-534077f8a227\" />\n\n---\n\nДругой участник команды, Howlight, предложил реализовать обучение в игровом формате - в виде карты с тематическими локациями, по которым пользователь проходил бы, постепенно изучая разные разделы программирования.\n\n<img width=\"1870\" height=\"1027\" alt=\"Screenshot 2026-02-22 000409\" src=\"https://github.com/user-attachments/assets/3b24cc70-df21-439b-8d7e-e5f95e11f867\" />\n\n<img width=\"1874\" height=\"980\" alt=\"Screenshot 2026-02-22 000337\" src=\"https://github.com/user-attachments/assets/f9c1174c-a11c-4ed4-8794-3483afe21a99\" />\n\n<img width=\"1864\" height=\"986\" alt=\"Screenshot 2026-02-22 000321\" src=\"https://github.com/user-attachments/assets/da4911d6-519c-4bd2-ba37-230ce0753927\" />\n\nК сожалению, к общей концепции мы пока не пришли. В итоге решили продолжить сбор идей и обсуждение до следующей встречи, которая состоится в среду на следующей неделе.\n\n",
+              "charCount": 1997
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-02-22.md",
+              "date": "2026-02-22",
+              "content": "Сегодня целиком посвятил себя проработке поведения нашего приложения, макетов и сценариев взаимодействия. В течение всей ночи я пытался представить, как пользователь будет перемещаться по страницам: куда он попадает, если авторизован, что видит, если начал курс, не начал или уже закончил его. Моя цель была не просто описать переходы, а понять идеальную логику интерфейса и опыта пользователя.  \n\nЯ много раз перерисовывал стили, тестировал различные макеты, пытался соединить все элементы вместе, чтобы получить результат, максимально близкий к моему видению. Для вдохновения и конкретных решений я использовал нейросеть **Gemini**, которая предложила несколько подходящих лендингов. Из них я выбрал лучшие элементы, скрестил их и в итоге задеплоил готовый вариант.  \n\nНиже — полное описание роутинга, который я придумал и реализовал:  \n\n---\n\n## / — Redirect → /about-us\n\n---\n\n## /about-us — Лендинг проекта\n- Основная информация: цели, преимущества, отзывы\n- Примеры курсов\n- 3 случайных курса\n- Прогресс пользователя, если он проходил курсы\n- Header:\n  - Неавторизованные: кнопка **Join Us**\n  - Авторизованные: иконка и имя пользователя\n\n---\n\n## /courses — Redirect → /courses/all\n\n---\n\n## /courses/all?page=:page — Все курсы\n- Отображение пройденных и непройденных курсов\n- Пагинация (по умолчанию ?page=1)\n\n---\n\n## /courses/my?page=:page — Мои курсы (только начатые)\n- Доступно только авторизованным пользователям\n- Пагинация (по умолчанию ?page=1)\n- Отображение прогресса курса с текстовым предложением **Продолжить**\n\n---\n\n## /courses/:courseId — Страница курса\n- Описание курса\n- Прогресс (если есть)\n- Кнопка:\n  - **Начать**, если курс не начат\n  - **Продолжить**, если курс уже начат\n- Для неавторизованных:\n  - Нажатие **Начать** открывает модальное окно регистрации\n  - Доступ к темам закрыт\n\n---\n\n## /courses/:courseId/topics — Страница тем курса (Protected)\n- Список всех тем\n- Прогресс по каждой теме:\n  - 0% → **Начать**\n  - 1–99% → **Продолжить**\n  - 100% → **Повторить**\n- Если курс разделён на части:\n  - Отображаются названия частей и возможность переключения\n- Если часть курса всего одна — выбор частей скрыт\n\n---\n\n## /courses/:courseId/:topicId — Страница темы (Protected)\n- Теория\n- Карточки виджетов с прогрессом\n\n---\n\n## /courses/:courseId/:topicId/:widgetType — Виджет (Protected)\n- Типы виджетов: `quiz`, `code`, `truefalse`\n- После выполнения прогресс темы обновляется\n- Возможность возврата к теме\n\n**Примеры:**\n- `/courses/corejs/variables/quiz`\n- `/courses/corejs/variables/code`\n- `/courses/corejs/variables/truefalse`\n\n---\n\n## /profile — Профиль пользователя (Protected)\n- Доступно только авторизованным пользователям\n- Редактирование данных:\n  - Имя, фамилия\n  - Электронная почта\n  - Пароль\n  - Аватар\n\n---\n\n## /error — Страница ошибки (без header)\n- Отображается при некорректном URL или ошибках\n\n---\n\n## Деплой\n- Активный пользователь: [Active](https://fascinating-praline-a0473b.netlify.app/)  \n- Неактивный пользователь: [InActive](https://cozy-lollipop-6a6f",
+              "charCount": 3049
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-02-25.md",
+              "date": "2026-02-25",
+              "content": "Сегодня созвонились по проекту и обсудили его концепцию. Я рассказал о своём видении, Howlight - о своём. Каждый подготовил макеты страниц и поделился идеями о том, как должно вести себя приложение в разных ситуациях.\n\nДолго обсуждали роутинг: какие страницы будут защищёнными и как приложение должно реагировать в разных сценариях. В итоге остановились на моей задумке, добавив некоторые доработки и идеи от Howlight и нашего ментора, SergeiKustov.\n\nРаспределили задачи: кто за что отвечает. Я взял на себя:  \n- роутинг  \n- Header и Footer  \n- страницы с авторизацией\n\nВ тот же день начал работу над роутингом: пробовал маршруты, проверял редиректы и настраивал loaders.\n",
+              "charCount": 672
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-01.md",
+              "date": "2026-03-01",
+              "content": "\n\n## Что было сделано\n\nСегодня реализовал страницу регистрации пользователя с валидацией, базовой логикой авторизации и стилизацией интерфейса.\n\n---\n\n## 1. Настроил валидацию формы\n\n- Подключил библиотеку **Zod** для описания схемы валидации.\n- Создал `registrationSchema`, в которой:\n  - Email проверяется на корректный формат.\n  - Login ограничен длиной (5–30 символов) и допустимыми символами (латиница, цифры, `_`, `-`).\n  - Password ограничен длиной (8–30 символов), содержит минимум одну заглавную букву и одну цифру, без пробелов и кириллицы.\n  - Добавлена проверка совпадения `password` и `passwordConfirm` через `.refine()`.\n\n---\n\n## 2. Интегрировал React Hook Form\n\n- Использовал `useForm` для управления состоянием формы.\n- Подключил `zodResolver` для автоматической интеграции схемы Zod.\n- Реализовал отображение ошибок под соответствующими полями.\n- Настроил блокировку сабмита формы при наличии ошибок валидации.\n\n---\n\n## 3. Реализовал обработку ошибок регистрации\n\n- Добавил проверку на существующий email.\n- Если email уже зарегистрирован:\n  - Регистрация не выполняется.\n  - Отображается toast-уведомление с ошибкой в верхней части страницы.\n\n---\n\n## 4. Реализовал успешную регистрацию\n\n- При успешной валидации и уникальном email:\n  - Сохраняю `login` и `email` в Redux.\n  - Устанавливаю статус авторизации.\n  - Показываю toast-уведомление об успешной регистрации.\n\n---\n\n## 5. Настроил минимальный Redux\n\n- Создал slice для хранения данных пользователя:\n  - `login`\n  - `email`\n  - `isAuth`\n- Реализовал сохранение данных после регистрации.\n- Подготовил состояние для использования в защищённом роутинге.\n\n---\n\n## 6. Добавил защищённый роутинг\n\n- Настроил приватные маршруты (PrivateRoute).\n- Доступ к защищённым страницам возможен только при наличии авторизации.\n- Неавторизованные пользователи перенаправляются на страницу регистрации.\n\n---\n\n## 7. Реализовал стилизацию страницы\n\n- Создал стили для компонентов страницы регистрации.\n- Верстка выполнена в соответствии с ранее подготовленным макетом.\n- Для генерации и уточнения стилистики использовал Deepseek на основе макета, подготовленного в Gemini.\n- Адаптировал стили под структуру компонентов и логику формы.\n\n## Скриншоты\n<img width=\"867\" height=\"950\" alt=\"Screenshot 2026-03-02 015326\" src=\"https://github.com/user-attachments/assets/7232b172-a709-4190-b192-240e4601f50f\" />\n<img width=\"714\" height=\"960\" alt=\"Screenshot 2026-03-02 020753\" src=\"https://github.com/user-attachments/assets/57173e88-b546-4b59-bcd3-3a29dd516e32\" />\n<img width=\"663\" height=\"940\" alt=\"Screenshot 2026-03-02 021000\" src=\"https://github.com/user-attachments/assets/b9b37c93-3e35-4c21-bd5d-ca2996776bf3\" />\n<img width=\"632\" height=\"936\" alt=\"Screenshot 2026-03-02 021105\" src=\"https://github.com/user-attachments/assets/bb85344c-6447-4161-b5f0-2a95a8308b58\" />\n\n",
+              "charCount": 2817
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-02.md",
+              "date": "2026-03-02",
+              "content": "## Что было сделано\n\nСегодня реализовал страницу входа пользователя с валидацией формы, базовой логикой авторизации и стилизацией интерфейса.\n\n---\n\n## 1. Настроил валидацию формы\n\n- Подключил библиотеку **Zod** для описания схемы валидации.\n- Создал `loginSchema`, в которой:\n  - **Login** проверяется на обязательное заполнение.\n  - **Password** ограничен длиной (8–30 символов).\n- Проверка выполняется при отправке формы, ошибки отображаются под соответствующими полями.\n\n---\n\n## 2. Интегрировал React Hook Form\n\n- Использовал `useForm` для управления состоянием формы.\n- Подключил `zodResolver` для автоматической интеграции схемы Zod.\n- Реализовал отображение ошибок под соответствующими полями.\n- Настроил блокировку сабмита формы при наличии ошибок валидации.\n\n---\n\n## 3. Реализовал обработку ошибок авторизации\n\n- Проверка совпадения введённых данных с сохранёнными на сервере.\n  - Авторизация не выполняется.\n  - Отображается toast-уведомление.\n\n---\n\n## 4. Реализовал успешный вход\n\n- При корректных данных:\n  - Сохраняю `login` пользователя в Redux.\n  - Показываю toast-уведомление об успешном входе.\n- Пользователь перенаправляется на страницу About Us.\n\n---\n\n## 5. Добавил защищённый роутинг\n\n- Настроил `PublicOnlyRoute`, который:\n  - Перенаправляет авторизованных пользователей с логина/регистрации на About Us.\n- Используется `replace` при редиректе, чтобы исключить возврат на страницу логина через кнопку \"Назад\".\n\n---\n\n## 6. Создал дополнительные компоненты для страницы логина\n\n- Компоненты повторяют логику и структуру страницы регистрации.\n- Подготовлены для удобного расширения и стилизации.\n\n---\n\n## Скриншоты\n\n\n<img width=\"672\" height=\"722\" alt=\"Screenshot 2026-03-02 185131\" src=\"https://github.com/user-attachments/assets/7ced917d-a2a5-4c74-a672-2f73718a1cde\" />\n",
+              "charCount": 1788
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-05.md",
+              "date": "2026-03-05",
+              "content": "Сегодня занимался рефакторингом - заменил TanStack на RTK Query. Сначала немного терялся, потому что API у RTK Query отличается, но в итоге разобрался, как правильно его использовать: нужно создать API slice и настроить в нём запросы и мутации. Всё-таки по синтаксису он выглядит более громоздким по сравнению с TanStack Query 🙂\n\nСделал ещё одну приятную мелочь: после регистрации пользователь теперь сразу попадает на страницу login-page, а не на About Us. Теперь роутеры AuthorizedOnly и PublicOnly начинают работать только после авторизации на странице login-page, а не на любой из страниц авторизации.\n\nПосле логина теперь получаем token вместо логина, который используем для всех последующих запросов к серверу.\n",
+              "charCount": 718
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-06.md",
+              "date": "2026-03-06",
+              "content": "### Созвон всей команды\nСегодня провели совместный созвон по продвижению проекта (около 1,5 часов).  \nОбсудили текущее состояние и сроки.\n\n**Решения:**  \n- Продвижение проекта идёт медленнее, чем планировалось, поэтому приоритет на **базовые компоненты**, которые должны быть завершены **до вторника**:  \n  - `Auth`  \n  - `Login`  \n  - `About Us`  \n  - `Not-Found`  \n  - `Courses`  \n  - Полная настройка **CI/CD**  \n\n### Личный созвон с SergeiKustov\n**План обсуждения:**  \n- Ошибки в компонентах `Auth` и `Login`  \n- Обработка ошибок в `middleware`  \n- Создание полноценных хуков для более чистого и читаемого кода\n",
+              "charCount": 615
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-07.md",
+              "date": "2026-03-07",
+              "content": "\nСегодня провели личный созвон с SergeiKustov (около 2 часов).  \nОбсудили все пункты, что планировали:  \n- Ошибки в компонентах `Auth` и `Login`  \n- Обработку ошибок в `middleware`  \n- Создание полноценных хуков для более чистого и читаемого кода  \n\nКроме того, я начал работу над компонентом `Header`.\n",
+              "charCount": 303
+            },
+            {
+              "path": "development-notes/sobselena/sobselena-2026-03-09.md",
+              "date": "2026-03-09",
+              "content": "Сегодня закончил делать компонент Header вместе с компонентом Breadcrumbs. После этого записал видео для чекпоинта третьей недели.\n\nНа запись видео ушёл примерно 1 час.\nПопробовал сделать его с помощью OBS Studio - получилось немного печальненько, но чего не сделаешь ради баллов 🙂\n\nВот ссылка на видео:\n[video](https://drive.google.com/file/d/1kzUNnL_mcz2zl-l4a_sdYvIxL9IizACV/view?usp=sharing)\n",
+              "charCount": 397,
+              "videoLinks": [
+                "https://drive.google.com/file/d/1kzUNnL_mcz2zl-l4a_sdYvIxL9IizACV/view?usp=sharing"
+              ]
+            }
+          ],
+          "diaryEntriesW5": 0,
+          "diaryOk": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        }
+      ],
+      "readme": {
+        "exists": true,
+        "content": "# CodeMind 🚀\n\n**CodeMind** — современная веб-платформа для подготовки к техническим интервью. Проект предоставляет интуитивно понятный интерфейс для изучения актуальных технических знаний, практики навыков и закрепления концепций через интерактивные упражнения.\n\n---\n\n## Общий обзор 🔍\n\n### Цели проекта 🎯\n\n* 🧠 **Эффективная подготовка** пользователей к техническим интервью с помощью структурированных и актуальных материалов.\n* 🌐 **Создание современного интерфейса**, где изучение тем и выполнение практических упражнений проходит максимально нативно.\n* 🤖 **Интеграция библиотеки курсов** по популярным темам: алгоритмы, структуры данных, frontend/backend разработка, базы данных и др.\n* 🎯 **Интерактивные виджеты** для закрепления знаний и проверки навыков в реальном времени.\n\n---\n\n## Технологический стек 🛠️\n\nПроект построен на базе современных инструментов разработки:\n\n* **Frontend:** React (v19) + TypeScript, HTML, CSS/SCSS.\n* **Сборка:** Vite — для максимально быстрого HMR и оптимизированного билда.\n* **Тестирование:** Vitest — современный фреймворк для юнит-тестов.\n\n### Качество кода и стандарты:\n* **ESLint:** Анализ кода (конфиги React, TypeScript, Prettier).\n* **Prettier:** Автоматическое форматирование кода.\n* **Git Hooks:** Husky + lint-staged.\n\n---\n\n## Быстрый старт ⚙️\n\nЧтобы запустить проект локально, выполните следующие шаги:\n\n1.  **Клонируйте репозиторий:**\n    ```bash\n    git clone https://github.com/dalekswar/CodeMind.git\n    ```\n\n2.  **Перейдите в директорию проекта:**\n    ```bash\n    cd CodeMind\n    ```\n\n3.  **Установите зависимости:**\n    ```bash\n    npm install\n    ```\n\n4.  **Запустите проект в режиме разработки:**\n    ```bash\n    npm run dev\n    ```\n    *Приложение будет доступно по адресу, указанному в терминале (обычно `http://localhost:5173`).*\n\n---\n\n## Доступные команды 📑\n\nВ директории проекта можно использовать следующие команды:\n\n| Команда | Описание |\n| :--- | :--- |\n| `npm run dev` | Запуск dev-сервера Vite с горячей перезагрузкой (HMR). "
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Webis-2022/rs-tandem",
@@ -8930,7 +9214,17 @@
       "readme": {
         "exists": true,
         "content": "# rs-tandem\n\n## Project description\n\nHTML Trainer for interview preparation. Generating questions on various topics using LLM.\n\n## Team:\n\n- Jevgeni Verjovkin - https://github.com/Webis-2022/Jevgeni-Verjovkin\n- Aleksandra Potapova - https://github.com/alekspanda\n- Sergei Urazov - https://github.com/urazof\n\n## Tech Stack\n\n- TypeScript\n- Vite\n- Vitest\n- ESLint\n- Prettier\n- Sass (SCSS)\n- Husky\n- GitHub Actions (CI)\n\n## How to run locally\n\n### Requirements:\n\n- Node.js >= 18\n- npm >= 9\n\n### Steps:\n\n1. Clone repository:\n   git clone [https://github.com/Webis-2022/rs-tandem.git](https://github.com/Webis-2022/rs-tandem.git)\n\n2. Go to project folder:\n   cd project\n\n3. Install dependencies:\n   npm install\n\n4. Run development server:\n   npm run dev\n\nProject will be available at:\nhttp://localhost:3000\n\n## App Deploy Link\n\n[https://webis-2022-rs-tandem.netlify.app/](https://webis-2022-rs-tandem.netlify.app/)\n\n## Branch Strategy\n\n- main — stable production branch\n- develop — integration branch\n- feature/\\* — feature branches\n\nAll changes must go through pull request.\n\n## APIService\n\nResponsible for:\n\n- Communication with Supabase (database, auth, edge functions)\n\n- Calling Supabase Edge Functions (e.g. question batch generation)\n\n- Normalizing and forwarding errors\n\n- Optional retry logic for network failures\n\n- Attaching session context automatically (handled via Supabase client)\n\n- Returning clean data to higher layers (QuestionService, etc.)\n\nNot responsible for:\n\n- AI logic or prompt generation\n\n- Business logic (game rules, scoring, validation)\n\n- State management\n\n- UI rendering\n\n- Deciding when to generate vs reuse cached questions\n  (this must be handled inside Edge Functions)\n\n## Video Demo\n\n- https://youtu.be/HWwnsfwI7CI\n- Video contains small demo about loading state, error handling and 404 page - it's all for 5th week of the development.\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Pchyolan/rs-tandem-project",
@@ -9147,7 +9441,17 @@
       "readme": {
         "exists": true,
         "content": "# RS Tandem Project\n\n## 📖 Description\nA tiny web project fueled by coffee and optimism ☕️\nWe write code, occasionally debug, and mostly survive stage 2.  \n\n## 🌱 Deploy\n[Deploy Link](https://tranquil-froyo-550c45.netlify.app/)\n\n## 🌟 Team\n- Pchyolan – [GitHub](https://github.com/pchyolan) - [Дневники](./development-notes/Pchyolan)\n- Anna Demyanovich – [GitHub](https://github.com/thefoxtale) - [Дневники](./development-notes/theFoxTale)\n\n## ⚙️ Технологический стек\n- **Язык:** TypeScript\n- **Сборщик:** Vite\n- **Стили:** SCSS\n- **Тестирование:** Vitest + jsdom\n- **Линтер/форматтер:** ESLint, Prettier, Stylelint\n- **База данных/аутентификация:** Supabase\n\n## 🤹‍♀️ Kanban-доска разработки проекта\nВсе задачи, связанные с разработкой и развитием проекта, занесены на Kanban-доску - [ссылка](https://github.com/users/Pchyolan/projects/1/views/1).\n\n## 📝 Записи встреч команды\nИногда мы ведём дневниковые записи наших встреч, и они лежат [тут](./docs/meeting-notes/index.md)\n\n## 🚀 Запуск проекта для разработчиков\nДля запуска проекта требуется Node миниум 20-ой версии.\n\n1. Клонирование репозитория\n```bash\n\ngit clone https://github.com/Pchyolan/rs-tandem-project.git\ncd rs-tandem-project\n```\n\n2. Установка зависимостей\n```bash\n\nnpm install\n```\n\n3. Настройка переменных окружения\n\nСоздайте файл .env в корне проекта со следующим содержимым (замените значения на свои из Supabase):\n```env\n\nVITE_DEFAULT_LANGUAGE=en   # или ru\n```\n\n4. Запуск в режиме разработки\n```bash\n\nnpm run dev\n```\n\nПосле запуска приложение будет доступно по адресу http://localhost:3000 (порт может измениться, если 3000 занят).\n\n## 🛠️ Хуки Husky\nПроект использует Husky и lint-staged:\n- При коммите автоматически запускается lint-staged, который проверяет и форматирует изменённые файлы.\n- При пуше запускается проверка типов и сборка проекта (см. .husky/pre-push).\n\n## 💻 Команды для разработки\n\n| Команда                   | Описание                                                   |\n|---------------------------|--------"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "ArtemovEgor/codeVibeCheck",
@@ -9451,7 +9755,15 @@
       "readme": {
         "exists": true,
         "content": "# codeVibeCheck\n\ncodeVibeCheck is an interactive training simulator for technical interview preparation, including quizzes, technical assignments, and an AI assistant.\n\nCreated as a final assignment of the RS-School Frontend cource.\n\nProject team:\n\n- [Alexander Akatov](https://github.com/Al-E-xXx)\n- [Kateryna Volkova](https://github.com/EkaterynaVolkova)\n- [Egor Artemov](https://github.com/ArtemovEgor)\n\nDeploy: [https://artemovegor.github.io/codeVibeCheck/](https://artemovegor.github.io/codeVibeCheck/)\n\nCheckpoint 5 video: [https://youtu.be/mbapDcRV8bA](https://youtu.be/mbapDcRV8bA)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "OlgaMinaievaWebDev/rs-tandem-devquest",
@@ -9694,7 +10006,11 @@
       "readme": {
         "exists": true,
         "content": "# DevQuest (RS School Final Project)\n\n**Live Demo:** [https://olgaminaievawebdev.github.io/rs-tandem-devquest/](https://olgaminaievawebdev.github.io/rs-tandem-devquest/)\n\n**DevQuest** is a gamified web application designed to help beginner developers prepare for technical interviews. The player takes on the role of a Junior developer going through a 7-day probation period under the supervision of a strict AI team lead.\n\n## 🚀 Product Essence (...in development)\n\n**Key Features:** (...in development)\n\n* **AI Team Lead (Gemini API):** Generates tasks with \"bugs\", checks the player's code, and provides sharp but helpful feedback.\n* **RPG Mechanics:** The player has two main stats - **Stress** (stress level) and **Authority** (authority level). Mistakes increase stress, while clean code increases authority.\n* **7-Day Marathon:** The goal is to survive until the end of the week without being \"fired\" due to a critical stress level.\n\n## 🛠 Tech Stack (...in development)\n\n* **Frontend:** TypeScript, Vite\n* **AI:** Google Gemini API (client-side integration)\n* **Styling:**\n* **Data:** LocalStorage for saving progress\n\n## 👥 Team (RS Tandem)\n\n* **O. Minaieva** ([OlgaMinaievaWebDev](https://github.com/OlgaMinaievaWebDev)) — Team Lead\n* **A. Aziz** ([AzizShik](https://github.com/AzizShik)) — Developer\n* **I.Saluk** ([isaluk](https://github.com/isaluk)) — Deveoper\n\n## 🔧 Installation and Launch (...in development)\n\n1. Clone the repository.\n2. Install dependencies: `npm install`.\n3. Start the project: `npm run dev`.\n\n"
-      }
+      },
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "afedziukovich/SkillGrove",
@@ -9926,7 +10242,17 @@
       "readme": {
         "exists": true,
         "content": "# 🧠 SkillGrove\n\n**SkillGrove** is an interactive platform for preparing for technical interviews and improving JavaScript/TypeScript skills. Here, you can take tests, interact with an AI tutor, solve problems, and track your progress. The project is created as part of the final RS School assignment.\n\n## 🌐 Deployment\n\n[![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://skillgrove.vercel.app/)\n\n## 👨‍💻 Team\n\n- [Afedziukovich](https://github.com/afedziukovich)\n- [Artsiom Belski](https://github.com/Thrapis)\n\n## 📍 Checkpoint Video Evidences\n\n- [Week 5 Checkpoint Video Evidence](https://youtu.be/Cqdfz3UE-Oo)\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Nuxt",
+        "Pinia",
+        "Supabase",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "dzzuze/SAA-Cat",
@@ -10277,7 +10603,19 @@
       "readme": {
         "exists": true,
         "content": "# SAA Cat — Tandem Widget Trainer\n\n## Project Description\n\nSAA Cat is an interactive SPA designed for practicing programming concepts relevant to technical interviews.  \nThe application provides a collection of visual, gamified widgets that help users strengthen their knowledge of JavaScript, TypeScript, and core computer science topics through hands-on interaction.\n\nUsers can explore topics, complete challenges, and track their learning progress in an engaging and intuitive environment.\n\n---\n\n## Project Name Origin\n\n**SAA Cat** is derived from the first letters of our team members’ names:\n\n- **S** — Sergey\n- **A** — Anna\n- **A** — Artem\n\nAnd **Cat**… because cats are cute\n\nThe theme adds a light, friendly tone to the learning experience while keeping the educational focus.\n\n---\n\n## Team Members\n\n- **Sergey Sidoryaka**  \n  GitHub: https://github.com/sidoryakasergey\n\n- **Artem**  \n  GitHub: https://github.com/dzzuze\n\n- **Anna Dzig**  \n  GitHub: https://github.com/annaDzig\n\n---\n\n## Project Goals\n\n- Provide an engaging way to practice JS/TS concepts\n- Reinforce understanding through interactive widgets\n- Simulate interview-style challenges\n- Demonstrate clean architecture and TypeScript best practices\n\n---\n\n## Tech Stack\n\n- React\n- TypeScript (strict mode)\n- Vite\n- ESLint + Prettier\n- LocalStorage / Mock Data\n- Tailwind\n\n---\n\n## Development Timeline\n\nThe project is being developed as part of the RS School JS/FE Final Project (Tandem), following an agile, iterative workflow.\n\n---\n\n## Deploy\n\nhttps://dzzuze.github.io/SAA-Cat/\n\n---\n\n## Video for Week 5 Checkpoint\n\n[Video for Week 5 Checkpoint](https://www.youtube.com/watch?v=7-F7fzZgQK8)\n\n---\n\n_Learning can be serious and cute at the same time._\n\n---\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "NataliItaly/Smart-Quiz",
@@ -10715,7 +11053,14 @@
       "readme": {
         "exists": true,
         "content": "# Smart-Quiz\nSmart-Quiz RSSchool Final Project Auto Team 7\n\nThe app represent a quizz with questions on HTML, CSS, JS topics.\nUser can select questions depending on the dificulty level and topic.\nProgress and history of attempts are saved in localStorage.\n\n## Deploy link\n\n[Deploy on Netlify](https://smart-quiz-rsschool-auto-team-7.netlify.app/)\n\n\n## Team members:\n- Nataliya Krylova [Git Hub](https://github.com/NataliItaly) - team lead \n- Kateryna Moskalenko [Git Hub](https://github.com/katerynamoskalenko)\n- Daria Pusovskaya [Git Hub](https://github.com/dariapusovskaya)\n\n## How to run\n1. Clone repository:\n`git clone https://github.com/NataliItaly/Smart-Quiz.git`\n\n2. Install dependencies\n`npm run install`\n\n3. Go to folder\n`cd Smart-Quiz`\n\n**Node version 18+ / 20+**\n\n## Project structure\n<img width=\"310\" height=\"561\" alt=\"project-structure\" src=\"https://github.com/user-attachments/assets/3f70ac37-0184-4819-bf04-f90812a9f97c\" />\n\n## Components presentation\n\n- Nataliya Krylova: Dashboard component\n[YouTube link](https://youtu.be/CX-lkU0616c)\n\n- Kateryna Moskalenko: ... component\n[YouTube link](https://youtu.be/BviLZIucVFM)\n\n- Daria Pusovskaya:   ... component\n[YouTube link](https://youtu.be/7Q8zDLoT4E0)\n\n## Testing\nTo run tests locally:\n`npm test`\n\nExpected output:\n\n<img width=\"575\" height=\"283\" alt=\"Screenshot 2026-03-11 012224\" src=\"https://github.com/user-attachments/assets/c38fb28a-9fab-4efc-8c08-1ba911234de5\" />\n\n## Week 5 Checkpoint\nImplementing Page Not Found (404) functionality, loading, error handling, [YouTube demonstration link](https://youtu.be/dvX3uxiGYV0) \n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Nastya-Student/rss-fe-final-project",
@@ -11179,7 +11524,14 @@
       "readme": {
         "exists": true,
         "content": "# Tandem\n\n[deploy](https://rss-fe-final-project.vercel.app/)\n\n[board](https://rss-final.atlassian.net/jira/core/projects/RST/board)\n\n[project description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/rs-tandem)\n\nНазвание проекта - Tandem.\nЗа основу проекта взяли пример [01-widget-trainer](https://github.com/rolling-scopes-school/tasks/blob/master/stage2/tasks/rs-tandem/examples/01-widget-trainer/README.md) из репозитория школы.\nПриложение представляет собой SPA для подготовки к интервью и будет включать страницы:\n* Landing,\n* Login,\n* Register,\n* Dashboard,\n* Library,\n* Practice,\n* Profile,\n* 404.\n\n[видео - 404, loading, error state](https://youtu.be/M57p4R2uLhU) \n\n### Состав команды:\n\n* Настя [Nastya-Student](https://github.com/Nastya-Student)  [ - notes](https://github.com/Nastya-Student/rss-fe-final-project/tree/main/development-notes/nastya-student)\n* Никита [Atikin132](https://github.com/Atikin132)  [ - notes](https://github.com/Nastya-Student/rss-fe-final-project/tree/main/development-notes/atikin132)\n* Андрей [amelur](https://github.com/amelur)  [ - notes](https://github.com/Nastya-Student/rss-fe-final-project/tree/main/development-notes/amelur)\n* Ульяна [Ulya10](https://github.com/Ulya10)  [ - notes](https://github.com/Nastya-Student/rss-fe-final-project/tree/main/development-notes/ulya10)\n\n### Meeting Notes: ###\n\n* [2026-02-21](https://github.com/Nastya-Student/rss-fe-final-project/blob/main/meetings/meeting-2026-02-21.md)\n* [2026-03-01](https://github.com/Nastya-Student/rss-fe-final-project/blob/main/meetings/meeting-2026-03-01.md)\n* [2026-03-08](https://github.com/Nastya-Student/rss-fe-final-project/blob/main/meetings/meeting-2026-03-08.md)\n* [2026-03-28](https://github.com/Nastya-Student/rss-fe-final-project/blob/main/meetings/meeting-2026-03-28.md)\n  \n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Auto-Team-9/sea-battle",
@@ -11527,7 +11879,9 @@
       "readme": {
         "exists": true,
         "content": "# Auto-Team-9-Widget-Trainer\n## Description\nPlayers roll dice to move across the game board, solving JavaScript, TypeScript, and algorithm challenges as they advance from \"Junior\" to \"Senior\". Each turn is an opportunity to level up hard skills in an engaging format, where correct solutions bring bonuses and mistakes become learning opportunities.\n## Team\n  - Максим - [orgris](https://github.com/Orgris)\n  - Андрей - [heyArtik-dev](https://github.com/heyArtik-dev)\n  - Александра - [Ch-alexandra](https://github.com/Ch-alexandra)\n\n[**Trello**](https://trello.com/b/uKf8wGni/rss-tandem)\n\n[**Deploy**](https://sea-of-code-1zs6uqw9d-ch-alexandras-projects.vercel.app/)\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "chebupell/SkillsZen",
@@ -11922,7 +12276,9 @@
       "readme": {
         "exists": true,
         "content": "# SkillsZen\n\nSkillsZen is an interactive skills trainer for JS/TS and Algorithms practice.\nIt helps users learn topics through quizzes, tasks, and progress tracking.\n\n## Team\n\nMikhail Kremenetski - [chebupell](https://github.com/chebupell)<br>\nAnastasiya Andronava - [anastan588](https://github.com/anastan588)<br>\nTatsiana Hladkaya - [t-gladkaya](https://github.com/t-gladkaya) <br>\nEgor Gerasimchyk - [ForestDeerr](https://github.com/forestdeerr)<br>\n\n## Weekly meetings\n06.03.2026 - [record](development-notes/calls/2026-03-06.md)<br>\n15.03.2026 - [record](development-notes/calls/2026-03-15.md)<br>\n22.03.2026 - [record](development-notes/calls/2026-03-12.md)<br>\n\ndeploy - https://skillszen.netlify.app/\n\nweek 5 checkpoint video - https://youtu.be/XZR6ZVGX7hk\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Alcopatriarch/RS-Tandem",
@@ -12259,7 +12615,9 @@
       "readme": {
         "exists": true,
         "content": "# RS-Tandem\nThis is a modern educational tool designed to simplify the way developers learn. It's all about creating an interface experience that makes mastering new skills feel natural, while giving users a clear picture of their growth and achievements.\n### Team composition\n1. Sergey Lee: [serglestr](https://github.com/SergLestr)\n2. Vladyslav Ivankov: [Alcopatriarch](https://github.com/Alcopatriarch)\n3. Karyna Avdieieva: [karinavd](https://github.com/karinavd)\n### Link to deploy\nhttps://rs-tandem-seven.vercel.app\n### Link to video checkpoint 5\nhttps://youtu.be/26gJlmupBW4\n"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Campidoc/TetraSkill",
@@ -12486,15 +12844,21 @@
       "readme": {
         "exists": true,
         "content": "# TetraSkill\n\nQuadroTrain — a team training project for developing soft skills through 4 mini-games. Built with TypeScript, HTML, and CSS.\n\n- **Kirill** — [@Campidoc](https://github.com/Campidoc)\n- **Ayzanat** — [@ayzana](https://github.com/ayzana)\n- **Dzmitry** — [@dimitra86](https://github.com/dimitra86)\n- **Yahor** — [@yegor000](https://github.com/yegor000)\n\nDeploy: https://campidoc.github.io/TetraSkill/\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "TypeScript",
+        "Webpack"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "AnnStarrySky/tandem",
       "url": "https://github.com/AnnStarrySky/tandem",
       "week5Team": {
-        "videoUrl": "https://youtu.be/MJlL3sbY8AI",
-        "hasVideo": true,
-        "allMet": true
+        "videoUrl": null,
+        "hasVideo": false,
+        "allMet": false
       },
       "members": [
         {
@@ -12580,8 +12944,8 @@
           "diaryEntriesW5": 5,
           "diaryOk": true,
           "personalScore": 10,
-          "teamScore": 10,
-          "score": 20
+          "teamScore": 0,
+          "score": 10
         },
         {
           "github": "annstarrysky",
@@ -12669,8 +13033,8 @@
           "diaryEntriesW5": 4,
           "diaryOk": true,
           "personalScore": 10,
-          "teamScore": 10,
-          "score": 20
+          "teamScore": 0,
+          "score": 10
         },
         {
           "github": "yuriyli",
@@ -12755,14 +13119,25 @@
           "diaryEntriesW5": 4,
           "diaryOk": true,
           "personalScore": 10,
-          "teamScore": 10,
-          "score": 20
+          "teamScore": 0,
+          "score": 10
         }
       ],
       "readme": {
         "exists": true,
-        "content": "# The Blind Kitten\n\n**“The Blind Kitten”** is a platform for beginner programmers.  \nIt offers levels from easy to advanced, a glossary of terms, gamified practice, and skills for real-world work.\n\n## Participants:\n\n- **Angelina** (angelinavakkasova)\n- **Anna** (annstarrysky)\n- **Yuriy** (yuriyli)\n\n## Deploy:\n\n- https://tandem-pi.vercel.app/\n\n## Meeting Notes\n\n- [Meeting 01 — Первое обсуждение проекта](./meeting-notes/meeting-01.md)\n- [Meeting 02 — Выбор стека и распределение задач](./meeting-notes/meeting-02.md)\n- [Meeting 03 — Обновление статуса по задачам](./meeting-notes/meeting-03.md)\n\n## Checkpoint links\n\n- Week 5 https://youtu.be/MJlL3sbY8AI\n"
-      }
+        "content": "# The Blind Kitten\n\n**“The Blind Kitten”** is a platform for beginner programmers.  \nIt offers levels from easy to advanced, a glossary of terms, gamified practice, and skills for real-world work.\n\n## Participants:\n\n- **Angelina** (angelinavakkasova)\n- **Anna** (annstarrysky)\n- **Yuriy** (yuriyli)\n\n## Deploy:\n\n- https://tandem-pi.vercel.app/\n\n## Backend:\n\n- https://github.com/Yuriyli/TandemBackend\n\n## Meeting Notes\n\n- [Meeting 01 — Первое обсуждение проекта](./meeting-notes/meeting-01.md)\n- [Meeting 02 — Выбор стека и распределение задач](./meeting-notes/meeting-02.md)\n- [Meeting 03 — Обновление статуса по задачам](./meeting-notes/meeting-03.md)\n\n# Environment Variables Setup\n\n## Required Environment Variables\n\nCreate a `.env` file in your project root with the following variables:\n\n### Authentication Configuration\n\n| Variable          | Description                           | Example                     |\n| ----------------- | ------------------------------------- | --------------------------- |\n| `NEXTAUTH_URL`    | Base URL of your application          | `http://localhost:3000`     |\n| `NEXTAUTH_SECRET` | Secret key for NextAuth.js encryption | `AnySuperSecretString12345` |\n\n### Backend Configuration\n\n| Variable      | Description              | Example                  |\n| ------------- | ------------------------ | ------------------------ |\n| `BACKEND_URL` | Backend API endpoint URL | `http://localhost:5227/` |\n\n### Development Options\n\n| Variable        | Description                         | Default |\n| --------------- | ----------------------------------- | ------- |\n| `AUTH_USE_MOCK` | Use mock authentication for testing | `false` |\n\n## Optional Environment Variables\n\n### Authentication Providers\n\n#### GitHub OAuth\n\n| Variable                          | Description                                 |\n| --------------------------------- | ------------------------------------------- |\n| `NEXT_PUBLIC_GITHUB_AUTH_ENABLED` | Enable/disable GitHub auth (`true`/`fal"
+      },
+      "techTags": [
+        "Ant Design",
+        "ESLint",
+        "Husky",
+        "Next.js",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "Blshop/JS-Practice-Hub",
@@ -13192,7 +13567,17 @@
       "readme": {
         "exists": true,
         "content": "# JS-Practice-Hub\n\n**JS-Practice-Hub** — это веб-приложение для тренировки знаний по JavaScript и подготовки к техническим интервью. Платформа содержит интерактивные задания, включая drag-and-drop вопросы на правильный порядок выполнения кода, тестовые вопросы с выбором одного или нескольких правильных ответов, а также практические упражнения для закрепления ключевых концепций языка.\n\nВ приложении реализованы уровни сложности, что позволяет постепенно углублять знания — от базовых тем до продвинутых концепций. Также предусмотрено хранение статистики для отслеживания прогресса пользователя и анализа результатов. Проект направлен на развитие глубокого понимания асинхронности, работы event loop, замыканий, прототипов и других ключевых механизмов JavaScript.\n\n## Ссылка на deploy\n\n- https://blshop.github.io/JS-Practice-Hub/\n\n## 👨‍💻 Состав команды\n\n- **Nikita Erechtchenko** — https://github.com/Blshop\n- **Roman Shamaluk**— https://github.com/GorodeN\n- **Dmitry Astapenko** — https://github.com/DmitryAstapenko\n\n## 🎓 Ментор\n\n- **Alina Husarava** — https://github.com/spadarynjaALINA\n\n## 🏫 Организация\n\n- **The Rolling Scopes (@rollingscopes)** — https://github.com/rollingscopes\n\n## 📹 Видео-доказательство функциональности (Страница 404, Loading state, Обработка ошибок API)\n\nДемонстрация корректной работы приложения:\n\n- Страница 404 при переходе на несуществующий URL\n- Loading state при загрузке данных\n- Обработка ошибок API\n\n**Ссылка на видео:** https://youtu.be/P-2lO-0YiLI\n"
-      }
+      },
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "rs-dev-journey/JS-Journey-Trainer",
@@ -13475,7 +13860,9 @@
       "readme": {
         "exists": true,
         "content": "# JS Journey Trainer \n\nJS Journey Trainer is a training web application for training and practicing working with interactive widgets. \n\nThe project aims to develop skills in front-end development, architecture, and teamwork. \n\n## Links:\n**Live demo:** https://js-journey-trainer.netlify.app/  \n**Week 5 Checkpoint demo:** https://drive.google.com/file/d/1Dw_MGh1qHFBqfUgbGD3t8b6_X8OZb7UX/view\n\n## CI\n[![CI](https://github.com/rs-dev-journey/JS-Journey-Trainer/actions/workflows/ci.yml/badge.svg?branch=development)](https://github.com/rs-dev-journey/JS-Journey-Trainer/actions/workflows/ci.yml)\n\n## Team: Dev Journey \n- **Valeria** — https://github.com/lertti \n- **Evgeny** — https://github.com/kupzov2000 \n- **Sabina** — https://github.com/sabinabatrakova\n\n## Meeting notes\n\n- [Sprint 1 - Planning 17.02.2026](./development-notes/meeting/meeting-notes_from_17.02.2026.md)\n- [Sprint 2 - Architecture & Features Split 26.02.2026](./development-notes/meeting/meeting-notes_from_26.02.2026.md)"
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     },
     {
       "fullName": "Azatyk/rs-school-tandem-trauma-team",
@@ -13536,7 +13923,9 @@
       "readme": {
         "exists": false,
         "content": null
-      }
+      },
+      "techTags": [],
+      "techTagsFromCode": false
     }
   ]
 }

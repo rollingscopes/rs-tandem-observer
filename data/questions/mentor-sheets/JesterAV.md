@@ -1,6 +1,6 @@
 # JesterAV — asyncmind
 
-**Tech:** Firebase, React, Vercel, Vite, i18n
+**Tech:** React, Vercel, Vite, i18n
 
 ## Context (read before the call)
 - С первого дня выбрал TS + React + Vite + Vercel — стандартный современный стек, без экспериментов с инфраструктурой

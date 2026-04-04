@@ -1,6 +1,6 @@
 # dukhd — JSGods
 
-**Tech:** Angular, ESLint, Husky, NestJS, SCSS, TypeScript, Vitest
+**Tech:** ESLint, Husky, NestJS, SCSS, TypeScript, Vitest
 
 ## Context (read before the call)
 - Единолично подняла весь монорепо с нуля: npm workspaces (Angular + NestJS + shared), ESLint+Prettier+unicorn, полный Husky-пайплайн (pre-commit с lint-staged и typecheck, pre-push с защитой веток и тестами, commit-msg с commitlint).

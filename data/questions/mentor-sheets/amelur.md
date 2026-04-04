@@ -1,6 +1,6 @@
 # amelur — Т-8
 
-**Tech:** ESLint, Firebase, Supabase, TypeScript
+**Tech:** ESLint, Supabase, TypeScript
 
 ## Context (read before the call)
 - Реализовал полный auth flow самостоятельно: страница регистрации с валидацией, OAuth через Google и GitHub, интеграция Supabase с RLS политиками и триггером автосоздания профиля.

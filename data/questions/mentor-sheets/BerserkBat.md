@@ -1,6 +1,6 @@
 # BerserkBat — Typocalypse
 
-**Tech:** React, Tailwind, Vite
+**Tech:** Tailwind, Vite
 
 ## Context (read before the call)
 - Реализовывал форму логина/регистрации с использованием shadcn/ui и React — основная задача на протяжении нескольких недель.

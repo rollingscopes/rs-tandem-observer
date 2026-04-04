@@ -1,6 +1,6 @@
 # roguestone — Devtones
 
-**Tech:** Canvas, React, Tailwind, Vue
+**Tech:** Canvas, Tailwind
 
 ## Context (read before the call)
 - Команда строит веб-приложение для подготовки к JS-собеседованиям: лендинг, дашборд и набор интерактивных виджетов (квиз, CSS Battle, AI-интервьюер, конструктор JS-методов и др.)

@@ -1,6 +1,6 @@
 # mark-pribylnov — Дрим Тим
 
-**Tech:** Angular, CI/CD, Docker, Firebase, GitHub Actions, Netlify, Node.js, Render, RxJS, Supabase, TypeScript, Vercel
+**Tech:** Angular, CI/CD, Docker, GitHub Actions, Netlify, Node.js, Render, RxJS, Supabase, TypeScript, Vercel
 
 ## Context (read before the call)
 - Настроил полный CI/CD пайплайн (GitHub Actions: lint → prettier → build → deploy) с нуля без какого-либо предыдущего опыта — уложился примерно в 3-4 часа в первый день проекта.

@@ -1,6 +1,6 @@
 # kirrbrest — VueJS Tandem
 
-**Tech:** Docker, ESLint, Husky, Netlify, PostgreSQL, React, Vitest, Vue
+**Tech:** Docker, ESLint, Husky, Netlify, PostgreSQL, Vitest, Vue
 
 ## Context (read before the call)
 - Пришёл с 4-летним опытом JS/TS/React — Vue осваивал впервые в ходе этого проекта.

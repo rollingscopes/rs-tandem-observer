@@ -8519,8 +8519,9 @@
           "normalizedGithub": "andrey-yurchuk",
           "diaryEntriesW4": 9,
           "hasDiaryReviewEntry": true,
-          "testCount": 4,
+          "testCount": 5,
           "testFiles": [
+            "[code-tasks] tests/pages/LoginPage/LoginPage.test.tsx",
             "[code-tasks] tests/pages/ProfilePage/ProfilePage.test.tsx",
             "[code-tasks] tests/redux/slices/authSlice.test.ts"
           ],
@@ -8528,11 +8529,11 @@
           "meaningfulReviewComments": 8,
           "prsReviewed": 3,
           "diaryOk": true,
-          "testingOk": false,
+          "testingOk": true,
           "reviewOk": true,
-          "testingScore": 0,
+          "testingScore": 10,
           "reviewScore": 10,
-          "score": 10,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/Andrey-Yurchuk/Andrey-Yurchuk-2026-02-26.md",

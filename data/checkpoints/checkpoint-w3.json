@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-04T19:29:52.357Z",
+  "checkDate": "2026-04-08T07:05:19.186Z",
   "week": "w3",
   "repos": [
     {
@@ -9622,13 +9622,15 @@
       "url": "https://github.com/dzzuze/SAA-Cat",
       "members": [
         {
-          "github": "annaDzig",
+          "github": "AnnaDzig",
           "normalizedGithub": "annadzig",
-          "diaryEntriesW3": 12,
-          "hasVideo": false,
-          "videoLinks": [],
-          "personalOk": false,
-          "score": 0,
+          "diaryEntriesW3": 13,
+          "hasVideo": true,
+          "videoLinks": [
+            "https://youtu.be/HUi1Rk7__Y0?is=w2ZnK8jpltpM5yzP"
+          ],
+          "personalOk": true,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/AnnaDzig/2026-02-07.md",
@@ -9693,8 +9695,11 @@
             {
               "path": "development-notes/AnnaDzig/2026-03-10.md",
               "date": "2026-03-10",
-              "content": "# Date: 2026-03-10\n\n- **What was done:**\n\nToday I reviewed a teammate’s pull request [PR #32: Feat/btn-component](https://github.com/dzzuze/SAA-Cat/pull/32) **Feat/btn-component (#32)** where a reusable button component was implemented.\n\nWhile reading the code I focused on how the component is named and how it behaves when used inside forms. I left two comments suggesting small improvements.\n\nFirst, I suggested renaming the component using **PascalCase** (`ButtonLoading`) instead of `btn-loading`. In React it is common practice to name components using PascalCase so they are easily distinguishable from regular HTML elements.\n\nSecond, I suggested explicitly adding `type={type}` with a default value `type=\"button\"` to the button component. By default, a `<button>` inside a `<form>` behaves as `type=\"submit\"`, which can trigger unintended form submissions when the button is used for other actions.\n\n- **Decisions / Notes:**\n\nWhile reviewing the code I tried to focus on:\n\n- React naming conventions\n- avoiding potential issues with form behavior\n- improving reusability of UI components\n\n- **Problems / Questions:**\n\nThis review reminded me that small details in reusable components can have a large impact when they are used in multiple parts of the application.\n\n- **Plans / Next steps:**\n\n- Continue reviewing teammate PRs\n- Start working on the unit tests required for the Week 4 checkpoint\n\n- **Time spent:** ~1 hour\n",
-              "charCount": 1432
+              "content": "# Date: 2026-03-09\n\n- **What was done:**\n\nToday I recorded a short video presentation of one of the feature components I implemented for the project — the **Topics Section** of the Main Page.\n\nThe goal of this video was to demonstrate how the component works and explain the main implementation decisions. I first showed the result in the browser, demonstrating how the section renders topic cards dynamically.\nThen I opened the code in the IDE and explained how the component is structured.\nI talked about:\n\n- how the `TopicsSection` component renders the section\n- how topic cards are generated dynamically using `map`\n- why the topic content is stored separately in `mainPageData.ts`\n- how images are mapped through a separate configuration file\n- how the reusable `TopicCard` component works\n\nI also mentioned a small TypeScript issue I encountered when mapping topic IDs to images and explained how I solved it by introducing stricter typing.\nRecording the video took a couple of tries, because explaining the code clearly while navigating the project structure is a bit different from simply writing the code.\n\n- **Video presentation:**\n\nFeature Component presentation video:  \nhttps://youtu.be/HUi1Rk7__Y0?is=w2ZnK8jpltpM5yzP\n\n- **Decisions / Notes:**\n\nWhile preparing the video I realized that explaining the code out loud helps identify places where the structure could be improved.\n\nIt also helped me review the architecture decisions I made earlier, especially separating:\n\n- data\n- assets configuration\n- UI components\n\nThis approach makes the components easier to understand and maintain.\n\n- **Problems / Questions:**\n\nThe main challenge was keeping the explanation short while still showing the important parts of the implementation.\nAnother small difficulty was making sure the code and the browser demo were both clearly visible during the recording.\n\n- **Plans / Next steps:**\n\n- Continue implementing the remaining sections of the Main Page\n- Improve navigation between sections\n- Polish UI spacing and responsiveness\n\n- **Time spent:** ~2 hours\n",
+              "charCount": 2064,
+              "videoLinks": [
+                "https://youtu.be/HUi1Rk7__Y0?is=w2ZnK8jpltpM5yzP"
+              ]
             },
             {
               "path": "development-notes/AnnaDzig/2026-03-11.md",
@@ -9740,16 +9745,22 @@
             },
             {
               "path": "development-notes/AnnaDzig/2026-30-03.md",
-              "date": "2026-03-30",
+              "date": "2026-04-07",
               "content": "# Date: 2026-03-30\n\n- **What was done:**\n\nToday I was working on improving the User Page, mainly the part with showing completed lessons.\n\nAt first I just fetched data from Firebase and rendered it as a list, but honestly it looked really bad. There were too many small cards and everything felt messy and not like a real product. So I stopped and decided to rethink the UI a bit.\n\nI changed the approach and grouped lessons by topic, like TypeScript, Core JavaScript etc. After that it immediately started to look much better and more structured. It became easier to read and actually looks like something usable.\n\nThen I spent quite some time fixing the layout, because the proportions between the profile form and the progress block were off. On desktop it didn’t feel balanced, and on mobile it also needed better stacking. I adjusted widths and spacing so now both blocks look like part of the same page, not random elements.\n\nLater I refactored everything and moved the progress logic into a separate component `CompletedLessonsCard`. This made the UserPage much cleaner and easier to read. Also added small formatting helpers because raw strings from Firebase looked ugly.\n\n- **Decisions / Notes:**\n\nI decided to keep progress as a separate component, because it will be easier to reuse later and not overload UserPage.\n\nAlso decided to keep current Firebase structure for now (array of strings), even though it’s not perfect, because changing backend would take too much time at this stage.\n\nUsed real-time updates with onSnapshot so the UI updates automatically.\n\n- **Problems / Questions:**\n\nMain problem was UI. First version looked really bad, like just data dump, not a real interface.\n\nAlso hit React lint error about setState inside useEffect, had to change approach with loading state.\n\nAnother thing was figuring out how to structure lessons so it doesn’t look chaotic.\n\n- **Plans / Next steps:**\n\nNext I want to show progress inside lessons list and maybe add some kind of progress indicator.\n\nAlso later we should probably change Firebase structure to store objects instead of strings.\n\n- **Time spent:** ~5–6 hours\n",
               "charCount": 2135
+            },
+            {
+              "path": "development-notes/AnnaDzig/self-assessment.md",
+              "date": "2026-04-07",
+              "content": "# Self-Assessment\n\n**PR with self-assessment:** [_PR_LINK_](https://github.com/dzzuze/SAA-Cat/pull/69)\n\n## Deploy\n\nhttps://dzzuze.github.io/SAA-Cat/\n\n---\n\n## Personal Features Score\n\n| Category         | Feature / Description                                                                 | PR / Code Link                            | Points |\n|------------------|----------------------------------------------------------------------------------------|--------------------------------------------|--------|\n| Frameworks       | React (SPA built with React + Vite)                                                   |                                            | +5     |\n| Architecture     | State Manager (Zustand used via auth/global state)                                    |                                            | +10    |\n| Architecture     | API Layer (separation of Firebase logic from UI via helpers)                          |                                            | +10    |\n| Architecture     | Design Patterns (modular structure, config-driven UI, separation of concerns)         | https://github.com/dzzuze/SAA-Cat/pull/20  | +10    |\n| Architecture     | Routing Architecture (layout-based routing with `<Outlet />`)                         | https://github.com/dzzuze/SAA-Cat/pull/20  | +10    |\n| Backend & Data   | BaaS Auth (Firebase Auth integration via AuthProvider)                                |                                            | +15    |\n| Backend & Data   | BaaS CRUD (reading/writing lessons + quiz + progress from Firestore)                  |                                            | +15    |\n| UI & Interaction | Theme Switcher (dark/light/system with persistence)                                   | https://github.com/dzzuze/SAA-Cat/pull/64  | +10    |\n| UI & Interaction | Responsive layout (Landing, Lessons, Quiz)                                            |                                            | +5     |\n| Quality          | Unit Tests (Header tests with Vitest + RTL)                                           | https://github.com/dzzuze/SAA-Cat/pull/46  | +10    |\n| My Components    | Rich UI Screen: Landing Page (Hero, How It Works, Topics)                             | https://github.com/dzzuze/SAA-Cat/pull/38  | +20    |\n| My Components    | Rich UI Screen: LessonsPage (lesson list + ordering + navigation entry)               | https://github.com/dzzuze/SAA-Cat/pull/61  | +20    |\n| My Components    | Rich UI Screen: LessonPage (Markdown + completion + navigation logic)                 | https://github.com/dzzuze/SAA-Cat/pull/62  | +20    |\n| My Components    | Rich UI Screen: Profile Page (progress grouping + UI refactor)                        | https://github.com/dzzuze/SAA-Cat/pull/63  | +20    |\n| My Components    | Rich UI Screen: QuizPage (questions, navigation, score, result screen)                | https://github.com/dzzuze/SAA-Cat/pull/67  | +20    |\n| My Components    | Complex Component: Lesson",
+              "charCount": 7553
             }
           ]
         },
         {
           "github": "dzzuze",
           "normalizedGithub": "dzzuze",
-          "diaryEntriesW3": 9,
+          "diaryEntriesW3": 10,
           "hasVideo": true,
           "videoLinks": [
             "https://youtu.be/Jd5sLV6xpgQ?si=6Wb6pxTQtsGCHbxW"
@@ -9837,13 +9848,19 @@
               "date": "2026-03-30",
               "content": "# Дата: 2026-03-30\n\n## Что было сделано:\n\n- Удалены эмодзи у кнопок навигации в header и user nav menu.\n- Удалён лишний \"бургер\" при низком разрешении экрана.\n\n## Мысли / Планы:\n\nПосле оценки макета, было решено убрать эмодзи у навигационных кнопок. Также был удалён\n\"лишний\" бургер, который появлялся справа от \"компаса\" и представлял собой второе (дублирующее)\nuser nav menu.\n\n## Затраченное время:\n\n- 40 минут - час.\n",
               "charCount": 420
+            },
+            {
+              "path": "development-notes/dzzuze/self-assessment.md",
+              "date": "2026-04-07",
+              "content": "# Self-Assessment\n\n**PR with self-assessment:** [(link)](https://github.com/dzzuze/SAA-Cat/pull/71)\n\n## Deploy\n\nhttps://dzzuze.github.io/SAA-Cat/\n\n## Personal Features Score\n\n| Категория          | Фича                                                                             | PR Link                                         | Баллы |\n| ------------------ | -------------------------------------------------------------------------------- | ----------------------------------------------- | ----- |\n| **My Components**  | **Rich UI Screen:** LoginPage                                                    | [PR](https://github.com/dzzuze/SAA-Cat/pull/10) | +20   |\n|                    | **Rich UI Screen:** RegisterPAge                                                 | [PR](https://github.com/dzzuze/SAA-Cat/pull/32) | +20   |\n|                    | **Rich UI Screen:** Header                                                       | [PR](https://github.com/dzzuze/SAA-Cat/pull/26) | +20   |\n| **Architecture**   | **State Manager** Zustand used via auth/global state                             | [PR](https://github.com/dzzuze/SAA-Cat/pull/58) | +10   |\n| **Architecture**   | **API Layer:** separation of Firebase logic from UI via helpers                  | [PR](https://github.com/dzzuze/SAA-Cat/pull/26) | +10   |\n| **Architecture**   | **Design Patterns:** modular structure, config-driven UI, separation of concerns | [PR](https://github.com/dzzuze/SAA-Cat/pull/32) | +10   |\n| **Backend & Data** | **BaaS Auth:** Firebase Auth integration via AuthProvider                        | [PR](https://github.com/dzzuze/SAA-Cat/pull/58) | +15   |\n| **Backend & Data** | **BaaS CRUD:** reading/writing lessons + quiz + progress from Firestore          |\n| **Quality**        | **Unit Tests (Basic):** Покрытие тестами 20%+ вашего личного кода                | [PR](https://github.com/dzzuze/SAA-Cat/pull/41) | +10   |\n| **DevOps & Role**  | **Auto-deploy:** GH Actions                                                      |                                                 | +5    |\n| **Frameworks**     | **React:** Использование библиотеки React                                        | [PR](https://github.com/dzzuze/SAA-Cat/pull/58) | +5    |\n\n| **Total** | **140+** |\n\n## Описание моей работы\n\nВ этом проекте я пытался быть тимлидом, но как мне кажеться, так себе получилось.\nВ основном отвечал за дизайн, анимации, цвета, фон и т. д. Но котиков добавила Аня.\nЕщё могу выделить добавление CI/CD.\n\n### Основные зоны ответственности:\n\n- CI/CD\n- Login Page\n- Sign Up Page (RegisterPage)\n- Дизайн приложения.\n\n## Технологии и инструменты\n\n- React + React Router DOM - для маршрутизации и условного рендеринга страниц.\n\n- Tailwind CSS - для стилизации, включая кастомную цветовую палитру, тёмную тему, адаптивные правки.\n\n- Vitest + React Testing Library (RTL) - для написания модульных тестов (LoginPage, Header).\n\n- GitHub Actions - настройка CI/CD и деплоя.\n\n- Jira / GitHub Issues - управление ",
+              "charCount": 6885
             }
           ]
         },
         {
           "github": "sidoryakasergey",
           "normalizedGithub": "sidoryakasergey",
-          "diaryEntriesW3": 10,
+          "diaryEntriesW3": 11,
           "hasVideo": true,
           "videoLinks": [
             "https://www.youtube.com/watch?v=PtQj3kNl7vA"
@@ -9949,10 +9966,28 @@
               "date": "2026-03-30",
               "content": "# Дата: 2026-03-30\n\n## **Что было сделано:**\n\n- Пофиксил баг с отображением ошибки 404 на деплое GH-PAGE, от хеш роутера сразу отказался выглядит не очень, решетка раздражает. нагуглил самый простой способ просто копировать index.html в 404.html по время деплоя.\n\n## **Проблемы:**\n\n- проблемы только с временем для проэкта( его нет совсем.\n\n## **Мысли / Планы:** Что буду делать дальше?\n\n- Готовится к презентациии проэкта.\n\n## **Затраченное время:**\n\nоколо 30 минут.\n",
               "charCount": 468
+            },
+            {
+              "path": "development-notes/SidoryakaSergey/self-assessment.md",
+              "date": "2026-04-07",
+              "content": "# Self-Assessment\n\n**PR с self-assessment:** (https://github.com/dzzuze/SAA-Cat/pull/68)\n\n## Deploy (https://dzzuze.github.io/SAA-Cat/)\n\n## 📊 Personal Features Score\n\n| Category         | Feature / Description                                                    | PR / Code Link                                                                                   | Points |\n| ---------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------ |\n| Frameworks       | React (Vite + React setup проекта)                                       | [PR](https://github.com/dzzuze/SAA-Cat/pull/1)                                                   | +5     |\n| Architecture     | State Manager (Zustand для хранения auth и user данных)                  | [PR](https://github.com/dzzuze/SAA-Cat/pull/21)                                                  | +10    |\n| Backend & Data   | BaaS Auth (Firebase Authentication: login, register, session handling)   | [PR](https://github.com/dzzuze/SAA-Cat/pull/12)                                                  | +15    |\n| Backend & Data   | BaaS CRUD (Firestore: создание user, топики, получение данных)           | [PR](https://github.com/dzzuze/SAA-Cat/pull/52)                                                  | +15    |\n| UI & Interaction | Responsive + базовая структура UI (Header, страницы)                     | [PR](https://github.com/dzzuze/SAA-Cat/pull/48)                                                  | +5     |\n| My Components    | Rich UI Screen: Dashboard (список топиков + фильтры сложности)           | [PR](https://github.com/dzzuze/SAA-Cat/pull/59)                                                  | +20    |\n| My Components    | Rich UI Screen: Profile Page (редактирование данных пользователя)        | [PR](https://github.com/dzzuze/SAA-Cat/pull/52)                                                  | +20    |\n| My Components    | Rich UI Screen: Topic Page (динамический роутинг + загрузка данных)      | [PR](https://github.com/dzzuze/SAA-Cat/pull/55)                                                  | +20    |\n| My Components    | Complex Component: Markdown Renderer (react-markdown + syntax highlight) | [PR](https://github.com/dzzuze/SAA-Cat/pull/55)                                                  | +25    |\n| UI & Interaction | Advanced UI Logic (фильтрация топиков по сложности)                      | [PR](https://github.com/dzzuze/SAA-Cat/pull/59)                                                  | +10    |\n| Quality          | Unit Tests (Vitest + RTL, базовые тесты страниц)                         | [PR](https://github.com/dzzuze/SAA-Cat/pull/36), [PR](https://github.com/dzzuze/SAA-Cat/pull/35) | +10    |\n| UI & Interaction | Toast Notifications (react-hot-toast)                                    | [PR](https://github.com/dzzuze/SAA-Cat/pull/36)                                     ",
+              "charCount": 7365
             }
           ]
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "NataliItaly/Smart-Quiz",

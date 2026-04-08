@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-08T08:02:20.060Z",
+  "checkDate": "2026-04-08T08:44:14.164Z",
   "week": "w7",
   "repos": [
     {
@@ -47,10 +47,10 @@
           "normalizedGithub": "kozochkina82",
           "inReadme": true,
           "diaryDir": "kozochkina82",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Oksi2510",
@@ -460,30 +460,30 @@
           "normalizedGithub": "kanoplich",
           "inReadme": true,
           "diaryDir": "github-kanoplich",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "rockabil",
           "normalizedGithub": "rockabil",
           "inReadme": true,
           "diaryDir": "github-rockabil",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "sevasmith",
           "normalizedGithub": "sevasmith",
           "inReadme": true,
           "diaryDir": "github-sevasmith",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "sunyuna00",
@@ -945,10 +945,10 @@
           "normalizedGithub": "nck1969",
           "inReadme": true,
           "diaryDir": "nck1969",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
@@ -1839,10 +1839,10 @@
           "normalizedGithub": "artemovegor",
           "inReadme": true,
           "diaryDir": "ArtemovEgor",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "EkaterynaVolkova",

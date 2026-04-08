@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-08T08:00:11.727Z",
+  "checkDate": "2026-04-08T08:02:20.060Z",
   "week": "w7",
   "repos": [
     {
@@ -1043,10 +1043,10 @@
           "hasBoard": true,
           "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -1096,8 +1096,8 @@
           "diaryDir": "MaksimDolgonosov",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "obemgcabazn",
@@ -1106,8 +1106,8 @@
           "diaryDir": "obemgcabazn",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
@@ -1275,10 +1275,10 @@
           "hasBoard": true,
           "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -1288,8 +1288,8 @@
           "diaryDir": "mvavilin",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Peccopa",
@@ -1298,8 +1298,8 @@
           "diaryDir": "peccopa",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "sergey-ado",
@@ -1318,8 +1318,8 @@
           "diaryDir": "walle908",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
@@ -1404,10 +1404,10 @@
           "hasBoard": true,
           "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -1417,8 +1417,8 @@
           "diaryDir": "oreopk",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "S-Arashu",
@@ -1427,8 +1427,8 @@
           "diaryDir": "S-Arashu",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "YekaterinaAlex",
@@ -2050,10 +2050,10 @@
           "hasBoard": true,
           "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -2063,8 +2063,8 @@
           "diaryDir": "dariapusovskaya",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "katerynamoskalenko",
@@ -2109,10 +2109,10 @@
           "hasBoard": true,
           "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -2122,8 +2122,8 @@
           "diaryDir": "amelur",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Atikin132",
@@ -2132,8 +2132,8 @@
           "diaryDir": "atikin132",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Nastya-Student",
@@ -2142,8 +2142,8 @@
           "diaryDir": "nastya-student",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Ulya10",
@@ -2152,8 +2152,8 @@
           "diaryDir": "ulya10",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [

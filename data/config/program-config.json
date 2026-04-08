@@ -149,8 +149,8 @@
       ],
       "scoring": {
         "maxPoints": 20,
-        "algorithm": "all-or-nothing",
-        "description": "All team + personal conditions met → 20, any missing → 0"
+        "algorithm": "split-10-10",
+        "description": "self-assessment → 10 personal, self-assessment + team OK → +10 team"
       }
     }
   ]

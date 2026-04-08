@@ -1,0 +1,2343 @@
+{
+  "checkDate": "2026-04-08T07:41:28.783Z",
+  "week": "w7",
+  "repos": [
+    {
+      "fullName": "ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "url": "https://github.com/ngKittyDebug/RS-Tandem-ngKittyDebug",
+      "week7Team": {
+        "deployUrl": "https://meowvault.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alena1409",
+          "normalizedGithub": "alena1409",
+          "inReadme": true,
+          "diaryDir": "alena1409",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "AlexGorSer",
+          "normalizedGithub": "alexgorser",
+          "inReadme": true,
+          "diaryDir": "AlexGorSer",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "kozochkina82",
+          "normalizedGithub": "kozochkina82",
+          "inReadme": true,
+          "diaryDir": "kozochkina82",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Oksi2510",
+          "normalizedGithub": "oksi2510",
+          "inReadme": true,
+          "diaryDir": "Oksi2510",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "pavelkuvsh1noff",
+          "normalizedGithub": "pavelkuvsh1noff",
+          "inReadme": true,
+          "diaryDir": "pavelkuvsh1noff",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "WhaleisaJoy",
+          "normalizedGithub": "whaleisajoy",
+          "inReadme": true,
+          "diaryDir": "whaleisajoy",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "yermekyerden/typocalypse-tandem",
+      "url": "https://github.com/yermekyerden/typocalypse-tandem",
+      "week7Team": {
+        "deployUrl": "https://yermekyerden.github.io/typocalypse-tandem/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "BerserkBat",
+          "normalizedGithub": "berserkbat",
+          "inReadme": true,
+          "diaryDir": "berserkbat",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "ivmoskalev",
+          "normalizedGithub": "ivmoskalev",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "JasonScriptLord",
+          "normalizedGithub": "jasonscriptlord",
+          "inReadme": true,
+          "diaryDir": "jasonscriptlord",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "romanplis",
+          "normalizedGithub": "romanplis",
+          "inReadme": true,
+          "diaryDir": "romanplis",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "yermekyerden",
+          "normalizedGithub": "yermekyerden",
+          "inReadme": true,
+          "diaryDir": "yermekyerden",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "YessetHumanMan",
+          "normalizedGithub": "yessethumanman",
+          "inReadme": true,
+          "diaryDir": "yessethumanman",
+          "hasSelfAssessment": true,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Artem-WebDeveloper/tandem",
+      "url": "https://github.com/Artem-WebDeveloper/tandem",
+      "week7Team": {
+        "deployUrl": "https://tandem-iota-puce.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AlexeyDmt",
+          "normalizedGithub": "alexeydmt",
+          "inReadme": true,
+          "diaryDir": "alexeydmt",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Artem-WebDeveloper",
+          "normalizedGithub": "artem-webdeveloper",
+          "inReadme": true,
+          "diaryDir": "artem-webdeveloper",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "exppx",
+          "normalizedGithub": "exppx",
+          "inReadme": true,
+          "diaryDir": "exppx",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Igel-k",
+          "normalizedGithub": "igel-k",
+          "inReadme": true,
+          "diaryDir": "Igel-k",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "mightyprinces",
+          "normalizedGithub": "mightyprinces",
+          "inReadme": true,
+          "diaryDir": "mightyprinces",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "raenlin",
+          "normalizedGithub": "raenlin",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand",
+        "i18n"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "RSSAgents/tandem",
+      "url": "https://github.com/RSSAgents/tandem",
+      "week7Team": {
+        "deployUrl": "https://tandem-three.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "27moon",
+          "normalizedGithub": "27moon",
+          "inReadme": true,
+          "diaryDir": "27moon",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "D15ND",
+          "normalizedGithub": "d15nd",
+          "inReadme": true,
+          "diaryDir": "D15ND",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Fayzullo05",
+          "normalizedGithub": "fayzullo05",
+          "inReadme": true,
+          "diaryDir": "fayzullo05",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "oneilcode",
+          "normalizedGithub": "oneilcode",
+          "inReadme": true,
+          "diaryDir": "oneilcode",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Shakhzod235",
+          "normalizedGithub": "shakhzod235",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "solarsungai",
+          "normalizedGithub": "solarsungai",
+          "inReadme": true,
+          "diaryDir": "solarsungai",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "url": "https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers",
+      "week7Team": {
+        "deployUrl": "http://188.127.251.19:5000/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "andrski",
+          "normalizedGithub": "andrski",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "bssier",
+          "normalizedGithub": "bssier",
+          "inReadme": true,
+          "diaryDir": "bssier",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "MegaRostBLR1",
+          "normalizedGithub": "megarostblr1",
+          "inReadme": true,
+          "diaryDir": "megarostblr1",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Morevna",
+          "normalizedGithub": "morevna",
+          "inReadme": true,
+          "diaryDir": "morevna",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Rorodeathless1",
+          "normalizedGithub": "rorodeathless1",
+          "inReadme": true,
+          "diaryDir": "rorodeathless1",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "kanoplich/rs-tandem",
+      "url": "https://github.com/kanoplich/rs-tandem",
+      "week7Team": {
+        "deployUrl": "https://rs-tandem.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "artkoro94",
+          "normalizedGithub": "artkoro94",
+          "inReadme": true,
+          "diaryDir": "github-artkoro94",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "kanoplich",
+          "normalizedGithub": "kanoplich",
+          "inReadme": true,
+          "diaryDir": "github-kanoplich",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "rockabil",
+          "normalizedGithub": "rockabil",
+          "inReadme": true,
+          "diaryDir": "github-rockabil",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "sevasmith",
+          "normalizedGithub": "sevasmith",
+          "inReadme": true,
+          "diaryDir": "github-sevasmith",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "sunyuna00",
+          "normalizedGithub": "sunyuna00",
+          "inReadme": true,
+          "diaryDir": "github-sunyuna00",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "vadim-troian",
+          "normalizedGithub": "vadim-troian",
+          "inReadme": true,
+          "diaryDir": "github-vadim-troian",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "KarpovDmitriy/widget-trainer",
+      "url": "https://github.com/KarpovDmitriy/widget-trainer",
+      "week7Team": {
+        "deployUrl": "https://tandem-virid.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "av-shell",
+          "normalizedGithub": "av-shell",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "ayaki-coder",
+          "normalizedGithub": "ayaki-coder",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "dromari",
+          "normalizedGithub": "dromari",
+          "inReadme": true,
+          "diaryDir": "dromari",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "KarpovDmitriy",
+          "normalizedGithub": "karpovdmitriy",
+          "inReadme": true,
+          "diaryDir": "karpovdmitriy",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Playwright",
+        "React",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand",
+        "i18n"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final",
+      "week7Team": {
+        "deployUrl": "https://tandem-growlab.vercel.app",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "ansivgit",
+          "normalizedGithub": "ansivgit",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "rika-milew",
+          "normalizedGithub": "rika-milew",
+          "inReadme": true,
+          "diaryDir": "rika-milew",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "viktorelenich",
+          "normalizedGithub": "viktorelenich",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "ansivgit/fe-course-2025Q3-final-backend",
+      "url": "https://github.com/ansivgit/fe-course-2025Q3-final-backend",
+      "week7Team": {
+        "deployUrl": "https://growlab-server.vercel.app/health",
+        "deployOk": false,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": false,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": false,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "ansivgit",
+          "normalizedGithub": "ansivgit",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "viktorElenich",
+          "normalizedGithub": "viktorelenich",
+          "inReadme": false,
+          "diaryDir": "viktorElenich",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Express",
+        "Husky",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "FierceSloth/rss-tandem-app",
+      "url": "https://github.com/FierceSloth/rss-tandem-app",
+      "week7Team": {
+        "deployUrl": "https://fiercesloth.github.io/rss-tandem-app",
+        "deployOk": false,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "coicoin",
+          "normalizedGithub": "coicoin",
+          "inReadme": true,
+          "diaryDir": "coicoin",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "dianakhnizova",
+          "normalizedGithub": "dianakhnizova",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "dilmun1101",
+          "normalizedGithub": "dilmun1101",
+          "inReadme": true,
+          "diaryDir": "dilmun1101",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "FierceSloth",
+          "normalizedGithub": "fiercesloth",
+          "inReadme": true,
+          "diaryDir": "fiercesloth",
+          "hasSelfAssessment": true,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "PoMaKoM-RSTeam/Rs-Tandem",
+      "url": "https://github.com/PoMaKoM-RSTeam/Rs-Tandem",
+      "week7Team": {
+        "deployUrl": "https://luminous-biscuit-6fec26.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aliakseidrob",
+          "normalizedGithub": "aliakseidrob",
+          "inReadme": true,
+          "diaryDir": "aliakseidrob",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "anatolirub",
+          "normalizedGithub": "anatolirub",
+          "inReadme": true,
+          "diaryDir": "anatolirub",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "khasekai",
+          "normalizedGithub": "khasekai",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "mark-pribylnov",
+          "normalizedGithub": "mark-pribylnov",
+          "inReadme": true,
+          "diaryDir": "mark-pribylnov",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "PoMaKoM",
+          "normalizedGithub": "pomakom",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "shoblinsky",
+          "normalizedGithub": "shoblinsky",
+          "inReadme": true,
+          "diaryDir": "shoblinsky",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Zhdko",
+          "normalizedGithub": "zhdko",
+          "inReadme": true,
+          "diaryDir": "zhdko",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "RxJS",
+        "Supabase",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "jsgods-rs-tandem/rs-tandem",
+      "url": "https://github.com/jsgods-rs-tandem/rs-tandem",
+      "week7Team": {
+        "deployUrl": "https://jsgods-rs-tandem.github.io/rs-tandem/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "alesdrobysh",
+          "normalizedGithub": "alesdrobysh",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "dukhd",
+          "normalizedGithub": "dukhd",
+          "inReadme": true,
+          "diaryDir": "dukhd",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "elrouss",
+          "normalizedGithub": "elrouss",
+          "inReadme": true,
+          "diaryDir": "elrouss",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "mikhalenkadaniil",
+          "normalizedGithub": "mikhalenkadaniil",
+          "inReadme": true,
+          "diaryDir": "mikhalenkadaniil",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "nck1969",
+          "normalizedGithub": "nck1969",
+          "inReadme": true,
+          "diaryDir": "nck1969",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Angular",
+        "ESLint",
+        "Husky",
+        "Jest",
+        "NestJS",
+        "Playwright",
+        "PostgreSQL",
+        "RxJS",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "nasteew/tandem",
+      "url": "https://github.com/nasteew/tandem",
+      "week7Team": {
+        "deployUrl": "https://tandem-ai-iota.vercel.app",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "aleks6699",
+          "normalizedGithub": "aleks6699",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "anastasiashlyk",
+          "normalizedGithub": "anastasiashlyk",
+          "inReadme": true,
+          "diaryDir": "anastasiashlyk",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "imagineapril",
+          "normalizedGithub": "imagineapril",
+          "inReadme": true,
+          "diaryDir": "imagineapril",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "nasteew",
+          "normalizedGithub": "nasteew",
+          "inReadme": true,
+          "diaryDir": "nasteew",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "obemgcabazn/vuejs-tandem",
+      "url": "https://github.com/obemgcabazn/vuejs-tandem",
+      "week7Team": {
+        "deployUrl": "https://belaz-factory.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "andreizaretski",
+          "normalizedGithub": "andreizaretski",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "asindeton",
+          "normalizedGithub": "asindeton",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "cat5671",
+          "normalizedGithub": "cat5671",
+          "inReadme": true,
+          "diaryDir": "Cat5671",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "kirrbrest",
+          "normalizedGithub": "kirrbrest",
+          "inReadme": true,
+          "diaryDir": "KirrBrest",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "maksimdolgonosov",
+          "normalizedGithub": "maksimdolgonosov",
+          "inReadme": true,
+          "diaryDir": "MaksimDolgonosov",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "obemgcabazn",
+          "normalizedGithub": "obemgcabazn",
+          "inReadme": true,
+          "diaryDir": "obemgcabazn",
+          "hasSelfAssessment": true,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "OpenAI API",
+        "Pinia",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "tosigaeva/rs-tandem",
+      "url": "https://github.com/tosigaeva/rs-tandem",
+      "week7Team": {
+        "deployUrl": "https://rs-tandem.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "deviatovae",
+          "normalizedGithub": "deviatovae",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "hamsterk",
+          "normalizedGithub": "hamsterk",
+          "inReadme": true,
+          "diaryDir": "hamsterK",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "mero93",
+          "normalizedGithub": "mero93",
+          "inReadme": true,
+          "diaryDir": "mero93",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "tosigaeva",
+          "normalizedGithub": "tosigaeva",
+          "inReadme": true,
+          "diaryDir": "tosigaeva",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "Next.js",
+        "React",
+        "Supabase",
+        "Tailwind",
+        "TypeScript",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Bulbashok/interview-prep",
+      "url": "https://github.com/Bulbashok/interview-prep",
+      "week7Team": {
+        "deployUrl": "https://interview-prep-bulbashoks-projects.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Bulbashok",
+          "normalizedGithub": "bulbashok",
+          "inReadme": true,
+          "diaryDir": "bulbashok",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "JesterAV",
+          "normalizedGithub": "jesterav",
+          "inReadme": true,
+          "diaryDir": "JesterAV",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "NickKool",
+          "normalizedGithub": "nickkool",
+          "inReadme": true,
+          "diaryDir": "NickKool",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "i18n"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "mvavilin/Nova-Codenames",
+      "url": "https://github.com/mvavilin/Nova-Codenames",
+      "week7Team": {
+        "deployUrl": "https://nova-codenames-client.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "mvavilin",
+          "normalizedGithub": "mvavilin",
+          "inReadme": true,
+          "diaryDir": "mvavilin",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "Peccopa",
+          "normalizedGithub": "peccopa",
+          "inReadme": true,
+          "diaryDir": "peccopa",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "sergey-ado",
+          "normalizedGithub": "sergey-ado",
+          "inReadme": true,
+          "diaryDir": "sergey-ado",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Walle908",
+          "normalizedGithub": "walle908",
+          "inReadme": true,
+          "diaryDir": "walle908",
+          "hasSelfAssessment": true,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Maria2721/dev-craft-frontend",
+      "url": "https://github.com/Maria2721/dev-craft-frontend",
+      "week7Team": {
+        "deployUrl": "https://dev-craft-frontend.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Andrey-Yurchuk",
+          "normalizedGithub": "andrey-yurchuk",
+          "inReadme": true,
+          "diaryDir": "Andrey-Yurchuk",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Khabib1802",
+          "normalizedGithub": "khabib1802",
+          "inReadme": true,
+          "diaryDir": "Khabib1802",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Maria2721",
+          "normalizedGithub": "maria2721",
+          "inReadme": true,
+          "diaryDir": "Maria2721",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "React",
+        "Redux",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "rs-tandem/rs-tandem",
+      "url": "https://github.com/rs-tandem/rs-tandem",
+      "week7Team": {
+        "deployUrl": "https://interview-prep-rs-tandem.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "oreopk",
+          "normalizedGithub": "oreopk",
+          "inReadme": true,
+          "diaryDir": "oreopk",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "S-Arashu",
+          "normalizedGithub": "s-arashu",
+          "inReadme": true,
+          "diaryDir": "S-Arashu",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "YekaterinaAlex",
+          "normalizedGithub": "yekaterinaalex",
+          "inReadme": true,
+          "diaryDir": "YekaterinaAlex",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "Redux",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "NotDmitry/Duoscript-Tandem",
+      "url": "https://github.com/NotDmitry/Duoscript-Tandem",
+      "week7Team": {
+        "deployUrl": "https://duoscript-tandem.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "anelka777",
+          "normalizedGithub": "anelka777",
+          "inReadme": true,
+          "diaryDir": "anelka777",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "nginit",
+          "normalizedGithub": "nginit",
+          "inReadme": true,
+          "diaryDir": "ngInit",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "NotDmitry",
+          "normalizedGithub": "notdmitry",
+          "inReadme": true,
+          "diaryDir": "notdmitry",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "swetlanaang",
+          "normalizedGithub": "swetlanaang",
+          "inReadme": true,
+          "diaryDir": "swetlanaAng",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "Material UI",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "konfuzz/rss-tandem",
+      "url": "https://github.com/konfuzz/rss-tandem",
+      "week7Team": {
+        "deployUrl": "https://intervue.makesimple.website/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "bariydev",
+          "normalizedGithub": "bariydev",
+          "inReadme": true,
+          "diaryDir": "bariydev",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "konfuzz",
+          "normalizedGithub": "konfuzz",
+          "inReadme": true,
+          "diaryDir": "konfuzz",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "roguestone",
+          "normalizedGithub": "roguestone",
+          "inReadme": true,
+          "diaryDir": "roguestone",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "bukt0r/Final-Project-Tandem",
+      "url": "https://github.com/bukt0r/Final-Project-Tandem",
+      "week7Team": {
+        "deployUrl": "https://tech-interview-trainer-seven.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "bukt0r",
+          "normalizedGithub": "bukt0r",
+          "inReadme": true,
+          "diaryDir": "bukt0r",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "tatyanakorlarina",
+          "normalizedGithub": "tatyanakorlarina",
+          "inReadme": true,
+          "diaryDir": "tatyanakorlarina",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "user0k",
+          "normalizedGithub": "user0k",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "dalekswar/CodeMind",
+      "url": "https://github.com/dalekswar/CodeMind",
+      "week7Team": {
+        "deployUrl": null,
+        "deployOk": false,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": false,
+          "hasBestPRs": false,
+          "hasMeetingNotes": false,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "dalekswar",
+          "normalizedGithub": "dalekswar",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "howlight",
+          "normalizedGithub": "howlight",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "sobselena",
+          "normalizedGithub": "sobselena",
+          "inReadme": true,
+          "diaryDir": "sobselena",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "Webis-2022/rs-tandem",
+      "url": "https://github.com/Webis-2022/rs-tandem",
+      "week7Team": {
+        "deployUrl": "https://webis-2022-rs-tandem.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": false,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "alekspanda",
+          "normalizedGithub": "alekspanda",
+          "inReadme": true,
+          "diaryDir": "alekspanda",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "urazof",
+          "normalizedGithub": "urazof",
+          "inReadme": true,
+          "diaryDir": "Urazof",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Webis-2022",
+          "normalizedGithub": "webis-2022",
+          "inReadme": true,
+          "diaryDir": "Webis-2022",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Pchyolan/rs-tandem-project",
+      "url": "https://github.com/Pchyolan/rs-tandem-project",
+      "week7Team": {
+        "deployUrl": "https://tranquil-froyo-550c45.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "Pchyolan",
+          "normalizedGithub": "pchyolan",
+          "inReadme": true,
+          "diaryDir": "Pchyolan",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "thefoxtale",
+          "normalizedGithub": "thefoxtale",
+          "inReadme": true,
+          "diaryDir": "theFoxTale",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "ArtemovEgor/codeVibeCheck",
+      "url": "https://github.com/ArtemovEgor/codeVibeCheck",
+      "week7Team": {
+        "deployUrl": "https://artemovegor.github.io/codeVibeCheck/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Al-E-xXx",
+          "normalizedGithub": "al-e-xxx",
+          "inReadme": true,
+          "diaryDir": "Al-E-xXx",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "ArtemovEgor",
+          "normalizedGithub": "artemovegor",
+          "inReadme": true,
+          "diaryDir": "ArtemovEgor",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "EkaterynaVolkova",
+          "normalizedGithub": "ekaterynavolkova",
+          "inReadme": true,
+          "diaryDir": "ekaterynavolkova",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "OlgaMinaievaWebDev/rs-tandem-devquest",
+      "url": "https://github.com/OlgaMinaievaWebDev/rs-tandem-devquest",
+      "week7Team": {
+        "deployUrl": "https://olgaminaievawebdev.github.io/rs-tandem-devquest/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AzizShik",
+          "normalizedGithub": "azizshik",
+          "inReadme": true,
+          "diaryDir": "azizshik",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "isaluk",
+          "normalizedGithub": "isaluk",
+          "inReadme": true,
+          "diaryDir": "isaluk",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "OlgaMinaievaWebDev",
+          "normalizedGithub": "olgaminaievawebdev",
+          "inReadme": true,
+          "diaryDir": "OlgaMinaievaWebDev",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Husky"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "afedziukovich/SkillGrove",
+      "url": "https://github.com/afedziukovich/SkillGrove",
+      "week7Team": {
+        "deployUrl": "https://skillgrove.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "afedziukovich",
+          "normalizedGithub": "afedziukovich",
+          "inReadme": true,
+          "diaryDir": "afedziukovich",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "Thrapis",
+          "normalizedGithub": "thrapis",
+          "inReadme": true,
+          "diaryDir": "thrapis",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Nuxt",
+        "Pinia",
+        "Supabase",
+        "Vitest",
+        "Vue"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "dzzuze/SAA-Cat",
+      "url": "https://github.com/dzzuze/SAA-Cat",
+      "week7Team": {
+        "deployUrl": "https://dzzuze.github.io/SAA-Cat/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "AnnaDzig",
+          "normalizedGithub": "annadzig",
+          "inReadme": true,
+          "diaryDir": "AnnaDzig",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "dzzuze",
+          "normalizedGithub": "dzzuze",
+          "inReadme": true,
+          "diaryDir": "dzzuze",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "sidoryakasergey",
+          "normalizedGithub": "sidoryakasergey",
+          "inReadme": true,
+          "diaryDir": "SidoryakaSergey",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Firebase",
+        "Husky",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vite",
+        "Vitest",
+        "Zustand"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "NataliItaly/Smart-Quiz",
+      "url": "https://github.com/NataliItaly/Smart-Quiz",
+      "week7Team": {
+        "deployUrl": "https://smart-quiz-rsschool-auto-team-7.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "dariapusovskaya",
+          "normalizedGithub": "dariapusovskaya",
+          "inReadme": true,
+          "diaryDir": "dariapusovskaya",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "katerynamoskalenko",
+          "normalizedGithub": "katerynamoskalenko",
+          "inReadme": true,
+          "diaryDir": "KaterynaMoskalenko",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "NataliItaly",
+          "normalizedGithub": "nataliitaly",
+          "inReadme": true,
+          "diaryDir": "NataliItaly",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Nastya-Student/rss-fe-final-project",
+      "url": "https://github.com/Nastya-Student/rss-fe-final-project",
+      "week7Team": {
+        "deployUrl": "https://rss-fe-final-project.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "amelur",
+          "normalizedGithub": "amelur",
+          "inReadme": true,
+          "diaryDir": "amelur",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "Atikin132",
+          "normalizedGithub": "atikin132",
+          "inReadme": true,
+          "diaryDir": "atikin132",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "Nastya-Student",
+          "normalizedGithub": "nastya-student",
+          "inReadme": true,
+          "diaryDir": "nastya-student",
+          "hasSelfAssessment": true,
+          "score": 0
+        },
+        {
+          "github": "Ulya10",
+          "normalizedGithub": "ulya10",
+          "inReadme": true,
+          "diaryDir": "ulya10",
+          "hasSelfAssessment": true,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Auto-Team-9/sea-battle",
+      "url": "https://github.com/Auto-Team-9/sea-battle",
+      "week7Team": {
+        "deployUrl": "https://sea-of-code-9to52eqj6-ch-alexandras-projects.vercel.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Ch-alexandra",
+          "normalizedGithub": "ch-alexandra",
+          "inReadme": true,
+          "diaryDir": "Ch-alexandra",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "heyArtik-dev",
+          "normalizedGithub": "heyartik-dev",
+          "inReadme": true,
+          "diaryDir": "heyArtik-dev",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Orgris",
+          "normalizedGithub": "orgris",
+          "inReadme": true,
+          "diaryDir": "orgris",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "chebupell/SkillsZen",
+      "url": "https://github.com/chebupell/SkillsZen",
+      "week7Team": {
+        "deployUrl": "https://skillszen.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "anastan588",
+          "normalizedGithub": "anastan588",
+          "inReadme": true,
+          "diaryDir": "anastan588",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "chebupell",
+          "normalizedGithub": "chebupell",
+          "inReadme": true,
+          "diaryDir": "chebupell",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "forestdeerr",
+          "normalizedGithub": "forestdeerr",
+          "inReadme": true,
+          "diaryDir": "ForestDeerr",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "t-gladkaya",
+          "normalizedGithub": "t-gladkaya",
+          "inReadme": true,
+          "diaryDir": "t-gladkaya",
+          "hasSelfAssessment": true,
+          "score": 20
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Alcopatriarch/RS-Tandem",
+      "url": "https://github.com/Alcopatriarch/RS-Tandem",
+      "week7Team": {
+        "deployUrl": "https://rs-tandem-seven.vercel.app",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Alcopatriarch",
+          "normalizedGithub": "alcopatriarch",
+          "inReadme": true,
+          "diaryDir": "Alcopatriarch",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "karinavd",
+          "normalizedGithub": "karinavd",
+          "inReadme": true,
+          "diaryDir": "karinavd",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "SergLestr",
+          "normalizedGithub": "serglestr",
+          "inReadme": true,
+          "diaryDir": "SergLestr",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "Campidoc/TetraSkill",
+      "url": "https://github.com/Campidoc/TetraSkill",
+      "week7Team": {
+        "deployUrl": "https://campidoc.github.io/TetraSkill/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": false,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": false,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "ayzana",
+          "normalizedGithub": "ayzana",
+          "inReadme": true,
+          "diaryDir": "ayzana",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "Campidoc",
+          "normalizedGithub": "campidoc",
+          "inReadme": true,
+          "diaryDir": "Campidoc",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "dimitra86",
+          "normalizedGithub": "dimitra86",
+          "inReadme": true,
+          "diaryDir": "dimitra86",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "yegor000",
+          "normalizedGithub": "yegor000",
+          "inReadme": true,
+          "diaryDir": "Yegor000",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "TypeScript",
+        "Webpack"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "AnnStarrySky/tandem",
+      "url": "https://github.com/AnnStarrySky/tandem",
+      "week7Team": {
+        "deployUrl": "https://tandem-pi.vercel.app/",
+        "deployOk": false,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "angelinavakkasova",
+          "normalizedGithub": "angelinavakkasova",
+          "inReadme": true,
+          "diaryDir": "angelinavakkasova",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "annstarrysky",
+          "normalizedGithub": "annstarrysky",
+          "inReadme": true,
+          "diaryDir": "annstarrysky",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "yuriyli",
+          "normalizedGithub": "yuriyli",
+          "inReadme": true,
+          "diaryDir": "yuriyli",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "Ant Design",
+        "ESLint",
+        "Husky",
+        "Next.js",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "Blshop/JS-Practice-Hub",
+      "url": "https://github.com/Blshop/JS-Practice-Hub",
+      "week7Team": {
+        "deployUrl": "https://js-practice-hub-frontend.onrender.com/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": true,
+          "hasMeetingNotes": true,
+          "allMet": true
+        },
+        "readmeOk": true,
+        "allMet": true
+      },
+      "members": [
+        {
+          "github": "Blshop",
+          "normalizedGithub": "blshop",
+          "inReadme": true,
+          "diaryDir": "Blshop",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "DmitryAstapenko",
+          "normalizedGithub": "dmitryastapenko",
+          "inReadme": true,
+          "diaryDir": "dmitryastapenko",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "GorodeN",
+          "normalizedGithub": "goroden",
+          "inReadme": true,
+          "diaryDir": "GorodeN",
+          "hasSelfAssessment": true,
+          "score": 20
+        },
+        {
+          "github": "spadarynjaALINA",
+          "normalizedGithub": "spadarynjaalina",
+          "inReadme": true,
+          "diaryDir": null,
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "Jest",
+        "React",
+        "SCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "techTagsFromCode": true
+    },
+    {
+      "fullName": "rs-dev-journey/JS-Journey-Trainer",
+      "url": "https://github.com/rs-dev-journey/JS-Journey-Trainer",
+      "week7Team": {
+        "deployUrl": "https://js-journey-trainer.netlify.app/",
+        "deployOk": true,
+        "readmeSections": {
+          "hasAbout": true,
+          "hasDemoVideo": true,
+          "hasProudOf": false,
+          "hasTeamSection": true,
+          "hasBoard": true,
+          "hasBestPRs": false,
+          "hasMeetingNotes": true,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "kupzov2000",
+          "normalizedGithub": "kupzov2000",
+          "inReadme": true,
+          "diaryDir": "kupzov2000",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "lertti",
+          "normalizedGithub": "lertti",
+          "inReadme": true,
+          "diaryDir": "lertti",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "sabinabatrakova",
+          "normalizedGithub": "sabinabatrakova",
+          "inReadme": true,
+          "diaryDir": "SabinaBatrakova",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    },
+    {
+      "fullName": "Azatyk/rs-school-tandem-trauma-team",
+      "url": "https://github.com/Azatyk/rs-school-tandem-trauma-team",
+      "week7Team": {
+        "deployUrl": null,
+        "deployOk": false,
+        "readmeSections": {
+          "hasAbout": false,
+          "hasDemoVideo": false,
+          "hasProudOf": false,
+          "hasTeamSection": false,
+          "hasBoard": false,
+          "hasBestPRs": false,
+          "hasMeetingNotes": false,
+          "allMet": false
+        },
+        "readmeOk": false,
+        "allMet": false
+      },
+      "members": [
+        {
+          "github": "Batyrkhan-Sk",
+          "normalizedGithub": "batyrkhan-sk",
+          "inReadme": false,
+          "diaryDir": "Batyrkhan-Sk",
+          "hasSelfAssessment": false,
+          "score": 0
+        },
+        {
+          "github": "devenrgy",
+          "normalizedGithub": "devenrgy",
+          "inReadme": false,
+          "diaryDir": "devenrgy",
+          "hasSelfAssessment": false,
+          "score": 0
+        }
+      ],
+      "techTags": [],
+      "techTagsFromCode": false
+    }
+  ]
+}

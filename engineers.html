@@ -54,11 +54,7 @@ body { overflow-x: hidden; }
   padding: 80px 28px; position: relative;
   background: var(--bg-dark); overflow: hidden;
 }
-.hero::before, .hero::after {
-  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
-}
-.hero::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
-.hero::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+/* Side vignettes removed — keep hero pure black */
 
 .huang-quote {
   font-family: var(--sans); font-size: 17px; line-height: 1.9;

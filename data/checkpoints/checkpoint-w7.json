@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-08T08:44:14.164Z",
+  "checkDate": "2026-04-13T12:16:50.347Z",
   "week": "w7",
   "repos": [
     {
@@ -573,10 +573,10 @@
           "normalizedGithub": "karpovdmitriy",
           "inReadme": true,
           "diaryDir": "karpovdmitriy",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
@@ -2081,17 +2081,18 @@
           "normalizedGithub": "nataliitaly",
           "inReadme": true,
           "diaryDir": "NataliItaly",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
         "ESLint",
         "Husky",
         "TypeScript",
-        "Vite"
+        "Vite",
+        "Vitest"
       ],
       "techTagsFromCode": true
     },
@@ -2548,15 +2549,15 @@
         "readmeSections": {
           "hasAbout": true,
           "hasDemoVideo": true,
-          "hasProudOf": false,
+          "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
-          "hasBestPRs": false,
+          "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -2564,30 +2565,30 @@
           "normalizedGithub": "kupzov2000",
           "inReadme": true,
           "diaryDir": "kupzov2000",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "lertti",
           "normalizedGithub": "lertti",
           "inReadme": true,
           "diaryDir": "lertti",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "sabinabatrakova",
           "normalizedGithub": "sabinabatrakova",
           "inReadme": true,
           "diaryDir": "SabinaBatrakova",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [],

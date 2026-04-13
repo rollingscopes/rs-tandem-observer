@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-13T12:36:39.245Z",
+  "analysisDate": "2026-04-13T12:41:53.579Z",
   "members": [
     {
       "github": "bukt0r",
@@ -920,6 +920,160 @@
           "label": "Responsive Design",
           "points": 5,
           "status": "unverifiable"
+        }
+      ]
+    },
+    {
+      "github": "kupzov2000",
+      "teamName": "Dev Journey",
+      "claimedTotal": 145,
+      "confirmedCount": 0,
+      "contradictedCount": 2,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Test Overview",
+        "Test Run Page"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "contradicted"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "a11y",
+          "label": "Accessibility (a11y)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "contradicted"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        }
+      ]
+    },
+    {
+      "github": "sabinabatrakova",
+      "teamName": "Dev Journey",
+      "claimedTotal": 140,
+      "confirmedCount": 2,
+      "contradictedCount": 1,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Authentication flow (Supabase) + Router",
+        "True/False widget"
+      ],
+      "features": [
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 40,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-auth",
+          "label": "BaaS Auth (Firebase/Supabase)",
+          "points": 15,
+          "status": "contradicted"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "architect",
+          "label": "Architect (ADR)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
         }
       ]
     },

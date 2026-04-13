@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-04T19:29:08.955Z",
+  "checkDate": "2026-04-13T12:44:37.894Z",
   "week": "w2",
   "repos": [
     {
@@ -627,28 +627,28 @@
       "url": "https://github.com/FierceSloth/rss-tandem-app",
       "week2Team": {
         "deployUrl": "https://fiercesloth.github.io/rss-tandem-app",
-        "deployStatus": 301,
-        "deployOk": false,
+        "deployStatus": 200,
+        "deployOk": true,
         "hasWorkflow": true,
         "workflowFiles": [
           "ci-cd.yml"
         ],
-        "issuesCount": 19,
+        "issuesCount": 20,
         "hasMinIssues": true,
         "hasLinter": true,
         "linterConfig": "eslint.config.mjs",
-        "allMet": false
+        "allMet": true
       },
       "members": [
         {
           "github": "coicoin",
           "normalizedGithub": "coicoin",
-          "diaryEntriesW2": 24,
+          "diaryEntriesW2": 25,
           "assignedIssues": 9,
           "personalOk": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "dianakhnizova",
@@ -663,24 +663,34 @@
         {
           "github": "dilmun1101",
           "normalizedGithub": "dilmun1101",
-          "diaryEntriesW2": 14,
+          "diaryEntriesW2": 15,
           "assignedIssues": 6,
           "personalOk": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "FierceSloth",
           "normalizedGithub": "fiercesloth",
-          "diaryEntriesW2": 14,
+          "diaryEntriesW2": 15,
           "assignedIssues": 8,
           "personalOk": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
-      ]
+      ],
+      "techTags": [
+        "ESLint",
+        "Husky",
+        "SCSS",
+        "Supabase",
+        "TypeScript",
+        "Vite",
+        "Vitest"
+      ],
+      "techTagsFromCode": true
     },
     {
       "fullName": "PoMaKoM-RSTeam/Rs-Tandem",

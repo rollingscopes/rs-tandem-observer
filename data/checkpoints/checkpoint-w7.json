@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-13T12:16:50.347Z",
+  "checkDate": "2026-04-13T12:44:29.613Z",
   "week": "w7",
   "repos": [
     {
@@ -711,7 +711,7 @@
       "url": "https://github.com/FierceSloth/rss-tandem-app",
       "week7Team": {
         "deployUrl": "https://fiercesloth.github.io/rss-tandem-app",
-        "deployOk": false,
+        "deployOk": true,
         "readmeSections": {
           "hasAbout": true,
           "hasDemoVideo": true,
@@ -723,7 +723,7 @@
           "allMet": true
         },
         "readmeOk": true,
-        "allMet": false
+        "allMet": true
       },
       "members": [
         {
@@ -733,8 +733,8 @@
           "diaryDir": "coicoin",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "dianakhnizova",
@@ -753,8 +753,8 @@
           "diaryDir": "dilmun1101",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "FierceSloth",
@@ -763,8 +763,8 @@
           "diaryDir": "fiercesloth",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [

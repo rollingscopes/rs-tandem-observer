@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-13T12:34:06.160Z",
+  "analysisDate": "2026-04-13T12:36:39.245Z",
   "members": [
     {
       "github": "bukt0r",
@@ -1268,12 +1268,6 @@
           "status": "unverifiable"
         },
         {
-          "id": "responsive",
-          "label": "Responsive Design",
-          "points": 5,
-          "status": "unverifiable"
-        },
-        {
           "id": "unit-tests-basic",
           "label": "Unit Tests (20%+)",
           "points": 10,
@@ -1292,6 +1286,12 @@
           "status": "unverifiable"
         },
         {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
           "id": "react",
           "label": "React",
           "points": 5,
@@ -1302,7 +1302,7 @@
     {
       "github": "nginit",
       "teamName": "Gang of Four",
-      "claimedTotal": 100,
+      "claimedTotal": 110,
       "confirmedCount": 0,
       "contradictedCount": 0,
       "verdict": "green",
@@ -1314,13 +1314,7 @@
         {
           "id": "rich-ui-screen",
           "label": "Rich UI Screen",
-          "points": 40,
-          "status": "unverifiable"
-        },
-        {
-          "id": "advanced-animations",
-          "label": "Advanced Animations",
-          "points": 10,
+          "points": 60,
           "status": "unverifiable"
         },
         {
@@ -1339,8 +1333,8 @@
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
-        "Library with WidgetRenderer",
-        "BaaS API Layer (Firebase Auth + Firestore CRUD)"
+        "Rich UI Component: Library with WidgetRenderer",
+        "Backend-as-a-Service (Firebase Auth + Firestore CRUD)"
       ],
       "features": [
         {
@@ -1362,18 +1356,6 @@
           "status": "confirmed"
         },
         {
-          "id": "responsive",
-          "label": "Responsive Design",
-          "points": 5,
-          "status": "unverifiable"
-        },
-        {
-          "id": "auto-deploy",
-          "label": "Auto-deploy",
-          "points": 5,
-          "status": "confirmed"
-        },
-        {
           "id": "api-layer",
           "label": "API Layer",
           "points": 10,
@@ -1384,6 +1366,18 @@
           "label": "Design Patterns",
           "points": 10,
           "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
         },
         {
           "id": "react",
@@ -1401,14 +1395,26 @@
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
-        "Async Sorter Widget",
-        "Login page"
+        "Login page",
+        "Async Sorter Widget"
       ],
       "features": [
         {
           "id": "complex-component",
           "label": "Complex Component",
-          "points": 75,
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
           "status": "unverifiable"
         },
         {

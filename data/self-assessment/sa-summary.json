@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-13T12:41:53.579Z",
+  "analysisDate": "2026-04-15T10:59:44.479Z",
   "members": [
     {
       "github": "bukt0r",
@@ -5934,7 +5934,7 @@
       "verdict": "green",
       "twoPersonalComponents": [
         "Toast Notification System",
-        "Comprehensive Profile Module"
+        "Profile Module"
       ],
       "features": [
         {
@@ -5947,6 +5947,12 @@
           "id": "i18n",
           "label": "i18n (Localization)",
           "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
           "status": "unverifiable"
         },
         {
@@ -5968,9 +5974,119 @@
           "status": "confirmed"
         },
         {
+          "id": "react",
+          "label": "React",
+          "points": 5,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "github": "KarpovDmitriy",
+      "teamName": "Джунгли зовут!",
+      "claimedTotal": 240,
+      "confirmedCount": 7,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Widget Engine (+ Quiz Widget, Code Ordering Widget)",
+        "API Service Layer (Auth + Profile + Dashboard)"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 80,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-auth",
+          "label": "BaaS Auth (Firebase/Supabase)",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "audio-api",
+          "label": "Audio API",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "leaderboard",
+          "label": "Leaderboard",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
           "id": "responsive",
           "label": "Responsive Design",
           "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "e2e-tests",
+          "label": "E2E Tests",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
           "status": "unverifiable"
         },
         {

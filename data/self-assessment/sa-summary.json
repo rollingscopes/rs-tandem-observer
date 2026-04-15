@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-15T11:08:36.568Z",
+  "analysisDate": "2026-04-15T13:21:49.462Z",
   "members": [
     {
       "github": "bukt0r",
@@ -1502,6 +1502,12 @@
           "status": "unverifiable"
         },
         {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
           "id": "unit-tests-basic",
           "label": "Unit Tests (20%+)",
           "points": 10,
@@ -1517,12 +1523,6 @@
           "id": "api-layer",
           "label": "API Layer",
           "points": 10,
-          "status": "unverifiable"
-        },
-        {
-          "id": "responsive",
-          "label": "Responsive Design",
-          "points": 5,
           "status": "unverifiable"
         },
         {
@@ -1567,8 +1567,8 @@
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
-        "Rich UI Component: Library with WidgetRenderer",
-        "Backend-as-a-Service (Firebase Auth + Firestore CRUD)"
+        "Library with WidgetRenderer",
+        "Backend-as-a-Service (Firebase API Layer)"
       ],
       "features": [
         {
@@ -1590,18 +1590,6 @@
           "status": "confirmed"
         },
         {
-          "id": "api-layer",
-          "label": "API Layer",
-          "points": 10,
-          "status": "unverifiable"
-        },
-        {
-          "id": "design-patterns",
-          "label": "Design Patterns",
-          "points": 10,
-          "status": "unverifiable"
-        },
-        {
           "id": "responsive",
           "label": "Responsive Design",
           "points": 5,
@@ -1612,6 +1600,18 @@
           "label": "Auto-deploy",
           "points": 5,
           "status": "confirmed"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
         },
         {
           "id": "react",
@@ -1629,26 +1629,14 @@
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
-        "Login page",
-        "Async Sorter Widget"
+        "Async Sorter Widget",
+        "Login page"
       ],
       "features": [
         {
           "id": "complex-component",
           "label": "Complex Component",
-          "points": 25,
-          "status": "unverifiable"
-        },
-        {
-          "id": "complex-component",
-          "label": "Complex Component",
-          "points": 25,
-          "status": "unverifiable"
-        },
-        {
-          "id": "complex-component",
-          "label": "Complex Component",
-          "points": 25,
+          "points": 75,
           "status": "unverifiable"
         },
         {
@@ -1670,15 +1658,15 @@
           "status": "unverifiable"
         },
         {
-          "id": "api-layer",
-          "label": "API Layer",
-          "points": 10,
-          "status": "unverifiable"
-        },
-        {
           "id": "responsive",
           "label": "Responsive Design",
           "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
           "status": "unverifiable"
         },
         {

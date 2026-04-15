@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-15T10:59:44.479Z",
+  "analysisDate": "2026-04-15T11:08:36.568Z",
   "members": [
     {
       "github": "bukt0r",
@@ -944,13 +944,7 @@
         {
           "id": "rich-ui-screen",
           "label": "Rich UI Screen",
-          "points": 20,
-          "status": "unverifiable"
-        },
-        {
-          "id": "rich-ui-screen",
-          "label": "Rich UI Screen",
-          "points": 20,
+          "points": 40,
           "status": "unverifiable"
         },
         {
@@ -1000,6 +994,92 @@
           "label": "API Layer",
           "points": 10,
           "status": "unverifiable"
+        }
+      ]
+    },
+    {
+      "github": "lertti",
+      "teamName": "Dev Journey",
+      "claimedTotal": 200,
+      "confirmedCount": 2,
+      "contradictedCount": 1,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Async Sorter (Event Loop Engine)",
+        "Dashboard (D3.js Statistics)"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 50,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 40,
+          "status": "unverifiable"
+        },
+        {
+          "id": "custom-backend",
+          "label": "Custom Backend",
+          "points": 30,
+          "status": "contradicted"
+        },
+        {
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "audio-api",
+          "label": "Audio API",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "unit-tests-full",
+          "label": "Unit Tests (50%+)",
+          "points": 10,
+          "status": "confirmed"
         }
       ]
     },

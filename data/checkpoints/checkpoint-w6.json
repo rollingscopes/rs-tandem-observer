@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-08T07:04:10.092Z",
+  "checkDate": "2026-04-17T14:15:01.868Z",
   "week": "w6",
   "repos": [
     {
@@ -618,7 +618,7 @@
           "github": "JasonScriptLord",
           "normalizedGithub": "jasonscriptlord",
           "diaryDir": "jasonscriptlord",
-          "entriesCount": 13,
+          "entriesCount": 15,
           "entries": [
             {
               "path": "development-notes/jasonscriptlord/jasonscriptlord-2026-02-21.md",
@@ -700,17 +700,29 @@
               "date": "2026-03-23",
               "content": "# Date: 2026-03-23\n\n## Что было сделано\n- Настроил отображение процесса api запроса в кнопках, например \"Signing in...\" или \"Saving...\"\n- Добавил плашку информирующую об отсутствии сети\n\n## Решения (и почему)\n- Использовал отдельный компонент для плашки\n- Добавил несколько новых стейтов для отображения текущих состояний обработки api запроса\n\n## План (следующие шаги)\n- Посмотреть варианты реализации дашборда с бэкендом\n\n## Затраченное время\n2 часов",
               "charCount": 452
+            },
+            {
+              "path": "development-notes/jasonscriptlord/jasonscriptlord-2026-03-28.md",
+              "date": "2026-03-28",
+              "content": "# Date: 2026-03-28\n\n## Что было сделано\n- Нагенерировал аватарок для профиля\n- Изменил структуру аватара, чтобы отображались либо инициалы, либо аватар, в зависимости от выбора пользователя.\n- Добавил кнопку редактирования аватара\n\n## Решения (и почему)\n- Использовал эндпоинты бэка на обновление и удаление аватара\n- Сохранил 15 аватарок в константе, на стороне фронта\n- На бэк отправляется выбранный аватар\n\n## Заметки\n- Пока бэк для дашбордов не реализован, он все так же остается в планах. Надеюсь там предстоит немного изменений, основной фронт для дашбордов реализован, нужно будет лишь подкорректировать отображение общего прогресса для набора курсов\n\n## План (следующие шаги)\n- Посмотреть варианты реализации дашборда с бэкендом\n\n## Затраченное время\n4 часов",
+              "charCount": 766
+            },
+            {
+              "path": "development-notes/jasonscriptlord/self-assessment.md",
+              "date": "2026-04-17",
+              "content": "# Self-Assessment\n\n## Features Table\n\n| Категория        | Фича                                          | Баллы | PR Link                                                                |\n| ---------------- | --------------------------------------------- | ----- | ---------------------------------------------------------------------- |\n| My Components    | Profile                                       |  25   | https://github.com/yermekyerden/typocalypse-tandem/pull/65             |\n| My Components    | Progress                                      |  25   | https://github.com/yermekyerden/typocalypse-tandem/pull/67             |\n| My Components    | Authorization                                 |  25   | https://github.com/yermekyerden/typocalypse-tandem/pull/79             |\n| My Components    | Avatar Picker, offline banner                 |  25   | https://github.com/yermekyerden/typocalypse-tandem/pull/93             |\n| UI & Interaction | Accessibility (a11y)|                         |  10   | https://github.com/yermekyerden/typocalypse-tandem/pull/83             |\n| UI & Interaction | Responsive                                    |  5    | https://github.com/yermekyerden/typocalypse-tandem/pull/106            |\n| Quality          | Unit Tests (Basic)                            |  10   | https://github.com/yermekyerden/typocalypse-tandem/pull/71             |\n| Quality          | Unit Tests (Full)                             |  10   | https://github.com/yermekyerden/typocalypse-tandem/pull/71             |\n| Architecture     | State Manager (zustand)                       |  10   | https://github.com/yermekyerden/typocalypse-tandem/pull/79             |\n| Architecture     | API Layer                                     |  10   | https://github.com/yermekyerden/typocalypse-tandem/pull/79             |\n| Frameworks       | React                                         |  5    | https://github.com/yermekyerden/typocalypse-tandem/pull/79             |\n|                  | Итого                                         |  160  |                                                                        |\n\n## Link to self-assessment PR\n\n[PR 109](https://github.com/yermekyerden/typocalypse-tandem/pull/109)\n",
+              "charCount": 2240
             }
           ],
-          "diaryEntriesW6": 0,
-          "diaryOk": false,
-          "score": 0
+          "diaryEntriesW6": 2,
+          "diaryOk": true,
+          "score": 10
         },
         {
           "github": "romanplis",
           "normalizedGithub": "romanplis",
           "diaryDir": "romanplis",
-          "entriesCount": 13,
+          "entriesCount": 16,
           "entries": [
             {
               "path": "development-notes/romanplis/romanplis-2026-02-19.md",
@@ -792,18 +804,42 @@
               "date": "2026-03-23",
               "content": "# Date: 2026-03-23\n\n## Что было сделано\n\n- Добавил Header дополнительные разделы.\n\n- Отредактировал всплывающее окошко.\n\n- Исправил перемещение между кнопками и ссылками с помощью `tab`.\n\n- Поправил `alt` у некоторых картинок.\n\n- Перемеcтил AiAssistant из футера в раздел с терминалом.\n\n## Проблемы\n\n- Ошибки в предыдущем пулл реквесте, конфликт `button` и `link`, некрасивый формат текста в классе css.\n\n- Не знал как убрать окошео авторизации, для дальнейшей работы.\n\n## Решения (или попытки)\n\n- Обновил форматирование, оставил `link`.\n\n- Коллеги подсказали как подключить/запустить бекэнд и пройти регитрацию, чтобы окошко регитрации не отображалось.\n\n## Мысли / Планы\n\n- Провели созвон. Думаю в скором предстоит работа над корректировкой/доработкой мелких замечаний и плотное тестирование.\n\n- Не делать большие пулл реквесты.\n\n## Затраченное время\n\n- 4 часа.\n",
               "charCount": 863
+            },
+            {
+              "path": "development-notes/romanplis/romanplis-2026-03-25.md",
+              "date": "2026-03-25",
+              "content": "# Date: 2026-03-25\n\n## Что было сделано\n\n- Провели созвон, подвели итоги на текущий момент. Распределили задачи.\n\n- Мне дана задача сделать темную/светлую тему для приложения.\n\n## Проблемы\n\n- Не до конца понятно как будет реализовываться презентация, как будут распределяться роли.\n\n## Решения (или попытки)\n\n- Решили пока закончить с кодом, после вернуться к вопросу презентации.\n\n## Мысли / Планы\n\n- Буду разбираться как менять/добавлять тему в приложение. Ранее не приходилось реализовывать данный функционал.\n\n## Затраченное время\n\n- 1.5 часа.\n",
+              "charCount": 548
+            },
+            {
+              "path": "development-notes/romanplis/romanplis-2026-03-30.md",
+              "date": "2026-03-30",
+              "content": "# Date: 2026-03-30\n\n## Что было сделано\n\n- Частично добавил смену темы на светлую. Пока только header, footer, авторизация.\n\n## Проблемы\n\n- Долго пришлось искать как реализовывать смену тем в приложении. В интернете много объяснений как сделать на чистом css без использования tailwind.\n\n- Реализация toggle button для тем.\n\n## Решения (или попытки)\n\n- Нашел обучающий короткий но информативый гайд.\n\n- Сделал с помощью svg иконок.\n\n## Мысли / Планы\n\n- Менять тему на светлую/тёмную окзалось сложнее чем я думал, либо я что-то делаю не так.\n\n## Затраченное время\n\n- 5 часов.\n",
+              "charCount": 575
+            },
+            {
+              "path": "development-notes/romanplis/self-assessment.md",
+              "date": "2026-04-17",
+              "content": "# Self-Assessment\n\n## Features Table\n\n| Категория        | Фича                                          | Баллы | PR Link                                                                |\n| ---------------- | --------------------------------------------- | ----- | ---------------------------------------------------------------------- |\n| My Components    | Дизайн проект в Figma                         | 25    | [PR #42](https://github.com/yermekyerden/typocalypse-tandem/pull/42)   |\n| My Components    | Header, footer, layout                        | 25    | [PR #50](https://github.com/yermekyerden/typocalypse-tandem/pull/50)   |\n| My Components    | Модальное окно у аватарки, фавикон            | 25    | [PR #57](https://github.com/yermekyerden/typocalypse-tandem/pull/57)   |\n| UI & Interaction | Дизайн и реализация модального окошка AI чата | 10    | [PR #70](https://github.com/yermekyerden/typocalypse-tandem/pull/70)   |\n| UI & Interaction | Дизайн и реализация страницы 404              | 10    | [PR #77](https://github.com/yermekyerden/typocalypse-tandem/pull/77)   |\n| UI & Interaction | Theme Switcher: Переключение тем (Light/Dark) | 10    | [PR #102](https://github.com/yermekyerden/typocalypse-tandem/pull/102) |\n| Frameworks       | React: Использование библиотеки React         | 5     | [PR #14](http://github.com/yermekyerden/typocalypse-tandem/pull/14)    |\n|                  | Итого                                         | 110   |                                                                        |\n\n## Personal Feature Components\n\n1. Layout\n2. Модальное окно AI чата\n3. Theme Switcher\n\n## Description Of My Work\n\nВ рамках проекта я занимался фронтенд-разработкой и частично дизайном интерфейса. На начальном этапе я настроил проект: развернул приложение на React с использованием TypeScript и Vite, подготовил структуру и подключил необходимые инструменты.\n\nТакже я разработал дизайн приложения в Figma — создал макет, который в дальнейшем использовался как основа для всей верстки. Это помогло команде лучше визуализировать конечный продукт и упростило дальнейшую разработку.\n\nДалее я реализовал ключевые компоненты интерфейса: header, footer и базовый layout приложения. Добавил модальное окно для профиля пользователя (по клику на аватар), реализовал страницу 404, а также разработал и сверстал интерфейс AI-чата.\n\nОтдельно реализовал переключение тем (light/dark), что улучшает пользовательский опыт. В процессе работы активно добавлял интерактивность: обработчики событий, навигацию, работу с модальными окнами.\n\nРаботал со стилями через Tailwind CSS, занимался адаптацией и улучшением UI, включая доступность (например, навигацию с клавиатуры).\n\nКроме этого, я активно работал с GitHub: создавал ветки, делал пулл-реквесты, участвовал в код-ревью и исправлял замечания.\n\n## Link to self-assessment PR\n\n[PR 105](http://github.com/yermekyerden/typocalypse-tandem/pull/105)\n",
+              "charCount": 2917
             }
           ],
-          "diaryEntriesW6": 0,
-          "diaryOk": false,
-          "score": 0
+          "diaryEntriesW6": 3,
+          "diaryOk": true,
+          "score": 10
         },
         {
           "github": "yermekyerden",
           "normalizedGithub": "yermekyerden",
           "diaryDir": "yermekyerden",
-          "entriesCount": 8,
+          "entriesCount": 9,
           "entries": [
+            {
+              "path": "development-notes/yermekyerden/self-assessment.md",
+              "date": "2026-04-17",
+              "content": "# Self-Assessment — Yermek Yerdenov\n\nGitHub: [yermekyerden](https://github.com/yermekyerden)\nRole in the project: Team Lead, Frontend/Backend Contributor\nSelf-assessment PR: [PR #124](https://github.com/yermekyerden/typocalypse-tandem/pull/124)\n\n## Personal Feature Table\n\n| Category | Feature | Score | Evidence |\n|---|---|---:|---|\n| My Components | Complex Component — Contextual Assistant Chat UI | 25 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107), [PR #115](https://github.com/yermekyerden/typocalypse-tandem/pull/115) |\n| My Components | Complex Backend Service — Context-aware Assistant Backend / AI Context Manager | 30 | [PR #82](https://github.com/yermekyerden/typocalypse-tandem/pull/82), [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| AI | AI Chat UI | 20 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| AI | AI Streaming | 10 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| AI | Raw LLM API | 10 | [PR #82](https://github.com/yermekyerden/typocalypse-tandem/pull/82), [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| Architecture | State Manager | 10 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| Architecture | API Layer | 10 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| UI & Interaction | i18n (assistant UI integration) | 10 | [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n| UI & Interaction | Theme integration in my component (assistant panel) | 10 | [PR #115](https://github.com/yermekyerden/typocalypse-tandem/pull/115) |\n| DevOps & Role | Architect | 10 | [PR #17](https://github.com/yermekyerden/typocalypse-tandem/pull/17) |\n| DevOps & Role | Auto-deploy | 5 | [PR #44](https://github.com/yermekyerden/typocalypse-tandem/pull/44) |\n| Backend & Data | Backend Framework | 10 | [PR #82](https://github.com/yermekyerden/typocalypse-tandem/pull/82) |\n| Frameworks | React | 5 | [PR #39](https://github.com/yermekyerden/typocalypse-tandem/pull/39), [PR #107](https://github.com/yermekyerden/typocalypse-tandem/pull/107) |\n\n**Total: 165**\n\n> I intentionally do not claim test coverage points here.\n> I added frontend testing infrastructure and first routing tests, but I do not want to overclaim coverage-based points without a clearly measured percentage for my personal code.\n\n---\n\n## Summary of My Personal Work\n\nMy work on this project was split across several layers.\n\nFirst, as Team Lead, I helped establish the repository baseline and workflow:\n- project-ready repository structure\n- long-lived branches (`main`, `develop`, `diary`)\n- checkpoint-oriented repository hygiene\n- release / sync support between branches\n- review and coordination support\n\nSecond, I built a large part of the documentation foundation:\n- quick summary docs\n- glossary and shared terminology\n- architecture notes\n- terminal engine and sandboxing docs\n- process docs\n- ADR",
+              "charCount": 11376
+            },
             {
               "path": "development-notes/yermekyerden/yermekyerden-2026-02-19.md",
               "date": "2026-02-19",
@@ -853,7 +889,7 @@
               "charCount": 3598
             }
           ],
-          "diaryEntriesW6": 0,
+          "diaryEntriesW6": 1,
           "diaryOk": false,
           "score": 0
         },
@@ -861,8 +897,14 @@
           "github": "YessetHumanMan",
           "normalizedGithub": "yessethumanman",
           "diaryDir": "yessethumanman",
-          "entriesCount": 11,
+          "entriesCount": 14,
           "entries": [
+            {
+              "path": "development-notes/yessethumanman/self-assessment.md",
+              "date": "2026-04-17",
+              "content": "# Self-Assessment\n\n## Features Table\n\nНиже собраны мои личные фичи для self-assessment.\n| Category | Feature | Points | What I Did | Code / Notes | PR Link |\n| --- | --- | ---: | --- | --- | --- |\n| Complex Component | Code Runner | 25 | Реализовал компонент запуска и отображения результатов выполнения команд в игровом процессе. | `frontend/src/` | [PR #55](https://github.com/yermekyerden/typocalypse-tandem/pull/55) |\n| Rich UI Screen | Library modules | 20 | Реализовал компонент аккордеон для модулей уроков. | `frontend/src/` |[PR #41](https://github.com/yermekyerden/typocalypse-tandem/pull/41) |\n| Leaderboard | Leaderboard achievements | 5 | Сделал таблицу рекордов с сохранением результатов между сессиями. | `frontend/` | [PR #56](https://github.com/yermekyerden/typocalypse-tandem/pull/56) |\n| UI & Interaction | i18n | 10 | Добавил локализацию интерфейса и переключение языков. | `frontend/src/` | [PR #94](https://github.com/yermekyerden/typocalypse-tandem/pull/94) |\n| UI & Interaction | Accessibility (a11y) | 10 | Улучшил доступность интерфейса: навигацию, читаемость и UX для пользователей. | `frontend/src/` | [PR #100](https://github.com/yermekyerden/typocalypse-tandem/pull/100) |\n| UI & Interaction | Responsive | 5 | Адаптация верстки под мобильные устройства (от 320px) | `frontend/src/` | [PR #101](https://github.com/yermekyerden/typocalypse-tandem/pull/101) | \n| Code Editor | Xterm lib | 15 |  Внедрение редактора кода |`frontend/src/` | [PR #55](https://github.com/yermekyerden/typocalypse-tandem/pull/55) |\n| Quality | Unit Tests (Basic, 20%+) | 10 | Написал unit-тесты для своей части проекта с базовым покрытием. | `frontend/src/` | [PR #68](https://github.com/yermekyerden/typocalypse-tandem/pull/68) |\n| Architecture | Zustand | 10 | Использовал Zustand для управления состоянием приложения. | `frontend/src/` | [PR #31](https://github.com/yermekyerden/typocalypse-tandem/pull/31) |\n| Architecture | API Layer | 10 | Выделил слой работы с API отдельно от UI-компонентов. | `frontend/src/` | [PR #85](https://github.com/yermekyerden/typocalypse-tandem/pull/85) |\n| Frameworks | React | 5 | Разрабатывал пользовательский интерфейс на React. | `frontend/src/` | [PR #53](https://github.com/yermekyerden/typocalypse-tandem/pull/53) |\n|  | **Total** | **125** |  |  |  |\n\n## Personal Feature Components\n\nМои 2 личных Feature Component:\n\n1. `Code Runner`\n2. `Leaderboard`\n\n## Description Of My Work\n\nВ этом проекте я в основном занимался фронтендом. Больше всего работал над учебным интерфейсом `Terminal Dojo`, экраном с модулями, логикой прохождения и тем, как пользователь взаимодействует с терминалом и контентом. Также я подключал и настраивал `Zustand`, чтобы в приложении было нормальное и понятное управление состоянием, без лишней путаницы.\n\nИз технологий я работал с `React`, `TypeScript`, `Zustand` и `xterm.js`. Одной из моих главных задач был `Code Runner` и сам учебный терминал. Я подключил терминал на `xterm.js`, настроил вывод команд, историю, `Ctrl+C`,",
+              "charCount": 4283
+            },
             {
               "path": "development-notes/yessethumanman/yessethumanman-2026-02-20.md",
               "date": "2026-02-20",
@@ -931,11 +973,23 @@
               "date": "2026-03-23",
               "content": "# Date: 2026-03-23\n\n## Что было сделано\n- Сегодня созванивались с командой в Google Meet и разбирали проблемы с интеграциями наших PR.\n- Обсуждали, как лучше синхронизировать frontend и backend, чтобы изменения не конфликтовали между собой.\n- После созвона создал новую feature-ветку для удаления моков и подготовки фронта к работе с backend API.\n- Начал выносить и фиксировать ожидания фронта по backend-контракту, чтобы дальше было проще согласовать интеграцию.\n\n## Контекст / Примечания\n- Основной фокус дня был не только на коде, но и на согласовании подхода внутри команды.\n- Создание новой ветки понадобилось, чтобы отдельно и аккуратно работать с удалением моков без смешивания с другими задачами.\n\n## Итоги\n- Командно разобрали проблемы по интеграциям PR.\n- Подготовил отдельную рабочую ветку под задачу удаления моков и дальнейшую backend-интеграцию.\n\n## Дальнейшие шаги\n- Продолжить удаление моков во фронте.\n- Дофиксировать backend-контракт для модулей и терминала.\n- Подготовить фронт к стабильной интеграции с backend API.\n",
               "charCount": 1036
+            },
+            {
+              "path": "development-notes/yessethumanman/yessethumanman-2026-03-26.md",
+              "date": "2026-03-26",
+              "content": "# Date: 2026-03-26\n\n## Что было сделано\n- Сегодня дорабатывал правки по комментариям, которые мне оставили в PR.\n- Исправил замечание по `terminalSession.ts`, где было прямое изменение `firstLesson.status = 'active'`, и перевел это на более корректное иммутабельное обновление состояния.\n- Подключил `isTerminalBusy` в `TerminalWindow`, чтобы терминал не оставался интерактивным во время in-flight запросов.\n- Также поправил логику auto-advance между уроками, чтобы убрать визуальный flash, который появлялся из-за двух отдельных обновлений состояния.\n- После этого локально прогнал проверки, чтобы убедиться, что фиксы не ломают фронтенд и проходят по качеству.\n\n## Контекст / Примечания\n- Сегодняшний день был в основном про аккуратную доработку уже сделанного кода после ревью.\n- Отдельно для себя отметил, что финальный этап обучения дается нелегко, и иногда накапливается усталость.\n- Из-за этого пропустил созвон с командой, потому что бывают моменты, когда нужно на пару дней чуть отдохнуть от всего, чтобы потом вернуться в работу с более ясной головой.\n- Для меня важно не игнорировать такие состояния, а честно их замечать и после этого собираться обратно в рабочий ритм.\n\n## Итоги\n- Закрыл основные комментарии, которые были оставлены мне в PR.\n- Улучшил поведение терминала и убрал спорные места в обновлении состояния.\n- Понял, что сейчас важно держать баланс между доведением задач до конца и сохранением нормального ресурса на финальном этапе обучения.\n\n## Дальнейшие шаги\n- Закоммитить и отправить фиксы по ревью в отдельной fix-ветке.\n- Обновить PR и проверить, что CI проходит без новых замечаний.\n- Вернуться в рабочий ритм после короткой паузы и не выпадать из коммуникации с командой.\n",
+              "charCount": 1706
+            },
+            {
+              "path": "development-notes/yessethumanman/yessethumanman-2026-03-29.md",
+              "date": "2026-03-29",
+              "content": "# Date: 2026-03-29\n\n## Что было сделано\n- Сегодня была встреча с командой, где обсудили текущее состояние задач и дальнейшие шаги по проекту.\n- Основной рабочий фокус дня был на локализации frontend-части приложения.\n- Добавил поддержку локализации на 3 языка: английский, русский и казахский.\n- Вынес переводы в отдельные словари по языкам, чтобы структуру было проще поддерживать и расширять.\n- Добавил переключение языка в интерфейсе через header.\n- По ходу работы поправил проблемы с lint, форматированием и тестами, чтобы изменения проходили CI.\n\n## Контекст / Примечания\n- Локализация пока покрывает в первую очередь frontend UI.\n- Учебный контент и backend-сообщения пока не переводились полностью и могут потребовать отдельного этапа.\n- Дополнительно пришлось подправить i18n-структуру, чтобы тесты и fast refresh работали стабильно.\n\n## Итоги\n- Подготовлена базовая multilingual-основа для проекта.\n- Интерфейс теперь поддерживает переключение между EN, RU и KZ.\n- Изменения приведены в состояние, совместимое с проверками CI.\n\n## Дальнейшие шаги\n- При необходимости вынести локализацию дальше в backend и учебный контент.\n- Проверить, какие пользовательские сообщения еще остались захардкоженными.\n- Продолжить улучшение структуры переводов по мере роста проекта.\n",
+              "charCount": 1274
             }
           ],
-          "diaryEntriesW6": 0,
-          "diaryOk": false,
-          "score": 0
+          "diaryEntriesW6": 3,
+          "diaryOk": true,
+          "score": 10
         }
       ],
       "techTags": [

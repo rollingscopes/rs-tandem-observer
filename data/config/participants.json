@@ -302,7 +302,10 @@
         },
         {
           "github": "zhdko",
-          "role": "student"
+          "role": "student",
+          "dropped": true,
+          "droppedAt": "2026-04-17",
+          "droppedReason": "inactive: ignoring team communications, no project contribution"
         },
         {
           "github": "shoblinsky",
@@ -578,7 +581,10 @@
         },
         {
           "github": "roguestone",
-          "role": "student"
+          "role": "student",
+          "dropped": true,
+          "droppedAt": "2026-04-17",
+          "droppedReason": "declined to participate; no project activity"
         },
         {
           "github": "BariyDev",

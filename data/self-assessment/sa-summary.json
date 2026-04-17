@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-17T09:55:11.789Z",
+  "analysisDate": "2026-04-17T22:40:41.964Z",
   "members": [
     {
       "github": "angelinavakkasova",
@@ -4871,8 +4871,8 @@
       "github": "anastan588",
       "teamName": "SkillsZen team",
       "claimedTotal": 245,
-      "confirmedCount": 2,
-      "contradictedCount": 5,
+      "confirmedCount": 3,
+      "contradictedCount": 4,
       "verdict": "red",
       "twoPersonalComponents": [
         "Система аутентификации и управления доступом (Auth/Login)",
@@ -4961,7 +4961,7 @@
           "id": "react",
           "label": "React",
           "points": 5,
-          "status": "contradicted"
+          "status": "confirmed"
         }
       ]
     },
@@ -4969,8 +4969,8 @@
       "github": "chebupell",
       "teamName": "SkillsZen team",
       "claimedTotal": 65,
-      "confirmedCount": 1,
-      "contradictedCount": 2,
+      "confirmedCount": 2,
+      "contradictedCount": 1,
       "verdict": "yellow",
       "twoPersonalComponents": [
         "Dashboard",
@@ -4999,7 +4999,7 @@
           "id": "react",
           "label": "React",
           "points": 5,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "vue",
@@ -5013,8 +5013,8 @@
       "github": "t-gladkaya",
       "teamName": "SkillsZen team",
       "claimedTotal": 120,
-      "confirmedCount": 0,
-      "contradictedCount": 2,
+      "confirmedCount": 1,
+      "contradictedCount": 1,
       "verdict": "yellow",
       "twoPersonalComponents": [
         "CoursePage",
@@ -5055,7 +5055,7 @@
           "id": "react",
           "label": "React",
           "points": 5,
-          "status": "contradicted"
+          "status": "confirmed"
         }
       ]
     },
@@ -5483,8 +5483,8 @@
       "github": "sevasmith",
       "teamName": "Team42",
       "claimedTotal": 180,
-      "confirmedCount": 3,
-      "contradictedCount": 2,
+      "confirmedCount": 4,
+      "contradictedCount": 1,
       "verdict": "yellow",
       "twoPersonalComponents": [
         "AI Edge Function (judge)",
@@ -5543,7 +5543,7 @@
           "id": "e2e-tests",
           "label": "E2E Tests",
           "points": 10,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "a11y",

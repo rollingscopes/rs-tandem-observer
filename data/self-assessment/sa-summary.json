@@ -1,6 +1,98 @@
 {
-  "analysisDate": "2026-04-17T08:53:51.659Z",
+  "analysisDate": "2026-04-17T09:21:06.653Z",
   "members": [
+    {
+      "github": "angelinavakkasova",
+      "teamName": "111 Blind Kittens",
+      "claimedTotal": 190,
+      "confirmedCount": 3,
+      "contradictedCount": 1,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Practice System",
+        "Settings System"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 50,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 40,
+          "status": "unverifiable"
+        },
+        {
+          "id": "code-editor",
+          "label": "Code Editor",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "audio-api",
+          "label": "Audio API",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "contradicted"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "react",
+          "label": "React",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "meta-framework",
+          "label": "Meta-Framework (Next/Nuxt/Analog)",
+          "points": 10,
+          "status": "confirmed"
+        }
+      ]
+    },
     {
       "github": "bukt0r",
       "teamName": "404 Skill Not Found",
@@ -888,12 +980,116 @@
       ]
     },
     {
+      "github": "DmitryAstapenko",
+      "teamName": "CodePain",
+      "claimedTotal": 200,
+      "confirmedCount": 8,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Страница профиля пользователя",
+        "Система обучения на главной странице"
+      ],
+      "features": [
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 60,
+          "status": "unverifiable"
+        },
+        {
+          "id": "custom-backend",
+          "label": "Custom Backend",
+          "points": 30,
+          "status": "confirmed"
+        },
+        {
+          "id": "backend-framework",
+          "label": "Backend Framework",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "api-docs",
+          "label": "API Documentation (Swagger)",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "a11y",
+          "label": "Accessibility (a11y)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "unit-tests-full",
+          "label": "Unit Tests (50%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "react",
+          "label": "React",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "github": "GorodeN",
       "teamName": "CodePain",
-      "claimedTotal": 205,
-      "confirmedCount": 4,
-      "contradictedCount": 5,
-      "verdict": "red",
+      "claimedTotal": 225,
+      "confirmedCount": 9,
+      "contradictedCount": 0,
+      "verdict": "green",
       "twoPersonalComponents": [
         "Auth UI + валидация + PrivateRoute",
         "AuthStore + backend auth flow"
@@ -921,25 +1117,25 @@
           "id": "custom-auth",
           "label": "Custom Auth (JWT)",
           "points": 20,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "custom-backend",
           "label": "Custom Backend",
           "points": 30,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "backend-framework",
           "label": "Backend Framework",
           "points": 10,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "api-docs",
           "label": "API Documentation (Swagger)",
           "points": 5,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "unit-tests-basic",
@@ -957,7 +1153,7 @@
           "id": "state-manager",
           "label": "State Manager",
           "points": 10,
-          "status": "contradicted"
+          "status": "confirmed"
         },
         {
           "id": "api-layer",
@@ -987,6 +1183,18 @@
           "id": "responsive",
           "label": "Responsive Design",
           "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
           "status": "unverifiable"
         }
       ]
@@ -1222,6 +1430,92 @@
           "label": "Auto-deploy",
           "points": 5,
           "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "github": "Webis-2022",
+      "teamName": "DevBand",
+      "claimedTotal": 185,
+      "confirmedCount": 2,
+      "contradictedCount": 1,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Results page",
+        "Hints"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 60,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "contradicted"
+        },
+        {
+          "id": "ai-raw-llm",
+          "label": "Raw LLM API",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "prompt-engineering",
+          "label": "Prompt Engineering",
+          "points": 15,
+          "status": "unverifiable"
+        },
+        {
+          "id": "audio-api",
+          "label": "Audio API",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "leaderboard",
+          "label": "Leaderboard",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "architect",
+          "label": "Architect (ADR)",
+          "points": 10,
+          "status": "unverifiable"
         }
       ]
     },
@@ -2296,6 +2590,124 @@
         {
           "id": "angular",
           "label": "Angular",
+          "points": 10,
+          "status": "contradicted"
+        }
+      ]
+    },
+    {
+      "github": "Pchyolan",
+      "teamName": "JustBuildIt",
+      "claimedTotal": 50,
+      "confirmedCount": 0,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Quiz Widget",
+        "True / False Widget"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 50,
+          "status": "unverifiable"
+        }
+      ]
+    },
+    {
+      "github": "thefoxtale",
+      "teamName": "JustBuildIt",
+      "claimedTotal": 200,
+      "confirmedCount": 3,
+      "contradictedCount": 2,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Memory Game (Сборщик мусора)",
+        "TicketPageController (Билетная система)"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 60,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-auth",
+          "label": "BaaS Auth (Firebase/Supabase)",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "contradicted"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "audio-api",
+          "label": "Audio API",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
           "points": 10,
           "status": "contradicted"
         }
@@ -4554,6 +4966,50 @@
       ]
     },
     {
+      "github": "chebupell",
+      "teamName": "SkillsZen team",
+      "claimedTotal": 65,
+      "confirmedCount": 1,
+      "contradictedCount": 2,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Dashboard",
+        "Library"
+      ],
+      "features": [
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 40,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "react",
+          "label": "React",
+          "points": 5,
+          "status": "contradicted"
+        },
+        {
+          "id": "vue",
+          "label": "Vue",
+          "points": 5,
+          "status": "contradicted"
+        }
+      ]
+    },
+    {
       "github": "t-gladkaya",
       "teamName": "SkillsZen team",
       "claimedTotal": 120,
@@ -6277,6 +6733,124 @@
           "id": "react",
           "label": "React",
           "points": 5,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "github": "aliakseidrob",
+      "teamName": "Дрим Тим",
+      "claimedTotal": 160,
+      "confirmedCount": 4,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Code Golf",
+        "Sandbox"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 50,
+          "status": "unverifiable"
+        },
+        {
+          "id": "backend-service",
+          "label": "Backend Service",
+          "points": 30,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "code-editor",
+          "label": "Code Editor",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "angular",
+          "label": "Angular",
+          "points": 10,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "github": "shoblinsky",
+      "teamName": "Дрим Тим",
+      "claimedTotal": 100,
+      "confirmedCount": 1,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "type-investigator",
+        "reverse-code-review"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 50,
+          "status": "unverifiable"
+        },
+        {
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "angular",
+          "label": "Angular",
+          "points": 10,
           "status": "confirmed"
         }
       ]

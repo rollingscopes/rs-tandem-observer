@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-17T08:52:19.049Z",
+  "checkDate": "2026-04-17T09:10:39.787Z",
   "week": "w7",
   "repos": [
     {
@@ -507,6 +507,7 @@
         }
       ],
       "techTags": [
+        "Cypress",
         "ESLint",
         "Husky",
         "React",
@@ -803,10 +804,10 @@
           "normalizedGithub": "aliakseidrob",
           "inReadme": true,
           "diaryDir": "aliakseidrob",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "anatolirub",
@@ -853,10 +854,10 @@
           "normalizedGithub": "shoblinsky",
           "inReadme": true,
           "diaryDir": "shoblinsky",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Zhdko",
@@ -1191,8 +1192,7 @@
         "React",
         "Supabase",
         "Tailwind",
-        "TypeScript",
-        "Zustand"
+        "TypeScript"
       ],
       "techTagsFromCode": true
     },
@@ -1383,10 +1383,13 @@
       "techTags": [
         "ESLint",
         "Husky",
+        "Playwright",
         "React",
         "Redux",
+        "SCSS",
         "TypeScript",
-        "Vite"
+        "Vite",
+        "Vitest"
       ],
       "techTagsFromCode": true
     },
@@ -1699,11 +1702,11 @@
         "readmeSections": {
           "hasAbout": true,
           "hasDemoVideo": true,
-          "hasProudOf": false,
+          "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
           "hasBestPRs": false,
-          "hasMeetingNotes": false,
+          "hasMeetingNotes": true,
           "allMet": false
         },
         "readmeOk": false,
@@ -1735,10 +1738,10 @@
           "normalizedGithub": "webis-2022",
           "inReadme": true,
           "diaryDir": "Webis-2022",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
+          "hasSelfAssessment": true,
+          "personalScore": 10,
           "teamScore": 0,
-          "score": 0
+          "score": 10
         }
       ],
       "techTags": [
@@ -1757,18 +1760,18 @@
       "url": "https://github.com/Pchyolan/rs-tandem-project",
       "week7Team": {
         "deployUrl": "https://tranquil-froyo-550c45.netlify.app/",
-        "deployOk": true,
+        "deployOk": false,
         "readmeSections": {
           "hasAbout": true,
-          "hasDemoVideo": false,
-          "hasProudOf": false,
+          "hasDemoVideo": true,
+          "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
-          "hasBestPRs": false,
+          "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
+        "readmeOk": true,
         "allMet": false
       },
       "members": [
@@ -1777,25 +1780,26 @@
           "normalizedGithub": "pchyolan",
           "inReadme": true,
           "diaryDir": "Pchyolan",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
+          "hasSelfAssessment": true,
+          "personalScore": 10,
           "teamScore": 0,
-          "score": 0
+          "score": 10
         },
         {
           "github": "thefoxtale",
           "normalizedGithub": "thefoxtale",
           "inReadme": true,
           "diaryDir": "theFoxTale",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
+          "hasSelfAssessment": true,
+          "personalScore": 10,
           "teamScore": 0,
-          "score": 0
+          "score": 10
         }
       ],
       "techTags": [
         "ESLint",
         "Husky",
+        "Playwright",
         "SCSS",
         "Supabase",
         "TypeScript",
@@ -1860,7 +1864,8 @@
         "Husky",
         "SCSS",
         "TypeScript",
-        "Vite"
+        "Vite",
+        "Vitest"
       ],
       "techTagsFromCode": true
     },
@@ -2161,7 +2166,8 @@
         "ESLint",
         "Husky",
         "TypeScript",
-        "Vite"
+        "Vite",
+        "Vitest"
       ],
       "techTagsFromCode": true
     },
@@ -2254,10 +2260,10 @@
           "normalizedGithub": "chebupell",
           "inReadme": true,
           "diaryDir": "chebupell",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "forestdeerr",
@@ -2410,14 +2416,14 @@
       "url": "https://github.com/AnnStarrySky/tandem",
       "week7Team": {
         "deployUrl": "https://tandem-pi.vercel.app/",
-        "deployOk": false,
+        "deployOk": true,
         "readmeSections": {
           "hasAbout": true,
           "hasDemoVideo": false,
-          "hasProudOf": false,
+          "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
-          "hasBestPRs": false,
+          "hasBestPRs": true,
           "hasMeetingNotes": true,
           "allMet": false
         },
@@ -2430,10 +2436,10 @@
           "normalizedGithub": "angelinavakkasova",
           "inReadme": true,
           "diaryDir": "angelinavakkasova",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
+          "hasSelfAssessment": true,
+          "personalScore": 10,
           "teamScore": 0,
-          "score": 0
+          "score": 10
         },
         {
           "github": "annstarrysky",
@@ -2446,7 +2452,7 @@
           "score": 0
         },
         {
-          "github": "yuriyli",
+          "github": "Yuriyli",
           "normalizedGithub": "yuriyli",
           "inReadme": true,
           "diaryDir": "yuriyli",
@@ -2503,10 +2509,10 @@
           "normalizedGithub": "dmitryastapenko",
           "inReadme": true,
           "diaryDir": "dmitryastapenko",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "GorodeN",
@@ -2533,10 +2539,12 @@
         "ESLint",
         "Husky",
         "Jest",
+        "MobX",
         "React",
         "SCSS",
         "TypeScript",
-        "Vite"
+        "Vite",
+        "i18n"
       ],
       "techTagsFromCode": true
     },

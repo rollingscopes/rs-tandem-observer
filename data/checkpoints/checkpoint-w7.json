@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-13T12:44:29.613Z",
+  "checkDate": "2026-04-17T08:52:19.049Z",
   "week": "w7",
   "repos": [
     {
@@ -1221,10 +1221,10 @@
           "normalizedGithub": "bulbashok",
           "inReadme": true,
           "diaryDir": "bulbashok",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "JesterAV",

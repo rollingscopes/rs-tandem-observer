@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-17T09:21:06.653Z",
+  "analysisDate": "2026-04-17T09:55:11.789Z",
   "members": [
     {
       "github": "angelinavakkasova",
@@ -5988,7 +5988,7 @@
     {
       "github": "romanplis",
       "teamName": "Typocalypse",
-      "claimedTotal": 65,
+      "claimedTotal": 85,
       "confirmedCount": 1,
       "contradictedCount": 0,
       "verdict": "green",
@@ -6004,10 +6004,108 @@
           "status": "unverifiable"
         },
         {
+          "id": "ai-chat-ui",
+          "label": "AI Chat UI",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
           "id": "theme-switcher",
           "label": "Theme Switcher",
           "points": 10,
           "status": "unverifiable"
+        },
+        {
+          "id": "react",
+          "label": "React",
+          "points": 5,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
+      "github": "yermekyerden",
+      "teamName": "Typocalypse",
+      "claimedTotal": 165,
+      "confirmedCount": 4,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Contextual Assistant Chat UI",
+        "Context-aware Assistant Backend / AI Context Manager"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "backend-service",
+          "label": "Backend Service",
+          "points": 30,
+          "status": "unverifiable"
+        },
+        {
+          "id": "ai-chat-ui",
+          "label": "AI Chat UI",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
+          "id": "ai-streaming",
+          "label": "AI Streaming",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "ai-raw-llm",
+          "label": "Raw LLM API",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "architect",
+          "label": "Architect (ADR)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "backend-framework",
+          "label": "Backend Framework",
+          "points": 10,
+          "status": "confirmed"
         },
         {
           "id": "react",
@@ -6042,10 +6140,10 @@
           "status": "unverifiable"
         },
         {
-          "id": "code-editor",
-          "label": "Code Editor",
-          "points": 15,
-          "status": "contradicted"
+          "id": "leaderboard",
+          "label": "Leaderboard",
+          "points": 5,
+          "status": "unverifiable"
         },
         {
           "id": "i18n",
@@ -6058,6 +6156,18 @@
           "label": "Accessibility (a11y)",
           "points": 10,
           "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "code-editor",
+          "label": "Code Editor",
+          "points": 15,
+          "status": "contradicted"
         },
         {
           "id": "unit-tests-basic",
@@ -6075,18 +6185,6 @@
           "id": "api-layer",
           "label": "API Layer",
           "points": 10,
-          "status": "unverifiable"
-        },
-        {
-          "id": "leaderboard",
-          "label": "Leaderboard",
-          "points": 5,
-          "status": "unverifiable"
-        },
-        {
-          "id": "responsive",
-          "label": "Responsive Design",
-          "points": 5,
           "status": "unverifiable"
         },
         {

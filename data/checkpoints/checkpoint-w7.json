@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-17T09:10:39.787Z",
+  "checkDate": "2026-04-17T09:54:31.603Z",
   "week": "w7",
   "repos": [
     {
@@ -151,10 +151,10 @@
           "normalizedGithub": "yermekyerden",
           "inReadme": true,
           "diaryDir": "yermekyerden",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
+          "hasSelfAssessment": true,
+          "personalScore": 10,
           "teamScore": 0,
-          "score": 0
+          "score": 10
         },
         {
           "github": "YessetHumanMan",

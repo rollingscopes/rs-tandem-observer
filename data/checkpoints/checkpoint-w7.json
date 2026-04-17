@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-17T09:54:31.603Z",
+  "checkDate": "2026-04-17T11:33:10.571Z",
   "week": "w7",
   "repos": [
     {
@@ -95,15 +95,15 @@
         "readmeSections": {
           "hasAbout": true,
           "hasDemoVideo": true,
-          "hasProudOf": false,
+          "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
-          "hasBestPRs": false,
+          "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -133,8 +133,8 @@
           "diaryDir": "jasonscriptlord",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "romanplis",
@@ -143,8 +143,8 @@
           "diaryDir": "romanplis",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "yermekyerden",
@@ -153,8 +153,8 @@
           "diaryDir": "yermekyerden",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "YessetHumanMan",
@@ -163,8 +163,8 @@
           "diaryDir": "yessethumanman",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [

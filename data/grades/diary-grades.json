@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T14:26:04.425Z",
+  "generatedAt": "2026-04-17T22:27:20.350Z",
   "checkpoint": "w6",
   "algorithm": "v2-ladder",
   "grades": [
@@ -1924,34 +1924,6 @@
       "upgradeConfidence": "high"
     },
     {
-      "github": "Batyrkhan-Sk",
-      "teamName": "Tandem Trauma Team",
-      "level": 0,
-      "levelName": "Нет дневника",
-      "levelReason": "Нет дневника или gate не пройден",
-      "regularity": 0,
-      "volume": 0,
-      "noticeability": 0,
-      "reflection": 0,
-      "reflectionJustification": "",
-      "total": 0,
-      "gate": false
-    },
-    {
-      "github": "devenrgy",
-      "teamName": "Tandem Trauma Team",
-      "level": 0,
-      "levelName": "Нет дневника",
-      "levelReason": "Нет дневника или gate не пройден",
-      "regularity": 0,
-      "volume": 0,
-      "noticeability": 0,
-      "reflection": 0,
-      "reflectionJustification": "",
-      "total": 0,
-      "gate": false
-    },
-    {
       "github": "artkoro94",
       "teamName": "Team42",
       "level": 100,
@@ -2131,6 +2103,48 @@
       "hasProblems": true,
       "hasComparison": false,
       "upgradeConfidence": "high"
+    },
+    {
+      "github": "Anuarbekov",
+      "teamName": "Tandem Trauma Team",
+      "level": 0,
+      "levelName": "Нет дневника",
+      "levelReason": "Нет дневника или gate не пройден",
+      "regularity": 0,
+      "volume": 0,
+      "noticeability": 0,
+      "reflection": 0,
+      "reflectionJustification": "",
+      "total": 0,
+      "gate": false
+    },
+    {
+      "github": "Batyrkhan-Sk",
+      "teamName": "Tandem Trauma Team",
+      "level": 20,
+      "levelName": "Формальный",
+      "levelReason": "Нерегулярный: записи в 2 из 6 недель (нужно 5+)",
+      "regularity": 8,
+      "volume": 4,
+      "noticeability": 0,
+      "reflection": 0,
+      "reflectionJustification": "",
+      "total": 20,
+      "gate": true
+    },
+    {
+      "github": "devenrgy",
+      "teamName": "Tandem Trauma Team",
+      "level": 0,
+      "levelName": "Нет дневника",
+      "levelReason": "Нет дневника или gate не пройден",
+      "regularity": 0,
+      "volume": 0,
+      "noticeability": 0,
+      "reflection": 0,
+      "reflectionJustification": "",
+      "total": 0,
+      "gate": false
     }
   ]
 }

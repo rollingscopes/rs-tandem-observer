@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-17T11:33:10.571Z",
+  "checkDate": "2026-04-17T22:27:00.028Z",
   "week": "w7",
   "repos": [
     {
@@ -2622,6 +2622,16 @@
         "allMet": false
       },
       "members": [
+        {
+          "github": "Anuarbekov",
+          "normalizedGithub": "anuarbekov",
+          "inReadme": false,
+          "diaryDir": "Anuarbekov",
+          "hasSelfAssessment": false,
+          "personalScore": 0,
+          "teamScore": 0,
+          "score": 0
+        },
         {
           "github": "Batyrkhan-Sk",
           "normalizedGithub": "batyrkhan-sk",

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Та же профессия · RS School Angular 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #f7f1e8;
+  --bg-warm: #efe8dc;
+  --bg-dark: #1a1410;
+  --text: #1a1410;
+  --text-light: #5c4f43;
+  --text-faint: #8a7d70;
+  --accent: #7a1830;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+body { overflow-x: hidden; }
+
+.progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); width: 0%; z-index: 100; transition: width .15s ease-out; }
+
+.r { opacity: 0; transform: translateY(20px); transition: opacity .9s ease-out, transform .9s ease-out; }
+.r.v { opacity: 1; transform: translateY(0); }
+.r.d1 { transition-delay: .15s; }
+.r.d2 { transition-delay: .3s; }
+.r.d3 { transition-delay: .45s; }
+.r-slow { opacity: 0; transition: opacity 2.5s ease-out; }
+.r-slow.v { opacity: 1; }
+
+.page { max-width: 640px; margin: 0 auto; padding: 0 28px; }
+
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; text-align: center;
+  padding: 80px 28px; position: relative;
+  background: var(--bg-dark); overflow: hidden;
+}
+.hero::before, .hero::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.hero::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.hero::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+
+.scroll-hint {
+  margin-top: 64px; font-size: 11px; color: rgba(255,255,255,.25);
+  letter-spacing: .2em; text-transform: uppercase;
+  animation: pulse 2.5s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity:.3 } 50% { opacity:.8 } }
+
+.anchor-quote {
+  font-family: var(--serif); font-size: clamp(24px, 4vw, 32px);
+  font-style: italic; font-weight: 300; color: rgba(255,255,255,.85);
+  line-height: 1.45; max-width: 520px;
+}
+.anchor-cite {
+  font-family: var(--sans); font-size: 13px; color: rgba(255,255,255,.4);
+  margin-top: 28px; letter-spacing: .05em;
+}
+.anchor-cite a { color: rgba(255,255,255,.5); text-decoration: underline; text-underline-offset: 3px; }
+
+.section-divider {
+  background: var(--bg-dark);
+  margin: 64px calc(-50vw + 50%) 48px;
+  width: 100vw;
+  padding: 64px 32px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.section-divider::before, .section-divider::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.section-divider::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.section-divider::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+.section-epigraph {
+  font-family: var(--sans); font-size: 15px; font-style: italic;
+  color: rgba(255,255,255,.5); letter-spacing: .03em;
+  max-width: 420px; margin: 0 auto; line-height: 1.8;
+}
+
+.lede {
+  font-family: var(--serif); font-size: clamp(22px, 3.2vw, 28px);
+  font-weight: 400; color: var(--text); line-height: 1.5;
+  margin: 40px 0 24px;
+}
+.lede em { color: var(--accent); font-style: italic; }
+
+.body-text {
+  font-size: 16px; color: var(--text-light); line-height: 1.9;
+  margin-bottom: 24px;
+}
+.body-text strong { color: var(--text); font-weight: 600; }
+.body-text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+.pull {
+  font-family: var(--serif); font-size: clamp(22px, 3vw, 28px);
+  font-style: italic; color: var(--text); line-height: 1.5;
+  padding: 24px 0 24px 28px;
+  border-left: 3px solid var(--accent);
+  margin: 40px 0;
+}
+
+.practitioner {
+  margin: 40px 0; padding: 28px 0;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+.practitioner:last-of-type { border-bottom: 1px solid rgba(0,0,0,.08); }
+.practitioner-name {
+  font-family: var(--serif); font-size: 24px; font-weight: 400;
+  color: var(--text); margin-bottom: 6px;
+}
+.practitioner-role {
+  font-size: 12px; color: var(--accent); letter-spacing: .1em;
+  text-transform: uppercase; margin-bottom: 16px;
+}
+.practitioner-text {
+  font-size: 16px; color: var(--text-light); line-height: 1.9;
+}
+.practitioner-text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+.science-card {
+  background: var(--bg-warm);
+  padding: 40px 32px;
+  margin: 48px calc(-50vw + 50%) 48px;
+  width: 100vw;
+  text-align: center;
+}
+.science-card-inner {
+  max-width: 520px; margin: 0 auto;
+}
+.science-label {
+  font-size: 11px; color: var(--accent);
+  letter-spacing: .2em; text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.science-headline {
+  font-family: var(--serif); font-size: clamp(22px, 3vw, 26px);
+  color: var(--text); line-height: 1.5; margin-bottom: 16px;
+}
+.science-body {
+  font-size: 15px; color: var(--text-light); line-height: 1.85;
+}
+.science-body a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.science-punch {
+  font-family: var(--serif); font-size: 22px; font-style: italic;
+  color: var(--accent); margin-top: 24px; line-height: 1.5;
+}
+
+.voice { margin-bottom: 48px; }
+.voice-text {
+  font-family: var(--serif); font-size: 20px; font-style: italic;
+  color: var(--text); line-height: 1.65;
+  padding-left: 20px; border-left: 2px solid rgba(122,24,48,.15);
+}
+.voice-cite {
+  font-family: var(--sans); font-size: 13px; color: var(--text-faint);
+  margin-top: 10px; padding-left: 20px;
+}
+.dot {
+  text-align: center; color: var(--text-faint);
+  font-size: 14px; margin: 32px 0; opacity: .4;
+}
+
+.level-intro {
+  font-family: var(--serif); font-size: clamp(22px, 3vw, 26px);
+  color: var(--text); line-height: 1.55;
+  margin: 40px 0 56px;
+}
+.level-intro em { color: var(--accent); font-style: italic; }
+
+.level {
+  margin: 56px 0;
+  padding-top: 40px;
+  border-top: 1px solid rgba(122,24,48,.14);
+}
+.level:first-of-type { border-top: none; padding-top: 0; }
+.level-number {
+  font-family: var(--sans); font-size: 11px; font-weight: 600;
+  letter-spacing: .3em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 10px;
+}
+.level-title {
+  font-family: var(--serif); font-size: 28px; font-weight: 400;
+  color: var(--text); margin-bottom: 24px; line-height: 1.2;
+}
+.level-example {
+  font-family: var(--serif); font-size: 18px; font-style: italic;
+  color: var(--text); line-height: 1.7;
+  padding: 22px 26px; background: var(--bg-warm);
+  border-left: 3px solid rgba(122,24,48,.25);
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+.level-commentary {
+  font-size: 15px; color: var(--text-light); line-height: 1.9;
+}
+.level-commentary strong { color: var(--text); font-weight: 600; }
+.level-commentary em { color: var(--accent); font-style: italic; }
+
+.inline-code {
+  font-family: var(--sans); font-size: .88em;
+  background: rgba(0,0,0,.055); padding: 1px 7px;
+  border-radius: 3px; color: var(--text);
+}
+
+.closing {
+  min-height: 90vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 80px 28px;
+  background: var(--bg-dark); position: relative; overflow: hidden;
+}
+.closing::before, .closing::after {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 180px; pointer-events: none;
+}
+.closing::before { left: 0; background: linear-gradient(to right, rgba(122,24,48,.18), transparent); }
+.closing::after { right: 0; background: linear-gradient(to left, rgba(122,24,48,.18), transparent); }
+.closing-lede {
+  font-family: var(--serif); font-size: clamp(22px, 3.2vw, 28px);
+  font-weight: 300; color: rgba(255,255,255,.7);
+  line-height: 1.6; max-width: 460px;
+}
+.closing-punchline {
+  font-family: var(--serif); font-size: clamp(28px, 5vw, 40px);
+  font-weight: 600; color: rgba(255,255,255,.95);
+  margin-top: 48px; max-width: 480px; line-height: 1.4;
+  font-style: italic;
+}
+.closing-coda {
+  font-family: var(--sans); font-size: 15px;
+  color: rgba(255,255,255,.45); margin-top: 40px; line-height: 1.8;
+  max-width: 380px;
+}
+
+.footer {
+  text-align: center; padding: 40px 28px 80px;
+  font-size: 13px; color: rgba(255,255,255,.25);
+  background: var(--bg-dark);
+}
+.footer a { color: rgba(255,255,255,.25); text-decoration: none; margin: 0 8px; }
+.footer a:hover { color: rgba(255,255,255,.5); }
+
+@media (max-width: 600px) {
+  .voice-text { font-size: 18px; padding-left: 16px; }
+  .hero::before, .hero::after { width: 40px; }
+  .pull { font-size: 20px; padding-left: 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- ===== COVER ===== -->
+<section class="hero" style="min-height: 100vh;">
+  <div class="r" style="font-family: var(--serif); font-size: 14px; font-weight: 400; color: rgba(255,255,255,.45); letter-spacing: .2em; text-transform: uppercase; margin-bottom: 36px;">
+    RS School · Angular · 2026
+  </div>
+  <div class="r d1" style="font-family: var(--serif); font-size: clamp(48px, 10vw, 88px); font-weight: 300; color: rgba(255,255,255,.9); line-height: 1.1; letter-spacing: -1.5px;">
+    Та же<br>профессия.
+  </div>
+  <div class="r d2" style="font-family: var(--serif); font-size: 20px; font-style: italic; color: rgba(255,255,255,.4); margin-top: 32px; max-width: 440px; line-height: 1.7;">
+    Курс начинается.<br>
+    Перед тем как вы напишете первую строчку — <br>пара слов о том, во что вы вступаете.
+  </div>
+  <div class="scroll-hint r d3">↓ scroll</div>
+</section>
+
+<!-- ===== ANCHOR QUOTE: LAMPORT ===== -->
+<section class="hero" style="min-height: auto; padding: 140px 28px;">
+  <div class="r" style="font-size: 13px; color: rgba(255,255,255,.35); max-width: 460px; margin-bottom: 48px; line-height: 1.9; letter-spacing: .04em;">
+    Лесли Лампорт — лауреат премии Тьюринга. Изобрёл LaTeX, заложил основы распределённых систем, разработал алгоритм Paxos — то, на чём сегодня работает половина дата-центров мира. На вопрос, почему он так одержим текстом, он ответил так.
+  </div>
+
+  <div class="anchor-quote r d1">
+    «Если ты думаешь без того, чтобы писать, —<br>
+    тебе только кажется, что ты думаешь.»
+  </div>
+  <div class="anchor-cite r d2">
+    — Leslie Lamport, Turing Award 2013
+  </div>
+  <div class="scroll-hint r d3">↓</div>
+</section>
+
+<!-- ===== CONTEXT ===== -->
+<section class="hero" style="min-height: 100vh;">
+  <div class="r" style="font-family: var(--serif); font-size: 13px; color: rgba(255,255,255,.45); letter-spacing: .2em; text-transform: uppercase; margin-bottom: 32px;">
+    Что впереди
+  </div>
+  <div class="r d1" style="font-family: var(--serif); font-size: clamp(22px, 3vw, 28px); color: rgba(255,255,255,.75); line-height: 1.7; max-width: 520px;">
+    Курс Angular.<br>
+    Своё e-commerce приложение — без готового бэкенда.<br>
+    Команда, в которой у каждого своя часть.<br>
+    И дневник — по одному на каждого из вас.
+  </div>
+  <div class="r d2" style="font-family: var(--sans); font-size: 15px; color: rgba(255,255,255,.45); line-height: 1.9; margin-top: 40px; max-width: 440px;">
+    Процесс мы не оцениваем.<br>
+    Ни доску, ни ишьюз, ни код-ревью.<br>
+    Только то, что вы в итоге сделаете.
+  </div>
+  <div class="r d3" style="font-family: var(--serif); font-size: 20px; font-style: italic; color: rgba(255,255,255,.8); margin-top: 36px; max-width: 440px;">
+    Но писать — будете.
+  </div>
+  <div class="scroll-hint r d3">↓</div>
+</section>
+
+<!-- ===== I. THE LINE ===== -->
+<div class="page" style="padding-top: 100px;">
+
+<div class="r">
+<div class="lede">
+  Да Винчи называл себя инженером. <em>Брунеллески — тот, кто поставил купол Флорентийского собора, — тоже.</em>
+</div>
+
+<div class="body-text">
+  Слово «инженер» старше слова «программист» лет на пятьсот. И всё это время оно означало одно и то же: <strong>человек, который что-то делает руками и головой</strong>. Меняются инструменты — не меняется суть.
+</div>
+
+<div class="body-text">
+  Вы — в этой же профессии. Не в её великом крыле. В её рабочей комнате. Но в той самой — где одни и те же вопросы задавались уже пятьсот лет.
+</div>
+
+<div class="pull">
+  И у этой профессии всегда был один общий инструмент: блокнот.
+</div>
+</div>
+
+</div><!-- /.page -->
+
+<!-- ===== II. PRACTITIONERS ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">Три человека. Три эпохи. Одна и та же практика.</div>
+</div>
+
+<div class="page">
+
+<div class="practitioner r">
+  <div class="practitioner-name">Леонардо да Винчи</div>
+  <div class="practitioner-role">Италия · 1500</div>
+  <div class="practitioner-text">
+    Носил с собой блокнот всю жизнь. Записывал наблюдения, идеи, ошибки, вопросы без ответов. До нас дошло семь тысяч страниц. Не дневник чувств — рабочий инструмент мышления. Рядом с эскизами вертолёта — расчёты шестерён и список, сколько стоит яблоко на рынке.
+  </div>
+</div>
+
+<div class="practitioner r">
+  <div class="practitioner-name">Ричард Фейнман</div>
+  <div class="practitioner-role">Принстон · 1940-е · нобелевский лауреат по физике</div>
+  <div class="practitioner-text">
+    Готовясь к квалификационному экзамену, <strong>не стал перечитывать учебники</strong>. Открыл чистую тетрадь и написал на первой странице: <em>«Вещи, которых я не знаю»</em>. Потом неделю за неделей разбирал каждую тему и записывал объяснения своими словами. Не для преподавателя — для себя. Чтобы увидеть, где понимание рассыпается. Этот <a href="https://calnewport.com/the-feynman-notebook-method/" target="_blank" rel="noopener">метод</a> носит его имя до сих пор.
+  </div>
+</div>
+
+<div class="practitioner r">
+  <div class="practitioner-name">Джон Кармак</div>
+  <div class="practitioner-role">id Software · 1996–2010 · создатель Doom и Quake</div>
+  <div class="practitioner-text">
+    С 1996 года вёл публичный <a href="https://github.com/ESWAT/john-carmack-plan-archive" target="_blank" rel="noopener">.plan-файл</a>. Каждый день — что попробовал, какое решение принял и почему. Четырнадцать лет ежедневных записей. Это стало легендой в индустрии. Не потому что Кармак любил писать. А потому что понимал: <strong>записать — значит понять</strong>.
+  </div>
+</div>
+
+<div class="r">
+<div class="pull" style="margin-top: 48px;">
+  Не потому что они были гениями. Потому что это часть работы — для любого, кто что-то делает всерьёз.
+</div>
+</div>
+
+</div><!-- /.page -->
+
+<!-- ===== NONE OF THEM STARTED WITH MASTERPIECES ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">Никто из них не начинал с шедевров.</div>
+</div>
+
+<div class="page">
+
+<div class="r">
+<div class="body-text">
+  В блокнотах Да Винчи, рядом с чертежами летающей машины — списки покупок, подсчёт личных расходов, записи типа <em>«купить очки, восемь сольди»</em>. Не все семь тысяч страниц гениальны. Важно другое — он не переставал писать. Каждый день. Шестьдесят семь лет подряд.
+</div>
+
+<div class="body-text">
+  Ранние тетради Фейнмана — не стройные тексты, а фрагменты: непонятое, недоведённое, прочерки на месте формул. <em>«Вещи, которых я не знаю»</em> — это не декларация о методе. Это честное признание состояния. Именно оттуда и пришло понимание, куда смотреть дальше.
+</div>
+
+<div class="body-text">
+  Первые <span class="inline-code">.plan</span>-файлы Кармака в 1996 году — короткие технические заметки: <em>«работал над рендерингом», «исправил баг в сетевом коде»</em>. Через десять лет они превратились в подробные инженерные эссе, на которых училось целое поколение разработчиков. Между первой и последней записью — четырнадцать лет ежедневной практики.
+</div>
+
+<div class="body-text" style="margin-top: 32px;">
+  Умение писать дневник — это <strong>навык</strong>. Как любой навык, он растёт через повторение, а не через талант. Никто не пишет сразу хорошо. Никто.
+</div>
+
+<div class="pull">
+  Вашу первую запись вам не захочется никому показывать.<br>
+  Вторую — тоже.<br>
+  Это нормально. Кармак в 1996-м тоже не хотел бы.
+</div>
+</div>
+
+</div><!-- /.page -->
+
+<!-- ===== SCIENCE ===== -->
+<div class="science-card">
+  <div class="science-card-inner r">
+    <div class="science-label">Washington University · 2006</div>
+    <div class="science-headline">
+      Одна группа студентов прочитала материал четыре раза. Другая прочитала один раз — и три раза попыталась вспомнить по памяти.
+    </div>
+    <div class="science-body">
+      Через неделю вторая группа помнила почти всё. Первая — забыла больше половины. <a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x" target="_blank" rel="noopener">Roediger &amp; Karpicke, 2006</a>. С тех пор повторено в десятках исследований.
+    </div>
+    <div class="science-punch">
+      Разница не в усилии.<br>Разница в <u>типе</u> усилия.
+    </div>
+  </div>
+</div>
+
+<div class="page">
+
+<div class="r">
+<div class="body-text" style="margin-top: 32px;">
+  Тест — это когда мозг <em>узнаёт</em>. Ему показывают четыре варианта, и он говорит: «А, вот этот знакомый». Чувство понимания возникает, <strong>а понимания часто нет</strong>. Через две недели 80% забудется.
+</div>
+
+<div class="body-text">
+  Написать текст — это когда мозг <em>конструирует</em>. Перед ним чистый лист, и ему приходится достать знание изнутри, собрать его заново, выстроить в структуру. Именно это делал да Винчи в своих блокнотах. Именно это делал Кармак в своих .plan-файлах.
+</div>
+
+<div class="pull">
+  Дневник разработки — это unit-тест для ваших мыслей.
+</div>
+
+<div class="body-text">
+  Если вы не можете объяснить словами, как что-то устроено — у вас баг в понимании. И лучше найти его сейчас, чем на собеседовании. Дневник — самый дешёвый способ прогнать этот тест по каждой своей задаче.
+</div>
+</div>
+
+</div><!-- /.page -->
+
+<!-- ===== THE LADDER ===== -->
+<div class="section-divider r">
+  <div class="section-epigraph">От «для галочки» — до записи, которой хочется гордиться.</div>
+</div>
+
+<div class="page">
+
+<div class="r">
+<div class="level-intro">
+  Между «я отметил, что было» и «я написал так, что самому захотелось перечитать» — не пропасть, а <em>лестница</em>. Грубо — пять ступеней. Чтобы было проще представить, покажем их на одной и той же задаче: <span class="inline-code">компонент ProductCard</span> в e-commerce приложении.
+</div>
+</div>
+
+<!-- Level 0 -->
+<div class="level r">
+  <div class="level-number">Уровень 0</div>
+  <div class="level-title">Отметка</div>
+  <div class="level-example">
+    Работал над проектом. Написал код. Всё работает.
+  </div>
+  <div class="level-commentary">
+    Это честная запись о факте. Но через неделю даже автор не вспомнит, о каком коде речь. Формально обязательство выполнено. В памяти — <strong>ничего</strong>.
+  </div>
+</div>
+
+<!-- Level 1 -->
+<div class="level r">
+  <div class="level-number">Уровень 1</div>
+  <div class="level-title">Описание</div>
+  <div class="level-example">
+    Сделал компонент ProductCard с пропсами title, price, image. Добавил hover-эффект и адаптив.
+  </div>
+  <div class="level-commentary">
+    Факты сохранились. Путь — нет. Через год автор вспомнит, что был компонент <span class="inline-code">ProductCard</span>. Но не вспомнит, <em>какие решения принимал, где споткнулся, что понял в процессе</em>.
+  </div>
+</div>
+
+<!-- Level 2 -->
+<div class="level r">
+  <div class="level-number">Уровень 2</div>
+  <div class="level-title">Рефлексия</div>
+  <div class="level-example">
+    Начал ProductCard со своими стилями. Через полтора часа увидел, что у нас в макете таких карточек ещё пять. Остановился, вынес стили в дизайн-систему. Потратил лишних два часа. Зато теперь любая новая карточка — три строчки.
+  </div>
+  <div class="level-commentary">
+    Появляется <strong>путь</strong>: где начал, что заметил, что изменил. Автор <em>учится через рассказ самому себе</em>. Такую запись уже стоит перечитывать — через неделю, через месяц, через год.
+  </div>
+</div>
+
+<!-- Level 3 -->
+<div class="level r">
+  <div class="level-number">Уровень 3</div>
+  <div class="level-title">Разбор вариантов</div>
+  <div class="level-example">
+    Стоял выбор: хранить cart state в самом компоненте или в сторе. За компонент — проще отладка, меньше зависимостей. За стор — CartIcon и CheckoutButton тоже должны знать о выборе. Выбрал стор. Пометил в дневнике: если через месяц останется один потребитель — вернуться и откатить.
+  </div>
+  <div class="level-commentary">
+    Инженерное мышление на бумаге. В индустрии этот формат называют <strong>ADR</strong> — Architecture Decision Record. Навык, за который на собеседовании <em>дают плюс</em>. Не потому что красиво оформлено, а потому что видно: человек не угадал, а <strong>выбирал осознанно</strong> — и честно отметил, где готов передумать.
+  </div>
+</div>
+
+<!-- Level 4 -->
+<div class="level r">
+  <div class="level-number">Уровень 4</div>
+  <div class="level-title">Запись, которой хочется гордиться</div>
+  <div class="level-example">
+    Три дня ловил баг: при быстром клике на Add to cart иногда добавлялось два товара. В обработчике лог — клик ловится один раз. В сторе — add вызывается дважды. Оказалось, useEffect срабатывал повторно при ре-рендере, и в нём был side-effect с add. Перенёс логику в обработчик, useEffect оставил только для чтения. Урок: useEffect для триггера действий — антипаттерн, если то же самое уже делает handler. Завёл для себя чеклист таких ловушек.
+  </div>
+  <div class="level-commentary">
+    Выглядит как разбор в команде: что ломалось, что пробовал, что понял, что изменил <em>в своих привычках</em>. Не потому что так было нужно для отчёта. А потому что автору самому было важно разобраться — и закрепить урок, чтобы не повторять.<br><br>
+    Такую запись хочется перечитать. И — неожиданно — <strong>показать</strong>. Не начальству. Не ментору. А самому себе через год — как доказательство, что <em>ты умеешь думать</em>.
+  </div>
+</div>
+
+<div class="r">
+<div class="pull" style="margin-top: 72px;">
+  Никто не пишет сразу на четвёртой ступени.<br>
+  И не нужно. Достаточно, чтобы каждая следующая запись была <em>немного толще</em> предыдущей.
+</div>
+</div>
+
+<div class="r">
+<div class="body-text" style="margin-top: 24px;">
+  В первую неделю у вас будет всё на нуле и единице. Через месяц у кого-то появится одна запись на тройке — и вы удивитесь, перечитав. К середине курса три записи из десяти будут на тройке, одна — на четвёрке. К концу проекта — дневник, который <strong>не стыдно открыть через год</strong>.
+</div>
+
+<div class="body-text">
+  Это и есть рост. Не в линиях кода. В качестве мышления, которое вы начали замечать за собой.
+</div>
+
+<div class="pull" style="margin-top: 40px; font-style: italic;">
+  Два месяца такой практики дают совсем другой дневник.<br>
+  Полгода — <em>совсем другого инженера</em>.
+</div>
+</div>
+
+</div><!-- /.page -->
+
+<!-- ===== INVITATION ===== -->
+<section class="closing">
+  <div class="closing-lede r">
+    Ваш дневник — прежде всего <em>для вас через полгода</em>.<br>
+    Когда будете готовить ответы на собеседовании.<br>
+    Или просто захотите вспомнить, как вы сюда дошли.
+  </div>
+
+  <div class="closing-lede r d1" style="margin-top: 40px;">
+    Писать каждый день не нужно.<br>
+    Писать красиво — тем более.<br>
+    Нужно только одно: писать <strong>честно</strong>.
+  </div>
+
+  <div class="closing-lede r d2" style="margin-top: 40px; font-size: clamp(17px, 2.4vw, 21px); color: rgba(255,255,255,.55); font-style: italic;">
+    Первые будут корявые.<br>
+    Десятые — чуть лучше.<br>
+    Сотые — такие, что самому захочется показать.
+  </div>
+
+  <div class="closing-punchline r-slow">
+    На первой странице напишите:<br>
+    «Вещи, которых я не знаю.»
+  </div>
+
+  <div class="closing-coda r-slow">
+    И начинайте.
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<div class="footer">
+  <div style="font-family: var(--serif); font-size: 15px; font-style: italic;">RS School. Connecting people, growing together, having fun.</div>
+  <div style="margin-top: 8px;">
+    <a href="https://rollingscopes.github.io/rs-tandem-observer/">Observer</a>
+    <a href="https://rollingscopes.github.io/rs-tandem-observer/#/teams">Teams</a>
+    <a href="./engineers.html">Как становятся инженерами · 2026</a>
+  </div>
+</div>
+
+<script>
+const progress = document.getElementById('progress');
+window.addEventListener('scroll', () => {
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  progress.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+}, { passive: true });
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('v'); });
+}, { rootMargin: '0px 0px -60px 0px', threshold: 0.1 });
+document.querySelectorAll('.r, .r-slow').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

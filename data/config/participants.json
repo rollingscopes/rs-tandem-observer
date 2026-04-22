@@ -302,10 +302,7 @@
         },
         {
           "github": "zhdko",
-          "role": "student",
-          "dropped": true,
-          "droppedAt": "2026-04-17",
-          "droppedReason": "inactive: ignoring team communications, no project contribution"
+          "role": "student"
         },
         {
           "github": "shoblinsky",

@@ -32,7 +32,8 @@
       "repoUrls": [
         "https://github.com/ngKittyDebug/RS-Tandem-ngKittyDebug"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "Typocalypse",
@@ -69,7 +70,8 @@
       "repoUrls": [
         "https://github.com/yermekyerden/typocalypse-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "RainbowUnicorn",
@@ -103,7 +105,8 @@
       "repoUrls": [
         "https://github.com/Artem-WebDeveloper/tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "RSSAgents",
@@ -137,7 +140,8 @@
       "repoUrls": [
         "https://github.com/RSSAgents/tandem"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "Legendary frontend developers",
@@ -170,7 +174,8 @@
       "repoUrls": [
         "https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Team42",
@@ -204,7 +209,8 @@
       "repoUrls": [
         "https://github.com/kanoplich/rs-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Джунгли зовут!",
@@ -230,7 +236,8 @@
       "repoUrls": [
         "https://github.com/KarpovDmitriy/widget-trainer"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "GrowLab",
@@ -256,7 +263,8 @@
         "https://github.com/ansivgit/fe-course-2025Q3-final",
         "https://github.com/ansivgit/fe-course-2025Q3-final-backend"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Strict Mode",
@@ -282,7 +290,8 @@
       "repoUrls": [
         "https://github.com/FierceSloth/rss-tandem-app"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Дрим Тим",
@@ -320,7 +329,8 @@
       "repoUrls": [
         "https://github.com/PoMaKoM-RSTeam/Rs-Tandem"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "JSGods",
@@ -350,7 +360,8 @@
       "repoUrls": [
         "https://github.com/jsgods-rs-tandem/rs-tandem"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "Алекс и его друзья",
@@ -376,7 +387,8 @@
       "repoUrls": [
         "https://github.com/nasteew/tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "VueJS Tandem",
@@ -416,7 +428,8 @@
       "repoUrls": [
         "https://github.com/obemgcabazn/vuejs-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Tuple Trouble",
@@ -442,7 +455,8 @@
       "repoUrls": [
         "https://github.com/tosigaeva/rs-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "asyncmind",
@@ -464,7 +478,8 @@
       "repoUrls": [
         "https://github.com/Bulbashok/interview-prep"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Nova",
@@ -493,7 +508,8 @@
       "repoUrls": [
         "https://github.com/mvavilin/Nova-Codenames"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "DevCraft",
@@ -518,7 +534,8 @@
       "repoUrls": [
         "https://github.com/Maria2721/dev-craft-frontend"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Outstanding Alex And Smeshariki",
@@ -543,7 +560,8 @@
       "repoUrls": [
         "https://github.com/rs-tandem/rs-tandem"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "Gang of Four",
@@ -569,7 +587,8 @@
       "repoUrls": [
         "https://github.com/NotDmitry/Duoscript-Tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Devtones",
@@ -594,7 +613,8 @@
       "repoUrls": [
         "https://github.com/konfuzz/rss-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "404 Skill Not Found",
@@ -618,7 +638,8 @@
       "repoUrls": [
         "https://github.com/bukt0r/Final-Project-Tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "OrangeCats",
@@ -640,7 +661,8 @@
       "repoUrls": [
         "https://github.com/dalekswar/CodeMind"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "DevBand",
@@ -662,7 +684,8 @@
       "repoUrls": [
         "https://github.com/Webis-2022/rs-tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "JustBuildIt",
@@ -680,7 +703,8 @@
       "repoUrls": [
         "https://github.com/Pchyolan/rs-tandem-project"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Auto-Team 3",
@@ -702,7 +726,8 @@
       "repoUrls": [
         "https://github.com/ArtemovEgor/codeVibeCheck"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Auto-Team 4",
@@ -727,7 +752,8 @@
       "repoUrls": [
         "https://github.com/OlgaMinaievaWebDev/rs-tandem-devquest"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Auto-Team 5",
@@ -752,7 +778,8 @@
       "repoUrls": [
         "https://github.com/afedziukovich/SkillGrove"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "SAA Cat",
@@ -774,7 +801,8 @@
       "repoUrls": [
         "https://github.com/dzzuze/SAA-Cat"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Auto-Team 7",
@@ -799,7 +827,8 @@
       "repoUrls": [
         "https://github.com/NataliItaly/Smart-Quiz"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Т-8",
@@ -825,7 +854,8 @@
       "repoUrls": [
         "https://github.com/Nastya-Student/rss-fe-final-project"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Auto-Team 9",
@@ -850,7 +880,8 @@
       "repoUrls": [
         "https://github.com/Auto-Team-9/sea-battle"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "SkillsZen team",
@@ -879,7 +910,8 @@
       "repoUrls": [
         "https://github.com/chebupell/SkillsZen"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Unexpected Case",
@@ -907,7 +939,8 @@
       "repoUrls": [
         "https://github.com/Alcopatriarch/RS-Tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "TetraTeam",
@@ -945,7 +978,8 @@
       "repoUrls": [
         "https://github.com/Campidoc/TetraSkill"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "111 Blind Kittens",
@@ -971,7 +1005,8 @@
       "repoUrls": [
         "https://github.com/AnnStarrySky/tandem"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "CodePain",
@@ -997,7 +1032,8 @@
       "repoUrls": [
         "https://github.com/Blshop/JS-Practice-Hub"
       ],
-      "access": "full"
+      "access": "full",
+      "language": "ru"
     },
     {
       "name": "Dev Journey",
@@ -1023,7 +1059,8 @@
       "repoUrls": [
         "https://github.com/rs-dev-journey/JS-Journey-Trainer"
       ],
-      "access": "read"
+      "access": "read",
+      "language": "ru"
     },
     {
       "name": "Tandem Trauma Team",
@@ -1047,7 +1084,8 @@
       ],
       "repoUrls": [
         "https://github.com/Azatyk/rs-school-tandem-trauma-team"
-      ]
+      ],
+      "language": "ru"
     }
   ]
 }

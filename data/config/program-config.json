@@ -6,6 +6,16 @@
   "durationWeeks": 7,
   "cloneBranch": "main",
   "monitoringAccount": "rollingscopes",
+  "language": "ru",
+  "deploy": {
+    "repo": "rollingscopes/rs-tandem-observer",
+    "baseUrl": "/rs-tandem-observer/"
+  },
+  "branding": {
+    "title": "RS Tandem — Observer",
+    "teamsTitle": "RS Tandem — Teams",
+    "issueRepo": "rollingscopes/rs-tandem-observer"
+  },
   "checkpoints": [
     {
       "id": "w1",

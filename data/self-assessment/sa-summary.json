@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-17T22:40:41.964Z",
+  "analysisDate": "2026-04-22T09:58:25.012Z",
   "members": [
     {
       "github": "angelinavakkasova",
@@ -596,7 +596,7 @@
     {
       "github": "AzizShik",
       "teamName": "Auto-Team 4",
-      "claimedTotal": 50,
+      "claimedTotal": 75,
       "confirmedCount": 0,
       "contradictedCount": 0,
       "verdict": "green",
@@ -608,7 +608,7 @@
         {
           "id": "complex-component",
           "label": "Complex Component",
-          "points": 50,
+          "points": 75,
           "status": "unverifiable"
         }
       ]
@@ -807,8 +807,8 @@
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
-        "Login Page",
-        "Statistics Page"
+        "login page",
+        "statistics page"
       ],
       "features": [
         {
@@ -827,6 +827,68 @@
           "id": "responsive",
           "label": "Responsive Design",
           "points": 5,
+          "status": "unverifiable"
+        }
+      ]
+    },
+    {
+      "github": "NataliItaly",
+      "teamName": "Auto-Team 7",
+      "claimedTotal": 145,
+      "confirmedCount": 3,
+      "contradictedCount": 0,
+      "verdict": "green",
+      "twoPersonalComponents": [
+        "Router",
+        "Dashboard and filters form"
+      ],
+      "features": [
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 80,
+          "status": "unverifiable"
+        },
+        {
+          "id": "a11y",
+          "label": "Accessibility (a11y)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "theme-switcher",
+          "label": "Theme Switcher",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "unit-tests-full",
+          "label": "Unit Tests (50%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
           "status": "unverifiable"
         }
       ]
@@ -1620,8 +1682,8 @@
     {
       "github": "Maria2721",
       "teamName": "DevCraft",
-      "claimedTotal": 180,
-      "confirmedCount": 3,
+      "claimedTotal": 230,
+      "confirmedCount": 4,
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
@@ -1632,7 +1694,7 @@
         {
           "id": "complex-component",
           "label": "Complex Component",
-          "points": 125,
+          "points": 150,
           "status": "unverifiable"
         },
         {
@@ -1642,16 +1704,16 @@
           "status": "unverifiable"
         },
         {
-          "id": "state-manager",
-          "label": "State Manager",
-          "points": 10,
-          "status": "confirmed"
-        },
-        {
-          "id": "api-layer",
-          "label": "API Layer",
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
           "points": 10,
           "status": "unverifiable"
+        },
+        {
+          "id": "code-editor",
+          "label": "Code Editor",
+          "points": 15,
+          "status": "confirmed"
         },
         {
           "id": "responsive",
@@ -1664,6 +1726,18 @@
           "label": "Auto-deploy",
           "points": 5,
           "status": "confirmed"
+        },
+        {
+          "id": "state-manager",
+          "label": "State Manager",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
         },
         {
           "id": "react",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T21:45:54.470Z",
+  "generatedAt": "2026-04-27T20:41:41.453Z",
   "source": "RS Tandem_ Student to Mentor Presentation   (Responses) - Form Responses 1.csv",
   "maxScore": 150,
   "criteria": {
@@ -13,6 +13,30 @@
     }
   },
   "students": [
+    {
+      "github": "afedziukovich",
+      "teamName": "Auto-Team 5",
+      "td": 35,
+      "comm": 33,
+      "total": 80,
+      "mentorCount": 2
+    },
+    {
+      "github": "al-e-xxx",
+      "teamName": "Auto-Team 3",
+      "td": 90,
+      "comm": 45,
+      "total": 130,
+      "mentorCount": 2
+    },
+    {
+      "github": "alekspanda",
+      "teamName": "DevBand",
+      "td": 90,
+      "comm": 50,
+      "total": 140,
+      "mentorCount": 2
+    },
     {
       "github": "alena1409",
       "teamName": "ngKittyDebug",
@@ -46,11 +70,35 @@
       "mentorCount": 3
     },
     {
+      "github": "amelur",
+      "teamName": "Т-8",
+      "td": 65,
+      "comm": 33,
+      "total": 98,
+      "mentorCount": 2
+    },
+    {
+      "github": "anastan588",
+      "teamName": "SkillsZen team",
+      "td": 85,
+      "comm": 43,
+      "total": 128,
+      "mentorCount": 4
+    },
+    {
       "github": "anastasiashlyk",
       "teamName": "Алекс и его друзья",
       "td": 100,
       "comm": 50,
       "total": 150,
+      "mentorCount": 3
+    },
+    {
+      "github": "anatolirub",
+      "teamName": "Дрим Тим",
+      "td": 100,
+      "comm": 45,
+      "total": 145,
       "mentorCount": 2
     },
     {
@@ -62,6 +110,38 @@
       "mentorCount": 2
     },
     {
+      "github": "anelka777",
+      "teamName": "Gang of Four",
+      "td": 100,
+      "comm": 40,
+      "total": 140,
+      "mentorCount": 1
+    },
+    {
+      "github": "angelinavakkasova",
+      "teamName": "111 Blind Kittens",
+      "td": 83,
+      "comm": 40,
+      "total": 123,
+      "mentorCount": 3
+    },
+    {
+      "github": "annadzig",
+      "teamName": "SAA Cat",
+      "td": 80,
+      "comm": 47,
+      "total": 117,
+      "mentorCount": 3
+    },
+    {
+      "github": "annstarrysky",
+      "teamName": "111 Blind Kittens",
+      "td": 67,
+      "comm": 43,
+      "total": 110,
+      "mentorCount": 3
+    },
+    {
       "github": "artem-webdeveloper",
       "teamName": "RainbowUnicorn",
       "td": 95,
@@ -70,12 +150,36 @@
       "mentorCount": 4
     },
     {
+      "github": "artemovegor",
+      "teamName": "Auto-Team 3",
+      "td": 90,
+      "comm": 45,
+      "total": 135,
+      "mentorCount": 2
+    },
+    {
+      "github": "artkoro94",
+      "teamName": "Team42",
+      "td": 90,
+      "comm": 45,
+      "total": 135,
+      "mentorCount": 2
+    },
+    {
       "github": "atikin132",
       "teamName": "Т-8",
       "td": 100,
       "comm": 47,
       "total": 147,
       "mentorCount": 3
+    },
+    {
+      "github": "azizshik",
+      "teamName": "Auto-Team 4",
+      "td": 58,
+      "comm": 35,
+      "total": 93,
+      "mentorCount": 4
     },
     {
       "github": "bariydev",
@@ -126,11 +230,35 @@
       "mentorCount": 1
     },
     {
+      "github": "d15nd",
+      "teamName": "RSSAgents",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
+    },
+    {
+      "github": "dariapusovskaya",
+      "teamName": "Auto-Team 7",
+      "td": 83,
+      "comm": 40,
+      "total": 123,
+      "mentorCount": 4
+    },
+    {
       "github": "dilmun1101",
       "teamName": "Strict Mode",
       "td": 50,
       "comm": 40,
       "total": 100,
+      "mentorCount": 1
+    },
+    {
+      "github": "dmitryastapenko",
+      "teamName": "CodePain",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
       "mentorCount": 1
     },
     {
@@ -147,6 +275,14 @@
       "td": 100,
       "comm": 50,
       "total": 150,
+      "mentorCount": 1
+    },
+    {
+      "github": "dzzuze",
+      "teamName": "SAA Cat",
+      "td": 50,
+      "comm": 50,
+      "total": 100,
       "mentorCount": 1
     },
     {
@@ -174,12 +310,28 @@
       "mentorCount": 3
     },
     {
+      "github": "fayzullo05",
+      "teamName": "RSSAgents",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
+    },
+    {
       "github": "fiercesloth",
       "teamName": "Strict Mode",
       "td": 80,
       "comm": 40,
       "total": 120,
       "mentorCount": 1
+    },
+    {
+      "github": "goroden",
+      "teamName": "CodePain",
+      "td": 93,
+      "comm": 43,
+      "total": 137,
+      "mentorCount": 3
     },
     {
       "github": "hamsterk",
@@ -200,10 +352,10 @@
     {
       "github": "imagineapril",
       "teamName": "Алекс и его друзья",
-      "td": 100,
+      "td": 93,
       "comm": 50,
-      "total": 150,
-      "mentorCount": 2
+      "total": 143,
+      "mentorCount": 3
     },
     {
       "github": "isaluk",
@@ -212,6 +364,14 @@
       "comm": 50,
       "total": 130,
       "mentorCount": 2
+    },
+    {
+      "github": "jasonscriptlord",
+      "teamName": "Typocalypse",
+      "td": 87,
+      "comm": 43,
+      "total": 130,
+      "mentorCount": 3
     },
     {
       "github": "jesterav",
@@ -224,6 +384,22 @@
     {
       "github": "kanoplich",
       "teamName": "Team42",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 3
+    },
+    {
+      "github": "karinavd",
+      "teamName": "Unexpected Case",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
+    },
+    {
+      "github": "karpovdmitriy",
+      "teamName": "Джунгли зовут!",
       "td": 100,
       "comm": 50,
       "total": 150,
@@ -246,6 +422,22 @@
       "mentorCount": 1
     },
     {
+      "github": "kupzov2000",
+      "teamName": "Dev Journey",
+      "td": 80,
+      "comm": 50,
+      "total": 130,
+      "mentorCount": 2
+    },
+    {
+      "github": "lertti",
+      "teamName": "Dev Journey",
+      "td": 75,
+      "comm": 33,
+      "total": 108,
+      "mentorCount": 2
+    },
+    {
       "github": "maksimdolgonosov",
       "teamName": "VueJS Tandem",
       "td": 80,
@@ -262,12 +454,28 @@
       "mentorCount": 2
     },
     {
-      "github": "mero93",
-      "teamName": "Tuple Trouble",
+      "github": "mark-pribylnov",
+      "teamName": "Дрим Тим",
       "td": 100,
       "comm": 50,
       "total": 150,
-      "mentorCount": 2
+      "mentorCount": 1
+    },
+    {
+      "github": "megarostblr1",
+      "teamName": "Legendary frontend developers",
+      "td": 80,
+      "comm": 50,
+      "total": 130,
+      "mentorCount": 1
+    },
+    {
+      "github": "mero93",
+      "teamName": "Tuple Trouble",
+      "td": 93,
+      "comm": 47,
+      "total": 140,
+      "mentorCount": 3
     },
     {
       "github": "mightyprinces",
@@ -276,6 +484,14 @@
       "comm": 40,
       "total": 118,
       "mentorCount": 3
+    },
+    {
+      "github": "mikhalenkadaniil",
+      "teamName": "JSGods",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
     },
     {
       "github": "morevna",
@@ -299,7 +515,31 @@
       "td": 100,
       "comm": 50,
       "total": 150,
+      "mentorCount": 3
+    },
+    {
+      "github": "nastya-student",
+      "teamName": "Т-8",
+      "td": 83,
+      "comm": 47,
+      "total": 130,
+      "mentorCount": 3
+    },
+    {
+      "github": "nataliitaly",
+      "teamName": "Auto-Team 7",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
       "mentorCount": 2
+    },
+    {
+      "github": "nck1969",
+      "teamName": "JSGods",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
     },
     {
       "github": "nginit",
@@ -323,7 +563,7 @@
       "td": 100,
       "comm": 50,
       "total": 150,
-      "mentorCount": 2
+      "mentorCount": 3
     },
     {
       "github": "obemgcabazn",
@@ -339,6 +579,14 @@
       "td": 80,
       "comm": 50,
       "total": 130,
+      "mentorCount": 1
+    },
+    {
+      "github": "oneilcode",
+      "teamName": "RSSAgents",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
       "mentorCount": 1
     },
     {
@@ -366,6 +614,14 @@
       "mentorCount": 1
     },
     {
+      "github": "pchyolan",
+      "teamName": "JustBuildIt",
+      "td": 67,
+      "comm": 43,
+      "total": 110,
+      "mentorCount": 3
+    },
+    {
       "github": "peccopa",
       "teamName": "Nova",
       "td": 100,
@@ -382,12 +638,36 @@
       "mentorCount": 1
     },
     {
+      "github": "rockabil",
+      "teamName": "Team42",
+      "td": 90,
+      "comm": 33,
+      "total": 123,
+      "mentorCount": 2
+    },
+    {
+      "github": "romanplis",
+      "teamName": "Typocalypse",
+      "td": 35,
+      "comm": 40,
+      "total": 85,
+      "mentorCount": 2
+    },
+    {
       "github": "s-arashu",
       "teamName": "Outstanding Alex And Smeshariki",
       "td": 100,
       "comm": 50,
       "total": 150,
       "mentorCount": 1
+    },
+    {
+      "github": "sabinabatrakova",
+      "teamName": "Dev Journey",
+      "td": 80,
+      "comm": 45,
+      "total": 125,
+      "mentorCount": 2
     },
     {
       "github": "sevasmith",
@@ -414,6 +694,22 @@
       "mentorCount": 4
     },
     {
+      "github": "solarsungai",
+      "teamName": "RSSAgents",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 1
+    },
+    {
+      "github": "sunyuna00",
+      "teamName": "Team42",
+      "td": 50,
+      "comm": 38,
+      "total": 88,
+      "mentorCount": 2
+    },
+    {
       "github": "swetlanaang",
       "teamName": "Gang of Four",
       "td": 77,
@@ -422,12 +718,36 @@
       "mentorCount": 3
     },
     {
+      "github": "t-gladkaya",
+      "teamName": "SkillsZen team",
+      "td": 80,
+      "comm": 45,
+      "total": 135,
+      "mentorCount": 2
+    },
+    {
+      "github": "thefoxtale",
+      "teamName": "JustBuildIt",
+      "td": 100,
+      "comm": 47,
+      "total": 147,
+      "mentorCount": 3
+    },
+    {
+      "github": "thrapis",
+      "teamName": "Auto-Team 5",
+      "td": 93,
+      "comm": 30,
+      "total": 123,
+      "mentorCount": 3
+    },
+    {
       "github": "tosigaeva",
       "teamName": "Tuple Trouble",
       "td": 80,
       "comm": 40,
-      "total": 125,
-      "mentorCount": 2
+      "total": 120,
+      "mentorCount": 3
     },
     {
       "github": "typocalypse tandem",
@@ -438,12 +758,44 @@
       "mentorCount": 1
     },
     {
+      "github": "ulya10",
+      "teamName": "Т-8",
+      "td": 77,
+      "comm": 43,
+      "total": 120,
+      "mentorCount": 3
+    },
+    {
+      "github": "urazof",
+      "teamName": "DevBand",
+      "td": 90,
+      "comm": 45,
+      "total": 135,
+      "mentorCount": 2
+    },
+    {
+      "github": "vadim-troian",
+      "teamName": "Team42",
+      "td": 75,
+      "comm": 40,
+      "total": 115,
+      "mentorCount": 2
+    },
+    {
       "github": "walle908",
       "teamName": "Nova",
       "td": 100,
       "comm": 50,
       "total": 150,
       "mentorCount": 1
+    },
+    {
+      "github": "webis-2022",
+      "teamName": "DevBand",
+      "td": 90,
+      "comm": 50,
+      "total": 140,
+      "mentorCount": 2
     },
     {
       "github": "whaleisajoy",
@@ -454,22 +806,46 @@
       "mentorCount": 1
     },
     {
+      "github": "yermekyerden",
+      "teamName": "Typocalypse",
+      "td": 90,
+      "comm": 44,
+      "total": 134,
+      "mentorCount": 4
+    },
+    {
       "github": "yessethumanman",
       "teamName": "Typocalypse",
       "td": 50,
       "comm": 25,
       "total": 77,
       "mentorCount": 3
+    },
+    {
+      "github": "yuriyli",
+      "teamName": "111 Blind Kittens",
+      "td": 100,
+      "comm": 50,
+      "total": 150,
+      "mentorCount": 3
+    },
+    {
+      "github": "zhdko",
+      "teamName": "Дрим Тим",
+      "td": 100,
+      "comm": 45,
+      "total": 145,
+      "mentorCount": 2
     }
   ],
   "unmatchedStudents": [
     "typocalypse tandem"
   ],
   "stats": {
-    "csvRows": 117,
-    "parsedRows": 117,
-    "uniquePairs": 116,
-    "scoredStudents": 56,
-    "studentsWithMultipleMentors": 36
+    "csvRows": 226,
+    "parsedRows": 226,
+    "uniquePairs": 224,
+    "scoredStudents": 103,
+    "studentsWithMultipleMentors": 71
   }
 }

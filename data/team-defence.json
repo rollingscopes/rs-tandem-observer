@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T23:04:51.277Z",
+  "generatedAt": "2026-04-27T20:42:03.363Z",
   "source": "RS Tandem - Командная защита (Responses) - Form Responses 1 (1).csv",
   "maxScore": 300,
   "criteria": {
@@ -19,13 +19,12 @@
   "teams": [
     {
       "name": "111 Blind Kittens",
-      "status": "excused",
-      "reason": "Не пришли на защиту, попросили продлить дедлайн.",
-      "pmc": null,
-      "gcr": null,
-      "pd": null,
-      "total": null,
-      "juryCount": 0
+      "status": "scored",
+      "pmc": 95,
+      "gcr": 80,
+      "pd": 100,
+      "total": 275,
+      "juryCount": 2
     },
     {
       "name": "404 Skill Not Found",
@@ -82,6 +81,15 @@
       "juryCount": 3
     },
     {
+      "name": "CodePain",
+      "status": "scored",
+      "pmc": 93,
+      "gcr": 83,
+      "pd": 93,
+      "total": 269,
+      "juryCount": 3
+    },
+    {
       "name": "Dev Journey",
       "status": "scored",
       "pmc": 100,
@@ -89,6 +97,15 @@
       "pd": 100,
       "total": 295,
       "juryCount": 2
+    },
+    {
+      "name": "DevBand",
+      "status": "scored",
+      "pmc": 93,
+      "gcr": 80,
+      "pd": 90,
+      "total": 263,
+      "juryCount": 3
     },
     {
       "name": "DevCraft",
@@ -298,6 +315,15 @@
       "juryCount": 3
     },
     {
+      "name": "Дрим Тим",
+      "status": "scored",
+      "pmc": 93,
+      "gcr": 97,
+      "pd": 93,
+      "total": 283,
+      "juryCount": 3
+    },
+    {
       "name": "Т-8",
       "status": "scored",
       "pmc": 100,
@@ -308,20 +334,17 @@
     }
   ],
   "missing": [
-    "CodePain",
-    "DevBand",
     "OrangeCats",
     "Tandem Trauma Team",
-    "TetraTeam",
-    "Дрим Тим"
+    "TetraTeam"
   ],
   "unmatchedFromCsv": [],
   "stats": {
-    "csvRows": 98,
-    "parsedRows": 98,
-    "uniquePairs": 95,
-    "scoredTeams": 31,
-    "excusedTeams": 1,
-    "missingCount": 6
+    "csvRows": 109,
+    "parsedRows": 109,
+    "uniquePairs": 106,
+    "scoredTeams": 35,
+    "excusedTeams": 0,
+    "missingCount": 3
   }
 }

@@ -1,5 +1,5 @@
 {
-  "analysisDate": "2026-04-22T09:58:25.012Z",
+  "analysisDate": "2026-04-27T22:09:40.049Z",
   "members": [
     {
       "github": "angelinavakkasova",
@@ -6978,10 +6978,120 @@
       ]
     },
     {
+      "github": "mark-pribylnov",
+      "teamName": "Дрим Тим",
+      "claimedTotal": 220,
+      "confirmedCount": 3,
+      "contradictedCount": 1,
+      "verdict": "yellow",
+      "twoPersonalComponents": [
+        "Async Sorter (Event Loop Game)",
+        "AI-Exam"
+      ],
+      "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 25,
+          "status": "unverifiable"
+        },
+        {
+          "id": "rich-ui-screen",
+          "label": "Rich UI Screen",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
+          "id": "backend-service",
+          "label": "Backend Service",
+          "points": 30,
+          "status": "unverifiable"
+        },
+        {
+          "id": "baas-crud",
+          "label": "BaaS CRUD",
+          "points": 15,
+          "status": "confirmed"
+        },
+        {
+          "id": "ai-chat-ui",
+          "label": "AI Chat UI",
+          "points": 20,
+          "status": "unverifiable"
+        },
+        {
+          "id": "ai-raw-llm",
+          "label": "Raw LLM API",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "ai-local-llm",
+          "label": "Local LLM",
+          "points": 10,
+          "status": "contradicted"
+        },
+        {
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "advanced-animations",
+          "label": "Advanced Animations",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "i18n",
+          "label": "i18n (Localization)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "architect",
+          "label": "Architect (ADR)",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "prompt-engineering",
+          "label": "Prompt Engineering",
+          "points": 15,
+          "status": "unverifiable"
+        },
+        {
+          "id": "auto-deploy",
+          "label": "Auto-deploy",
+          "points": 5,
+          "status": "confirmed"
+        },
+        {
+          "id": "design-patterns",
+          "label": "Design Patterns",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "api-layer",
+          "label": "API Layer",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "angular",
+          "label": "Angular",
+          "points": 10,
+          "status": "confirmed"
+        }
+      ]
+    },
+    {
       "github": "shoblinsky",
       "teamName": "Дрим Тим",
-      "claimedTotal": 100,
-      "confirmedCount": 1,
+      "claimedTotal": 120,
+      "confirmedCount": 3,
       "contradictedCount": 0,
       "verdict": "green",
       "twoPersonalComponents": [
@@ -7008,6 +7118,18 @@
           "status": "unverifiable"
         },
         {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
+          "id": "unit-tests-full",
+          "label": "Unit Tests (50%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
+        {
           "id": "design-patterns",
           "label": "Design Patterns",
           "points": 10,
@@ -7030,15 +7152,39 @@
     {
       "github": "amelur",
       "teamName": "Т-8",
-      "claimedTotal": 15,
-      "confirmedCount": 0,
+      "claimedTotal": 140,
+      "confirmedCount": 1,
       "contradictedCount": 1,
       "verdict": "yellow",
       "twoPersonalComponents": [
-        "Страница авторизации (Login Page, Register Page, Forgot Password, Update Password)",
-        "Механизм управления состоянием пользователя через Supabase"
+        "Login Page (Authentication)",
+        "Supabase Authentication Integration"
       ],
       "features": [
+        {
+          "id": "complex-component",
+          "label": "Complex Component",
+          "points": 100,
+          "status": "unverifiable"
+        },
+        {
+          "id": "drag-and-drop",
+          "label": "Drag & Drop",
+          "points": 10,
+          "status": "unverifiable"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
+          "id": "unit-tests-basic",
+          "label": "Unit Tests (20%+)",
+          "points": 10,
+          "status": "confirmed"
+        },
         {
           "id": "baas-auth",
           "label": "BaaS Auth (Firebase/Supabase)",
@@ -7078,6 +7224,12 @@
           "status": "unverifiable"
         },
         {
+          "id": "responsive",
+          "label": "Responsive Design",
+          "points": 5,
+          "status": "unverifiable"
+        },
+        {
           "id": "unit-tests-basic",
           "label": "Unit Tests (20%+)",
           "points": 10,
@@ -7099,12 +7251,6 @@
           "id": "api-layer",
           "label": "API Layer",
           "points": 10,
-          "status": "unverifiable"
-        },
-        {
-          "id": "responsive",
-          "label": "Responsive Design",
-          "points": 5,
           "status": "unverifiable"
         }
       ]

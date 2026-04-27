@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-22T09:57:33.938Z",
+  "checkDate": "2026-04-27T22:06:54.874Z",
   "week": "w7",
   "repos": [
     {
@@ -834,10 +834,10 @@
           "normalizedGithub": "mark-pribylnov",
           "inReadme": true,
           "diaryDir": "mark-pribylnov",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "PoMaKoM",

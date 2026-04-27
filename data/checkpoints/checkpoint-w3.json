@@ -817,10 +817,12 @@
           "github": "yermekyerden",
           "normalizedGithub": "yermekyerden",
           "diaryEntriesW3": 4,
-          "hasVideo": false,
-          "videoLinks": [],
-          "personalOk": false,
-          "score": 0,
+          "hasVideo": true,
+          "videoLinks": [
+            "https://www.youtube.com/watch?v=LwWIl4cumlc"
+          ],
+          "personalOk": true,
+          "score": 20,
           "entries": [
             {
               "path": "development-notes/yermekyerden/yermekyerden-2026-02-19.md",
@@ -870,7 +872,12 @@
               "content": "# Date: 2026-03-23\n\n## What was done\n- ✅ Implemented the first backend version of the AI assistant module for the project.\n- ✅ Added a separate `AssistantModule` to keep the integration isolated and aligned with the existing NestJS architecture.\n- ✅ Added a protected backend endpoint for attempt-based AI hints:\n  - `POST /assistant/attempts/:attemptId`\n- ✅ Integrated OpenRouter through the backend only, without exposing the provider key to the frontend.\n- ✅ Connected the assistant flow to existing project services, so the AI response is based on the real learner attempt and mission context.\n- ✅ Added environment template support for the new integration (`OPENROUTER_API_KEY`, `OPENROUTER_MODEL`).\n- ✅ Manually tested the flow through Swagger:\n  - authenticated with JWT\n  - retrieved a mission\n  - created an attempt\n  - called the assistant endpoint\n  - received a valid hint response from a free OpenRouter model with zero cost in the tested request\n- ✅ Opened a PR for the backend integration and described the architecture and reasoning in detail.\n- ✅ After mentor review, added unit tests for the assistant-related backend logic:\n  - `AssistantService`\n  - `OpenRouterClient`\n\n## Problems / blockers\n- Problem: the first integration attempt was slowed down by backend setup issues and understanding how the existing auth / attempt flow works.\n- What I tried: step by step checked JWT authentication, mission flow, attempt creation, Prisma setup, and Swagger testing until the full chain worked correctly.\n- Current status: the backend assistant flow is working and covered by unit tests for the main assistant-related branches.\n- What I need next: sync with the mentor, review remaining comments carefully, and decide how the frontend part should be connected later.\n\n## Decisions (and why)\n- Decision: implement the AI integration as a separate backend module instead of mixing it directly into unrelated services.\n- Why: this keeps the architecture cleaner and makes the assistant logic easier to review, test, and extend later.\n- Trade-offs: it adds a few extra files and some setup overhead, but the separation of responsibilities is much better.\n\n- Decision: attach the assistant to a concrete `attemptId` instead of creating a generic free-form AI chat endpoint.\n- Why: this allows the assistant to respond based on the real mission and learner progress, not on abstract prompts without context.\n- Trade-offs: the endpoint is more specific, but the AI output is more grounded and useful.\n\n- Decision: use OpenRouter through the backend only and default to a free model path.\n- Why: this is safer for secrets and enough for the current prototype and course scope.\n- Trade-offs: free models may have limitations, but they are sufficient for proving the integration path.\n\n## What I learned\n- Concept / tool / pattern: backend AI integration should be treated as an architectural boundary, not just as a quick API call.\n- What I understand now: a good first step is a small backend ve",
               "charCount": 3598
             }
-          ]
+          ],
+          "manualOverride": {
+            "reason": "Plan B video submitted via issue #80 (2026-04-27); reviewed and approved.",
+            "videoUrl": "https://www.youtube.com/watch?v=LwWIl4cumlc",
+            "appliedAt": "2026-04-27T22:09:38.743Z"
+          }
         },
         {
           "github": "YessetHumanMan",

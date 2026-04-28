@@ -1,5 +1,5 @@
 {
-  "checkDate": "2026-04-27T22:06:54.874Z",
+  "checkDate": "2026-04-28T06:19:40.942Z",
   "week": "w7",
   "repos": [
     {
@@ -1705,12 +1705,12 @@
           "hasProudOf": true,
           "hasTeamSection": true,
           "hasBoard": true,
-          "hasBestPRs": false,
+          "hasBestPRs": true,
           "hasMeetingNotes": true,
-          "allMet": false
+          "allMet": true
         },
-        "readmeOk": false,
-        "allMet": false
+        "readmeOk": true,
+        "allMet": true
       },
       "members": [
         {
@@ -1718,20 +1718,20 @@
           "normalizedGithub": "alekspanda",
           "inReadme": true,
           "diaryDir": "alekspanda",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "urazof",
           "normalizedGithub": "urazof",
           "inReadme": true,
           "diaryDir": "Urazof",
-          "hasSelfAssessment": false,
-          "personalScore": 0,
-          "teamScore": 0,
-          "score": 0
+          "hasSelfAssessment": true,
+          "personalScore": 10,
+          "teamScore": 10,
+          "score": 20
         },
         {
           "github": "Webis-2022",
@@ -1740,8 +1740,8 @@
           "diaryDir": "Webis-2022",
           "hasSelfAssessment": true,
           "personalScore": 10,
-          "teamScore": 0,
-          "score": 10
+          "teamScore": 10,
+          "score": 20
         }
       ],
       "techTags": [
